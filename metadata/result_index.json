@@ -1,0 +1,53 @@
+[
+  {
+    "analysis_code": "code/on_chain/analyze_data/run.py",
+    "commands": [
+      "python3 scripts/run_demo.py --track on_chain"
+    ],
+    "data_revision": "synthetic-v1",
+    "evidence_status": "SYNTHETIC",
+    "interpretation_boundary": "No empirical measurements, causal claims or established linkage accuracy",
+    "original_sources": "metadata/on_chain_source_manifest.json",
+    "process_code": "code/on_chain/process_data/run.py",
+    "processed_data": "data/on_chain/processed_data/demo",
+    "queried_data": "data/on_chain/queried_data/demo",
+    "query_code": "code/on_chain/query_data/run.py",
+    "reported_result_or_boundary": "SYNTHETIC software demonstration only",
+    "result_id": "on_chain_teaching_example",
+    "result_outputs": "reports/demo/on_chain/analysis.json"
+  },
+  {
+    "analysis_code": "code/off_chain/analyze_data/run.py",
+    "commands": [
+      "python3 scripts/run_demo.py --track off_chain"
+    ],
+    "data_revision": "synthetic-v1",
+    "evidence_status": "SYNTHETIC",
+    "interpretation_boundary": "No empirical measurements, causal claims or established linkage accuracy",
+    "original_sources": "metadata/off_chain_source_manifest.json",
+    "process_code": "code/off_chain/process_data/run.py",
+    "processed_data": "data/off_chain/processed_data/demo",
+    "queried_data": "data/off_chain/queried_data/demo",
+    "query_code": "code/off_chain/query_data/run.py",
+    "reported_result_or_boundary": "SYNTHETIC software demonstration only",
+    "result_id": "off_chain_teaching_example",
+    "result_outputs": "reports/demo/off_chain/analysis.json"
+  },
+  {
+    "analysis_code": "code/integration/analyze_data/run.py",
+    "commands": [
+      "python3 scripts/run_demo.py --track integration"
+    ],
+    "data_revision": "synthetic-v1",
+    "evidence_status": "SYNTHETIC",
+    "interpretation_boundary": "No empirical measurements, causal claims or established linkage accuracy",
+    "original_sources": "metadata/integration_source_manifest.json",
+    "process_code": "code/integration/process_data/run.py",
+    "processed_data": "data/integration/processed_data/demo",
+    "queried_data": "data/integration/queried_data/demo",
+    "query_code": "code/integration/query_data/run.py",
+    "reported_result_or_boundary": "SYNTHETIC software demonstration only",
+    "result_id": "integration_teaching_example",
+    "result_outputs": "reports/demo/integration/analysis.json"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "code_commit": null,
+  "dataset_host_url": null,
+  "deadlines": {
+    "first_draft": null,
+    "preprint": null,
+    "second_draft": null
+  },
+  "integration": {
+    "contract_path": null,
+    "linkage_manifest_url": null,
+    "unit": null,
+    "validation_plan": null
+  },
+  "manuscript_url": null,
+  "off_chain": {
+    "acquisition_code_url": null,
+    "license_evidence": null,
+    "manifest_url": null,
+    "population": null,
+    "source_urls": [],
+    "time_definitions": null,
+    "unit": null
+  },
+  "on_chain": {
+    "acquisition_code_url": null,
+    "dates_or_blocks": null,
+    "license_evidence": null,
+    "manifest_url": null,
+    "population": null,
+    "source_urls": [],
+    "unit": null
+  },
+  "project_title": null,
+  "status": "AUTHOR_INPUT_REQUIRED",
+  "student_a_name": null,
+  "student_b_name": null,
+  "supervisor": null
+}

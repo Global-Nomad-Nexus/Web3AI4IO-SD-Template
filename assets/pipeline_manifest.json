@@ -1,0 +1,21 @@
+{
+  "evidence_status": "SYNTHETIC",
+  "palette": {
+    "background": "#080B1A",
+    "on_chain": "#22D3EE",
+    "off_chain": "#A78BFA",
+    "integration": "#34D399",
+    "boundary": "#FBBF24"
+  },
+  "stages": [
+    "source",
+    "acquisition",
+    "queried data",
+    "processing",
+    "processed data",
+    "reuse checks"
+  ],
+  "graphics": "live SVG text and vector shapes; no embedded raster",
+  "boundary": "Topology of a teaching workflow, not observed data flow or causal evidence",
+  "alt": "Two independent source pipelines feed jointly validated integration."
+}

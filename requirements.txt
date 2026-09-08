@@ -1,0 +1,2 @@
+# The teaching pipeline uses the Python 3.12 standard library only.
+# Colab supplies IPython for notebook display. No pip installation is needed.

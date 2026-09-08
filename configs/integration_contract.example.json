@@ -1,0 +1,23 @@
+{
+  "accuracy_metrics": null,
+  "allowed_cardinality": null,
+  "both_authors_reviewed": false,
+  "denominator_definition": null,
+  "eligibility_time_rule": null,
+  "independent_review_sample": null,
+  "interval_closure": null,
+  "join_keys": [],
+  "linkage_revision": null,
+  "missingness_codes": null,
+  "observation_unit": null,
+  "off_chain_release": null,
+  "on_chain_release": null,
+  "publication_revision_policy": null,
+  "relationship_meaning": null,
+  "sensitivity_tests": [],
+  "status": "AUTHOR_INPUT_REQUIRED",
+  "tie_policy": null,
+  "timezone": null,
+  "uncertainty_method": null,
+  "unmatched_policy": null
+}
