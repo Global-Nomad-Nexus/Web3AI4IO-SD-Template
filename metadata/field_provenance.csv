@@ -1,0 +1,26 @@
+output_table,variable,source,derivation,evidence_status
+integration,event_id,on_chain.events,copy from event,SYNTHETIC
+integration,chain_id,on_chain.events,copy from event,SYNTHETIC
+integration,contract_id,on_chain.events,copy from event,SYNTHETIC
+integration,block_number,on_chain.events,copy from event,SYNTHETIC
+integration,block_hash,on_chain.events,copy from event,SYNTHETIC
+integration,transaction_id,on_chain.events,copy from event,SYNTHETIC
+integration,log_index,on_chain.events,copy from event,SYNTHETIC
+integration,event_time,on_chain.events,copy from event,SYNTHETIC
+integration,amount_units,on_chain.events,copy from event,SYNTHETIC
+integration,canonical,on_chain.events,copy from event,SYNTHETIC
+integration,link_status,events + crosswalk + records,explicit eligibility and review-status decision in join_records,SYNTHETIC
+integration,crosswalk_id,crosswalk,copy approved active relationship,SYNTHETIC
+integration,entity_id,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,record_id,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,source_id,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,reference_start,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,reference_end,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,published_at,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,retrieved_at,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,measure,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,unit,off_chain.records,copy from selected prior record; entity_id also from approved link if no record,SYNTHETIC
+integration,relationship_type,crosswalk,copy approved active relationship,SYNTHETIC
+integration,evidence_id,crosswalk,copy approved active relationship,SYNTHETIC
+integration,on_chain_revision,component release manifest,verified synthetic-v1 revision,SYNTHETIC
+integration,off_chain_revision,component release manifest,verified synthetic-v1 revision,SYNTHETIC

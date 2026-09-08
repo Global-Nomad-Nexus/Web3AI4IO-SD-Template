@@ -1,0 +1,19 @@
+{
+  "integration": {
+    "processed_data/integrated.csv": "1226fbc53db5a6a76713a675368483bb42acf04517db8958145a523d3eca57b9",
+    "processed_data/unmatched_events.csv": "e6f565b924dc38e1d94e066dc99fdda96bb9672c8596fc87c0d3ed781c80d501",
+    "processed_data/unused_off_chain.csv": "56a164e673f24740dbe96b49a4a4330ff9e3e5b3e979fb7accc06976d0b03726",
+    "reports/analysis.json": "81d998f40b9a3f13944deb9106e35d7ac0cd6d661a23cff6aed46a63f24d1f20",
+    "reports/processing.json": "2de9b083b6b55ae15d16a8c6d6b32b1a97880b5a1c28966e11be5f23d9c27e30"
+  },
+  "off_chain": {
+    "processed_data/records.csv": "fb6cae55f941493708877c1e4feb3b65cde38f8be83fbc0b9704d27052e81c9b",
+    "reports/analysis.json": "98c23c529c7c9f696fbba0fa25ecbec07e3a82461f4ecdb49d33848a3c930278",
+    "reports/processing.json": "0285acde4e9337dd8343dc1d66b26a7d760054735c4f39aea4817da69375d532"
+  },
+  "on_chain": {
+    "processed_data/events.csv": "687cdb456ab763af01b37c8efaba39396bfff0b31fc92580a76dece50090e64d",
+    "reports/analysis.json": "7dc114f7314ccfc9afb10dc01785c837cfe036692d770f1f23dbeb60d5d00ffd",
+    "reports/processing.json": "0a570e84586c3139bd5e0b885b7fa39f415153db734c11247869a64ce93f5183"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "files": [
+    {
+      "filename": "on_chain.csv",
+      "path": "data/on_chain/processed_data/demo/events.csv",
+      "sha256": "687cdb456ab763af01b37c8efaba39396bfff0b31fc92580a76dece50090e64d"
+    },
+    {
+      "filename": "off_chain.csv",
+      "path": "data/off_chain/processed_data/demo/records.csv",
+      "sha256": "fb6cae55f941493708877c1e4feb3b65cde38f8be83fbc0b9704d27052e81c9b"
+    },
+    {
+      "filename": "crosswalk.csv",
+      "path": "data/integration/linkage/demo/crosswalk.csv",
+      "sha256": "0c4f0f427234c19423f4d04441e89712a648bead510b9d8e33cfb0705ab3309f"
+    }
+  ],
+  "upstream_manifests": [
+    {
+      "path": "metadata/on_chain_release_manifest.json",
+      "sha256": "e5dc2a14babc2320a655a468903caae39abd47c870d1782aeffe4a71ef92e04a"
+    },
+    {
+      "path": "metadata/off_chain_release_manifest.json",
+      "sha256": "2feff1faff1fbc582d1738c2b527050970dd5ec0a5892b3e9c68e0a31d4d77bc"
+    }
+  ]
+}

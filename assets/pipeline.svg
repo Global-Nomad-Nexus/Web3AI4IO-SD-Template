@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+<title id="title">Three reproducible teaching pipelines</title>
+<desc id="desc">Independent on-chain and off-chain pipelines feed joint integration. All bundled data and links are synthetic. Integration retains unmatched records and separates coverage from accuracy.</desc>
+<rect width="1440" height="720" rx="28" fill="#080B1A"/>
+<text x="56" y="65" font-family="sans-serif" font-size="34" font-weight="bold" fill="#F8FAFC">Two source contributions. One shared integration resource.</text>
+<text x="56" y="105" font-family="sans-serif" font-size="20" fill="#AAB4D0">Independent acquisition, documentation and quality evidence for each component</text>
+<text x="56" y="160" font-family="sans-serif" font-size="21" font-weight="bold" fill="#22D3EE">ON-CHAIN · Student A leads</text>
+<rect x="56" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="158" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Source</text>
+<path d="M262,215 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="280" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="382" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Acquisition</text>
+<path d="M486,215 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="504" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="606" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Queried data</text>
+<path d="M710,215 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="728" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="830" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Processing</text>
+<path d="M934,215 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="952" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="1054" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Processed data</text>
+<path d="M1158,215 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="1176" y="180" width="204" height="70" rx="12" fill="#120A2B" stroke="#22D3EE" stroke-width="2"/>
+<text x="1278" y="223" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Reuse checks</text>
+<text x="56" y="315" font-family="sans-serif" font-size="21" font-weight="bold" fill="#A78BFA">OFF-CHAIN · Student B leads</text>
+<rect x="56" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="158" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Source</text>
+<path d="M262,370 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="280" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="382" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Acquisition</text>
+<path d="M486,370 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="504" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="606" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Queried data</text>
+<path d="M710,370 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="728" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="830" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Processing</text>
+<path d="M934,370 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="952" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="1054" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Processed data</text>
+<path d="M1158,370 h14 l-5,-5 m5,5 l-5,5" fill="none" stroke="#AAB4D0" stroke-width="2"/>
+<rect x="1176" y="335" width="204" height="70" rx="12" fill="#120A2B" stroke="#A78BFA" stroke-width="2"/>
+<text x="1278" y="378" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#F8FAFC">Reuse checks</text>
+<path d="M1054,255 V286 H1408 V454 H718 V480 M1054,405 V435 H718 V480" fill="none" stroke="#34D399" stroke-width="3"/>
+<rect x="250" y="480" width="940" height="136" rx="18" fill="#071B27" stroke="#34D399" stroke-width="2"/>
+<text x="720" y="519" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#F8FAFC">INTEGRATION · Both authors lead</text>
+<text x="720" y="556" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#F8FAFC">Pinned releases + relationship evidence + time and unit agreement</text>
+<text x="720" y="590" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#AAB4D0">Retain unmatched records · Prevent row multiplication · Validate linkage separately</text>
+<text x="56" y="671" font-family="sans-serif" font-size="21" font-weight="bold" fill="#FBBF24">SYNTHETIC TEACHING EXAMPLE — empirical source collection and scientific validation remain author work</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "files": [
+    {
+      "filename": "events.csv",
+      "path": "data/on_chain/data_source/demo/events.csv",
+      "sha256": "e32920860ff880d095fd3e41b340e06ba38c9cda068a57ab0a4fe572f571e836"
+    }
+  ]
+}
