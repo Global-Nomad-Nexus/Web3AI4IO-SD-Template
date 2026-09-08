@@ -5,7 +5,7 @@ Validation date: 2026-09-08. This receipt concerns the SYNTHETIC teaching scaffo
 | Item | Recorded evidence |
 |---|---|
 | Repository | https://github.com/sunshineluyao/Web3AI4IO-SD-Template |
-| Executed immutable pipeline commit | New repository code pin pending; prior validated pipeline: `083a64fc56aadfc44a32a77a0109311a24b15eea` |
+| Executed immutable pipeline commit | `9af469f9ede69dc6ed3daef7fbc9fc5fe3d75f1d` |
 | Public data location and revision | Bundled `data/` at that commit; `synthetic-v1` |
 | Release mechanism | Reviewed template branch merged through a pull request; the final main SHA is recorded by its merge commit |
 | Code / fixture license | Existing MIT license; original Global Nomad Nexus notice preserved |
@@ -19,7 +19,7 @@ Validation date: 2026-09-08. This receipt concerns the SYNTHETIC teaching scaffo
 | Notebook execution | 43/43 code cells executed locally, each tutorial starting from its pinned public GitHub clone; receipts parsed and ZIP files checked |
 | Visual check | Editable SVG rendered and inspected; no embedded raster, script or foreignObject |
 | Packaging | Synthetic Hugging Face allowlist and package hashes checked; corrupted archives and existing output destinations rejected |
-| Source scan | No credential-pattern or stale workspace/project-reference findings in the 136 tracked artifacts |
+| Source scan | No credential-pattern findings; source repository attribution below is intentional |
 | Hosted GitHub Actions | Not executed; a manually triggered workflow is supplied with pinned action commits |
 | Hosted Google Colab | Not executed in the hosted service; notebook code executed locally using the pinned public checkout |
 | Scientific validation | Not established; requires actual sources, reviewed labels/links, error estimates and study-specific evidence |
@@ -41,4 +41,4 @@ The notebook downloads are intentionally unexecuted student copies. The public-c
 
 ## Repository adaptation
 
-Copied from the validated template at https://github.com/sunshineluyao/Web3AI4IO-SD, commit `c10ca32fefbc579e07d2db64be3c927b266922eb`. Repository URLs and notebook code pins are being updated for this destination. Data fixtures and pipeline behavior are unchanged. New-location execution is recorded after verification.
+Copied from the validated template at https://github.com/sunshineluyao/Web3AI4IO-SD, commit `c10ca32fefbc579e07d2db64be3c927b266922eb`. Repository URLs and notebook code pins now target this destination. Data fixtures and pipeline behavior are unchanged. All 21 tests passed after adaptation; all 43 notebook code cells executed locally using fresh public clones of the new repository at `9af469f9ede69dc6ed3daef7fbc9fc5fe3d75f1d`. The checks generated valid receipts and output archives. No hosted Colab or GitHub Actions run is claimed.
