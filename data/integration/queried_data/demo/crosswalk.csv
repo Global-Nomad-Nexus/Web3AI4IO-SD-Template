@@ -1,0 +1,6 @@
+crosswalk_id,chain_id,contract_id,entity_id,relationship_type,valid_from,valid_to,review_status,matching_method,evidence_id
+cw1,demo-chain,demo:a,org-alpha,fictional_association,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z,approved,synthetic_fixture,fictional-evidence-1
+cw2,demo-chain,demo:b,org-beta,fictional_association,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z,approved,synthetic_fixture,fictional-evidence-2
+cw3,demo-chain,demo:c,org-gamma,fictional_association,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z,candidate,synthetic_fixture,fictional-evidence-3
+cw4,demo-chain,demo:c,org-zeta,fictional_association,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z,candidate,synthetic_fixture,fictional-evidence-4
+cw5,demo-chain,demo:e,org-epsilon,fictional_association,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z,approved,synthetic_fixture,fictional-evidence-5

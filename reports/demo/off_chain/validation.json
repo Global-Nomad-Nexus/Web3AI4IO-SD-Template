@@ -1,0 +1,12 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "files_compared": 3,
+  "output_sha256": {
+    "processed_data/records.csv": "fb6cae55f941493708877c1e4feb3b65cde38f8be83fbc0b9704d27052e81c9b",
+    "reports/analysis.json": "98c23c529c7c9f696fbba0fa25ecbec07e3a82461f4ecdb49d33848a3c930278",
+    "reports/processing.json": "0285acde4e9337dd8343dc1d66b26a7d760054735c4f39aea4817da69375d532"
+  },
+  "reference_comparison": "PASS",
+  "scientific_validation": "NOT_ESTABLISHED: authors must collect and independently review real evidence"
+}

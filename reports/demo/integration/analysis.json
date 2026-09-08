@@ -1,0 +1,10 @@
+{
+  "data_revision": "synthetic-v1",
+  "event_denominator": 6,
+  "evidence_status": "SYNTHETIC",
+  "inference": "descriptive_only",
+  "link_accuracy": "NOT_ESTIMATED: synthetic rules do not establish real linkage accuracy",
+  "match_coverage": 0.5,
+  "matched_events": 3,
+  "matched_with_missing_measure": 1
+}

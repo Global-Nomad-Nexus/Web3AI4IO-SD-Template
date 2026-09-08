@@ -1,0 +1,19 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "files_compared": 5,
+  "output_sha256": {
+    "processed_data/integrated.csv": "1226fbc53db5a6a76713a675368483bb42acf04517db8958145a523d3eca57b9",
+    "processed_data/unmatched_events.csv": "e6f565b924dc38e1d94e066dc99fdda96bb9672c8596fc87c0d3ed781c80d501",
+    "processed_data/unused_off_chain.csv": "56a164e673f24740dbe96b49a4a4330ff9e3e5b3e979fb7accc06976d0b03726",
+    "reports/analysis.json": "81d998f40b9a3f13944deb9106e35d7ac0cd6d661a23cff6aed46a63f24d1f20",
+    "reports/processing.json": "2de9b083b6b55ae15d16a8c6d6b32b1a97880b5a1c28966e11be5f23d9c27e30"
+  },
+  "reference_comparison": "PASS",
+  "scientific_validation": "NOT_ESTABLISHED: authors must collect and independently review real evidence",
+  "sensitivity": {
+    "matched_events": 2,
+    "max_publication_age_days": 7,
+    "note": "Illustration of a policy choice, not an accuracy estimate"
+  }
+}

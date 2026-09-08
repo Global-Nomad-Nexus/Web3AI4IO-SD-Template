@@ -1,0 +1,13 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "inputs": [
+    {
+      "filename": "records.csv",
+      "path": "data/off_chain/data_source/demo/records.csv",
+      "sha256": "96244d9bbc8b198f4078ac39be927b85860c9b5f562282d250b8f3694b050f90"
+    }
+  ],
+  "live_requests": 0,
+  "mode": "archived_offline"
+}

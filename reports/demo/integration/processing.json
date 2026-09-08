@@ -1,0 +1,15 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "join_cardinality": "one output per event",
+  "link_status_counts": {
+    "matched": 3,
+    "no_crosswalk": 1,
+    "no_prior_record": 1,
+    "unreviewed_link": 1
+  },
+  "off_chain_rows": 6,
+  "on_chain_rows": 6,
+  "output_rows": 6,
+  "unused_off_chain_rows": 3
+}

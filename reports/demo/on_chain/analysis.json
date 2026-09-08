@@ -1,0 +1,8 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "inference": "descriptive_only",
+  "missing_amount": 1,
+  "rows": 6,
+  "unique_contracts": 5
+}

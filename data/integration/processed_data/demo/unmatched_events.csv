@@ -1,0 +1,4 @@
+event_id,chain_id,contract_id,block_number,block_hash,transaction_id,log_index,event_time,amount_units,canonical,link_status,crosswalk_id,entity_id,record_id,source_id,reference_start,reference_end,published_at,retrieved_at,measure,unit,relationship_type,evidence_id,on_chain_revision,off_chain_revision
+e3,demo-chain,demo:b,102,block-102,tx-3,0,2025-01-15T12:00:00Z,30,true,no_prior_record,cw2,org-beta,,,,,,,,,fictional_association,fictional-evidence-2,synthetic-v1,synthetic-v1
+e4,demo-chain,demo:c,103,block-103,tx-4,0,2025-01-15T12:00:00Z,,true,unreviewed_link,,,,,,,,,,,,,synthetic-v1,synthetic-v1
+e5,demo-chain,demo:d,104,block-104,tx-5,0,2025-01-15T12:00:00Z,50,true,no_crosswalk,,,,,,,,,,,,,synthetic-v1,synthetic-v1

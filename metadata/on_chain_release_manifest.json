@@ -1,0 +1,12 @@
+{
+  "data_revision": "synthetic-v1",
+  "evidence_status": "SYNTHETIC",
+  "files": [
+    {
+      "path": "data/on_chain/processed_data/demo/events.csv",
+      "rows": 6,
+      "sha256": "687cdb456ab763af01b37c8efaba39396bfff0b31fc92580a76dece50090e64d"
+    }
+  ],
+  "track": "on_chain"
+}

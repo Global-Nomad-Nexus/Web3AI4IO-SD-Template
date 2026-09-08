@@ -1,0 +1,7 @@
+record_id,source_id,entity_id,reference_start,reference_end,published_at,retrieved_at,measure,unit
+r1,demo-docs,org-alpha,2024-12-01T00:00:00Z,2024-12-31T23:59:59Z,2025-01-01T00:00:00Z,2025-02-01T00:00:00Z,12,demo-index
+r2,demo-docs,org-alpha,2025-01-01T00:00:00Z,2025-01-15T23:59:59Z,2025-01-18T00:00:00Z,2025-02-01T00:00:00Z,14,demo-index
+r3,demo-docs,org-beta,2024-12-01T00:00:00Z,2024-12-31T23:59:59Z,2025-01-16T00:00:00Z,2025-02-01T00:00:00Z,20,demo-index
+r4,demo-docs,org-epsilon,2024-12-01T00:00:00Z,2024-12-31T23:59:59Z,2025-01-01T00:00:00Z,2025-02-01T00:00:00Z,,demo-index
+r5,demo-docs,org-zeta,2024-12-01T00:00:00Z,2024-12-31T23:59:59Z,2025-01-02T00:00:00Z,2025-02-01T00:00:00Z,30,demo-index
+r6,demo-docs,org-delta,2025-01-01T00:00:00Z,2025-01-31T23:59:59Z,2025-01-01T00:00:00Z,2025-02-01T00:00:00Z,40,demo-index

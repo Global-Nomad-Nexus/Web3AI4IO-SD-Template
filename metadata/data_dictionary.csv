@@ -1,0 +1,55 @@
+table,variable,type,description,unit,missing_rule
+on_chain,event_id,string,Fictional event surrogate; unique among demo processed events,identifier,not allowed
+on_chain,chain_id,string,Network namespace; demo-chain is not a live blockchain,identifier,not allowed
+on_chain,contract_id,string,Fictional contract key; not a person or organization identity,identifier,not allowed
+on_chain,block_number,integer,Illustrative non-negative block height,block,not allowed
+on_chain,block_hash,string,"Invented block identifier, not a real cryptographic hash",identifier,not allowed
+on_chain,transaction_id,string,Invented transaction identifier,identifier,not allowed
+on_chain,log_index,integer,Event position within the fictional transaction,index,not allowed
+on_chain,event_time,UTC timestamp,Illustrative event time,UTC,not allowed
+on_chain,amount_units,integer,Synthetic non-negative quantity; no real token or currency meaning,demo units,empty means missing; never zero-filled
+on_chain,canonical,boolean string,Fixture flag: true retained; false excluded; no actual finality check,true/false,not allowed
+off_chain,record_id,string,Fictional off-chain source record identifier,identifier,not allowed in processed source records
+off_chain,source_id,string,Namespace identifying the invented document source,identifier,not allowed in processed source records
+off_chain,entity_id,string,Fictional organization key; relationship depends on crosswalk evidence,identifier,not allowed in processed source records
+off_chain,reference_start,UTC timestamp,Beginning of the period the synthetic measure describes,UTC,not allowed in processed source records
+off_chain,reference_end,UTC timestamp,End of the period the synthetic measure describes,UTC,not allowed in processed source records
+off_chain,published_at,UTC timestamp,Fictional source publication time; eligibility requires no future publication,UTC,not allowed in processed source records
+off_chain,retrieved_at,UTC timestamp,Fictional later archive retrieval time; not the event time,UTC,not allowed in processed source records
+off_chain,measure,integer,Invented index measurement without substantive real-world interpretation,demo-index,empty means missing or no selected record; inspect link_status
+off_chain,unit,string,Measurement unit label,unit label,not allowed in processed source records
+crosswalk,crosswalk_id,string,Versioned fictional relationship row ID,identifier,empty if no approved active link
+crosswalk,chain_id,string,Network namespace; demo-chain is not a live blockchain,identifier,not allowed
+crosswalk,contract_id,string,Fictional contract key; not a person or organization identity,identifier,not allowed
+crosswalk,entity_id,string,Fictional organization key; relationship depends on crosswalk evidence,identifier,empty if no approved active link
+crosswalk,relationship_type,string,Nature of association; fictional_association only in demo,category,empty if no approved active link
+crosswalk,valid_from,UTC timestamp,Inclusive beginning of link validity,UTC,not allowed
+crosswalk,valid_to,UTC timestamp,Exclusive end of link validity,UTC,not allowed
+crosswalk,review_status,string,"Fixture review label: approved, candidate or rejected",category,not allowed
+crosswalk,matching_method,string,How link was constructed; synthetic_fixture in this demo,category,not allowed
+crosswalk,evidence_id,string,Invented evidence locator; not a validated external source,identifier,empty if no approved active link
+integration,event_id,string,Fictional event surrogate; unique among demo processed events,identifier,not allowed
+integration,chain_id,string,Network namespace; demo-chain is not a live blockchain,identifier,not allowed
+integration,contract_id,string,Fictional contract key; not a person or organization identity,identifier,not allowed
+integration,block_number,integer,Illustrative non-negative block height,block,not allowed
+integration,block_hash,string,"Invented block identifier, not a real cryptographic hash",identifier,not allowed
+integration,transaction_id,string,Invented transaction identifier,identifier,not allowed
+integration,log_index,integer,Event position within the fictional transaction,index,not allowed
+integration,event_time,UTC timestamp,Illustrative event time,UTC,not allowed
+integration,amount_units,integer,Synthetic non-negative quantity; no real token or currency meaning,demo units,empty means missing; never zero-filled
+integration,canonical,boolean string,Fixture flag: true retained; false excluded; no actual finality check,true/false,not allowed
+integration,link_status,string,"matched, no_crosswalk, unreviewed_link, or no_prior_record",category,not allowed
+integration,crosswalk_id,string,Versioned fictional relationship row ID,identifier,empty if no approved active link
+integration,entity_id,string,Fictional organization key; relationship depends on crosswalk evidence,identifier,empty if no approved active link
+integration,record_id,string,Fictional off-chain source record identifier,identifier,empty in integrated rows without a selected record
+integration,source_id,string,Namespace identifying the invented document source,identifier,empty if no selected record
+integration,reference_start,UTC timestamp,Beginning of the period the synthetic measure describes,UTC,empty if no selected record
+integration,reference_end,UTC timestamp,End of the period the synthetic measure describes,UTC,empty if no selected record
+integration,published_at,UTC timestamp,Fictional source publication time; eligibility requires no future publication,UTC,empty if no selected record
+integration,retrieved_at,UTC timestamp,Fictional later archive retrieval time; not the event time,UTC,empty if no selected record
+integration,measure,integer,Invented index measurement without substantive real-world interpretation,demo-index,empty means missing or no selected record; inspect link_status
+integration,unit,string,Measurement unit label,unit label,empty if no selected record
+integration,relationship_type,string,Nature of association; fictional_association only in demo,category,empty if no approved active link
+integration,evidence_id,string,Invented evidence locator; not a validated external source,identifier,empty if no approved active link
+integration,on_chain_revision,string,Upstream synthetic component version,version,not allowed
+integration,off_chain_revision,string,Upstream synthetic component version,version,not allowed
