@@ -1,0 +1,91 @@
+chain,minute_utc,minute_index,data_type,retrieved,expected,status,denominator_basis
+solana,12:00,0,block_body,186,186,complete,resolved block range
+solana,12:00,0,transactions,224874,224874,complete,canonical block transaction list
+solana,12:00,0,receipt_meta,224874,224874,complete,canonical block transaction list
+solana,12:00,0,native_logs_instructions,961820,,partial,returned native arrays
+solana,12:00,0,trace,,,not_applicable,resolved block range
+solana,12:00,0,historical_state,,,unavailable,resolved block range
+solana,12:01,1,block_body,184,184,complete,resolved block range
+solana,12:01,1,transactions,228234,228234,complete,canonical block transaction list
+solana,12:01,1,receipt_meta,228234,228234,complete,canonical block transaction list
+solana,12:01,1,native_logs_instructions,962894,,partial,returned native arrays
+solana,12:01,1,trace,,,not_applicable,resolved block range
+solana,12:01,1,historical_state,,,unavailable,resolved block range
+solana,12:02,2,block_body,188,188,complete,resolved block range
+solana,12:02,2,transactions,227638,227638,complete,canonical block transaction list
+solana,12:02,2,receipt_meta,227638,227638,complete,canonical block transaction list
+solana,12:02,2,native_logs_instructions,954560,,partial,returned native arrays
+solana,12:02,2,trace,,,not_applicable,resolved block range
+solana,12:02,2,historical_state,,,unavailable,resolved block range
+solana,12:03,3,block_body,192,192,complete,resolved block range
+solana,12:03,3,transactions,228626,228626,complete,canonical block transaction list
+solana,12:03,3,receipt_meta,228626,228626,complete,canonical block transaction list
+solana,12:03,3,native_logs_instructions,993761,,partial,returned native arrays
+solana,12:03,3,trace,,,not_applicable,resolved block range
+solana,12:03,3,historical_state,,,unavailable,resolved block range
+solana,12:04,4,block_body,192,192,complete,resolved block range
+solana,12:04,4,transactions,223704,223704,complete,canonical block transaction list
+solana,12:04,4,receipt_meta,223704,223704,complete,canonical block transaction list
+solana,12:04,4,native_logs_instructions,908134,,partial,returned native arrays
+solana,12:04,4,trace,,,not_applicable,resolved block range
+solana,12:04,4,historical_state,,,unavailable,resolved block range
+bsc,12:00,0,block_body,134,134,complete,resolved block range
+bsc,12:00,0,transactions,17565,17565,complete,canonical block transaction list
+bsc,12:00,0,receipt_meta,17565,17565,complete,canonical block transaction list
+bsc,12:00,0,native_logs_instructions,111977,111977,complete,returned native arrays
+bsc,12:00,0,trace,,,unavailable,resolved block range
+bsc,12:00,0,historical_state,,,unavailable,resolved block range
+bsc,12:01,1,block_body,133,133,complete,resolved block range
+bsc,12:01,1,transactions,17680,17680,complete,canonical block transaction list
+bsc,12:01,1,receipt_meta,17680,17680,complete,canonical block transaction list
+bsc,12:01,1,native_logs_instructions,116274,116274,complete,returned native arrays
+bsc,12:01,1,trace,,,unavailable,resolved block range
+bsc,12:01,1,historical_state,,,unavailable,resolved block range
+bsc,12:02,2,block_body,133,133,complete,resolved block range
+bsc,12:02,2,transactions,17254,17254,complete,canonical block transaction list
+bsc,12:02,2,receipt_meta,17254,17254,complete,canonical block transaction list
+bsc,12:02,2,native_logs_instructions,114511,114511,complete,returned native arrays
+bsc,12:02,2,trace,,,unavailable,resolved block range
+bsc,12:02,2,historical_state,,,unavailable,resolved block range
+bsc,12:03,3,block_body,134,134,complete,resolved block range
+bsc,12:03,3,transactions,18257,18257,complete,canonical block transaction list
+bsc,12:03,3,receipt_meta,18257,18257,complete,canonical block transaction list
+bsc,12:03,3,native_logs_instructions,114634,114634,complete,returned native arrays
+bsc,12:03,3,trace,,,unavailable,resolved block range
+bsc,12:03,3,historical_state,,,unavailable,resolved block range
+bsc,12:04,4,block_body,133,133,complete,resolved block range
+bsc,12:04,4,transactions,17678,17678,complete,canonical block transaction list
+bsc,12:04,4,receipt_meta,17678,17678,complete,canonical block transaction list
+bsc,12:04,4,native_logs_instructions,108969,108969,complete,returned native arrays
+bsc,12:04,4,trace,,,unavailable,resolved block range
+bsc,12:04,4,historical_state,,,unavailable,resolved block range
+base,12:00,0,block_body,30,30,complete,resolved block range
+base,12:00,0,transactions,7092,7092,complete,canonical block transaction list
+base,12:00,0,receipt_meta,7092,7092,complete,canonical block transaction list
+base,12:00,0,native_logs_instructions,23475,23475,complete,returned native arrays
+base,12:00,0,trace,7092,7092,complete,resolved block range
+base,12:00,0,historical_state,,,unavailable,resolved block range
+base,12:01,1,block_body,30,30,complete,resolved block range
+base,12:01,1,transactions,6809,6809,complete,canonical block transaction list
+base,12:01,1,receipt_meta,6809,6809,complete,canonical block transaction list
+base,12:01,1,native_logs_instructions,23119,23119,complete,returned native arrays
+base,12:01,1,trace,6809,6809,complete,resolved block range
+base,12:01,1,historical_state,,,unavailable,resolved block range
+base,12:02,2,block_body,30,30,complete,resolved block range
+base,12:02,2,transactions,7399,7399,complete,canonical block transaction list
+base,12:02,2,receipt_meta,7399,7399,complete,canonical block transaction list
+base,12:02,2,native_logs_instructions,28037,28037,complete,returned native arrays
+base,12:02,2,trace,7399,7399,complete,resolved block range
+base,12:02,2,historical_state,,,unavailable,resolved block range
+base,12:03,3,block_body,30,30,complete,resolved block range
+base,12:03,3,transactions,5841,5841,complete,canonical block transaction list
+base,12:03,3,receipt_meta,5841,5841,complete,canonical block transaction list
+base,12:03,3,native_logs_instructions,19656,19656,complete,returned native arrays
+base,12:03,3,trace,5841,5841,complete,resolved block range
+base,12:03,3,historical_state,,,unavailable,resolved block range
+base,12:04,4,block_body,30,30,complete,resolved block range
+base,12:04,4,transactions,5304,5304,complete,canonical block transaction list
+base,12:04,4,receipt_meta,5304,5304,complete,canonical block transaction list
+base,12:04,4,native_logs_instructions,20651,20651,complete,returned native arrays
+base,12:04,4,trace,5304,5304,complete,resolved block range
+base,12:04,4,historical_state,,,unavailable,resolved block range

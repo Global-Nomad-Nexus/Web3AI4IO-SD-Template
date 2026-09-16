@@ -1,0 +1,8 @@
+flowchart TB
+  title["F2: All transaction records"]
+  n0["Solana<br/>30-second bins 0 to 9: 110,712, 114,162, 108,651, 119,583, 115,144, 112,494, 111,033, 117,593, 113,806, 109,898<br/>Excluding identified vote/system: 51,130, 48,817, 51,028, 53,386, 50,762, 50,784, 47,338, 52,261, 49,429, 45,661<br/>failed: 140,640 (12.41%); success: 992,436 (87.59%); unknown: 0 (0.00%)<br/>complete"]
+  title --- n0
+  n1["BSC<br/>30-second bins 0 to 9: 9,497, 8,068, 8,656, 9,024, 8,699, 8,555, 9,412, 8,845, 8,872, 8,806<br/>Excluding identified vote/system: 9,497, 8,068, 8,656, 9,024, 8,699, 8,555, 9,412, 8,845, 8,872, 8,806<br/>failed: 10,096 (11.42%); success: 78,338 (88.58%); unknown: 0 (0.00%)<br/>complete"]
+  title --- n1
+  n2["Base<br/>30-second bins 0 to 9: 3,636, 3,456, 3,245, 3,564, 3,527, 3,872, 3,079, 2,762, 2,846, 2,458<br/>Excluding identified vote/system: 3,621, 3,441, 3,230, 3,549, 3,512, 3,857, 3,064, 2,747, 2,831, 2,443<br/>failed: 1,807 (5.57%); success: 30,638 (94.43%); unknown: 0 (0.00%)<br/>complete"]
+  title --- n2

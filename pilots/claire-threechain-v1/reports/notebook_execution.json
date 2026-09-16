@@ -1,0 +1,39 @@
+{
+  "baseline_event_thresholds": [
+    1,
+    3
+  ],
+  "colab_status": "not_tested_by_this_command",
+  "completed_at": "2026-09-16T00:09:00.160319+00:00",
+  "elapsed_seconds": 1078.664,
+  "environment": "local",
+  "event_baseline_unchanged": true,
+  "event_thresholds_after": [
+    1,
+    3
+  ],
+  "executed_code_cells": 7,
+  "executed_notebook": "notebooks/Claire_Onchain_Tutorial.executed.ipynb",
+  "executed_notebook_sha256": "bfc35ccca4a7448bb817391830d5cff2b1798a600b2b5da8033b3e36fd425be6",
+  "expected_code_cells": 7,
+  "global_configuration_changed": false,
+  "kernel": "temporary kernelspec using current sys.executable",
+  "mode": "snapshot",
+  "notebook": "notebooks/Claire_Onchain_Tutorial.ipynb",
+  "passed": true,
+  "protected_raw_base_files": 19328,
+  "raw_base_unchanged": true,
+  "restored_event_baseline_files": [],
+  "source_sha256": "1aee19d4c05d040fdf980e3f467ef84cab525e83a18efccd2f1f12b98f8ce5b9",
+  "started_at": "2026-09-15T23:51:01.583929+00:00",
+  "status": "completed",
+  "versions": {
+    "ipykernel": "7.3.0",
+    "jupyter_client": "8.10.0",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1",
+    "pandas": "3.0.5",
+    "pyarrow": "25.0.1",
+    "python": "3.12.14"
+  }
+}

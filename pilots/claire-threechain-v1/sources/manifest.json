@@ -1,0 +1,162 @@
+[
+  {
+    "path": "sources/pump-public-docs/idl/pump.json",
+    "source_url": "https://raw.githubusercontent.com/pump-fun/pump-public-docs/81091419e4457566469d4e2a27f64ed84d42419c/idl/pump.json",
+    "repository": "pump-fun/pump-public-docs",
+    "source_revision": "81091419e4457566469d4e2a27f64ed84d42419c",
+    "retrieved_at": "2026-09-15T22:06:00.909855+00:00",
+    "sha256": "ffe966c42f1af41652ee753fe2f1e3f7cd4077d7e6f49faf3138959c8b56064b"
+  },
+  {
+    "path": "sources/pump-public-docs/idl/pump_amm.json",
+    "source_url": "https://raw.githubusercontent.com/pump-fun/pump-public-docs/81091419e4457566469d4e2a27f64ed84d42419c/idl/pump_amm.json",
+    "repository": "pump-fun/pump-public-docs",
+    "source_revision": "81091419e4457566469d4e2a27f64ed84d42419c",
+    "retrieved_at": "2026-09-15T22:06:01.072180+00:00",
+    "sha256": "2091433899b07d003d98118ae6cd3c628960fd393b40710b6e15bce6d0e7f2d1"
+  },
+  {
+    "path": "sources/pump-public-docs/docs/PUMP_PROGRAM_README.md",
+    "source_url": "https://raw.githubusercontent.com/pump-fun/pump-public-docs/81091419e4457566469d4e2a27f64ed84d42419c/docs/PUMP_PROGRAM_README.md",
+    "repository": "pump-fun/pump-public-docs",
+    "source_revision": "81091419e4457566469d4e2a27f64ed84d42419c",
+    "retrieved_at": "2026-09-15T22:06:01.224485+00:00",
+    "sha256": "ce6c84112e9ec870a2341562eaf825fe05059b157ce35cdf9d59a533262edc90"
+  },
+  {
+    "path": "sources/four-meme-ai/skills/four-meme-integration/references/contract-addresses.md",
+    "source_url": "https://raw.githubusercontent.com/four-meme-community/four-meme-ai/c81f0eebbabec16998b2457f7e881e1b70b86420/skills/four-meme-integration/references/contract-addresses.md",
+    "repository": "four-meme-community/four-meme-ai",
+    "source_revision": "c81f0eebbabec16998b2457f7e881e1b70b86420",
+    "retrieved_at": "2026-09-15T22:06:01.645940+00:00",
+    "sha256": "d806990ac94355ad4bcdf77fe262016976a9493d3035d5829a14853256eef2b3"
+  },
+  {
+    "path": "sources/clanker-sdk/src/constants.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/constants.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:02.272099+00:00",
+    "sha256": "2dbe481cfd2033b665e3d9e9352f508a6da61b048ed6815e61a929351ba70b3c"
+  },
+  {
+    "path": "sources/clanker-sdk/src/abi/v4/Clanker.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/abi/v4/Clanker.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:02.405999+00:00",
+    "sha256": "35c2bfc5fcc0a0706a921b84e2e9e803d0034eec87906ba3661d073b8940e3e3"
+  },
+  {
+    "path": "sources/clanker-sdk/src/abi/v3.1/Clanker.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/abi/v3.1/Clanker.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:02.557912+00:00",
+    "sha256": "96e65b77c3810200c76750a5fee28cff6a0eb4efd2238f2a84ab5b7858ee3912"
+  },
+  {
+    "path": "sources/clanker-sdk/src/abi/v3/Clanker.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/abi/v3/Clanker.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:02.694900+00:00",
+    "sha256": "20fb9a70ac0263545c666b8f812c4c81b8b70ed78d3eb07680e4141710da2046"
+  },
+  {
+    "path": "sources/clanker-sdk/src/abi/v4/ClankerHook.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/abi/v4/ClankerHook.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:02.952329+00:00",
+    "sha256": "84bf7b1b601cf313da06b78cc1722814d370bba54e378b29f2e391ed0dc7e439"
+  },
+  {
+    "path": "sources/four-meme-ai/skills/four-meme-integration/references/event-listening.md",
+    "source_url": "https://raw.githubusercontent.com/four-meme-community/four-meme-ai/c81f0eebbabec16998b2457f7e881e1b70b86420/skills/four-meme-integration/references/event-listening.md",
+    "repository": "four-meme-community/four-meme-ai",
+    "source_revision": "c81f0eebbabec16998b2457f7e881e1b70b86420",
+    "retrieved_at": "2026-09-15T22:06:29.536661+00:00",
+    "sha256": "28214632495527a142ad21f2e20bf63abbf98ea8bf7aca4c416b5e4201b3613a"
+  },
+  {
+    "path": "sources/four-meme-ai/skills/four-meme-integration/scripts/get-recent-events.ts",
+    "source_url": "https://raw.githubusercontent.com/four-meme-community/four-meme-ai/c81f0eebbabec16998b2457f7e881e1b70b86420/skills/four-meme-integration/scripts/get-recent-events.ts",
+    "repository": "four-meme-community/four-meme-ai",
+    "source_revision": "c81f0eebbabec16998b2457f7e881e1b70b86420",
+    "retrieved_at": "2026-09-15T22:06:29.679957+00:00",
+    "sha256": "f29c275688edea392ce9b1b20d38840eef1d90cb80c1b182a2dc5c2b4c00de76"
+  },
+  {
+    "path": "sources/four-meme-ai/skills/four-meme-integration/scripts/verify-events.ts",
+    "source_url": "https://raw.githubusercontent.com/four-meme-community/four-meme-ai/c81f0eebbabec16998b2457f7e881e1b70b86420/skills/four-meme-integration/scripts/verify-events.ts",
+    "repository": "four-meme-community/four-meme-ai",
+    "source_revision": "c81f0eebbabec16998b2457f7e881e1b70b86420",
+    "retrieved_at": "2026-09-15T22:06:29.851124+00:00",
+    "sha256": "0402d7e91df809a207e3cb4f9b7c39a805c6205af2e1a18fd33ea7d2fe1e4367"
+  },
+  {
+    "path": "sources/clanker-sdk/src/utils/clankers.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/utils/clankers.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:49.726154+00:00",
+    "sha256": "9906502072b8da2061039282cab731fa59c884bc2766eef435cbdb7739da8927"
+  },
+  {
+    "path": "sources/clanker-sdk/src/abi/v4.1/ClankerPool.ts",
+    "source_url": "https://raw.githubusercontent.com/clanker-devco/clanker-sdk/4f4d2bbf41c7f10543559dc043c85f443a6d452e/src/abi/v4.1/ClankerPool.ts",
+    "repository": "clanker-devco/clanker-sdk",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "retrieved_at": "2026-09-15T22:06:50.091486+00:00",
+    "sha256": "a0d1bb9230902aec6090aae2775e9d0feeab77fd93cc991cf11d25a9c8e171c4"
+  },
+  {
+    "path": "sources/uniswap-v4-core/src/interfaces/IPoolManager.sol",
+    "source_url": "https://raw.githubusercontent.com/Uniswap/v4-core/46c6834698c48bc4a463a86d8420f4eb1d7f3b75/src/interfaces/IPoolManager.sol",
+    "repository": "Uniswap/v4-core",
+    "source_revision": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+    "retrieved_at": "2026-09-15T22:18:08.750992+00:00",
+    "sha256": "a98405333567e4ab344489728014795721cf0071c151536377d2fcc986e0600c"
+  },
+  {
+    "path": "sources/anchor/lang/src/event.rs",
+    "source_url": "https://raw.githubusercontent.com/coral-xyz/anchor/0132400509fad4a6498abdbad68dacbe08f436aa/lang/src/event.rs",
+    "repository": "coral-xyz/anchor",
+    "source_revision": "0132400509fad4a6498abdbad68dacbe08f436aa",
+    "retrieved_at": "2026-09-15T22:18:09.400588+00:00",
+    "sha256": "a0e8c6e8c88634c9b425376505208a5aaee9e05a2de0727b9096ba9a09aa5002"
+  },
+  {
+    "path": "sources/uniswap-docs/archive/docs/contracts/v4/deployments.mdx",
+    "source_url": "https://raw.githubusercontent.com/Uniswap/docs/1c7597d73be0e9a3a4e44aa75b8fb212b40ea136/archive/docs/contracts/v4/deployments.mdx",
+    "repository": "Uniswap/docs",
+    "source_revision": "1c7597d73be0e9a3a4e44aa75b8fb212b40ea136",
+    "retrieved_at": "2026-09-15T22:18:35.223929+00:00",
+    "sha256": "0e247fab6336fee5bc4de25d98ebb727fe55ed14f8591a285f290a581e13526a"
+  },
+  {
+    "path": "sources/uniswap-docs/archive/docs/contracts/v4/guides/hooks/hook-deployment.mdx",
+    "source_url": "https://raw.githubusercontent.com/Uniswap/docs/1c7597d73be0e9a3a4e44aa75b8fb212b40ea136/archive/docs/contracts/v4/guides/hooks/hook-deployment.mdx",
+    "repository": "Uniswap/docs",
+    "source_revision": "1c7597d73be0e9a3a4e44aa75b8fb212b40ea136",
+    "retrieved_at": "2026-09-15T22:18:35.357508+00:00",
+    "sha256": "5a2b62563e07af510c06d790ea1c55ddc4b566e88ea7685228d1f348545fa3a3"
+  },
+  {
+    "path": "sources/uniswap-docs/content/protocols/v4/deployments.mdx",
+    "source_url": "https://raw.githubusercontent.com/Uniswap/docs/1c7597d73be0e9a3a4e44aa75b8fb212b40ea136/content/protocols/v4/deployments.mdx",
+    "repository": "Uniswap/docs",
+    "source_revision": "1c7597d73be0e9a3a4e44aa75b8fb212b40ea136",
+    "retrieved_at": "2026-09-15T22:18:35.485111+00:00",
+    "sha256": "83d2e6aa87d0ddfec9d30816a5ccd18c3680ab964cbe97fa2cc82cd7172895e9"
+  },
+  {
+    "path": "sources/uniswap-docs/content/protocols/v4/guides/hooks/hook-deployment.mdx",
+    "source_url": "https://raw.githubusercontent.com/Uniswap/docs/1c7597d73be0e9a3a4e44aa75b8fb212b40ea136/content/protocols/v4/guides/hooks/hook-deployment.mdx",
+    "repository": "Uniswap/docs",
+    "source_revision": "1c7597d73be0e9a3a4e44aa75b8fb212b40ea136",
+    "retrieved_at": "2026-09-15T22:18:35.721729+00:00",
+    "sha256": "169359596c1092d2b91cc92202898873b0adcaf4b399b01e0914b45d54226be2"
+  }
+]

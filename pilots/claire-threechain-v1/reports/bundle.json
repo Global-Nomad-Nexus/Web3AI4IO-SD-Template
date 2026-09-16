@@ -1,0 +1,22 @@
+{
+  "archives": [
+    {
+      "bytes": 3709623886,
+      "file_count": 24732,
+      "path": "release/claire-demo.tar.gz",
+      "processed_tables_included": true,
+      "sha256": "c5040f4a2351e7555abe1ba7695398011dba55f1ddb5c352c59affee9065e503"
+    },
+    {
+      "bytes": 1059406528,
+      "file_count": 3614,
+      "path": "release/claire-snapshot.tar.gz",
+      "processed_tables_included": false,
+      "sha256": "eb3283ccbc8f71855b91f5887c47608f41712c93970332679ebe8796e7952933"
+    }
+  ],
+  "colab_status": "ready_to_test;not_yet_accepted",
+  "colab_upload": "release/claire-snapshot.tar.gz",
+  "created_at": "2026-09-16T00:11:53.700453+00:00",
+  "publication_status": "local_only"
+}

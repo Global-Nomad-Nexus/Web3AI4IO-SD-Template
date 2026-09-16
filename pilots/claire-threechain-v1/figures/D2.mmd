@@ -1,0 +1,15 @@
+flowchart LR
+  A["Free source capability checks"] --> B["Resolve identical UTC window"]
+  B --> C["All finalized blocks and transactions"]
+  C --> D["Save raw responses and provenance"]
+  D --> E["Normalize chain-native records"]
+  E --> F["Decode platform and token facts"]
+  F --> G["Apply replaceable event definitions"]
+  E --> H["Descriptive tables and Mermaid figures"]
+  F --> H
+  G --> H
+  C -.-> V["Validate coverage, IDs and source references"]
+  E -.-> V
+  G -.-> V
+  D -.-> R["Offline snapshot replay"]
+  R --> E

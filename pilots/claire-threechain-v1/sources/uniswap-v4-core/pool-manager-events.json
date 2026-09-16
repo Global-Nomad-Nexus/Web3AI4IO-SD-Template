@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Initialize",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "bytes32",
+        "name": "id",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "currency0",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "currency1",
+        "indexed": true
+      },
+      {
+        "type": "uint24",
+        "name": "fee",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickSpacing",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "hooks",
+        "indexed": false
+      },
+      {
+        "type": "uint160",
+        "name": "sqrtPriceX96",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tick",
+        "indexed": false
+      }
+    ]
+  },
+  {
+    "name": "ModifyLiquidity",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "bytes32",
+        "name": "id",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "sender",
+        "indexed": true
+      },
+      {
+        "type": "int24",
+        "name": "tickLower",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickUpper",
+        "indexed": false
+      },
+      {
+        "type": "int256",
+        "name": "liquidityDelta",
+        "indexed": false
+      },
+      {
+        "type": "bytes32",
+        "name": "salt",
+        "indexed": false
+      }
+    ]
+  },
+  {
+    "name": "Swap",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "bytes32",
+        "name": "id",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "sender",
+        "indexed": true
+      },
+      {
+        "type": "int128",
+        "name": "amount0",
+        "indexed": false
+      },
+      {
+        "type": "int128",
+        "name": "amount1",
+        "indexed": false
+      },
+      {
+        "type": "uint160",
+        "name": "sqrtPriceX96",
+        "indexed": false
+      },
+      {
+        "type": "uint128",
+        "name": "liquidity",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tick",
+        "indexed": false
+      },
+      {
+        "type": "uint24",
+        "name": "fee",
+        "indexed": false
+      }
+    ]
+  }
+]

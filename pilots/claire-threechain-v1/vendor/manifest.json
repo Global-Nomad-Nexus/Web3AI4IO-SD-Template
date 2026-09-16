@@ -1,0 +1,9 @@
+{
+  "name": "mermaid",
+  "version": "10.9.3",
+  "source_url": "https://cdn.jsdelivr.net/npm/mermaid@10.9.3/dist/mermaid.min.js",
+  "license_url": "https://cdn.jsdelivr.net/npm/mermaid@10.9.3/LICENSE",
+  "bytes": 3336760,
+  "sha256": "5a8ec91820bd55afef049068489369910e5d6ce70c8103952f27e29d3e76e8bc",
+  "license": "MIT"
+}
