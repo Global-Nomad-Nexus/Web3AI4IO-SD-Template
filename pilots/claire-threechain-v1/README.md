@@ -27,3 +27,7 @@ The implementation never defines the raw population using selected platform even
 Whole-chain five-minute window: 2026-09-14 12:00:00–12:05:00 UTC, end exclusive, Solana/BSC/Base. Main 1,759 blocks / 1,253,955 transactions, no first-N cap. BSC traces and arbitrary historical state are not complete. Clanker trade attribution has limited pool evidence; zero recognized trades is not zero activity. Address-byte matches are not identity links. See `docs/limitations.md`.
 
 Small descriptive CSVs here are inspection products, not the complete raw dataset. Complete inputs and processed data are on Hugging Face. Existing source notices are retained; code licensing does not confer a blanket license on external records.
+
+## Verified public runs
+
+[Local and hosted Colab evidence](docs/release_validation.md) records the complete 14-cell runs. [Selection rationale and citations](docs/data_selection_and_references.md) are supplied separately.

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "passed": true,
+  "notebook_sha256": "b784ad6c7eddb640c1718f81ea49a827b42b3f5ef8b9031ebdaf464aa694f275",
+  "method": "new kernel, fresh directory, anonymous public HTTP downloads",
+  "source": "01_On_Chain_Tutorial.ipynb",
+  "executed_code_cells": 14,
+  "elapsed_seconds": 1062.525
+}
