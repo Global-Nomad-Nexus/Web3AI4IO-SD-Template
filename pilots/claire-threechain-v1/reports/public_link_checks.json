@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-16T17:17:16.157440+00:00",
+  "anonymous": true,
+  "checks": [
+    {
+      "url": "https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/pull/2",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/claire-threechain-pilot/notebooks/01_On_Chain_Tutorial.ipynb",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "content_length": "16974",
+      "sha256": "b784ad6c7eddb640c1718f81ea49a827b42b3f5ef8b9031ebdaf464aa694f275",
+      "matches_local": true
+    },
+    {
+      "url": "https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null
+    },
+    {
+      "url": "https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1/resolve/8b29598a6565b67a8a943962dbf77f3d6b2559de/claire-demo.tar.gz",
+      "status": 200,
+      "content_type": "application/gzip",
+      "content_length": "3709623886"
+    }
+  ]
+}

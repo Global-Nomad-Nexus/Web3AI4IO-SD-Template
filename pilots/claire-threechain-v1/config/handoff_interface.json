@@ -1,0 +1,67 @@
+{
+  "interface_version": "claire-handoff/1.1.0",
+  "dataset_manifest": "manifest.json",
+  "dictionary": "docs/data_dictionary.json",
+  "window": {
+    "start_inclusive": "2026-09-14T12:00:00Z",
+    "end_exclusive": "2026-09-14T12:05:00Z"
+  },
+  "objects": {
+    "path": "tables/base/objects/*.parquet",
+    "identity_fields": [
+      "chain_id",
+      "object_id",
+      "address_or_pool_id"
+    ],
+    "observation_time_field": "observed_at",
+    "evidence_field": "raw_ref",
+    "parser_version_field": "parser_version",
+    "row_semantics": "object observation, deduplicated within block; object_id may recur across blocks",
+    "first_window_observation": "minimum non-null observed_at over all rows of the same chain-qualified object_id; repeated consistently on every observation row",
+    "lifetime_creation_time_available": false,
+    "first_window_observation_field": "first_seen_in_window"
+  },
+  "relations": {
+    "path": "tables/base/object_relations/*.parquet",
+    "fields": [
+      "chain_id",
+      "subject_id",
+      "predicate",
+      "object_id",
+      "evidence_ref",
+      "observed_at",
+      "effective_time_status",
+      "relation_status"
+    ]
+  },
+  "crosschain_links": {
+    "path": "tables/decoded/crosschain_links/links.parquet",
+    "fields": [
+      "link_id",
+      "left_object_id",
+      "right_object_id",
+      "relation_type",
+      "evidence_ref",
+      "observed_at",
+      "verification_status",
+      "uncertainty_reason"
+    ],
+    "same_address_bytes_is_identity": false
+  },
+  "provenance": {
+    "path": "provenance/requests.parquet",
+    "join": "raw_ref file component joins raw_path; the component after # is a JSON pointer",
+    "fields": [
+      "source_id",
+      "endpoint",
+      "rpc_method",
+      "request_params",
+      "requested_at",
+      "retrieved_at",
+      "raw_path",
+      "raw_sha256"
+    ]
+  },
+  "offchain_collection_performed": false,
+  "offchain_matching_performed": false
+}

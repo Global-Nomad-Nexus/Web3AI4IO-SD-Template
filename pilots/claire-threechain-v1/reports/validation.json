@@ -1,0 +1,96 @@
+{
+  "acceptance_scope": "raw/base/decoded/event integrity only",
+  "checks": [
+    {
+      "check": "window_resolved_three_chains",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "normalization_completed_without_errors",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "acquisition_hashes_and_assembly_lineage",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "typed_provenance_covers_complete_current_ledger",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "solana_core_integrity",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "bsc_core_integrity",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "base_core_integrity",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "movement_amounts_exact_and_effect_explicit",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "all_base_tables_typed_and_source_counts_match",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "decoded_and_event_outputs_present_and_current",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "object_observation_times_and_global_first_seen",
+      "details": {
+        "error_count": 0,
+        "errors": [],
+        "implementation": "disk-backed aggregation during existing objects semantic-hash stream",
+        "observation_rows": 4701925,
+        "passed": true,
+        "unique_objects": 409117
+      },
+      "passed": true
+    }
+  ],
+  "colab_compatibility": "not_tested_by_this_command",
+  "counts": {
+    "base": {
+      "expected_blocks": 150,
+      "normalized_transactions": 32445,
+      "raw_transactions": 32445,
+      "retrieved_main_blocks": 150,
+      "skipped_slots": 0,
+      "uncertain_slots": []
+    },
+    "bsc": {
+      "expected_blocks": 667,
+      "normalized_transactions": 88434,
+      "raw_transactions": 88434,
+      "retrieved_main_blocks": 667,
+      "skipped_slots": 0,
+      "uncertain_slots": []
+    },
+    "solana": {
+      "expected_blocks": 942,
+      "normalized_transactions": 1133076,
+      "raw_transactions": 1133076,
+      "retrieved_main_blocks": 942,
+      "skipped_slots": 8,
+      "uncertain_slots": []
+    }
+  },
+  "passed": true,
+  "snapshot_replay": "not_tested_by_this_command"
+}

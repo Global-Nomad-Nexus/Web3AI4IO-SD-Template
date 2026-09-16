@@ -1,0 +1,8 @@
+flowchart TB
+  title["F5: Threshold 1 versus 3 successful trade transactions"]
+  n0["Solana<br/>Threshold 1: 1,123 observed events<br/>Threshold 3: 434 observed events<br/>Eligible observed tokens: 1,123<br/>Both thresholds: 434 tokens<br/>Delay seconds: median 23; min 0; max 294"]
+  title --- n0
+  n1["BSC<br/>Threshold 1: 23 observed events<br/>Threshold 3: 5 observed events<br/>Eligible observed tokens: 23<br/>Both thresholds: 5 tokens<br/>Delay seconds: median 25; min 2; max 183"]
+  title --- n1
+  n2["Base<br/>Threshold 1: 0 observed events<br/>Threshold 3: 0 observed events<br/>Eligible observed tokens: 0<br/>No computable attainment delay: no token with both timed events"]
+  title --- n2

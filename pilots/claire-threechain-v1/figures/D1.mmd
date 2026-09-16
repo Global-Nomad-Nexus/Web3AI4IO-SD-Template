@@ -1,0 +1,17 @@
+flowchart TB
+  A["Users, creators and protocol actors"] --> B["Transactions submitted to a chain"]
+  B --> S["Solana program execution and consensus"]
+  B --> E["BSC / Base EVM execution and consensus"]
+  S --> SB["Solana blocks and transactions"]
+  S --> SM["Execution meta: status, fees, balances, logs; outer and inner instructions"]
+  E --> EB["EVM blocks and transaction envelopes"]
+  E --> ER["Receipts: status, gas and emitted logs"]
+  E -.-> ET["Call trees only when trace access is supported"]
+  SB --> R["Immutable raw RPC snapshot"]
+  SM --> R
+  EB --> R
+  ER --> R
+  ET -.-> R
+  R --> F["Chain-native facts and source references"]
+  F --> D["Versioned researcher-defined events"]
+  R -.-> U["Not directly observed: intent, real identity, arbitrary historical state"]

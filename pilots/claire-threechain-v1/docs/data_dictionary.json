@@ -1,0 +1,1637 @@
+{
+  "asset_movements": [
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "movement_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "asset_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "from_account",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "to_account",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "exact decimal integer string",
+      "name": "amount_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "movement_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "evidence_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "committed, not_committed or unknown; attempts are not state changes.",
+      "encoding": "native Arrow scalar",
+      "name": "execution_effect",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "source_record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Token-standard evidence; candidates differ from verified fungible tokens.",
+      "encoding": "native Arrow scalar",
+      "name": "standard_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded asset precision; null is unknown, not zero decimals.",
+      "encoding": "native Arrow scalar",
+      "name": "decimals",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "balance_observations": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "account_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "asset_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded token-account owner when available; distinct from owning program.",
+      "encoding": "native Arrow scalar",
+      "name": "owner_address",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Evidence/availability status of the owner field.",
+      "encoding": "native Arrow scalar",
+      "name": "owner_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Exact balance before the transaction, if recorded.",
+      "encoding": "decimal integer string",
+      "name": "pre_amount_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Exact balance after the transaction, if recorded.",
+      "encoding": "decimal integer string",
+      "name": "post_amount_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded asset precision; null is unknown, not zero decimals.",
+      "encoding": "native Arrow scalar",
+      "name": "decimals",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Kind of native observation supporting the balance row.",
+      "encoding": "native Arrow scalar",
+      "name": "source_kind",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "blocks": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "block_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native block index; see slot separately on Solana.",
+      "encoding": "native Arrow scalar",
+      "name": "height",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Solana slot, not an EVM block height.",
+      "encoding": "native Arrow scalar",
+      "name": "slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "hash",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "parent_hash",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "parent_slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "time_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_count",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "finality_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "main or boundary; only main records enter analytical population.",
+      "encoding": "native Arrow scalar",
+      "name": "window_membership",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "crosschain_links": [
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "link_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "left_object_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "right_object_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "relation_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "evidence_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Exactly what the evidence verifies, such as address bytes only.",
+      "encoding": "native Arrow scalar",
+      "name": "verification_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Limit on the relation or identity claim.",
+      "encoding": "native Arrow scalar",
+      "name": "uncertainty_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Evidence observation timestamp; not necessarily effective start time.",
+      "encoding": "native Arrow scalar",
+      "name": "observed_at",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "decoded_records": [
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "source_record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "equivalent_source_record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "decoder_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of the rule/layout that interpreted the native record.",
+      "encoding": "native Arrow scalar",
+      "name": "decoder_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "record_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "JSON string",
+      "name": "decoded_arguments",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "committed, not_committed or unknown; attempts are not state changes.",
+      "encoding": "native Arrow scalar",
+      "name": "execution_effect",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Parser recognition status; unknown or unsupported does not remove raw data.",
+      "encoding": "native Arrow scalar",
+      "name": "decode_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "events": [
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "event_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "event_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "definition_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of the event rule applied to fixed source facts.",
+      "encoding": "native Arrow scalar",
+      "name": "definition_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "subject_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "UTC time derived from block time, not lifetime first activity.",
+      "encoding": "native Arrow scalar",
+      "name": "event_time",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON array of supporting chain-native record identifiers.",
+      "encoding": "JSON string",
+      "name": "evidence_record_ids",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON rule parameters, editable separately from raw records.",
+      "encoding": "JSON string",
+      "name": "parameters",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON bounded interval used by the event definition.",
+      "encoding": "JSON string",
+      "name": "observation_window",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Observation-scope qualification, not complete lifecycle coverage.",
+      "encoding": "native Arrow scalar",
+      "name": "coverage_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "platform_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "event_order",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Canonical within-chain order key, retained when timestamps tie.",
+      "encoding": "native Arrow scalar",
+      "name": "block_number_or_slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Required distinct successful trade transaction count.",
+      "encoding": "native Arrow scalar",
+      "name": "threshold",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "evm_logs": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "log_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "log_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "emitter",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON array of EVM log topics in original order.",
+      "encoding": "canonical JSON string",
+      "name": "topics",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Uninterpreted EVM log data bytes as hexadecimal.",
+      "encoding": "native Arrow scalar",
+      "name": "data_hex",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "removed",
+      "nullable": true,
+      "type": "bool"
+    }
+  ],
+  "evm_transaction_details": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "from_account",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "to_account",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "nonce",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "decimal integer string",
+      "name": "value_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Uninterpreted EVM transaction input bytes as hexadecimal.",
+      "encoding": "native Arrow scalar",
+      "name": "input_hex",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "gas_limit",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "gas_used",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "effective_gas_price",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "contract_created",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "object_relations": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "relation_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "subject_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "predicate",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "object_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "evidence_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Evidence observation timestamp; not necessarily effective start time.",
+      "encoding": "native Arrow scalar",
+      "name": "observed_at",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Whether the relation's historical effective time is known.",
+      "encoding": "native Arrow scalar",
+      "name": "effective_time_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Evidence and uncertainty of the asserted relation.",
+      "encoding": "native Arrow scalar",
+      "name": "relation_status",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "objects": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "object_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "address_or_pool_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "object_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded basis for an object-type interpretation.",
+      "encoding": "native Arrow scalar",
+      "name": "type_evidence",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "UTC Unix seconds of this object's row-level observation, using its block timestamp; null means unknown. This may be later than first_seen_in_window.",
+      "encoding": "native Arrow scalar",
+      "name": "observed_at",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Minimum non-null observed_at across the entire main window for this chain-qualified object_id; repeated consistently on its observation rows. Not lifetime creation time.",
+      "encoding": "native Arrow scalar",
+      "name": "first_seen_in_window",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Supported token-standard evidence, if available.",
+      "encoding": "native Arrow scalar",
+      "name": "token_standard",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded asset precision; null is unknown, not zero decimals.",
+      "encoding": "native Arrow scalar",
+      "name": "decimals",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Availability of metadata; absent metadata is not an empty description.",
+      "encoding": "native Arrow scalar",
+      "name": "metadata_status",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "platform_records": [
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "platform_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "source_record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "object_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Decoded platform operation; not a raw sampling rule.",
+      "encoding": "native Arrow scalar",
+      "name": "operation_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of the rule/layout that interpreted the native record.",
+      "encoding": "native Arrow scalar",
+      "name": "decoder_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON of address/layout provenance and historical uncertainty.",
+      "encoding": "JSON string",
+      "name": "attribution_evidence",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "committed, not_committed or unknown; attempts are not state changes.",
+      "encoding": "native Arrow scalar",
+      "name": "execution_effect",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Parser recognition status; unknown or unsupported does not remove raw data.",
+      "encoding": "native Arrow scalar",
+      "name": "decode_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Canonical within-chain order key, retained when timestamps tie.",
+      "encoding": "native Arrow scalar",
+      "name": "block_number_or_slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Transaction position within its block.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "event_order",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "platform_registry": [
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "platform_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "program_or_contract",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "source_url",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Pinned source revision or content identifier for the layout.",
+      "encoding": "native Arrow scalar",
+      "name": "source_revision",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Exactly what the evidence verifies, such as address bytes only.",
+      "encoding": "native Arrow scalar",
+      "name": "verification_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "layout_path",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Known effective lower bound; null means historically unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "valid_from_block",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Known effective upper bound; null does not prove indefinite validity.",
+      "encoding": "native Arrow scalar",
+      "name": "valid_to_block",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "provenance_requests": [
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "source_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "endpoint",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "rpc_method",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "request_params",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "requested_at",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "retrieved_at",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "response_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_response_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "error_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_path",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_sha256",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "ledger_raw_sha256",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_integrity",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "block_hash",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "block_context_source",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "resolved, requested_only, unknown or conflict; a requested height alone does not prove a returned block.",
+      "encoding": "native Arrow scalar",
+      "name": "block_context_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_issues",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "provenance_parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Canonical within-chain order key, retained when timestamps tie.",
+      "encoding": "native Arrow scalar",
+      "name": "block_number_or_slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "response_context_slot",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "retry_count",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "http_status",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "ledger_line",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "request_params_redacted",
+      "nullable": true,
+      "type": "bool"
+    }
+  ],
+  "solana_instructions": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "instruction_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Top-level Solana instruction index.",
+      "encoding": "native Arrow scalar",
+      "name": "outer_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Inner-instruction position; null for top-level instruction.",
+      "encoding": "native Arrow scalar",
+      "name": "inner_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Recorded invocation depth when available.",
+      "encoding": "native Arrow scalar",
+      "name": "stack_height",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "program_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON array of native Solana account-key indices.",
+      "encoding": "canonical JSON string",
+      "name": "account_indices",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "JSON array of resolved chain-qualified account identifiers.",
+      "encoding": "canonical JSON string",
+      "name": "account_ids",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Uninterpreted Solana instruction data, preserving representation.",
+      "encoding": "native Arrow scalar",
+      "name": "data_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Parser recognition status; unknown or unsupported does not remove raw data.",
+      "encoding": "native Arrow scalar",
+      "name": "decode_status",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "transaction_accounts": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "account_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "account_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "role",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "is_signer",
+      "nullable": true,
+      "type": "bool"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "is_writable",
+      "nullable": true,
+      "type": "bool"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "role_source",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "transactions": [
+    {
+      "description": "Short chain label: solana, bsc or base.",
+      "encoding": "native Arrow scalar",
+      "name": "chain",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Network-qualified namespace; addresses are never global identities.",
+      "encoding": "native Arrow scalar",
+      "name": "chain_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Version of normalization code that generated this row.",
+      "encoding": "native Arrow scalar",
+      "name": "parser_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Relative raw file plus JSON pointer for evidence lookup.",
+      "encoding": "native Arrow scalar",
+      "name": "raw_ref",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "block_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_hash_or_signature",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Transaction position within its block.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_index",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Block timestamp in UTC Unix seconds; null means unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "block_time",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "native Arrow scalar",
+      "name": "tx_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Recorded transaction execution success, failed, or unknown.",
+      "encoding": "native Arrow scalar",
+      "name": "execution_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Chain-native field; retain null when unavailable.",
+      "encoding": "canonical JSON string",
+      "name": "error_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Exact native-asset fee integer, not a floating-point amount.",
+      "encoding": "decimal integer string",
+      "name": "fee_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Stable chain-qualified identifier.",
+      "encoding": "native Arrow scalar",
+      "name": "fee_asset_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Parser recognition status; unknown or unsupported does not remove raw data.",
+      "encoding": "native Arrow scalar",
+      "name": "decode_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Whether execution metadata was provided, explicit_null, missing or invalid.",
+      "encoding": "enum: provided / explicit_null / missing / invalid / not_applicable",
+      "name": "execution_meta_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Solana array availability: provided, explicit_null, missing or invalid; EVM not_applicable.",
+      "encoding": "enum: provided / explicit_null / missing / invalid / not_applicable",
+      "name": "inner_instructions_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Solana log array availability: provided, explicit_null, missing or invalid; EVM not_applicable.",
+      "encoding": "enum: provided / explicit_null / missing / invalid / not_applicable",
+      "name": "log_messages_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "description": "Whether the transaction was identified as Solana vote traffic.",
+      "encoding": "native Arrow scalar",
+      "name": "is_vote",
+      "nullable": true,
+      "type": "bool"
+    },
+    {
+      "description": "Whether the transaction was identified as chain system traffic.",
+      "encoding": "native Arrow scalar",
+      "name": "is_system",
+      "nullable": true,
+      "type": "bool"
+    }
+  ]
+}

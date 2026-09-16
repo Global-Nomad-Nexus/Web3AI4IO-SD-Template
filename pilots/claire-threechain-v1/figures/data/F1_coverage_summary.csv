@@ -1,0 +1,4 @@
+chain,expected_blocks,raw_blocks,normalized_blocks,core_coverage,skipped_slots,uncertain_slots,trace,historical_state
+solana,942,942,942,complete,8,0,not_applicable,not_collected
+bsc,667,667,667,complete,0,0,unavailable,not_collected
+base,150,150,150,complete,0,0,available,not_collected

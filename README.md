@@ -8,23 +8,23 @@
 
 ![Two source pipelines meet in a separately validated integration pipeline. All included records are synthetic.](assets/pipeline.svg)
 
-This repository gives two student co-first authors a common starting point for an interdisciplinary data descriptor. Each source pipeline produces an independently reusable dataset; integration adds documented relationships and time alignment. **All included records, identifiers, links between entities, and numerical outputs are invented teaching fixtures.** The empirical project, its actual scope, author names, source permissions, and scientific validation must be supplied by the authors.
+This repository gives two student co-first authors a common starting point for an interdisciplinary data descriptor. Each source pipeline produces an independently reusable dataset; integration adds documented relationships and time alignment. The original teaching tracks contain invented fixtures. **This branch also supplies Claire’s real three-chain on-chain pilot**, with pinned public inputs and separate validation. Off-chain and integration remain synthetic examples.
 
 <a id="tutorials"></a>
 ## Three tutorials
 
 | Tutorial | Lead and independent reader | Open in Colab | Download/edit |
 |---|---|---|---|
-| On-chain: sources → events → quality checks | Student A leads; Student B reproduces | [Open on-chain tutorial](https://colab.research.google.com/github/sunshineluyao/Web3AI4IO-SD-Template/blob/main/notebooks/01_On_Chain_Tutorial.ipynb) | [01_On_Chain_Tutorial.ipynb](notebooks/01_On_Chain_Tutorial.ipynb) |
+| On-chain: real three-chain pilot | Claire leads; Shilin reproduction pending | [Open on-chain tutorial](https://colab.research.google.com/github/Global-Nomad-Nexus/Web3AI4IO-SD-Template/blob/claire-threechain-pilot/notebooks/01_On_Chain_Tutorial.ipynb) | [01_On_Chain_Tutorial.ipynb](notebooks/01_On_Chain_Tutorial.ipynb) |
 | Off-chain: sources → records → quality checks | Student B leads; Student A reproduces | [Open off-chain tutorial](https://colab.research.google.com/github/sunshineluyao/Web3AI4IO-SD-Template/blob/main/notebooks/02_Off_Chain_Tutorial.ipynb) | [02_Off_Chain_Tutorial.ipynb](notebooks/02_Off_Chain_Tutorial.ipynb) |
 | Integration: component releases → linkage → quality checks | Both lead; a third reader is recommended | [Open integration tutorial](https://colab.research.google.com/github/sunshineluyao/Web3AI4IO-SD-Template/blob/main/notebooks/03_Integration_Tutorial.ipynb) | [03_Integration_Tutorial.ipynb](notebooks/03_Integration_Tutorial.ipynb) |
 
-Every notebook has the same eight parts, explanations before code, editable **AUTHOR INPUT** prompts, exact code links, inspections, expected outputs, and completion checks. Each can start in a fresh CPU Colab runtime. Integration reads pinned component snapshots, so it does not require running the other notebooks first. Use **File → Save a copy in Drive** for student editing. [Notebook editing guide](notebooks/README.md).
+Every notebook has the same eight parts and explanations before code. The Claire tutorial fills the author entries; the remaining synthetic notebooks retain editable **AUTHOR INPUT** prompts. The notebooks provide exact code links, inspections, expected outputs, and completion checks. Each can start in a fresh CPU Colab runtime. Integration reads pinned component snapshots, so it does not require running the other notebooks first. Use **File → Save a copy in Drive** for student editing. [Notebook editing guide](notebooks/README.md).
 
 [Quick start](#quick-start) · [Repository map](#repository-map) · [Evidence map](#evidence-map) · [First-author instructions](docs/first_author_guide.md) · [Venue requirements](docs/requirements.md) · [Validation status](docs/validation_receipt.md)
 
 <a id="quick-start"></a>
-## Quick start
+## Quick start for the original synthetic example
 
 Use Python 3.12. The pipeline has no third-party Python dependencies, API keys, wallet access, or GPU requirement. Git is needed only to obtain the repository; all data operations then run offline.
 
@@ -80,6 +80,12 @@ Start with the [first-author guide](docs/first_author_guide.md), agree the [inte
 
 [Scientific Data guidance](https://www.nature.com/sdata/submission-guidelines), [NeurIPS 2026 dataset hosting requirements](https://neurips.cc/Conferences/2026/EvaluationsDatasetsHosting), and the [NeurIPS paper checklist](https://neurips.cc/public/guides/PaperChecklist) are mapped to author evidence in [requirements.md](docs/requirements.md). This is an unofficial teaching scaffold; satisfying its software tests does not certify venue compliance or acceptance.
 
-Code, documentation, and invented teaching fixtures use the existing [MIT license](LICENSE), whose original notice is preserved. Actual source and derived-data licenses remain author decisions based on source permissions; see [DATA_LICENSE.md](DATA_LICENSE.md). [Hugging Face handoff](docs/hugging_face_handoff.md) provides three dataset configurations and an offline packaging example. No empirical dataset or Hugging Face release has been published by this template.
+Code, documentation, and invented teaching fixtures use the existing [MIT license](LICENSE), whose original notice is preserved. Actual source and derived-data licenses remain author decisions based on source permissions; see [DATA_LICENSE.md](DATA_LICENSE.md). [Hugging Face handoff](docs/hugging_face_handoff.md) provides three dataset configurations and an offline packaging example. The original teaching fixtures remain synthetic. The separate Claire real-data release is identified below.
 
 Use the [citation instructions](CITATION.md) until actual authorship and a dataset DOI are available. [Validation receipt](docs/validation_receipt.md) records what was executed and which external checks remain.
+
+## Claire real-data on-chain pilot
+
+The on-chain tutorial at `notebooks/01_On_Chain_Tutorial.ipynb` now uses a pinned public Solana/BSC/Base snapshot and the implementation under `pilots/claire-threechain-v1/`. It retains the original template's eight parts and 33-cell order, replacing the synthetic calls and assertions. The original on-chain teaching notebook is retained at `notebooks/examples/01_On_Chain_SYNTHETIC.ipynb`.
+
+Data: https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1. Start the real tutorial from its first cell; it downloads and verifies the archive automatically. The off-chain and integration notebooks remain the original synthetic teaching examples, not completed research outputs. Fresh anonymous public-download reconstruction and hosted Colab execution passed all 14 code cells, with all raw and semantic-table hashes matching. See [actual run evidence](pilots/claire-threechain-v1/docs/release_validation.md). Coauthor cross-reproduction and joint integration remain pending.

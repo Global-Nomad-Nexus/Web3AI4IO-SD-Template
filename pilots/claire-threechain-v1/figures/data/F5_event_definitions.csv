@@ -1,0 +1,7 @@
+chain,definition_id,threshold,event_count,eligible_observed_tokens,coverage
+solana,window_activity.1,1,1123,1123,observed_decoded_subset
+solana,window_activity.3,3,434,1123,observed_decoded_subset
+bsc,window_activity.1,1,23,23,observed_decoded_subset
+bsc,window_activity.3,3,5,23,observed_decoded_subset
+base,window_activity.1,1,0,0,observed_decoded_subset
+base,window_activity.3,3,0,0,observed_decoded_subset

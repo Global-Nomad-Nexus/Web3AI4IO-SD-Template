@@ -1,0 +1,25 @@
+{
+  "chains": {
+    "base": {
+      "blocks": 152,
+      "complete": true,
+      "trace_capability": "available",
+      "trace_failed_blocks": []
+    },
+    "bsc": {
+      "blocks": 669,
+      "complete": true,
+      "trace_capability": "unavailable",
+      "trace_failed_blocks": []
+    },
+    "solana": {
+      "blocks": 944,
+      "complete": true,
+      "trace_capability": "not_applicable",
+      "trace_failed_blocks": []
+    }
+  },
+  "complete": true,
+  "completed_at": "2026-09-15T23:02:41.381603+00:00",
+  "started_at": "2026-09-15T22:23:42.260646+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "10.9.3",
+  "results": [
+    {
+      "name": "D1.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 14112,
+      "passed": true
+    },
+    {
+      "name": "D2.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 18454,
+      "passed": true
+    },
+    {
+      "name": "F1.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 12894,
+      "passed": true
+    },
+    {
+      "name": "F2.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 8272,
+      "passed": true
+    },
+    {
+      "name": "F3.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 8097,
+      "passed": true
+    },
+    {
+      "name": "F4.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 5730,
+      "passed": true
+    },
+    {
+      "name": "F5.mmd",
+      "svg_nodes": 1,
+      "svg_bytes": 8128,
+      "passed": true
+    }
+  ],
+  "network_requests": [],
+  "passed": true,
+  "scope": "One offline syntax and browser render pass of current Mermaid artifacts; no layout tuning",
+  "source_warning": "Renderer pass preceded final numerical data and content updates; this receipt is not final-data acceptance."
+}

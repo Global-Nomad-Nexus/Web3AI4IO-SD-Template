@@ -1,0 +1,5 @@
+{
+  "solana": ["https://api.mainnet.solana.com", "https://solana-rpc.publicnode.com"],
+  "bsc": ["https://bsc-dataseed.bnbchain.org", "https://bsc-rpc.publicnode.com"],
+  "base": ["https://mainnet.base.org", "https://base-rpc.publicnode.com", "https://base.llamarpc.com", "https://base-mainnet.g.alchemy.com/public", "https://rpc-base.blockmachine.io"]
+}

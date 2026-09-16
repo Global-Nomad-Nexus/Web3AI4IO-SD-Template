@@ -1,0 +1,124 @@
+{
+  "acceptance_scope": "No observed conflict; unavailable second sources remain unverified",
+  "chains": {
+    "base": {
+      "checks": [
+        {
+          "baseline_source_id": "7d4aef4df75bf0e7",
+          "endpoint": "https://mainnet.base.org",
+          "expected_hash": "0x775a6919cf35a58c38ccce9013106d67e369fb50398850e6516dcf4e8de6ee50",
+          "height": 51298926,
+          "observed_hash": "0x775a6919cf35a58c38ccce9013106d67e369fb50398850e6516dcf4e8de6ee50",
+          "source_id": "da1e4a0b726081a6",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "43aeac68956b07e3",
+          "endpoint": "https://mainnet.base.org",
+          "expected_hash": "0x9a19cb1102b0775235a65abd5f4c4a48391e8fa2e567b06f80d3c6f8ac6d94e0",
+          "height": 51299015,
+          "observed_hash": "0x9a19cb1102b0775235a65abd5f4c4a48391e8fa2e567b06f80d3c6f8ac6d94e0",
+          "source_id": "da1e4a0b726081a6",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "43aeac68956b07e3",
+          "endpoint": "https://mainnet.base.org",
+          "expected_hash": "0x9dcb4c06d713dc655cecfa42a9792f76dffdb62bf77fe00f1d32fecba45c5e17",
+          "height": 51299032,
+          "observed_hash": "0x9dcb4c06d713dc655cecfa42a9792f76dffdb62bf77fe00f1d32fecba45c5e17",
+          "source_id": "da1e4a0b726081a6",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "43aeac68956b07e3",
+          "endpoint": "https://mainnet.base.org",
+          "expected_hash": "0x95d592e0b89548b4cf28e1c91bb261acad2bee4902660d8b2ecb076baf997ffd",
+          "height": 51299046,
+          "observed_hash": "0x95d592e0b89548b4cf28e1c91bb261acad2bee4902660d8b2ecb076baf997ffd",
+          "source_id": "da1e4a0b726081a6",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "7d4aef4df75bf0e7",
+          "endpoint": "https://mainnet.base.org",
+          "expected_hash": "0x54f612e3052e98de4cf8aaae589472de9e6dabfe008abbe7acd115223dca28f5",
+          "height": 51299077,
+          "observed_hash": "0x54f612e3052e98de4cf8aaae589472de9e6dabfe008abbe7acd115223dca28f5",
+          "source_id": "da1e4a0b726081a6",
+          "status": "matched",
+          "transaction_ids_equal": true
+        }
+      ],
+      "status": "matched"
+    },
+    "bsc": {
+      "checks": [
+        {
+          "baseline_source_id": "2e478f4aa0413423",
+          "endpoint": "https://bsc-rpc.publicnode.com",
+          "expected_hash": "0xb1f424730ce414f5960afbd42516a0ebf8345277052594b3b6ee617ff4e14e5e",
+          "height": 121833948,
+          "observed_hash": "0xb1f424730ce414f5960afbd42516a0ebf8345277052594b3b6ee617ff4e14e5e",
+          "source_id": "474b793923332834",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "2e478f4aa0413423",
+          "endpoint": "https://bsc-rpc.publicnode.com",
+          "expected_hash": "0x88af97533508dd983f3a609377b9d2f72a8230ef1b2e4b0c15798eb85c6d4e9c",
+          "height": 121834370,
+          "observed_hash": "0x88af97533508dd983f3a609377b9d2f72a8230ef1b2e4b0c15798eb85c6d4e9c",
+          "source_id": "474b793923332834",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "2e478f4aa0413423",
+          "endpoint": "https://bsc-rpc.publicnode.com",
+          "expected_hash": "0x57f26005e1d58fad842729104fc5738be1f75343ab6c7f9bc133bf7c0998ffa0",
+          "height": 121834428,
+          "observed_hash": "0x57f26005e1d58fad842729104fc5738be1f75343ab6c7f9bc133bf7c0998ffa0",
+          "source_id": "474b793923332834",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "2e478f4aa0413423",
+          "endpoint": "https://bsc-rpc.publicnode.com",
+          "expected_hash": "0xd1c9dee58c43a10ff18d18e633f1951ab65a9a5215cc024d1bc250c34aeda251",
+          "height": 121834585,
+          "observed_hash": "0xd1c9dee58c43a10ff18d18e633f1951ab65a9a5215cc024d1bc250c34aeda251",
+          "source_id": "474b793923332834",
+          "status": "matched",
+          "transaction_ids_equal": true
+        },
+        {
+          "baseline_source_id": "2e478f4aa0413423",
+          "endpoint": "https://bsc-rpc.publicnode.com",
+          "expected_hash": "0x97cac21e2a0a67c37dad23e72b44a4637b0642c402692ce1b14e63bffce05577",
+          "height": 121834616,
+          "observed_hash": "0x97cac21e2a0a67c37dad23e72b44a4637b0642c402692ce1b14e63bffce05577",
+          "source_id": "474b793923332834",
+          "status": "matched",
+          "transaction_ids_equal": true
+        }
+      ],
+      "status": "matched"
+    },
+    "solana": {
+      "checks": [],
+      "status": "no_available_second_source"
+    }
+  },
+  "completed_at": "2026-09-15T22:40:26.272587+00:00",
+  "passed": true,
+  "scope": "Two boundary blocks plus three seeded main-window blocks; block hash and complete transaction ID list. Different public endpoints may share upstream infrastructure; this is source consistency, not an independent consensus proof.",
+  "seed": 20260914,
+  "started_at": "2026-09-15T22:40:19.776768+00:00"
+}

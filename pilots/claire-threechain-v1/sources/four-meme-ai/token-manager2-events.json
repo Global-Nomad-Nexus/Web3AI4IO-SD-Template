@@ -1,0 +1,170 @@
+[
+  {
+    "name": "TokenCreate",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "address",
+        "name": "creator",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "token",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "requestId",
+        "indexed": false
+      },
+      {
+        "type": "string",
+        "name": "name",
+        "indexed": false
+      },
+      {
+        "type": "string",
+        "name": "symbol",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "totalSupply",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "launchTime",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "launchFee",
+        "indexed": false
+      }
+    ]
+  },
+  {
+    "name": "TokenPurchase",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "address",
+        "name": "token",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "account",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "price",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "cost",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "fee",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "offers",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "funds",
+        "indexed": false
+      }
+    ]
+  },
+  {
+    "name": "TokenSale",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "address",
+        "name": "token",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "account",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "price",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "cost",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "fee",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "offers",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "funds",
+        "indexed": false
+      }
+    ]
+  },
+  {
+    "name": "LiquidityAdded",
+    "type": "event",
+    "anonymous": false,
+    "inputs": [
+      {
+        "type": "address",
+        "name": "base",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "offers",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "quote",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "funds",
+        "indexed": false
+      }
+    ]
+  }
+]
