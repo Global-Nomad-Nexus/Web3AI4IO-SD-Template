@@ -83,3 +83,9 @@ Start with the [first-author guide](docs/first_author_guide.md), agree the [inte
 Code, documentation, and invented teaching fixtures use the existing [MIT license](LICENSE), whose original notice is preserved. Actual source and derived-data licenses remain author decisions based on source permissions; see [DATA_LICENSE.md](DATA_LICENSE.md). [Hugging Face handoff](docs/hugging_face_handoff.md) provides three dataset configurations and an offline packaging example. No empirical dataset or Hugging Face release has been published by this template.
 
 Use the [citation instructions](CITATION.md) until actual authorship and a dataset DOI are available. [Validation receipt](docs/validation_receipt.md) records what was executed and which external checks remain.
+
+## Claire real-data on-chain pilot
+
+The on-chain tutorial at `notebooks/01_On_Chain_Tutorial.ipynb` now uses a pinned public Solana/BSC/Base snapshot and the implementation under `pilots/claire-threechain-v1/`. It retains the original template's eight parts and 33-cell order, replacing the synthetic calls and assertions. The original on-chain teaching notebook is retained at `notebooks/examples/01_On_Chain_SYNTHETIC.ipynb`.
+
+Data: https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1. Start the real tutorial from its first cell; it downloads and verifies the archive automatically. The off-chain and integration notebooks remain the original synthetic teaching examples, not completed research outputs. Baseline local acceptance is separate from the public-download and hosted-Colab checks recorded with the release.
