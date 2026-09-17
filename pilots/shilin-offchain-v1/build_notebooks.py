@@ -301,5 +301,5 @@ def save(path: Path, cells):
 
 
 if __name__ == "__main__":
-    save(ROOT / "notebooks/02_Off_Chain_Tutorial.ipynb", make_offchain())
-    save(ROOT / "notebooks/03_Integration_Tutorial.ipynb", make_integration())
+    save(ROOT / "pilots/shilin-offchain-v1/notebooks/02_Off_Chain_Tutorial.ipynb", make_offchain())
+    save(ROOT / "pilots/shilin-offchain-v1/notebooks/03_Integration_Tutorial.ipynb", make_integration())
