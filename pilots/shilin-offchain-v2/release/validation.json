@@ -1,0 +1,55 @@
+{
+  "v1_creation_events": 116,
+  "v1_metadata_snapshots": 57,
+  "metadata_field_audit_rows": 798,
+  "pump_name_exact_matches": 61,
+  "pump_symbol_exact_matches": 61,
+  "coin_community_nonempty": 16,
+  "url_semantic_states": {
+    "field_target_needs_review": 3,
+    "target_needs_redirect_review": 2,
+    "expected_telegram_path": 4,
+    "post_not_account": 20,
+    "expected_social_profile": 5,
+    "expected_web_target": 5
+  },
+  "declared_distinct_image_uris": 56,
+  "metadata_refetch_statuses": {
+    "response_saved": 57
+  },
+  "metadata_refetch_parse_statuses": {
+    "json_object": 57
+  },
+  "metadata_refetch_same_bytes": {
+    "True": 57
+  },
+  "image_acquisition_statuses": {
+    "response_saved": 54,
+    "request_failed": 2
+  },
+  "image_response_media_type": {
+    "True": 54,
+    "None": 2
+  },
+  "image_media_magic": {
+    "webp": 15,
+    "jpeg": 27,
+    "png": 12,
+    "None": 2
+  },
+  "image_cid_integrity": {
+    "not_applicable": 10,
+    "not_checked_cidv0_dagpb": 6,
+    "verified_cidv1_raw_sha256": 30,
+    "unsupported_cid_codec_or_hash": 8,
+    "None": 2
+  },
+  "v1_coverage_states": {
+    "access_restricted_here": 3,
+    "not_attempted": 52,
+    "no_declaration": 32,
+    "declaration_observed": 29
+  },
+  "human_review_queue_rows": 48,
+  "human_review_completed": 0
+}

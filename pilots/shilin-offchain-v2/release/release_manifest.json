@@ -1,0 +1,55 @@
+{
+  "release_id": "shilin-offchain-v2-bounded-extension",
+  "generated_at_utc": "2026-09-17T12:54:20.513543+00:00",
+  "protocol_commit": "92c2df1",
+  "claire_hf_revision": "8b29598a6565b67a8a943962dbf77f3d6b2559de",
+  "v1_manifest_sha256": "29f52dd23564e3bd0097729902797b798119be4c143476770356287d1a519991",
+  "raw_third_party_bodies_released": false,
+  "files": {
+    "event_extension_coverage.parquet": {
+      "sha256": "b74e571d79508916ef2d22b9c0f1ecc150f3806a0c7ab671c88cb0ff40d6b739",
+      "bytes": 10564,
+      "rows": 116
+    },
+    "event_metadata_checks.parquet": {
+      "sha256": "209dbe8759cadc909d488307fabfbf59883c28c275a7ac67f971a0116c70237f",
+      "bytes": 7770,
+      "rows": 61
+    },
+    "human_review_queue.parquet": {
+      "sha256": "1cac46b4bc3944da2e1f36320d34fc514f87963c6d608c43948fda9dca8292cb",
+      "bytes": 4198,
+      "rows": 48
+    },
+    "image_acquisition.parquet": {
+      "sha256": "988b8f70a707ac313148442adc7bc6289221fce95591b4020d80c773b62476b3",
+      "bytes": 15664,
+      "rows": 56
+    },
+    "image_source_rights.csv": {
+      "sha256": "1cceb87fa13b1b678edeec27b4ebe642de3771a6d948a23c84f4a7fd86b3dd26",
+      "bytes": 1155,
+      "rows": null
+    },
+    "metadata_field_audit.parquet": {
+      "sha256": "7e104bde75df6620fef66cc586d1f8412493d57c525a6cd128acc2333f2f73cf",
+      "bytes": 19097,
+      "rows": 798
+    },
+    "metadata_refetch.parquet": {
+      "sha256": "59a841c1a194f957506eb2686d270c3868fc388b7dec19b29ca3f42cfb82ce75",
+      "bytes": 17355,
+      "rows": 57
+    },
+    "url_semantic_checks.parquet": {
+      "sha256": "2aad71b236fb69682efe6e5263931755ef7366927a2bd8afbca55bb17f7469e2",
+      "bytes": 4789,
+      "rows": 39
+    },
+    "validation.json": {
+      "sha256": "1bbe3601c411a1b54554d29a585e73b4920fae9093dbf26dbae2152288aba2e1",
+      "bytes": 1294,
+      "rows": null
+    }
+  }
+}
