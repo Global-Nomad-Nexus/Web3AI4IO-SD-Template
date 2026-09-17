@@ -2,6 +2,8 @@
 
 This additive release strengthens Shilin's five-minute pilot using the **same 116 creation events** selected from Claire's unchanged frozen data. It does not enlarge the token cohort. The [protocol](EXTENSION_PROTOCOL.md) was committed before the new requests; the [validation report](VALIDATION_REPORT.md) gives measured results and limits, and the [dictionary](DATA_DICTIONARY.md) defines each released table.
 
+The [eight-part editable extension tutorial](Offchain_Extension_Tutorial.ipynb) inspects the published observations, intermediate field states, coverage, and measured checks. Its seven code cells completed without errors in a fresh local kernel using the current checkout; this is an author-side tutorial check, not Claire's independent review.
+
 ## New data
 
 The public [release](release) contains seven Parquet tables, a host-level image rights register, `validation.json`, and a file-hash manifest. It records 57 second metadata requests, a 798-row audit of 14 fields in 57 fixed JSON snapshots, literal name/symbol checks for all 61 Pump events, 56 image-resource requests, semantic flags on all 39 v1 URL declarations, unchanged event coverage for all 116 creation records, and a pending human review queue. Raw third-party JSON and image bytes stay in a local cache pending source-specific redistribution decisions.
