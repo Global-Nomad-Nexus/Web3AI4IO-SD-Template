@@ -1,0 +1,101 @@
+{
+  "dataset_id": "shilin-offchain-pilot-v1",
+  "release_status": "bounded_research_pilot",
+  "frozen_at_utc": "2026-09-17T05:50:25.558967+00:00",
+  "claire_hf_revision": "8b29598a6565b67a8a943962dbf77f3d6b2559de",
+  "claire_demo_archive_sha256": "c5040f4a2351e7555abe1ba7695398011dba55f1ddb5c352c59affee9065e503",
+  "claire_manifest_sha256": "ae3f0068ab9d5ec4eaae34d21eb3f83889c0c958d2215abfc19b8e3125062273",
+  "window": {
+    "start_inclusive": "2026-09-14T12:00:00Z",
+    "end_exclusive": "2026-09-14T12:05:00Z"
+  },
+  "raw_third_party_responses_included": false,
+  "release_files": {
+    "DATA_DICTIONARY.md": {
+      "bytes": 4786,
+      "sha256": "7490231e17781c161e08a5696af51d4f287a9b1666b209d3757c5d7daf9078d7"
+    },
+    "PROPOSAL.md": {
+      "bytes": 7429,
+      "sha256": "c45354acddb49c61c1f7c3e1864023d31c0608be4d9b774acd3f2c5e3411660c"
+    },
+    "REVIEW_EXAMPLES.md": {
+      "bytes": 2678,
+      "sha256": "e4376e91e7d9d18c7b33cb86ac826309a77d4baa5ff408c40cf661a90be95a8f"
+    },
+    "cohort_report.json": {
+      "bytes": 697,
+      "sha256": "a90d75cd9d41f3d73c1ce263b28278b7433518cca1d5e4740fd0619dfcb6e67d"
+    },
+    "coverage_ledger.parquet": {
+      "bytes": 12341,
+      "sha256": "a8948b30b8c07aa9b1e031b30f81ef86c9ef62c3206836a9eab6fca31f157b03",
+      "rows": 116
+    },
+    "fourmeme_probe.json": {
+      "bytes": 2712,
+      "sha256": "5799f812beae043bc550c25c501b7535eabb70c299440b62d0765af0719cb7f2"
+    },
+    "linkage_assertions.parquet": {
+      "bytes": 14489,
+      "sha256": "ef688fc6974480243c5ea7c289eb991feb2db893bd839bdc313c97b2ce65b75c",
+      "rows": 100
+    },
+    "linkage_candidates.parquet": {
+      "bytes": 13853,
+      "sha256": "1ce2d5fb69a3e4bd28ac00a6c29eec7ebe45a890c7f0ecc55791c7866e65f7bd",
+      "rows": 100
+    },
+    "linkage_evidence.parquet": {
+      "bytes": 7677,
+      "sha256": "59ad9867712f3eb39ee3ea17bd71bf029934095abfb33b49f01c3e7bc7cc5d02",
+      "rows": 100
+    },
+    "offchain_declarations.parquet": {
+      "bytes": 6576,
+      "sha256": "1a985f2b7cec904fe7d9e177955a9fedce2225b916c38d794cac27d250387ee7",
+      "rows": 39
+    },
+    "offchain_requests.jsonl": {
+      "bytes": 70198,
+      "sha256": "ea0d1d66229b1dbbc508cc0133a3695b9e001294d43322f2727f15704389b176"
+    },
+    "offchain_snapshots.parquet": {
+      "bytes": 13026,
+      "sha256": "8269b9d5bcae4a0df90aa6365f27867b85b23d3f679918e6e769aa9daccf170a",
+      "rows": 57
+    },
+    "onchain_launch_cohort.parquet": {
+      "bytes": 56397,
+      "sha256": "0fa806f35149976def719203de89a9b0576d637044bca6de0c243c084b0a9208",
+      "rows": 116
+    },
+    "processing_report.json": {
+      "bytes": 433,
+      "sha256": "2f9d687e9618289f61d99c08b63b0f6b328761f9b33a5b2b45172e48cb29475e"
+    },
+    "rights_sources.csv": {
+      "bytes": 2089,
+      "sha256": "d8bc633b3e3fba3d717a5724e8ba8901729eda7a2e3c66c92727d4ba189fcf69"
+    },
+    "validation.json": {
+      "bytes": 4076,
+      "sha256": "b6dd180b78f08be6028c85cde8c56f10d5101bbeb5006f0ec9166a24f52829ad"
+    },
+    "validation_report.md": {
+      "bytes": 2349,
+      "sha256": "bcc031171f3e5b098eaadb8d7bcd7d1bedd8caf944a06d34d6999b57ae3f04be"
+    }
+  },
+  "code_sha256": {
+    "build_cohort.py": "214c2b8bfa4a359de3bad2475c494fc371a6d9acbe047333a23a464469141ee6",
+    "build_notebooks.py": "3486588eadb6a0db023d42e2eb4a33d4ca6e3e543ddf1339fcfb5b5b246a66ad",
+    "collect_metadata.py": "0caa4f62e756908bb394e96532bdece77ee5bd7235ea7091efed84b6ff203f6f",
+    "freeze_release.py": "80973bffea287da090baac9f5e74683ef05cffd8177d572578134efadeef675d",
+    "probe_fourmeme.py": "0b13c246f9d30aa97f0d450fbcc15c412049e1fce065dcf799c7b4315b75fde4",
+    "process_linkage.py": "6bef76d5168f26c45829d9f4865dbbe87ad020342bd307c6079ccaee02b54493",
+    "render_diagrams.py": "62efc575876868af3199ac95cf66974965c3fdb5efa95dc8d778daa45b2af0c0",
+    "validate_pilot.py": "485b874b95f0b5a416280d7a3388ffaf99b83a9a120deaad23470d918710c71c",
+    "verify_release.py": "62b266047b2cc2c571b187c9fe1c4b992466cdd0d18928da884bba57b288a8f2"
+  }
+}

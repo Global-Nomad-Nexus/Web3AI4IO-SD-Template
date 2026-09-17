@@ -1,0 +1,135 @@
+{
+  "status": "completed",
+  "passed": true,
+  "mode": "snapshot",
+  "code_commit": "7bb0c2ad5f8e3336338cd0e9265074015a7b4c35",
+  "code_verification": "pinned_public_archive_with_implementation_hash_check",
+  "data_revision": "8b29598a6565b67a8a943962dbf77f3d6b2559de",
+  "download": {
+    "url": "https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1/resolve/8b29598a6565b67a8a943962dbf77f3d6b2559de/claire-snapshot.tar.gz",
+    "bytes": 1059406528,
+    "sha256": "eb3283ccbc8f71855b91f5887c47608f41712c93970332679ebe8796e7952933"
+  },
+  "python": "3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "os": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "started_at": "2026-09-17T05:32:03.555060+00:00",
+  "completed_at": "2026-09-17T05:58:17.024857+00:00",
+  "elapsed_seconds": 1573.388,
+  "snapshot_comparison": {
+    "baseline_manifest_sha256": "ae3f0068ab9d5ec4eaae34d21eb3f83889c0c958d2215abfc19b8e3125062273",
+    "window_equal": true,
+    "raw_files": {
+      "equal": true,
+      "baseline_entries": 3491,
+      "rebuilt_entries": 3491,
+      "changed_entries": 0,
+      "first_changed_paths": []
+    },
+    "semantic_tables": {
+      "equal": true,
+      "baseline_entries": 16,
+      "rebuilt_entries": 16,
+      "changed_entries": 0,
+      "first_changed_paths": []
+    },
+    "passed": true
+  },
+  "semantic_tables": {
+    "provenance/requests.parquet": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 3512,
+      "sha256": "3b50db8c72cc74b0510ec01b6aa5aeeb1e5084ac2c635f441e040bdddf982773"
+    },
+    "tables/base/balance_observations": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 17218781,
+      "sha256": "6c84c5abc39192ab895838dc74d833c47d11aa5d8933f2c2f034a49e00160a98"
+    },
+    "tables/base/blocks": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 1765,
+      "sha256": "de3f5e23c9a6a75c48a0860df8026fbec6a8ff6e872c52e6bbc6cd3df6344045"
+    },
+    "tables/base/evm_logs": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 681303,
+      "sha256": "265868e7b5eed0af131569d370eb4bb92552db4c48953dd39c245808f82167e4"
+    },
+    "tables/base/evm_transaction_details": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 120879,
+      "sha256": "4b13fbddf146691aab15003df5538cc2c740adc9af3f2bdc607561c210263a4d"
+    },
+    "tables/base/object_relations": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 11178863,
+      "sha256": "78911492cbf08dfc368a642549f7d1c6870552b01e66d92470a396f4991f3ec1"
+    },
+    "tables/base/objects": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 4701925,
+      "sha256": "3b00966e2f8e1be909728d7c348f52543aa20cc0020cb5685ede1dac8887b3e0"
+    },
+    "tables/base/solana_instructions": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 4781169,
+      "sha256": "04201768dd894099e98e39d1143db86ae3f3e95afc8cafa27ae875c97425d23e"
+    },
+    "tables/base/transaction_accounts": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 14602327,
+      "sha256": "de75ee7de5af14720f30d2d71607c8e7d5ff7274065b00aab449507162f13140"
+    },
+    "tables/base/transactions": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 1253955,
+      "sha256": "9ff57b428e899538ddd6171e71f7f62a6a8ae021a075edc24cd4e8c3f27498db"
+    },
+    "tables/decoded/asset_movements": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 1176681,
+      "sha256": "ca6f0d59b96ca97c437707c5b0e8d9625070f57ef87a3d120ad3abbd04b0c53b"
+    },
+    "tables/decoded/crosschain_links": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 473,
+      "sha256": "25430bc027c93c102e2ee22bd9ac78e433eae86bdde35df1a307962241093cf8"
+    },
+    "tables/decoded/decoded_records": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 1477861,
+      "sha256": "09d4eed36edfff33710bee2b9645a2f5e2ce62440ef5ec210415c91c34ed4ebf"
+    },
+    "tables/decoded/platform_records": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 91484,
+      "sha256": "1318029d07bcdbbf0e38286285b95d938a51637c250bfca893a869fb072cd3e4"
+    },
+    "tables/decoded/platform_registry": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 11,
+      "sha256": "c0edc2cd759f656e3c44243b6f53bf23116303ea54864df29f4fecaeb1f3a8e5"
+    },
+    "tables/events/events.parquet": {
+      "ordering": "sorted partition paths then canonical stored row order",
+      "rows": 1713,
+      "sha256": "6839ab2d5a375bb516c8d2ea5904de40a3d89ce536c906838d8773a4d24bacd7"
+    }
+  },
+  "completed_stages": [
+    "provenance",
+    "normalize",
+    "decode",
+    "derive_events",
+    "derive_events",
+    "derive_events",
+    "derive_events",
+    "validate",
+    "visualize"
+  ],
+  "colab": {
+    "status": "not_written",
+    "reason": "This is not a Google Colab runtime"
+  },
+  "coauthor_reproduction": "not_established"
+}

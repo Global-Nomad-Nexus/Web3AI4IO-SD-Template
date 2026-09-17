@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 355" role="img" aria-label="Off-chain data-generating process">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#466b83"/></marker><marker id="arrow2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#a56c19"/></marker></defs>
+<style>
+text{font:16px Arial,sans-serif;fill:#17324d} .title{font:bold 23px Arial,sans-serif}
+.box{fill:#f5f9fc;stroke:#3b7193;stroke-width:2;rx:12}
+.source{fill:#e6f4ed;stroke:#2b8062}.claim{fill:#fff3df;stroke:#a56c19}
+.line{fill:none;stroke:#466b83;stroke-width:2.5;marker-end:url(#arrow)}
+.dash{fill:none;stroke:#a56c19;stroke-width:2;stroke-dasharray:6 5;marker-end:url(#arrow2)}
+.small{font:13px Arial,sans-serif;fill:#526b7c}
+</style>
+<text class="title" x="36" y="36">Off-chain data-generating process</text>
+<rect class="box source" x="32" y="140" width="170" height="64"/>
+<text text-anchor="middle" x="117.0" y="162.0">Creator</text>
+<text text-anchor="middle" x="117.0" y="182.0">submits details</text>
+<rect class="box source" x="250" y="140" width="170" height="64"/>
+<text text-anchor="middle" x="335.0" y="162.0">Launchpad</text>
+<text text-anchor="middle" x="335.0" y="182.0">platform</text>
+<rect class="box" x="470" y="62" width="175" height="64"/>
+<text text-anchor="middle" x="557.5" y="84.0">Creation</text>
+<text text-anchor="middle" x="557.5" y="104.0">transaction/event</text>
+<rect class="box" x="690" y="62" width="175" height="64"/>
+<text text-anchor="middle" x="777.5" y="84.0">Claire fixed</text>
+<text text-anchor="middle" x="777.5" y="104.0">chain snapshot</text>
+<rect class="box" x="470" y="230" width="175" height="64"/>
+<text text-anchor="middle" x="557.5" y="252.0">Metadata URI or</text>
+<text text-anchor="middle" x="557.5" y="272.0">platform record</text>
+<rect class="box" x="690" y="230" width="175" height="64"/>
+<text text-anchor="middle" x="777.5" y="252.0">Shilin response</text>
+<text text-anchor="middle" x="777.5" y="272.0">snapshot + hash</text>
+<rect class="box claim" x="920" y="140" width="190" height="64"/>
+<text text-anchor="middle" x="1015.0" y="162.0">Typed linkage</text>
+<text text-anchor="middle" x="1015.0" y="182.0">assertion + evidence</text>
+<path class="line" d="M202,172 L250,172"/>
+<path class="line" d="M420,160 L470,105"/>
+<path class="line" d="M420,185 L470,250"/>
+<path class="line" d="M645,94 L690,94"/>
+<path class="line" d="M645,262 L690,262"/>
+<path class="line" d="M865,95 L920,154"/>
+<path class="line" d="M865,262 L920,190"/>
+<text class="small" x="32" y="332">Chain time and retrieval time are separate. Dotted relationships and absent records are explained in the caption.</text>
+</svg>

@@ -1,0 +1,8 @@
+source_host,declared_distinct_image_uris,raw_binary_redistribution,terms_status,public_release_fields
+axiom-rh-v2.axiom-cdn.io,1,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+axiomtrading-v2.axiom-cdn.io,4,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+gateway.pinata.cloud,2,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+ipfs.io,42,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+m.rapidlaunch.io,1,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+metadata.j7tracker.io,4,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
+pump.mypinata.cloud,2,not_cleared,source_specific_review_pending,declared URI; request receipt; HTTP status; response SHA-256; byte count; media type
