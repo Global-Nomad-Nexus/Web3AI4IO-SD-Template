@@ -1,0 +1,136 @@
+{
+  "generated_at_utc": "2026-09-17T05:39:53.383218+00:00",
+  "cohort_events": 116,
+  "unique_tokens": 116,
+  "events_by_platform": {
+    "four.meme": 55,
+    "pump.fun": 61
+  },
+  "pump_uris": 57,
+  "request_attempts": 94,
+  "request_statuses": {
+    "response_saved": 57,
+    "http_error": 37
+  },
+  "snapshots": 57,
+  "declarations": 39,
+  "target_classes": {
+    "social_profile_or_path": 6,
+    "other_web_url": 7,
+    "telegram_path": 4,
+    "social_post": 21,
+    "platform_page": 1
+  },
+  "website_field_social_targets": 2,
+  "assertions": 100,
+  "coverage_states": {
+    "access_restricted_here": 3,
+    "not_attempted": 52,
+    "no_declaration": 32,
+    "declaration_observed": 29
+  },
+  "checks": [
+    {
+      "check": "unique_launch_ids",
+      "status": "pass",
+      "detail": "116 events",
+      "severity": "required"
+    },
+    {
+      "check": "frozen_window_creation_counts",
+      "status": "pass",
+      "detail": "{'four.meme': 55, 'pump.fun': 61}",
+      "severity": "required"
+    },
+    {
+      "check": "unique_token_denominator",
+      "status": "pass",
+      "detail": "116 unique tokens",
+      "severity": "required"
+    },
+    {
+      "check": "coverage_totality",
+      "status": "pass",
+      "detail": "116 coverage rows for 116 events",
+      "severity": "required"
+    },
+    {
+      "check": "pump_uri_attempts",
+      "status": "pass",
+      "detail": "57/57 distinct Pump URIs attempted",
+      "severity": "required"
+    },
+    {
+      "check": "response_sha256",
+      "status": "pass",
+      "detail": "94 saved HTTP response bodies",
+      "severity": "required"
+    },
+    {
+      "check": "linkage_foreign_keys",
+      "status": "pass",
+      "detail": "candidate, evidence and snapshot references",
+      "severity": "required"
+    },
+    {
+      "check": "declared_url_syntax",
+      "status": "pass",
+      "detail": "39 extracted nonempty URL fields",
+      "severity": "required"
+    },
+    {
+      "check": "field_level_relation_semantics",
+      "status": "pass",
+      "detail": "URL fields do not assert account ownership or project identity",
+      "severity": "required"
+    },
+    {
+      "check": "cidv1_raw_integrity",
+      "status": "pass",
+      "detail": "{'not_checked_cidv0_dagpb': 30, 'verified_cidv1_raw_sha256': 16, 'not_applicable': 11}",
+      "severity": "required"
+    },
+    {
+      "check": "no_retrospective_time_leakage",
+      "status": "pass",
+      "detail": "Every fetched metadata declaration is observed no earlier than retrieval and has unknown creation-time eligibility",
+      "severity": "required"
+    },
+    {
+      "check": "no_unverified_bsc_links",
+      "status": "pass",
+      "detail": "0 BSC positive linkage assertions",
+      "severity": "required"
+    },
+    {
+      "check": "sample_raw_event_redecode",
+      "status": "pass",
+      "detail": "3/3 deterministic event samples",
+      "severity": "required"
+    }
+  ],
+  "raw_sample_checks": [
+    {
+      "launch_record_id": "launch:01769e2249b41e796d8a05e9",
+      "raw_ref": "raw/solana/blocks/446971399.json.gz#/result/transactions/552/meta/innerInstructions/0/instructions/22",
+      "pass": true
+    },
+    {
+      "launch_record_id": "launch:5bb6fec83223d94f14087433",
+      "raw_ref": "raw/solana/blocks/446971221.json.gz#/result/transactions/226/meta/innerInstructions/0/instructions/22",
+      "pass": true
+    },
+    {
+      "launch_record_id": "launch:fc33dcebc41b6c09accf7a6f",
+      "raw_ref": "raw/solana/blocks/446971223.json.gz#/result/transactions/162/meta/innerInstructions/0/instructions/14",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Four.meme API returned access restrictions in a bounded local probe; unprobed BSC events remain not attempted.",
+    "Fetched metadata is a retrieval-time observation; historical website/account states are unknown.",
+    "Raw third-party response redistribution has not been cleared; release includes hashes and factual extracted links.",
+    "Independent coauthor reproduction and human double review require Claire's participation."
+  ]
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 370" role="img" aria-label="Reproducible acquisition and integration pipeline">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#466b83"/></marker><marker id="arrow2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#a56c19"/></marker></defs>
+<style>
+text{font:16px Arial,sans-serif;fill:#17324d} .title{font:bold 23px Arial,sans-serif}
+.box{fill:#f5f9fc;stroke:#3b7193;stroke-width:2;rx:12}
+.source{fill:#e6f4ed;stroke:#2b8062}.claim{fill:#fff3df;stroke:#a56c19}
+.line{fill:none;stroke:#466b83;stroke-width:2.5;marker-end:url(#arrow)}
+.dash{fill:none;stroke:#a56c19;stroke-width:2;stroke-dasharray:6 5;marker-end:url(#arrow2)}
+.small{font:13px Arial,sans-serif;fill:#526b7c}
+</style>
+<text class="title" x="36" y="36">Reproducible acquisition and integration pipeline</text>
+<rect class="box" x="35" y="80" width="220" height="68"/>
+<text text-anchor="middle" x="145.0" y="104.0">Claire</text>
+<text text-anchor="middle" x="145.0" y="124.0">manifest</text>
+<rect class="box" x="315" y="80" width="220" height="68"/>
+<text text-anchor="middle" x="425.0" y="114.0">Select creation</text>
+<rect class="box" x="595" y="80" width="220" height="68"/>
+<text text-anchor="middle" x="705.0" y="114.0">Token queue</text>
+<rect class="box" x="875" y="80" width="220" height="68"/>
+<text text-anchor="middle" x="985.0" y="114.0">Exact URI/address</text>
+<rect class="box" x="35" y="235" width="220" height="68"/>
+<text text-anchor="middle" x="145.0" y="269.0">Validation report</text>
+<rect class="box claim" x="315" y="235" width="220" height="68"/>
+<text text-anchor="middle" x="425.0" y="269.0">Evidence + links</text>
+<rect class="box" x="595" y="235" width="220" height="68"/>
+<text text-anchor="middle" x="705.0" y="269.0">Parse declarations</text>
+<rect class="box" x="875" y="235" width="220" height="68"/>
+<text text-anchor="middle" x="985.0" y="269.0">Request + hash</text>
+<path class="line" d="M255,114 L315,114"/>
+<path class="line" d="M535,114 L595,114"/>
+<path class="line" d="M815,114 L875,114"/>
+<path class="line" d="M985,148 L985,235"/>
+<path class="line" d="M875,269 L815,269"/>
+<path class="line" d="M595,269 L535,269"/>
+<path class="line" d="M315,269 L255,269"/>
+<text class="small" x="35" y="345">Checks: row counts → request failures → response digests → field pointers → foreign keys and time eligibility.</text>
+</svg>

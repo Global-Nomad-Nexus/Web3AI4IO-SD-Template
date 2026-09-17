@@ -1,0 +1,20 @@
+{
+  "cohort_events": 116,
+  "events_by_platform": {
+    "four.meme": 55,
+    "pump.fun": 61
+  },
+  "requests": 94,
+  "distinct_requested_uris": 57,
+  "snapshots": 57,
+  "declarations": 39,
+  "candidates": 100,
+  "assertions": 100,
+  "coverage_states": {
+    "access_restricted_here": 3,
+    "not_attempted": 52,
+    "no_declaration": 32,
+    "declaration_observed": 29
+  },
+  "generated_at_utc": "2026-09-17T05:39:52.690802+00:00"
+}

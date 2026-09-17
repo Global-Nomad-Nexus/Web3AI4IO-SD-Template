@@ -1,0 +1,29 @@
+{
+  "claire_hf_revision": "8b29598a6565b67a8a943962dbf77f3d6b2559de",
+  "window": {
+    "start_inclusive": "2026-09-14T12:00:00Z",
+    "end_exclusive": "2026-09-14T12:05:00Z"
+  },
+  "funnel": {
+    "platform_records_all": 91484,
+    "target_platform": 8922,
+    "creation": 123,
+    "committed": 116,
+    "decoded": 116,
+    "nonempty_object_id": 116,
+    "in_window": 116
+  },
+  "creation_events_by_platform": {
+    "four.meme": 55,
+    "pump.fun": 61
+  },
+  "unique_tokens_by_platform": {
+    "clanker": 0,
+    "four.meme": 55,
+    "pump.fun": 61
+  },
+  "unique_objects_all": 116,
+  "pump_nonempty_uri": 61,
+  "decode_join_issues": [],
+  "generated_at_utc": "2026-09-17T05:27:27.710074+00:00"
+}

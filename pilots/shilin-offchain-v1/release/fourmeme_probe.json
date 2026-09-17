@@ -1,0 +1,59 @@
+[
+  {
+    "launch_record_id": "launch:a67eff1f75885bf63810662d",
+    "object_id": "eip155:56:0x0963cae3b3589f9f0cc67411171df4c540d9ffff",
+    "request_id_declared": "102813512",
+    "chain_event_time_utc": "2026-09-14T12:00:23Z",
+    "endpoint": "https://four.meme/meme-api/v1/private/token/get/v2",
+    "parameters": {
+      "address": "0x0963cae3b3589f9f0cc67411171df4c540d9ffff"
+    },
+    "documentation": "https://github.com/four-meme-community/four-meme-ai/blob/main/skills/four-meme-integration/references/token-query-api.md",
+    "requested_at_utc": "2026-09-17T05:29:38.390625Z",
+    "status_code": 403,
+    "response_sha256": "8a7898a0c54ff6ebd67c239b34a79756fe36dd65744867c3aa0926db80924f4f",
+    "response_bytes": 1968,
+    "response_content_type": "text/html",
+    "identity_verified": false,
+    "result": "access_restricted_here",
+    "retrieved_at_utc": "2026-09-17T05:29:39.101215Z"
+  },
+  {
+    "launch_record_id": "launch:1c43e50a11748885b6a656b5",
+    "object_id": "eip155:56:0xbfa2269e383fdb87afcd50d1cc3f69b1dc6affff",
+    "request_id_declared": "102813559",
+    "chain_event_time_utc": "2026-09-14T12:02:07Z",
+    "endpoint": "https://four.meme/meme-api/v1/private/token/get/v2",
+    "parameters": {
+      "address": "0xbfa2269e383fdb87afcd50d1cc3f69b1dc6affff"
+    },
+    "documentation": "https://github.com/four-meme-community/four-meme-ai/blob/main/skills/four-meme-integration/references/token-query-api.md",
+    "requested_at_utc": "2026-09-17T05:29:39.101270Z",
+    "status_code": 403,
+    "response_sha256": "8a7898a0c54ff6ebd67c239b34a79756fe36dd65744867c3aa0926db80924f4f",
+    "response_bytes": 1968,
+    "response_content_type": "text/html",
+    "identity_verified": false,
+    "result": "access_restricted_here",
+    "retrieved_at_utc": "2026-09-17T05:29:39.814173Z"
+  },
+  {
+    "launch_record_id": "launch:87f8617af41e531fb738d585",
+    "object_id": "eip155:56:0xf1f5e76c53d24715eb23f6c68f0d72da04eaffff",
+    "request_id_declared": "102813599",
+    "chain_event_time_utc": "2026-09-14T12:04:53Z",
+    "endpoint": "https://four.meme/meme-api/v1/private/token/get/v2",
+    "parameters": {
+      "address": "0xf1f5e76c53d24715eb23f6c68f0d72da04eaffff"
+    },
+    "documentation": "https://github.com/four-meme-community/four-meme-ai/blob/main/skills/four-meme-integration/references/token-query-api.md",
+    "requested_at_utc": "2026-09-17T05:29:39.814226Z",
+    "status_code": 403,
+    "response_sha256": "8a7898a0c54ff6ebd67c239b34a79756fe36dd65744867c3aa0926db80924f4f",
+    "response_bytes": 1968,
+    "response_content_type": "text/html",
+    "identity_verified": false,
+    "result": "access_restricted_here",
+    "retrieved_at_utc": "2026-09-17T05:29:40.562951Z"
+  }
+]
