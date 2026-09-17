@@ -2,7 +2,7 @@
 
 This additive release strengthens Shilin's five-minute pilot using the **same 116 creation events** selected from Claire's unchanged frozen data. It does not enlarge the token cohort. The [protocol](EXTENSION_PROTOCOL.md) was committed before the new requests; the [validation report](VALIDATION_REPORT.md) gives measured results and limits, and the [dictionary](DATA_DICTIONARY.md) defines each released table.
 
-The [eight-part editable extension tutorial](Offchain_Extension_Tutorial.ipynb) inspects the published observations, intermediate field states, coverage, and measured checks. Its seven code cells completed without errors in a fresh local kernel using the current checkout; this is an author-side tutorial check, not Claire's independent review.
+The two eight-part editable notebooks are [Shilin's off-chain tutorial](02_Off_Chain_Tutorial_Shilin.ipynb) and the [joint integration tutorial](03_Integration_Tutorial_Joint.ipynb). Each has seven code cells, completed without errors in a fresh local kernel using the current checkout. This is an author-side check, not Claire's independent review.
 
 ## New data
 
