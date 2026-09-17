@@ -26,16 +26,17 @@ SETUP = f'''
 import os, sys, json, hashlib, tarfile, tempfile, urllib.request
 from collections import Counter
 from pathlib import Path
-import pyarrow as pa
-import pyarrow.parquet as pq
+try:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+except ImportError:
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "pyarrow==25.0.1"])
+    import pyarrow as pa
+    import pyarrow.parquet as pq
 
 CODE_COMMIT = "{COMMIT}"
-EXPECTED_ARROW = "25.0.1"
-if pa.__version__ != EXPECTED_ARROW:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", f"pyarrow=={{EXPECTED_ARROW}}"])
-    print("Restart the runtime, then run from the first cell to use the pinned PyArrow version.")
-    raise SystemExit(0)
+TESTED_ARROW = "25.0.1"
 
 local = os.environ.get("PILOT_LOCAL_REPO")
 if local:
@@ -63,7 +64,7 @@ verification = verify(RELEASE)
 assert verification["passed"], verification
 manifest = json.loads((RELEASE / "release_manifest.json").read_text())
 print("Fixed release verified:", verification)
-print("PyArrow:", pa.__version__)
+print("PyArrow runtime:", pa.__version__, "; locally tested:", TESTED_ARROW)
 print("Claire input revision:", manifest["claire_hf_revision"])
 '''
 
