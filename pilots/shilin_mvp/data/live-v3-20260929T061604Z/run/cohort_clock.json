@@ -1,0 +1,10 @@
+{
+  "checkpoints": {
+    "T+24h": "2026-09-30T06:16:11Z",
+    "T+60h": "2026-10-01T18:16:11Z",
+    "T0": "2026-09-29T06:16:11Z"
+  },
+  "clock": "collection_start",
+  "collection_started_at": "2026-09-29T06:16:11Z",
+  "enrollment_until": "2026-09-30T06:16:11Z"
+}

@@ -1,0 +1,47 @@
+{
+  "address_family": "ipv4",
+  "created_at": "2026-09-29T06:16:11.130Z",
+  "passed_hosts": [
+    "pump.mypinata.cloud",
+    "gateway.pinata.cloud"
+  ],
+  "results": [
+    {
+      "error": "",
+      "host": "pump.mypinata.cloud",
+      "http_status": "200",
+      "json_keys": [
+        "coin_community",
+        "createdOn",
+        "description",
+        "image",
+        "name",
+        "showName",
+        "symbol",
+        "twitter"
+      ],
+      "status": "json_ok",
+      "template": "https://pump.mypinata.cloud/ipfs/{cid}",
+      "url": "https://pump.mypinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+    },
+    {
+      "error": "",
+      "host": "gateway.pinata.cloud",
+      "http_status": "200",
+      "json_keys": [
+        "coin_community",
+        "createdOn",
+        "description",
+        "image",
+        "name",
+        "showName",
+        "symbol",
+        "twitter"
+      ],
+      "status": "json_ok",
+      "template": "https://gateway.pinata.cloud/ipfs/{cid}",
+      "url": "https://gateway.pinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+    }
+  ],
+  "sample_cid": "bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+}

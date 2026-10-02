@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-01T21:33:14.027Z",
+  "exact_replay": [
+    {
+      "reproduction_mode": "archived_replay",
+      "source": "metadata.example.test"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 535324,
+      "path": "launch_events.csv",
+      "sha256": "f6072c918e17ebdbe6ac4b8a8c0362288734fa542aaf9efb2aa04007eae87af2"
+    },
+    {
+      "bytes": 725672,
+      "path": "observation_plan.csv",
+      "sha256": "f79401519123452eee0006be4771e84612564d3a5e1618eb958219e838415f84"
+    },
+    {
+      "bytes": 4782397,
+      "path": "request_attempts.csv",
+      "sha256": "e66daaa0af54d11d6fa9b2630fa0b8ed80d64f201bbc448b97428685c5081f35"
+    },
+    {
+      "bytes": 8879243,
+      "path": "request_attempts.jsonl",
+      "sha256": "bfe1cd82bde291717c986fcf2f6fb68cd8cdd175036e13b171294cfc5f2e90f3"
+    },
+    {
+      "bytes": 1404992,
+      "path": "response_snapshots.csv",
+      "sha256": "5a850ceebac20511587b2c444803f4eb4761d0aee0f76796954e9bb0e3eef094"
+    },
+    {
+      "bytes": 8542928,
+      "path": "field_observations.csv",
+      "sha256": "76dab57cde2a35a9041f97722de4512c18980fafe853611cf82e4597a40e0939"
+    },
+    {
+      "bytes": 713297,
+      "path": "coverage_ledger.csv",
+      "sha256": "e6d4376d09223dc248ba7c41c129356ba4abc267cdbc7068de3f041d4dbd568b"
+    },
+    {
+      "bytes": 598,
+      "path": "validation_results.json",
+      "sha256": "b2d5a4561724492859725e054231641cfee96f40a7a32c5817f6f9526df6951f"
+    }
+  ],
+  "procedural_rerun": [
+    {
+      "reproduction_mode": "live_rerun_only",
+      "source": "solana-rpc.publicnode.com"
+    },
+    {
+      "reproduction_mode": "live_rerun_only",
+      "source": "gateway.pinata.cloud"
+    },
+    {
+      "reproduction_mode": "live_rerun_only",
+      "source": "pump.mypinata.cloud"
+    }
+  ],
+  "protocol_sha256": "99ce10f272b2fda6d4b216b6a38c4286899042ad15964250065f40768c739121",
+  "raw_response_policy": "Raw third-party responses are run artifacts and are excluded from release unless source rights explicitly allow redistribution.",
+  "release_version": "mvp-2026-09-29-rolling-v3"
+}

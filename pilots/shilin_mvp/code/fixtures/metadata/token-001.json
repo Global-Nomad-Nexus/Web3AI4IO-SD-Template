@@ -1,0 +1,10 @@
+{
+  "name": "Cumin One",
+  "symbol": "CUM1",
+  "description": "A reproducibility fixture token.",
+  "createdOn": "2026-09-28T00:10:00Z",
+  "image": "ipfs://fixture-image-001",
+  "website": "https://example.test/cumin-one",
+  "twitter": "https://x.com/cumin-one",
+  "telegram": null
+}

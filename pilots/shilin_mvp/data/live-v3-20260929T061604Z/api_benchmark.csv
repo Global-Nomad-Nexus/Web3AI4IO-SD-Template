@@ -1,0 +1,2 @@
+candidate_id,endpoint,status,access_decision,address_family
+publicnode-solana-mainnet,https://solana-rpc.publicnode.com,direct_collection,allowed,ipv4

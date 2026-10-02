@@ -1,0 +1,5 @@
+lineage_id,input,output,rule,code_location,validation,responsible,version
+DGP-ACQ-001,RPC/fixture transaction,launch_events.event_key,Successful Pump.fun create. Live mode enrolls from collection start for 24 hours; fixture mode uses the protocol window.,mvp/live_cohort.py:run_live_cohort,validate_release,Owen,mvp-2026-09-29-rolling-v3
+DGP-OBS-001,collection_started_at or block_time,observation_plan.scheduled_at,Live T0 is collection start; T+24h ends the 24-hour collection and T+60h is 36 hours later. Fixture mode uses block_time.,mvp/live_cohort.py:run_live_cohort,plan denominator check,Owen,mvp-2026-09-29-rolling-v3
+DGP-OBS-002,metadata_uri,request_attempts.request_url,Public http(s) URI is requested on IPv4. ipfs:// and ar:// keep the original URI and record the gateway route. Local and private hosts are not collected. Failures are retried.,mvp/observe_metadata.py:observe_events,coverage ledger terminal state,Owen,mvp-2026-09-29-rolling-v3
+DGP-REL-001,JSON response,field_observations,fixed JSON pointers and presence/type,mvp/build_release.py:parse_field_observations,field allow-list and response hash,Owen,mvp-2026-09-29-rolling-v3

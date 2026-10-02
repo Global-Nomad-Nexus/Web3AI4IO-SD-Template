@@ -1,0 +1,149 @@
+{
+  "acquisition": {
+    "max_pages": 50,
+    "transaction_workers": 1
+  },
+  "api_candidates": [
+    {
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "candidate_id": "publicnode-solana-mainnet",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "role": "primary-chain-rpc-candidate",
+      "selection_note": "DKUCC common CPU can reach this host over IPv4."
+    },
+    {
+      "access_decision": "not_used",
+      "candidate_id": "solana-official-rpc-secondary-region",
+      "endpoint": "https://api.mainnet-beta.solana.com",
+      "official_docs_url": "https://solana.com/docs/rpc",
+      "role": "not-used-from-dkucc",
+      "selection_note": "DNS answers for this host do not connect from the DKUCC common CPU partition."
+    }
+  ],
+  "collection_started_at": "2026-09-29T06:16:11Z",
+  "fixture": {
+    "note": "example.test is a local fixture namespace; it is never contacted in fixture mode.",
+    "uri_files": {
+      "https://metadata.example.test/token-001.json": "fixtures/metadata/token-001.json",
+      "https://metadata.example.test/token-002.json": "fixtures/metadata/token-002.json"
+    }
+  },
+  "metadata": {
+    "allowed_fields": [
+      "name",
+      "symbol",
+      "description",
+      "createdOn",
+      "image",
+      "website",
+      "twitter",
+      "telegram"
+    ],
+    "arweave_base_url": "https://arweave.net",
+    "cookies": false,
+    "follow_redirects": false,
+    "gateway_candidates": [
+      {
+        "base_url": "https://pump.mypinata.cloud",
+        "host": "pump.mypinata.cloud",
+        "resource_class": "ipfs_cid",
+        "route_id": "pump_pinata_gateway"
+      },
+      {
+        "base_url": "https://gateway.pinata.cloud",
+        "host": "gateway.pinata.cloud",
+        "resource_class": "ipfs_cid",
+        "route_id": "pinata_gateway"
+      }
+    ],
+    "javascript": false,
+    "parser_version": "metadata-json-fields-v1",
+    "request_method": "GET"
+  },
+  "metadata_gateways": {
+    "candidates": [
+      {
+        "host": "pump.mypinata.cloud",
+        "template": "https://pump.mypinata.cloud/ipfs/{cid}"
+      },
+      {
+        "host": "gateway.pinata.cloud",
+        "template": "https://gateway.pinata.cloud/ipfs/{cid}"
+      }
+    ],
+    "confirmed": [
+      {
+        "error": "",
+        "host": "pump.mypinata.cloud",
+        "http_status": "200",
+        "json_keys": [
+          "coin_community",
+          "createdOn",
+          "description",
+          "image",
+          "name",
+          "showName",
+          "symbol",
+          "twitter"
+        ],
+        "status": "json_ok",
+        "template": "https://pump.mypinata.cloud/ipfs/{cid}",
+        "url": "https://pump.mypinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+      },
+      {
+        "error": "",
+        "host": "gateway.pinata.cloud",
+        "http_status": "200",
+        "json_keys": [
+          "coin_community",
+          "createdOn",
+          "description",
+          "image",
+          "name",
+          "showName",
+          "symbol",
+          "twitter"
+        ],
+        "status": "json_ok",
+        "template": "https://gateway.pinata.cloud/ipfs/{cid}",
+        "url": "https://gateway.pinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+      }
+    ],
+    "note": "The declared URI is requested first. A confirmed gateway is used only after that request fails, and only for the same IPFS CID. Preflight failure does not stop the cohort.",
+    "preflight_attempts": 5,
+    "preflight_sleep_seconds": 15,
+    "sample_cid": "bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+  },
+  "network": "solana-mainnet",
+  "observation": {
+    "checkpoint_offsets_seconds": {
+      "T+24h": 86400,
+      "T+60h": 216000,
+      "T0": 0
+    },
+    "checkpoints": [
+      "T0",
+      "T+24h",
+      "T+60h"
+    ],
+    "enrollment_seconds": 86400,
+    "max_attempts": 3,
+    "max_lateness_seconds": 86400,
+    "max_response_bytes": 1000000,
+    "max_retry_rounds": 5,
+    "max_retry_sleep_seconds": 30,
+    "max_signature_retries": 5,
+    "poll_seconds": 20
+  },
+  "platform": "pump.fun",
+  "protocol_version": "mvp-2026-09-29-rolling-v3",
+  "pumpfun_program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+  "window": {
+    "clock": "collection_start",
+    "end": "2026-09-30T06:16:11Z",
+    "inclusion": "start_inclusive_end_exclusive",
+    "start": "2026-09-29T06:16:11Z"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "fixture_sha256": null,
+  "mode": "rpc",
+  "protocol_sha256": "99ce10f272b2fda6d4b216b6a38c4286899042ad15964250065f40768c739121",
+  "release_manifest": "mvp_release/release_manifest.json",
+  "source_register_sha256": "02208e2ad7b0a6a2e6265c84fae1b8e58a6295f639afa147f19eab554330c587"
+}

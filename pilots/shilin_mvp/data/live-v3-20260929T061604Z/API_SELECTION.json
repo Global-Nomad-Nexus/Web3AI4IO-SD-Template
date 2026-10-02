@@ -1,0 +1,9 @@
+{
+  "address_family": "ipv4",
+  "evidence_file": "api_benchmark.csv",
+  "evidence_row": 2,
+  "limitations": "RPC mode enrolls for 24 hours from the process start, then observes for 36 hours, and retries failed network calls. The endpoint is not silently replaced.",
+  "selected_candidate": "publicnode-solana-mainnet",
+  "selected_endpoint": "https://solana-rpc.publicnode.com",
+  "status": "direct_collection"
+}

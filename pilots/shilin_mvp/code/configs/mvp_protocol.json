@@ -1,0 +1,87 @@
+{
+  "protocol_version": "mvp-2026-09-29-rolling-v3",
+  "network": "solana-mainnet",
+  "platform": "pump.fun",
+  "pumpfun_program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+  "window": {
+    "start": "2026-09-28T00:00:00Z",
+    "end": "2026-09-28T02:00:00Z",
+    "inclusion": "start_inclusive_end_exclusive",
+    "note": "Fixture replay uses this window. Live RPC mode replaces it with a rolling enrollment clock."
+  },
+  "acquisition": {
+    "max_pages": 50,
+    "transaction_workers": 1
+  },
+  "observation": {
+    "checkpoints": ["T0", "T+24h", "T+60h"],
+    "checkpoint_offsets_seconds": {"T0": 0, "T+24h": 86400, "T+60h": 216000},
+    "enrollment_seconds": 86400,
+    "poll_seconds": 20,
+    "max_lateness_seconds": 86400,
+    "max_attempts": 3,
+    "max_retry_rounds": 5,
+    "max_signature_retries": 5,
+    "max_retry_sleep_seconds": 30,
+    "max_response_bytes": 1000000
+  },
+  "metadata": {
+    "allowed_fields": ["name", "symbol", "description", "createdOn", "image", "website", "twitter", "telegram"],
+    "parser_version": "metadata-json-fields-v1",
+    "request_method": "GET",
+    "follow_redirects": false,
+    "cookies": false,
+    "javascript": false,
+    "gateway_candidates": [
+      {
+        "route_id": "pump_pinata_gateway",
+        "base_url": "https://pump.mypinata.cloud",
+        "host": "pump.mypinata.cloud",
+        "resource_class": "ipfs_cid"
+      },
+      {
+        "route_id": "pinata_gateway",
+        "base_url": "https://gateway.pinata.cloud",
+        "host": "gateway.pinata.cloud",
+        "resource_class": "ipfs_cid"
+      }
+    ],
+    "arweave_base_url": "https://arweave.net"
+  },
+  "metadata_gateways": {
+    "sample_cid": "bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu",
+    "preflight_attempts": 5,
+    "preflight_sleep_seconds": 15,
+    "candidates": [
+      {"host": "pump.mypinata.cloud", "template": "https://pump.mypinata.cloud/ipfs/{cid}"},
+      {"host": "gateway.pinata.cloud", "template": "https://gateway.pinata.cloud/ipfs/{cid}"}
+    ],
+    "note": "The declared URI is requested first. A confirmed gateway is used only after that request fails, and only for the same IPFS CID. Preflight failure does not stop the cohort."
+  },
+  "api_candidates": [
+    {
+      "candidate_id": "publicnode-solana-mainnet",
+      "role": "primary-chain-rpc-candidate",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "selection_note": "DKUCC common CPU can reach this host over IPv4."
+    },
+    {
+      "candidate_id": "solana-official-rpc-secondary-region",
+      "role": "not-used-from-dkucc",
+      "endpoint": "https://api.mainnet-beta.solana.com",
+      "official_docs_url": "https://solana.com/docs/rpc",
+      "access_decision": "not_used",
+      "selection_note": "DNS answers for this host do not connect from the DKUCC common CPU partition."
+    }
+  ],
+  "fixture": {
+    "uri_files": {
+      "https://metadata.example.test/token-001.json": "fixtures/metadata/token-001.json",
+      "https://metadata.example.test/token-002.json": "fixtures/metadata/token-002.json"
+    },
+    "note": "example.test is a local fixture namespace; it is never contacted in fixture mode."
+  }
+}

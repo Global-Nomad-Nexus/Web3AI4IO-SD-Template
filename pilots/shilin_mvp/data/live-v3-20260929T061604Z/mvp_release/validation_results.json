@@ -1,0 +1,25 @@
+{
+  "attempt_rows": 11539,
+  "created_at": "2026-10-01T21:33:13.763Z",
+  "errors": [],
+  "event_count": 1248,
+  "field_rows": 25728,
+  "final_state_counts": {
+    "not_collected_policy": 198,
+    "observed": 3216,
+    "request_failed": 330
+  },
+  "ledger_rows": 3744,
+  "plan_rows": 3744,
+  "protocol_hash": "99ce10f272b2fda6d4b216b6a38c4286899042ad15964250065f40768c739121",
+  "rules": [
+    "unique event key",
+    "event x checkpoint denominator",
+    "foreign keys",
+    "response SHA-256",
+    "field allow-list",
+    "terminal ledger state"
+  ],
+  "snapshot_rows": 3216,
+  "status": "PASS"
+}
