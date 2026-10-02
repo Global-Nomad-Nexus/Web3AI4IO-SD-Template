@@ -10,6 +10,8 @@
 
 This repository gives two student co-first authors a common starting point for an interdisciplinary data descriptor. Each source pipeline produces an independently reusable dataset; integration adds documented relationships and time alignment. The original teaching tracks contain invented fixtures. **This branch also supplies Claire’s real three-chain on-chain pilot**, with pinned public inputs and separate validation. Off-chain and integration remain synthetic examples.
 
+**This branch adds Shilin’s Pump.fun metadata cohort** under [`pilots/shilin_mvp/`](pilots/shilin_mvp/README.md). It is a completed live run: 24 hours of creation-event enrollment on Solana mainnet, then the same cohort observed again 24 hours and 60 hours after collection start. The chain source is PublicNode’s public Solana RPC. Metadata is read from the URI declared on chain, with two registered Pinata gateways used only after that request fails. See the pilot README for the cohort size, checkpoints, and source list.
+
 <a id="tutorials"></a>
 ## Three tutorials
 
