@@ -4,20 +4,116 @@
   "assets": [
     {
       "name": "inputs.tar.gz.part-001",
-      "bytes": 671088640,
-      "sha256": "1867628b1df06b8aafbc38eccd01934d6da5cd02313c1d775e95b41df79fad4c",
+      "bytes": 100663296,
+      "sha256": "b055510e2bf068bb89c8bf0b8766ff64453e45d14180379d2434ba069c2dc56c",
       "purpose": "Lossless ordered part of the complete frozen evidence capsule"
     },
     {
       "name": "inputs.tar.gz.part-002",
-      "bytes": 671088640,
-      "sha256": "891eafc887f14199cdd4422801c80204fa99d29c46237c78cc91e42b5f89a3a5",
+      "bytes": 100663296,
+      "sha256": "1a40c844d765342d939be508164039eac000e3685ba477cbe6b7bc17f0cdea91",
       "purpose": "Lossless ordered part of the complete frozen evidence capsule"
     },
     {
       "name": "inputs.tar.gz.part-003",
-      "bytes": 543185503,
-      "sha256": "48ec036a45515b5ca67b3a971ec3a45b7edc39e4c0338190f7a6d382f85c8882",
+      "bytes": 100663296,
+      "sha256": "fefeb3376c16fd76d9d0eb2a5e4a2f5ca1304cb234e3c101a70366de397ae7b6",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-004",
+      "bytes": 100663296,
+      "sha256": "1085af6551b7f04d8ae240cdf67e625441f0fcc46e6ec27642df60d1017e0dd7",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-005",
+      "bytes": 100663296,
+      "sha256": "b4aef25524ad9c2b8e3809b889460828e5b98e0c80f20a5f5d9bf7f1d4a8415c",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-006",
+      "bytes": 100663296,
+      "sha256": "a6c312731a014967436dfe6c8b3dc9a2a304377d0cd50b71d53996f114bb5e11",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-007",
+      "bytes": 100663296,
+      "sha256": "77fa3ed2c4919a70511d8b0093dc07bfc97fa91a5f7dcf5db1bdb98ebc549577",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-008",
+      "bytes": 100663296,
+      "sha256": "595b88affc36a6afb13cd13c40630281da5003e39c16916c1e51dd8d4061eb8b",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-009",
+      "bytes": 100663296,
+      "sha256": "4432035c169ab434cc9934b1c47607dec5f77bd0ccc223f0cfdaad8e618b582f",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-010",
+      "bytes": 100663296,
+      "sha256": "c495be6e5cafdb8ab7f98f0cbd93aee6e256ebd8224799a8d5c8b584f9f59a73",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-011",
+      "bytes": 100663296,
+      "sha256": "d84e1b064cff771c4a848f2ad02a9c25bd8a5ee1dc7f062e930a44d222553fd7",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-012",
+      "bytes": 100663296,
+      "sha256": "b40e9356bf1c3b28806fea4db42b0102b3f55eb2ac88ca7dca8dd85549cc4a38",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-013",
+      "bytes": 100663296,
+      "sha256": "ea936bce313e6d041230b26f78ec5618a72ef74849ce5693d9a1bdc270489c97",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-014",
+      "bytes": 100663296,
+      "sha256": "8a5df3752d0722a9d30771f7cce1140fffe60add6f2cc157cd1f6eadfaa37726",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-015",
+      "bytes": 100663296,
+      "sha256": "18966c0d3711ea24a0e7406f6547d94f263d304e9d7e5e8d863c9f0132b7d06f",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-016",
+      "bytes": 100663296,
+      "sha256": "0f08987844566144620fd3f40bd86f3d85f7076587928746b1313b34e9ba1f57",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-017",
+      "bytes": 100663296,
+      "sha256": "3822df77e5ece30e2bea865676a38b8dde9f2793e6ee8fdf1bc4cde7cc3141c5",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-018",
+      "bytes": 100663296,
+      "sha256": "157863c63d1565be9799c8396bf9daa2b0136492a261632fe227ab215998e237",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-019",
+      "bytes": 73423455,
+      "sha256": "0b2532e722c8fd19d36eb8a8283e474d3ad734bec627653ccbf706d55f1fd191",
       "purpose": "Lossless ordered part of the complete frozen evidence capsule"
     }
   ],

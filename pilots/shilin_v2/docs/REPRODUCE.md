@@ -62,7 +62,7 @@ gh release download shilin-v2-20261029 \
   --pattern 'inputs.tar.gz.part-*' --dir outputs/shilin_v2_assets
 ```
 
-The capsule is distributed as three lossless binary parts to keep each upload manageable. `metadata/release_assets.json` records each part's size/SHA-256 and the original assembled capsule's size/SHA-256. The restoration tool verifies all parts, concatenates them in manifest order, and verifies the original complete capsule before use. The capsule preserves original relative paths, raw API bodies, normalized transactions/logs, QA/coverage evidence, legacy tables and frozen prerequisites. It does not recover missing legacy metadata HTTP bodies.
+The capsule is distributed as numbered lossless binary parts to keep each upload manageable. `metadata/release_assets.json` records each part's size/SHA-256 and the original assembled capsule's size/SHA-256. The restoration tool verifies all parts, concatenates them in manifest order, and verifies the original complete capsule before use. The capsule preserves original relative paths, raw API bodies, normalized transactions/logs, QA/coverage evidence, legacy tables and frozen prerequisites. It does not recover missing legacy metadata HTTP bodies.
 
 ## 5. Restore and independently revalidate the sealed P4 delivery
 
