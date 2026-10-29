@@ -1,93 +1,64 @@
-# Web3AI4IO-SD-Template
+# Shilin v2
 
-**A Scientific Data project template with equally visible on-chain, off-chain, and integration contributions.**
+![Shilin v2 research collection](pilots/shilin_v2/assets/header.svg)
 
-[![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
-[![Data: synthetic teaching example](https://img.shields.io/badge/data-synthetic%20teaching%20example-amber.svg)](data/README.md)
-[![Reproducibility instructions](https://img.shields.io/badge/reproduce-offline%20example-green.svg)](docs/reproducibility.md)
+**Seven-day creation records, 72-hour metadata observations, and three-chain market context.**
 
-![Two source pipelines meet in a separately validated integration pipeline. All included records are synthetic.](assets/pipeline.svg)
+[中文指南](pilots/shilin_v2/docs/README.zh-CN.md) · [Data catalogue](pilots/shilin_v2/docs/TABLES.md) · [Reproduce](pilots/shilin_v2/docs/REPRODUCE.md) · [Curation](pilots/shilin_v2/docs/CURATION.md) · [Full evidence download](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029)
 
-This repository gives two student co-first authors a common starting point for an interdisciplinary data descriptor. Each source pipeline produces an independently reusable dataset; integration adds documented relationships and time alignment. The original teaching tracks contain invented fixtures. **This branch also supplies Claire’s real three-chain on-chain pilot**, with pinned public inputs and separate validation. Off-chain and integration remain synthetic examples.
+This collection brings together Shilin's original Pump.fun cohort and the later Registry / Polymarket experiment. It includes every row of both released datasets, their acquisition and processing code, frozen protocols, tests, field dictionaries, final validation reports, and figure sources. The shared creation window is **8–14 October 2026 UTC**, represented as `[2026-10-08, 2026-10-15)`.
 
-**This branch adds Shilin’s Pump.fun metadata cohort** under [`pilots/shilin_mvp/`](pilots/shilin_mvp/README.md). It is a completed live run: 24 hours of creation-event enrollment on Solana mainnet, then the same cohort observed again 24 hours and 60 hours after collection start. The chain source is PublicNode’s public Solana RPC. Metadata is read from the URI declared on chain, with two registered Pinata gateways used only after that request fails. See the pilot README for the cohort size, checkpoints, and source list.
+| Collection | Included data | Evidence status |
+|---|---|---|
+| Original 7 days + 72 hours | **4,668** creation events · **18,672** planned checkpoints · **133,888** field observations · **6** tables | Collection finished; original validation remains `INCOMPLETE` with four unresolved transactions |
+| Three-chain Registry, P3 v6 | **367,373** tokens · **21/21** chain-days · **15** tables | **35/35** checks passed for declared platform scope |
+| Polymarket alignment | **6,156,902** assessments · **5,856,212** valid · **28** context mappings | Historical scalar demonstration; **0** direct token-identity mappings |
+| P4 interface and gallery | Five panels, interface fixtures, complete frozen input capsule | Original independent package acceptance **55/55** passed; real lifecycle integration pending |
 
-<a id="tutorials"></a>
-## Three tutorials
+## Explore the evidence
 
-| Tutorial | Lead and independent reader | Open in Colab | Download/edit |
-|---|---|---|---|
-| On-chain: real three-chain pilot | Claire leads; Shilin reproduction pending | [Open on-chain tutorial](https://colab.research.google.com/github/Global-Nomad-Nexus/Web3AI4IO-SD-Template/blob/claire-threechain-pilot/notebooks/01_On_Chain_Tutorial.ipynb) | [01_On_Chain_Tutorial.ipynb](notebooks/01_On_Chain_Tutorial.ipynb) |
-| Off-chain: sources → records → quality checks | Student B leads; Student A reproduces | [Open off-chain tutorial](https://colab.research.google.com/github/sunshineluyao/Web3AI4IO-SD-Template/blob/main/notebooks/02_Off_Chain_Tutorial.ipynb) | [02_Off_Chain_Tutorial.ipynb](notebooks/02_Off_Chain_Tutorial.ipynb) |
-| Integration: component releases → linkage → quality checks | Both lead; a third reader is recommended | [Open integration tutorial](https://colab.research.google.com/github/sunshineluyao/Web3AI4IO-SD-Template/blob/main/notebooks/03_Integration_Tutorial.ipynb) | [03_Integration_Tutorial.ipynb](notebooks/03_Integration_Tutorial.ipynb) |
+![Five-panel research gallery from the formal P3 v6 release](pilots/shilin_v2/source/2026-10-27/registry_polymarket/p4/figures/shilin_gallery.png)
 
-Every notebook has the same eight parts and explanations before code. The Claire tutorial fills the author entries; the remaining synthetic notebooks retain editable **AUTHOR INPUT** prompts. The notebooks provide exact code links, inspections, expected outputs, and completion checks. Each can start in a fresh CPU Colab runtime. Integration reads pinned component snapshots, so it does not require running the other notebooks first. Use **File → Save a copy in Drive** for student editing. [Notebook editing guide](notebooks/README.md).
+The gallery shows daily creation counts, chain-day coverage, mapping scope, metadata terminal states, and daily market-context alignment. [Panel definitions and source CSVs](pilots/shilin_v2/source/2026-10-27/registry_polymarket/p4/figures/panel_specs.md) document the denominator and limitations of each view. Solana contributes 330,061 tokens, Base 1,535, and BSC 35,777 within the pinned platform scope.
 
-[Quick start](#quick-start) · [Repository map](#repository-map) · [Evidence map](#evidence-map) · [First-author instructions](docs/first_author_guide.md) · [Venue requirements](docs/requirements.md) · [Validation status](docs/validation_receipt.md)
+## Use the data
 
-<a id="quick-start"></a>
-## Quick start for the original synthetic example
-
-Use Python 3.12. The pipeline has no third-party Python dependencies, API keys, wallet access, or GPU requirement. Git is needed only to obtain the repository; all data operations then run offline.
+From the repository root:
 
 ```bash
-git clone https://github.com/sunshineluyao/Web3AI4IO-SD-Template.git
-cd Web3AI4IO-SD-Template
-python3 scripts/run_demo.py --track all
-python3 -m unittest discover -s tests -v
+python3 pilots/shilin_v2/tools/data.py list
+python3 pilots/shilin_v2/tools/data.py verify --deep
+python3 pilots/shilin_v2/tools/data.py restore --output outputs/shilin_v2
 ```
 
-For the immutable code used by a tutorial, check out the full commit printed in its setup cell. For one component, replace `all` with `on_chain`, `off_chain`, or `integration`. Outputs go to `outputs/demo/`, leaving archived inputs unchanged. The full command means the **full teaching example**, not the future empirical dataset.
+The tools need only Python's standard library. Data are stored as gzip CSV shards containing complete records and a header; restoration verifies the original full-file SHA-256. **All 21 logical tables are present without sampling.** `registry` and `creation_events` share one physical copy because their original bytes are identical. Both original filenames are recreated on restoration. See the [full table catalogue](pilots/shilin_v2/docs/TABLES.md) for grains, row counts and fields.
 
-| Synthetic check | Expected outcome |
-|---|---|
-| On-chain | 8 input rows → 6 events; 1 exact duplicate and 1 noncanonical event removed |
-| Off-chain | 7 input rows → 6 records; 1 exact duplicate removed; 1 measure remains missing |
-| Integration | 6 event rows retained; 3 matched, 1 unreviewed link, 1 absent crosswalk, 1 unavailable prior record |
-| Reuse and validation | Match coverage 3/6; 1 matched measure missing; a seven-day publication-age rule gives 2 matches |
+For raw/normalized evidence and the locked environment needed to repeat the complete independent rebuild, obtain the separate **`inputs.tar.gz`** [Release asset](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029). The capsule is optional for table analysis. [Reproduction instructions](pilots/shilin_v2/docs/REPRODUCE.md) explain download verification, exact P4 package restoration, platform requirements, and offline acceptance.
 
-These checks demonstrate software behavior. They do not estimate real linkage accuracy or establish findings about Web3, AI, organizations, or people.
+## Project map
 
-<a id="repository-map"></a>
-## Repository map
+```text
+shilin_v2/
+├── data/                 Complete legacy six tables + P3 v6 fifteen tables
+├── metadata/             SHA-256 manifests, row counts, dictionary, checks
+├── source/
+│   ├── 1021/             Original seven-day / 72-hour collector and protocol
+│   └── 2026-10-27/       P0–P4 acquisition, decoding, processing, tests, figures
+├── reproduction/         Exact sealed P4 code, metadata, and acceptance skeleton
+├── tools/                Offline integrity checks and byte-faithful restoration
+└── docs/                 Data catalogue, curation, reproduction, Chinese guide
+```
 
-| Path | Purpose |
-|---|---|
-| [data/on_chain/](data/on_chain/README.md) | `data_source`, `queried_data`, `processed_data` with distinct demo and project areas |
-| [data/off_chain/](data/off_chain/README.md) | The same source-to-record stages for the off-chain contribution |
-| [data/integration/](data/integration/README.md) | Component acquisitions, integrated outputs, and a separate `linkage` evidence area |
-| [code/](code/README.md) | For each track: `query_data`, `process_data`, `analyze_data`, `technical_validation`; common implementation in `shared` |
-| [metadata/](metadata/README.md) | Source and release manifests, dictionary, field provenance, and result index |
-| [configs/](configs/README.md) | Editable project inputs and linkage design worksheet |
-| [notebooks/](notebooks/README.md) | Three downloadable Google Colab tutorials |
-| [docs/](docs/README.md) | Co-first-author workflow, data governance, reproducibility, venue crosswalk, validation evidence |
-| [templates/](templates/README.md) | Copyable project/data/code READMEs, dataset card, validation, review and release worksheets |
-| [paper/](paper/README.md) | Manuscript evidence map and writing instructions |
-| [reports/demo/](reports/README.md) and [tests/](tests/README.md) | Archived teaching reports, governed references, and regression tests |
+The source snapshot keeps original relative paths for frozen code and provenance. Begin with this README; some archived READMEs describe the original local directory and require restored data or the evidence capsule. Caches, interrupted process logs, superseded derived outputs, and duplicate delivery packages are excluded. [Selection details](pilots/shilin_v2/docs/CURATION.md) and the [source inventory](pilots/shilin_v2/metadata/source_inventory.json) make that curation reviewable.
 
-<a id="evidence-map"></a>
-## Source-to-output evidence map
+## Interpretation and reuse
 
-| Track | Source → acquisition → transformation → output | Command |
-|---|---|---|
-| On-chain | [Source](data/on_chain/data_source/demo/events.csv) → [query](code/on_chain/query_data/run.py) → [queried](data/on_chain/queried_data/demo/events.csv) → [process](code/on_chain/process_data/run.py) → [processed](data/on_chain/processed_data/demo/events.csv) → [analysis](reports/demo/on_chain/analysis.json) | `python3 scripts/run_demo.py --track on_chain` |
-| Off-chain | [Source](data/off_chain/data_source/demo/records.csv) → [query](code/off_chain/query_data/run.py) → [queried](data/off_chain/queried_data/demo/records.csv) → [process](code/off_chain/process_data/run.py) → [processed](data/off_chain/processed_data/demo/records.csv) → [analysis](reports/demo/off_chain/analysis.json) | `python3 scripts/run_demo.py --track off_chain` |
-| Integration | [Two upstream manifests](metadata/integration_source_manifest.json) + [crosswalk](data/integration/linkage/demo/crosswalk.csv) → [query](code/integration/query_data/run.py) → [queried inputs](data/integration/queried_data/README.md) → [process](code/integration/process_data/run.py) → [integrated rows](data/integration/processed_data/demo/integrated.csv) → [analysis](reports/demo/integration/analysis.json) | `python3 scripts/run_demo.py --track integration` |
+The original metadata cohort is a limited observed cohort, not a complete weekly on-chain denominator. The later backfill preserves historical observation gaps. `observed`, `request_failed`, and `parse_failed` remain distinct; no unavailable metadata is interpreted as death.
 
-The [machine-readable result index](metadata/result_index.json) records the same paths, commands, revision, and interpretation boundaries. [Field provenance](metadata/field_provenance.csv) explains every integrated column.
+The Registry covers pinned Pump.fun `create/create_v2`, six Clanker factories and Four.meme V2. It is not a census of every issuance mechanism. Polymarket mappings connect chain, platform or shared economic context; historical rule revisions and API scalar construction remain unverified, with `retrospective_demonstration_only` preserved. Real lifecycle integration is `awaiting_integration` and the common cutoff is unset.
 
-## Author handoff and release
+Historical P4 documents describe its original local-review artifact. This GitHub publication has the separate identifier **`shilin-v2-20261029`**. Third-party rights review remains incomplete; the repository code license does not license external data. Read [data rights and attribution](pilots/shilin_v2/DATA_RIGHTS.md) and the frozen source register before reuse. No DOI, official metadata validation, complete lifecycle release, or article acceptance is claimed.
 
-Start with the [first-author guide](docs/first_author_guide.md), agree the [integration contract](docs/integration_contract.md), then fill the [project configuration](configs/project.example.json). Keep the research dataset in the `project` areas or an appropriately licensed external archive. Add real acquisition scripts, source-specific validations, immutable manifests and reference outputs before changing the teaching notebooks into research tutorials.
+## Earlier work in this repository
 
-[Scientific Data guidance](https://www.nature.com/sdata/submission-guidelines), [NeurIPS 2026 dataset hosting requirements](https://neurips.cc/Conferences/2026/EvaluationsDatasetsHosting), and the [NeurIPS paper checklist](https://neurips.cc/public/guides/PaperChecklist) are mapped to author evidence in [requirements.md](docs/requirements.md). This is an unofficial teaching scaffold; satisfying its software tests does not certify venue compliance or acceptance.
-
-Code, documentation, and invented teaching fixtures use the existing [MIT license](LICENSE), whose original notice is preserved. Actual source and derived-data licenses remain author decisions based on source permissions; see [DATA_LICENSE.md](DATA_LICENSE.md). [Hugging Face handoff](docs/hugging_face_handoff.md) provides three dataset configurations and an offline packaging example. The original teaching fixtures remain synthetic. The separate Claire real-data release is identified below.
-
-Use the [citation instructions](CITATION.md) until actual authorship and a dataset DOI are available. [Validation receipt](docs/validation_receipt.md) records what was executed and which external checks remain.
-
-## Claire real-data on-chain pilot
-
-The on-chain tutorial at `notebooks/01_On_Chain_Tutorial.ipynb` now uses a pinned public Solana/BSC/Base snapshot and the implementation under `pilots/claire-threechain-v1/`. It retains the original template's eight parts and 33-cell order, replacing the synthetic calls and assertions. The original on-chain teaching notebook is retained at `notebooks/examples/01_On_Chain_SYNTHETIC.ipynb`.
-
-Data: https://huggingface.co/datasets/global-nomad-nexus/claire-threechain-v1. Start the real tutorial from its first cell; it downloads and verifies the archive automatically. The off-chain and integration notebooks remain the original synthetic teaching examples, not completed research outputs. Fresh anonymous public-download reconstruction and hosted Colab execution passed all 14 code cells, with all raw and semantic-table hashes matching. See [actual run evidence](pilots/claire-threechain-v1/docs/release_validation.md). Coauthor cross-reproduction and joint integration remain pending.
+The original teaching template and earlier pilots are preserved. [Original template overview at the parent revision](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/blob/9f68b128909eff87a3e7a25420889177d2708407/README.md) · [Original Shilin MVP](pilots/shilin_mvp/README.md) · [Claire's pilot](pilots/claire-threechain-v1/README.md). Their synthetic teaching examples and earlier cohorts are separate from this branch's formal v2 tables.

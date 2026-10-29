@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "legacy URI gate",
+    "live discovery/page/request budget",
+    "unretrieved transaction group",
+    "native decode and execution state",
+    "IDL versions",
+    "UTC boundaries"
+  ],
+  "exact_signatures_recovered": false,
+  "historical_response_bodies_restored": false,
+  "legacy_code_ref": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/code-7day-72h/mvp/acquire_chain.py",
+  "local_jsonl_candidates": [],
+  "not_proven_causes": "Differences retain reason_unknown until row-level old logs establish cause",
+  "unretrieved_transaction_group_count": 4
+}

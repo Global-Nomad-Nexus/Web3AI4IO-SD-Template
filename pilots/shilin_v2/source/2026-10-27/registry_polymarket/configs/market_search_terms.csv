@@ -1,0 +1,6 @@
+topic,term,scope,max_pages_per_status,limit_per_type,stop_rule
+macro,Fed,active_and_closed_separately,2,3,hasMore false or page cap; capped search is not exhaustive
+solana,Solana October 2026,active_and_closed_separately,2,3,hasMore false or page cap; capped search is not exhaustive
+bnb,BNB October,active_and_closed_separately,2,3,hasMore false or page cap; capped search is not exhaustive
+pumpfun,Pump.fun,active_and_closed_separately,2,3,hasMore false or page cap; capped search is not exhaustive
+base,Base token,active_and_closed_separately,2,3,hasMore false or page cap; capped search is not exhaustive

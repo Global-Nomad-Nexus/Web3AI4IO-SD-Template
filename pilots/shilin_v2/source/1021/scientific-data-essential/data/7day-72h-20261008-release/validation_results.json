@@ -1,0 +1,32 @@
+{
+  "attempt_rows": 60779,
+  "created_at": "2026-10-18T02:34:18.871Z",
+  "errors": [
+    "4 chain transactions could not be fetched after the configured retries",
+    "4 chain transactions remain unresolved; the event denominator may be incomplete"
+  ],
+  "event_count": 4668,
+  "field_rows": 133888,
+  "final_state_counts": {
+    "observed": 16736,
+    "parse_failed": 12,
+    "request_failed": 1924
+  },
+  "ledger_rows": 18672,
+  "plan_rows": 18672,
+  "protocol_hash": "17dee08181cb29008893df1db5ff1be1c540c13639f1eb6852c6917a943dc6fe",
+  "rules": [
+    "unique event key",
+    "event x checkpoint denominator",
+    "foreign keys",
+    "response SHA-256",
+    "field allow-list",
+    "terminal ledger state"
+  ],
+  "snapshot_rows": 16744,
+  "status": "INCOMPLETE",
+  "timing_state_counts": {
+    "late": 251,
+    "on_time": 18421
+  }
+}

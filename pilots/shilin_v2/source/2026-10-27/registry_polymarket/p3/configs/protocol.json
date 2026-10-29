@@ -1,0 +1,90 @@
+{
+  "budgets": {
+    "disk_reserve_bytes": 2000000000,
+    "history_chunk_days": 3,
+    "max_attempts_per_request": 3,
+    "max_history_outcomes": 120,
+    "max_history_pages_per_outcome": 16,
+    "max_index_pages_per_day": 200,
+    "max_inline_backoff_seconds": 30,
+    "max_markets_per_category": 12,
+    "max_raw_bytes": 16000000000,
+    "max_response_bytes": 64000000,
+    "max_search_pages_per_term_state": 3,
+    "max_vibe_pages_per_day": 2000,
+    "requests_per_invocation": 6000,
+    "rpc_elements_per_invocation": 30000,
+    "timeout_seconds": 30,
+    "wall_seconds_per_invocation": 21600
+  },
+  "candidate_end_utc": "2026-10-15T00:00:00Z",
+  "candidate_start_utc": "2026-10-08T00:00:00Z",
+  "categories": {
+    "base_token": [
+      "Base token"
+    ],
+    "bnb": [
+      "BNB October 2026"
+    ],
+    "macro": [
+      "Fed October 2026",
+      "CPI October 2026",
+      "inflation October 2026"
+    ],
+    "pump_listing": [
+      "pump.fun listing",
+      "pumpfun CEX"
+    ],
+    "pump_revenue": [
+      "pump.fun revenue",
+      "pump.fun fees"
+    ],
+    "pump_sale": [
+      "pump.fun public sale",
+      "pump.fun raise"
+    ],
+    "solana": [
+      "Solana October 2026"
+    ]
+  },
+  "chains": [
+    "solana:mainnet",
+    "eip155:8453",
+    "eip155:56"
+  ],
+  "common_cutoff_utc": null,
+  "formal_window_frozen": false,
+  "legacy_cohort": "legacy_7day_20261008",
+  "lifecycle_enabled": false,
+  "price": {
+    "feature_readiness": "retrospective_demonstration_only",
+    "include_zero_resolution": false,
+    "primary_max_age_hours": 24,
+    "scalar_definition": "unconfirmed_API_scalar",
+    "sensitivity_hours": [
+      12,
+      48
+    ],
+    "strict_before": true
+  },
+  "protocol_version": "registry_pm_p3_v1",
+  "random_seed": 20261027,
+  "rates": {
+    "min_seconds_between_requests": 0.5,
+    "min_seconds_per_rpc_element": 0.3
+  },
+  "reuse_validated_P2_day": true,
+  "scope": "named Pump create/create_v2; six pinned Clanker factories; Four.meme V2 only; no whole-chain census",
+  "sources": {
+    "base_rpc": "https://base-rpc.publicnode.com",
+    "bsc_archive": "https://portal.sqd.dev/datasets/binance-mainnet/stream",
+    "bsc_rpc": "https://bsc-dataseed.bnbchain.org",
+    "gamma": "https://gamma-api.polymarket.com",
+    "headers_sql": "https://crypto-clickhouse.clickhouse.com/?user=crypto",
+    "history": "https://data-api.polymarket.com/v2/prices-history",
+    "solana_archive": "https://portal.sqd.dev/datasets/solana-mainnet/finalized-stream",
+    "solana_rpc": "https://api.mainnet.solana.com",
+    "vibe": "https://public.rpc.solanavibestation.com/historical"
+  },
+  "status": "prepared_waiting_for_user_start"
+}

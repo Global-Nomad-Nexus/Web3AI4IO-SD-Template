@@ -1,0 +1,298 @@
+{
+  "checked_at_utc": "2026-10-28T23:27:58Z",
+  "checks": [
+    {
+      "check_id": "unique_token_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "unique_event_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "registry_event_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "creation_UTC_range",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "native_success_only",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "stable_chain_address_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "native_transaction_and_block_evidence_present",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "left_join_exact_token_set",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "duplicate_link",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "registry_link_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "price_mapping_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "strict_prior_information_and_age",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "outcome_snapshot_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "mapping_semantics_and_last_valid_price",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "unmatched_has_fake_price",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "finite_price_0_to_1",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 175054
+    },
+    {
+      "check_id": "legacy_checkpoint_count_unchanged",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 18672
+    },
+    {
+      "check_id": "legacy_field_rows_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "legacy_plans_states_and_original_clocks_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 18672
+    },
+    {
+      "check_id": "all_original_metadata_field_values_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "unique_metadata_observation_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "backfills_not_fake_historical_observations",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "all_declared_chain_days_closed",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 21
+    },
+    {
+      "check_id": "whole_legacy_week_audited",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "all_requested_categories_queried",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "selected_outcome_rules_reviewed",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 148
+    },
+    {
+      "check_id": "history_pagination_and_request_status",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 468
+    },
+    {
+      "check_id": "lifecycle_disabled",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "fixture_rows_excluded",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "all_mapping_rule_evidence_present",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 28
+    },
+    {
+      "check_id": "saved_public_response_hashes",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 9883
+    },
+    {
+      "check_id": "P3_fixed_input_zero_network_reproduction",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "fixed_seed_independent_native_QA",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "historical_daily_version_checks",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "formal_scope_frozen",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 1
+    }
+  ],
+  "counts_by_chain": {
+    "eip155:56": 35777,
+    "eip155:8453": 1535,
+    "solana:mainnet": 330061
+  },
+  "evidence_files": 8320,
+  "expectation_rows": 6156902,
+  "formal_P3_completed": true,
+  "lifecycle": "awaiting_integration",
+  "price_feature_readiness": "retrospective_demonstration_only",
+  "scope": "P3_formal",
+  "status": "passed_for_declared_P3_scope",
+  "token_count": 367373
+}

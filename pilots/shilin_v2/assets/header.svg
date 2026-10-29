@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<title id="title">Shilin v2 — From first observation to three-chain context</title><desc id="desc">Seven-day creation window, 72-hour metadata follow-up, three chains, and traceable research tables.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset="1" stop-color="#102e42"/></linearGradient><radialGradient id="glow"><stop stop-color="#2dd4bf" stop-opacity=".18"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient></defs>
+<rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+<circle cx="1310" cy="210" r="330" fill="url(#glow)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="74" y="76" fill="#74d8ca" font-size="18" letter-spacing="5">WEB3AI4IO / RESEARCH COLLECTION</text>
+<text x="70" y="174" fill="#f1f5f9" font-size="82" font-weight="700">Shilin v2</text>
+<text x="74" y="226" fill="#c2d4df" font-size="27">From first observation to three-chain context</text>
+<text x="74" y="270" fill="#8ca9bb" font-size="20">Pump.fun · Clanker · Four.meme · Polymarket</text>
+<g transform="translate(74 330)"><rect width="250" height="102" rx="14" fill="#ffffff" fill-opacity=".055" stroke="#ffffff" stroke-opacity=".1"/><text x="22" y="43" fill="#f0fdfa" font-size="32" font-weight="700">367,373</text><text x="22" y="76" fill="#8faebf" font-size="17">tokens in declared scope</text></g>
+<g transform="translate(342 330)"><rect width="210" height="102" rx="14" fill="#ffffff" fill-opacity=".055" stroke="#ffffff" stroke-opacity=".1"/><text x="22" y="43" fill="#f0fdfa" font-size="32" font-weight="700">7 days + 72h</text><text x="22" y="76" fill="#8faebf" font-size="15">original observation design</text></g>
+<g transform="translate(570 330)"><rect width="210" height="102" rx="14" fill="#ffffff" fill-opacity=".055" stroke="#ffffff" stroke-opacity=".1"/><text x="22" y="43" fill="#f0fdfa" font-size="32" font-weight="700">21 tables</text><text x="22" y="76" fill="#8faebf" font-size="17">complete formal releases</text></g>
+<g transform="translate(980 105)"><text x="0" y="0" fill="#90b1c4" font-size="16" letter-spacing="3">CREATION WINDOW / UTC</text><path d="M0 60H470" stroke="#315267" stroke-width="2"/>
+<g fill="#5eead4" stroke="#0c2537" stroke-width="6"><circle cx="0" cy="60" r="10"/><circle cx="78" cy="60" r="10"/><circle cx="156" cy="60" r="10"/><circle cx="234" cy="60" r="10"/><circle cx="312" cy="60" r="10"/><circle cx="390" cy="60" r="10"/><circle cx="468" cy="60" r="10"/></g>
+<text x="0" y="100" fill="#aac3d1" font-size="17">08 OCT</text><text x="407" y="100" fill="#aac3d1" font-size="17">14 OCT</text>
+<path d="M0 156H470M0 205H470M0 254H470" stroke="#24495e" stroke-width="1"/>
+<g fill="#5eead4"><rect x="125" y="136" width="12" height="12" rx="3"/><rect x="125" y="185" width="12" height="12" rx="3"/></g><rect x="125" y="234" width="12" height="12" rx="3" fill="#fbbf7a"/><g fill="#d3e6ef" font-size="22" text-anchor="end"><text x="468" y="153">330,061</text><text x="468" y="202">1,535</text><text x="468" y="251">35,777</text></g>
+<g fill="#b9ced9" font-size="18"><text x="0" y="151">Solana</text><text x="0" y="200">Base</text><text x="0" y="249">BSC</text></g>
+<text x="0" y="318" fill="#7599ad" font-size="16">Frozen evidence. Explicit gaps. Reusable tables.</text></g></g></svg>

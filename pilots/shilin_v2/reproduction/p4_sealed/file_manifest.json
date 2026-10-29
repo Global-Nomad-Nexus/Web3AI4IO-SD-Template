@@ -1,0 +1,641 @@
+[
+  {
+    "bytes": 3847,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "README.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "10e8cbf52d714aafceae9f1597854dbf05ead2e853ccd80caabcc053ab246cf7"
+  },
+  {
+    "bytes": 10787,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/accept_delivery.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "e8452e393368cd303d0166c6a4682798f0e475d96b7c1f7cf8b7c387fbbfc578"
+  },
+  {
+    "bytes": 6470,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/audit_counts.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "c3f49e4d38a437b895cc5c975375a308ce3093b79a19b694566d647b12ce7c88"
+  },
+  {
+    "bytes": 10962,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/build_metadata.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "dd728af337b5ce641f98f09baeaedf94316f4e2877420c6bb7a07abd674a102e"
+  },
+  {
+    "bytes": 12205,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/gallery.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "38de68457e0b89621265872ec6f9ae8fba89faec84f9ed57a0acc7fde11d9b18"
+  },
+  {
+    "bytes": 19983,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/lifecycle_adapter.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "6ffa54319f93fd5880369a53816ed5aec7a96930e78291b2b09b058b10542f03"
+  },
+  {
+    "bytes": 3644,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/package_delivery.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "02d5985f5628920bc139a0288089b280f41f646ed90e3183741f029716c17c76"
+  },
+  {
+    "bytes": 3278,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/rebuild_worker.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d66e1ed3931b68eaded7c9f4e4e037c68237dec57d5b2f6f8ce1785815a3a980"
+  },
+  {
+    "bytes": 2686,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/run_interface_tests.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "da54b4edac7f6d92bac9030e7d67d4e3c1d4569609b60b380743c943b49ff3d9"
+  },
+  {
+    "bytes": 2530,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "code/seal_delivery.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d1c9caa68e40517e33bf196932f1650fb7c9c3627590df4286a987bbff058bc4"
+  },
+  {
+    "bytes": 1609,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/adapter_config.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "f41afe5d2927b47f90551ee310d43aeaa0b34cc371ae948dd83ec03980f41678"
+  },
+  {
+    "bytes": 135744,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/croissant.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "16deab89255217f0e9b6b0416806358f0ce94b7665b423879624347e71d63784"
+  },
+  {
+    "bytes": 810,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/environment.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "3d42153ea1c99ee9d80c617a4ee78c6174d81225f8237b859fad537a608c8373"
+  },
+  {
+    "bytes": 3601,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/lifecycle_schema.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "0f724e34ac10b4e9d3e49f0827275e30be858880cc3996482f3abc587f2f8772"
+  },
+  {
+    "bytes": 1426,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/rai_metadata.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d475b556d43ca9bf85cc42c9a4b9fcb91af483066befc5263a4330f0942d3292"
+  },
+  {
+    "bytes": 6769,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/source_rights.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "38a1acb15eb1387ab6646b79fee353e36c0e1c01d80ba3f4fa6fb4557fdcf203"
+  },
+  {
+    "bytes": 61586,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "configs/table_schema.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "7a06628234716cd275f79b1c3b4ac218be8b47708e5fb96f9d4af893116c1596"
+  },
+  {
+    "bytes": 10233,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/context_daily.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "b2aa9a79e1505e110f0be768909c48b02270c065fe33a464148672463da6d004"
+  },
+  {
+    "bytes": 113547752,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/creation_events.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "ffb949f8448abc9f61df556d38da7948b5f08daf8718c642782dd7a276bb87f9"
+  },
+  {
+    "bytes": 1418825,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/metadata_coverage.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "9101a0fc0b201db0c38fab02d3480d4e7b04ed2971cc078afc7257b5d3936116"
+  },
+  {
+    "bytes": 14009158,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/metadata_observations.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "15b68cfd2d37e626f62463bd702e7c757ca405feff32b01ae7408adc0a56e3c2"
+  },
+  {
+    "bytes": 3569,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_activity.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "344ffaf01a6514f33c41aba7f48e455846266b46789c67e31ce8a2e53ad29c3e"
+  },
+  {
+    "bytes": 27126,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_candidate_catalogue.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "67f032081e5385c76e10048f112f87cb6b58d9ef42476ebb0a19191b8a74124c"
+  },
+  {
+    "bytes": 5346,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_mapping.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "2f3486788c72c0640c7e67390947586da0427c2e638e0bd34bf56c490cd1c2a1"
+  },
+  {
+    "bytes": 12053,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_markets.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "8ba027d64bb9c0e7fba292002f1950101782d32e6c14833e5f3ffc9675c97262"
+  },
+  {
+    "bytes": 201085707,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_match_status.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "83e7916f816bfa4b180cd7e4b21cd3616c85966a82a550c5a926d4069645b241"
+  },
+  {
+    "bytes": 11950,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_outcomes.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "021e30980301f6efe2839c8c16addb4b59a771dd31495945500eb4e315f90e51"
+  },
+  {
+    "bytes": 7110222,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/pm_prices.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "6fe6a22055bb27363dd181d39dae2a50150bd5b863c7614f76c33c56ef0b48cc"
+  },
+  {
+    "bytes": 113547745,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/registry.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "e48cbf7cfbd2c07373362e2912b9c6d0ca309cf117a2c0870a01f0ebe006b247"
+  },
+  {
+    "bytes": 279856344,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/token_expectations_at_creation.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "04981ef065e89bdc3434d468c88119502b4db21b269f81c3e42e35d69d7e111a"
+  },
+  {
+    "bytes": 388818,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/token_id_crosswalk.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "e34c09f551ae5f68d5c8b16889e924bf76b6fd82d9b16e9cda981cb6163e664b"
+  },
+  {
+    "bytes": 12093340,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data/token_metadata_status.csv.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "df69d464bb1ccaf014e0d9a69175dcd2917cba34d394fb78e0dfa805ef704bf9"
+  },
+  {
+    "bytes": 82344,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data_dictionary.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "03e6d542bb241f175e593f5b5c96253a8041e2cd4d261e1efde2a26ee7c979d0"
+  },
+  {
+    "bytes": 8032,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "data_manifest.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "a4507765ebc458adf7aa431e098544998d9da56844212512ccb82923e745731b"
+  },
+  {
+    "bytes": 3935,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "docs/data_card.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "7e85499eebb76b1a252a80ccd7e293a2f82624bf9880af1a4c29b1e65095b1d7"
+  },
+  {
+    "bytes": 4949,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "docs/interface_contract.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "66b0cda5d2b2ec46ce29674dfd5402f562a23ad2308dcad777865004a2bc3d67"
+  },
+  {
+    "bytes": 2648,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "docs/panel_specs.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "bytes": 1547,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/data/panel_A_activity.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "0e163bbdeb8b3763b7dc518b7b55c98d85177e299f48e648b62abfcbc8eaf13e"
+  },
+  {
+    "bytes": 1593,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/data/panel_B_coverage.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "98743720ba144e9f82711e7fabeb35277e9a0aa9d85afd92fa622e7cdeb55681"
+  },
+  {
+    "bytes": 211,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/data/panel_C_links.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "8207efe3e2b987d860289bcbd877afa55e008776351ba5158ea7fd3250d0da9f"
+  },
+  {
+    "bytes": 619,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/data/panel_D_metadata.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "db59e8d4a1e32e2f6a3738a0c1ef073f5bac912b9d76dee8698a48be90558189"
+  },
+  {
+    "bytes": 1596,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/data/panel_E_alignment.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d969caa84b8f6ade5f2d8c13a9e4d677db10b4d0015b247f0a8cc86083ac88c7"
+  },
+  {
+    "bytes": 2648,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/panel_specs.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "bytes": 878,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/real_three_chain_preview.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "7e03ae680a2ec4f75335fe2307cd0bb36d878887be81d1342dd4ebb42bc5d447"
+  },
+  {
+    "bytes": 579,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/selection.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "2a2814f6f8316724b4e12876bdc12f85e426aa30656accfcad108cbcf410b912"
+  },
+  {
+    "bytes": 703328,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/shilin_gallery.png",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "4166214e7a89e14fd0cf25775d9dca4b5f4eed69e0fcba07c14dd896cecb3ec7"
+  },
+  {
+    "bytes": 30350,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "figures/shilin_gallery.svg",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "39264341c3da7b007a34dde30fae31d512af6a38f05fdb3e9f5796db1031a8af"
+  },
+  {
+    "bytes": 2390,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "handoff_to_claire.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "08ef858df431e6305c95d0dd9b4464e73e4197daadf1a2cd38db594755daf187"
+  },
+  {
+    "bytes": 6993197,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "input_manifest.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "18e5fd482200304d5ab3e1ea4ef5485a3061fdc66984b173f3bfbb3fb6ff2da0"
+  },
+  {
+    "bytes": 1885362783,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "inputs.tar.gz",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0"
+  },
+  {
+    "bytes": 1666,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "joint_revision_checklist.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "f7db1b04921b28e70f99a31f596e716ce4dfd31b5d6fdae1f07f32261e1eb0f9"
+  },
+  {
+    "bytes": 2239,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "release.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "d318de5f4b821d05f7509dfdc3dc125cfd24291c8b6a7633534afa63a2e6fa28"
+  },
+  {
+    "bytes": 1348,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "reports/counts_audit/metrics.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "cc0e115db06cd246ee0de27f99ff4f8cc4339e86b34c938eb7cae4a436ff3d61"
+  },
+  {
+    "bytes": 16999,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "reports/counts_audit/prose_number_checks.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "006a83949ae5a230e3673d2bb1628a107305f5b65e81242f62fb822708ce4677"
+  },
+  {
+    "bytes": 236,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "reports/counts_audit/receipt.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "774c81d1e4e177cbb08617678419bf7001e3c4371008634e45e5fce5c707716f"
+  },
+  {
+    "bytes": 1604,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "reports/interface_test_report.md",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "741a68da409c23a980871e8766741fa2451972148240e1431a909240063e91a0"
+  },
+  {
+    "bytes": 0,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/cli.log",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "bytes": 270,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/coverage.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "f54619b523b997497978e448ab5404a4f67c7a8bfb4f936e21dc22773206dde2"
+  },
+  {
+    "bytes": 110,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/crosswalk.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "a48f425070e79d8962c4090bcbef3f147d998c245e8723961989fd424a8dc9ff"
+  },
+  {
+    "bytes": 376,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/events.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "1fb3d6f94a2940a980d56f8c16c5ddd5224037178c3d29a2243cdd8ff9c2d96f"
+  },
+  {
+    "bytes": 6769,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/interface_test_results.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "e88ae8c0ad264d5668cbc75815fba5e1097d7f1c03b33841ad855a4cb7cb9f73"
+  },
+  {
+    "bytes": 1215,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/identity_join.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "35803e011ec3f727b9e20dc55648f4a78e239bc7018a6b60f25205c20886dca9"
+  },
+  {
+    "bytes": 837,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/lifecycle_events.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "f4254e951aed1a384c7881fcfc6909fccb113e454c59ab24f3c93cfb1e6f69fb"
+  },
+  {
+    "bytes": 561,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/observation_coverage.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "4146c635df49badeb1a658d47463b5f8f161f10f535412f9364220a19deff218"
+  },
+  {
+    "bytes": 2756,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/outcome_followup.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "97aa7631569d98223aca047717303a7477d106ea7c90066ec752a5be6745be64"
+  },
+  {
+    "bytes": 57,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/quarantine.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "ed470d0b19bcad4f2dce1ca75a61de144966e0dcd063d1cad480eb18031f87c4"
+  },
+  {
+    "bytes": 339,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/positive_cli/receipt.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "a71bd557f7990963878d03596e92c8446dd84f7167d4d287aad5ab533895347a"
+  },
+  {
+    "bytes": 968,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/registry.csv",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "16f7accd934bdd96e25f3004a67918d9b1bc7a5c4c7448d6438d088cf344ae14"
+  },
+  {
+    "bytes": 5946,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "test_outputs/final_interface/unittest.log",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "c4d8f594e16eb58bfdee3d8e40d11134162bcec2c4a3fc3a24a0996b65460b7c"
+  },
+  {
+    "bytes": 2895,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "tests/fixtures/lifecycle_cases.json",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "8c3c015bfdfc30827ec32a292c9be20c8e5f9eb0787f0fcea723ab62ed565031"
+  },
+  {
+    "bytes": 11241,
+    "delivery_stage": "personal_candidate",
+    "input_version": "P3_v6",
+    "interface_version": "shilin_lifecycle_adapter_v1",
+    "path": "tests/test_lifecycle_adapter.py",
+    "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+    "sha256": "41ee31e04528dd1094358711b88bf93d6619c276a24193e7b39f4943544f431b"
+  }
+]

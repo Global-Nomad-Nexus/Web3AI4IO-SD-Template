@@ -1,0 +1,32 @@
+{
+  "autosave_seconds": 600.0,
+  "completed_by_checkpoint": {
+    "T0": 4668,
+    "T24": 4668,
+    "T48": 4668,
+    "T72": 4668
+  },
+  "completed_observations": 18672,
+  "cursor": "txuSfxTXkpuyCczhBzoEpvSZhuRxzC8Wbf65BdsGpdRA8WkmS7FP3eRk4qvZH5YsvdXd86D444vcypQTBZWBUwe",
+  "enrollment_until": "2026-10-15T00:00:00Z",
+  "events": 4668,
+  "final_scan_complete": true,
+  "followup_until": "2026-10-18T00:00:00Z",
+  "next_observation_at": null,
+  "overdue_observations": 0,
+  "pending_before": null,
+  "phase": "finished",
+  "planned_by_checkpoint": {
+    "T0": 4668,
+    "T24": 4668,
+    "T48": 4668,
+    "T72": 4668
+  },
+  "planned_observations": 18672,
+  "remaining_observations": 0,
+  "saved_at": "2026-10-18T02:27:44Z",
+  "seconds_until_window": 0,
+  "signature_failures": 4,
+  "stage": "finished",
+  "window_start": "2026-10-08T00:00:00Z"
+}

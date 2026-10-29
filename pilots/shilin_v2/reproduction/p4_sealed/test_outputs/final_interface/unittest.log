@@ -1,0 +1,56 @@
+test_current_price_rejected (test_lifecycle_adapter.ExpectationGateTests.test_current_price_rejected) ... ok
+test_exact_bucket_end_rejected (test_lifecycle_adapter.ExpectationGateTests.test_exact_bucket_end_rejected) ... ok
+test_historical_scalar_retains_limitation (test_lifecycle_adapter.ExpectationGateTests.test_historical_scalar_retains_limitation) ... ok
+test_partial_bucket_future_leak_rejected (test_lifecycle_adapter.ExpectationGateTests.test_partial_bucket_future_leak_rejected) ... ok
+test_settlement_payout_rejected (test_lifecycle_adapter.ExpectationGateTests.test_settlement_payout_rejected) ... ok
+test_adjacent_coverage_closes (test_lifecycle_adapter.LifecycleTests.test_adjacent_coverage_closes) ... ok
+test_alias_conflict_rejected (test_lifecycle_adapter.LifecycleTests.test_alias_conflict_rejected) ... ok
+test_ambiguous_crosswalk_rejected (test_lifecycle_adapter.LifecycleTests.test_ambiguous_crosswalk_rejected) ... ok
+test_chain_free_address_rejected (test_lifecycle_adapter.LifecycleTests.test_chain_free_address_rejected) ... ok
+test_complete_to_cutoff_right_censored (test_lifecycle_adapter.LifecycleTests.test_complete_to_cutoff_right_censored) ... ok
+test_conflict_order_independent (test_lifecycle_adapter.LifecycleTests.test_conflict_order_independent) ... ok
+test_conflicting_identity_rejected (test_lifecycle_adapter.LifecycleTests.test_conflicting_identity_rejected) ... ok
+test_conflicting_repeats_all_quarantined (test_lifecycle_adapter.LifecycleTests.test_conflicting_repeats_all_quarantined) ... ok
+test_coverage_gap_loss_to_followup (test_lifecycle_adapter.LifecycleTests.test_coverage_gap_loss_to_followup) ... ok
+test_coverage_overlap_conflict (test_lifecycle_adapter.LifecycleTests.test_coverage_overlap_conflict) ... ok
+test_creation_conflict_rejected (test_lifecycle_adapter.LifecycleTests.test_creation_conflict_rejected) ... ok
+test_creator_role_conflict_rejected (test_lifecycle_adapter.LifecycleTests.test_creator_role_conflict_rejected) ... ok
+test_creator_role_only_conflict_rejected (test_lifecycle_adapter.LifecycleTests.test_creator_role_only_conflict_rejected) ... ok
+test_cross_chain_same_address (test_lifecycle_adapter.LifecycleTests.test_cross_chain_same_address) ... ok
+test_crosswalk_object_id (test_lifecycle_adapter.LifecycleTests.test_crosswalk_object_id) ... ok
+test_diagnostic_file_and_line (test_lifecycle_adapter.LifecycleTests.test_diagnostic_file_and_line) ... ok
+test_epoch_requires_explicit_unit (test_lifecycle_adapter.LifecycleTests.test_epoch_requires_explicit_unit) ... ok
+test_equivalent_chain_aliases (test_lifecycle_adapter.LifecycleTests.test_equivalent_chain_aliases) ... ok
+test_event_after_gap_first_occurrence_unverified (test_lifecycle_adapter.LifecycleTests.test_event_after_gap_first_occurrence_unverified) ... ok
+test_event_before_creation (test_lifecycle_adapter.LifecycleTests.test_event_before_creation) ... ok
+test_event_exact_cutoff_excluded (test_lifecycle_adapter.LifecycleTests.test_event_exact_cutoff_excluded) ... ok
+test_evm_case_normalized (test_lifecycle_adapter.LifecycleTests.test_evm_case_normalized) ... ok
+test_exact_repeated_event_audited (test_lifecycle_adapter.LifecycleTests.test_exact_repeated_event_audited) ... ok
+test_explicit_field_mapping (test_lifecycle_adapter.LifecycleTests.test_explicit_field_mapping) ... ok
+test_first_seen_does_not_overwrite_creation (test_lifecycle_adapter.LifecycleTests.test_first_seen_does_not_overwrite_creation) ... ok
+test_fixture_requires_label (test_lifecycle_adapter.LifecycleTests.test_fixture_requires_label) ... ok
+test_inactivity_reactivation_preserved (test_lifecycle_adapter.LifecycleTests.test_inactivity_reactivation_preserved) ... ok
+test_late_start_is_unknown (test_lifecycle_adapter.LifecycleTests.test_late_start_is_unknown) ... ok
+test_missing_record_is_unknown (test_lifecycle_adapter.LifecycleTests.test_missing_record_is_unknown) ... ok
+test_missing_venue_needs_reason (test_lifecycle_adapter.LifecycleTests.test_missing_venue_needs_reason) ... ok
+test_multiple_events_keep_registry (test_lifecycle_adapter.LifecycleTests.test_multiple_events_keep_registry) ... ok
+test_naive_time_rejected (test_lifecycle_adapter.LifecycleTests.test_naive_time_rejected) ... ok
+test_native_position_leading_zero_deduplication (test_lifecycle_adapter.LifecycleTests.test_native_position_leading_zero_deduplication) ... ok
+test_native_position_required (test_lifecycle_adapter.LifecycleTests.test_native_position_required) ... ok
+test_noncomplete_needs_missing_reason (test_lifecycle_adapter.LifecycleTests.test_noncomplete_needs_missing_reason) ... ok
+test_numeric_epoch_only_with_declaration (test_lifecycle_adapter.LifecycleTests.test_numeric_epoch_only_with_declaration) ... ok
+test_observation_before_event (test_lifecycle_adapter.LifecycleTests.test_observation_before_event) ... ok
+test_observed_event_not_censored (test_lifecycle_adapter.LifecycleTests.test_observed_event_not_censored) ... ok
+test_partial_cannot_be_complete (test_lifecycle_adapter.LifecycleTests.test_partial_cannot_be_complete) ... ok
+test_postcutoff_event_retained_excluded (test_lifecycle_adapter.LifecycleTests.test_postcutoff_event_retained_excluded) ... ok
+test_real_mode_rejects_fixture (test_lifecycle_adapter.LifecycleTests.test_real_mode_rejects_fixture) ... ok
+test_reversed_coverage_rejected (test_lifecycle_adapter.LifecycleTests.test_reversed_coverage_rejected) ... ok
+test_solana_case_preserved (test_lifecycle_adapter.LifecycleTests.test_solana_case_preserved) ... ok
+test_target_specific_coverage (test_lifecycle_adapter.LifecycleTests.test_target_specific_coverage) ... ok
+test_unknown_registry_token_quarantined (test_lifecycle_adapter.LifecycleTests.test_unknown_registry_token_quarantined) ... ok
+test_unknown_version_rejected (test_lifecycle_adapter.LifecycleTests.test_unknown_version_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.006s
+
+OK

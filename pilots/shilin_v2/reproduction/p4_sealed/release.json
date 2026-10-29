@@ -1,0 +1,38 @@
+{
+  "article_scope": "existing P3 snapshot read-only; no article authored or revised",
+  "capsule_elapsed_seconds": 68.512,
+  "capsule_sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0",
+  "code_commit": null,
+  "code_version": "file_hash_locks; source tree not committed for this delivery",
+  "common_cutoff_utc": null,
+  "creation_window": [
+    "2026-10-08T00:00:00Z",
+    "2026-10-15T00:00:00Z"
+  ],
+  "delivery_stage": "personal_candidate",
+  "distribution": "local_review_only",
+  "external_uploads": 0,
+  "input_files": 26949,
+  "input_uncompressed_bytes": 3176845627,
+  "input_version": "P3 formal_20261008_15_v6",
+  "interface_version": "shilin_lifecycle_adapter_v1",
+  "original_run": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6",
+  "p4_code_lock": {
+    "accept_delivery.py": "e8452e393368cd303d0166c6a4682798f0e475d96b7c1f7cf8b7c387fbbfc578",
+    "audit_counts.py": "c3f49e4d38a437b895cc5c975375a308ce3093b79a19b694566d647b12ce7c88",
+    "build_metadata.py": "dd728af337b5ce641f98f09baeaedf94316f4e2877420c6bb7a07abd674a102e",
+    "gallery.py": "38de68457e0b89621265872ec6f9ae8fba89faec84f9ed57a0acc7fde11d9b18",
+    "lifecycle_adapter.py": "6ffa54319f93fd5880369a53816ed5aec7a96930e78291b2b09b058b10542f03",
+    "package_delivery.py": "02d5985f5628920bc139a0288089b280f41f646ed90e3183741f029716c17c76",
+    "rebuild_worker.py": "d66e1ed3931b68eaded7c9f4e4e037c68237dec57d5b2f6f8ce1785815a3a980",
+    "run_interface_tests.py": "da54b4edac7f6d92bac9030e7d67d4e3c1d4569609b60b380743c943b49ff3d9",
+    "seal_delivery.py": "d1c9caa68e40517e33bf196932f1650fb7c9c3627590df4286a987bbff058bc4"
+  },
+  "png_renderer": "rsvg-convert 2.63.2",
+  "protocol_sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2",
+  "python_rebuild_version": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "real_lifecycle_integration_status": "awaiting_integration",
+  "release_id": "p4_personal_candidate_20261029",
+  "schema_metadata_status": "Croissant 1.1 descriptor; locally structural checked; official validator not run; publication metadata pending",
+  "sealed_scope": "all files except file_manifest.json itself; checksum for manifest stored externally"
+}

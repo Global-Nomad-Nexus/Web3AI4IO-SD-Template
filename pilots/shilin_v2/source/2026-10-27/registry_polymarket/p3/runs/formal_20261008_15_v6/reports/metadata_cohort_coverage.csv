@@ -1,0 +1,15 @@
+scope,metric,numerator,denominator
+legacy_all,tokens_with_any_historical_JSON,4210,4668
+legacy_all,planned_checkpoints,18672,18672
+legacy_all,checkpoint_observed,16736,18672
+legacy_all,checkpoint_parse_failed,12,18672
+legacy_all,checkpoint_request_failed,1924,18672
+solana:mainnet,formal_tokens_with_historical_JSON,4210,330061
+solana:mainnet,formal_legacy_member_tokens,4668,330061
+solana:mainnet,backfilled_not_collected_historically,325393,325393
+eip155:8453,formal_tokens_with_historical_JSON,0,1535
+eip155:8453,formal_legacy_member_tokens,0,1535
+eip155:8453,backfilled_not_collected_historically,1535,1535
+eip155:56,formal_tokens_with_historical_JSON,0,35777
+eip155:56,formal_legacy_member_tokens,0,35777
+eip155:56,backfilled_not_collected_historically,35777,35777

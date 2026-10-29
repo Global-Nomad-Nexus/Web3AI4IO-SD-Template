@@ -1,0 +1,147 @@
+{
+  "protocol_version": "cohort-2026-10-07-7day-72h",
+  "network": "solana-mainnet",
+  "platform": "pump.fun",
+  "pumpfun_program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+  "window": {
+    "start": "2026-10-08T00:00:00Z",
+    "end": "2026-10-15T00:00:00Z",
+    "inclusion": "start_inclusive_end_exclusive",
+    "clock": "chain_event_time",
+    "frozen": true,
+    "note": "Seven complete UTC days, frozen before collection. The end instant is exclusive. Live T0 is the first time a creation is decoded. T24, T48 and T72 are that creation's block time plus 24, 48 and 72 hours and are not requested earlier."
+  },
+  "acquisition": {
+    "max_pages": 50,
+    "transaction_workers": 1,
+    "page_limit": 1000,
+    "transactions_per_poll": 10
+  },
+  "observation": {
+    "checkpoints": [
+      "T0",
+      "T24",
+      "T48",
+      "T72"
+    ],
+    "checkpoint_offsets_seconds": {
+      "T0": 0,
+      "T24": 86400,
+      "T48": 172800,
+      "T72": 259200
+    },
+    "enrollment_seconds": 604800,
+    "poll_seconds": 20,
+    "live_tip": true,
+    "autosave_seconds": 600,
+    "max_lateness_seconds": 10800,
+    "max_attempts": 3,
+    "max_retry_rounds": 5,
+    "max_signature_retries": 5,
+    "max_retry_sleep_seconds": 30,
+    "max_response_bytes": 1000000,
+    "checkpoint_max_lateness_seconds": {
+      "T0": 300,
+      "T24": 3600,
+      "T48": 7200,
+      "T72": 10800
+    },
+    "followup_seconds": 259200,
+    "note": "Lateness values are the frozen engineering targets from the 2026-09-28 proposal: T0 within 5 minutes of first sight, T24 within 1 hour, T48 within 2 hours, T72 within 3 hours. They are not scientific inclusion thresholds."
+  },
+  "metadata": {
+    "allowed_fields": [
+      "name",
+      "symbol",
+      "description",
+      "createdOn",
+      "image",
+      "website",
+      "twitter",
+      "telegram"
+    ],
+    "parser_version": "metadata-json-fields-v1",
+    "request_method": "GET",
+    "follow_redirects": false,
+    "cookies": false,
+    "javascript": false,
+    "gateway_candidates": [
+      {
+        "route_id": "pump_pinata_gateway",
+        "base_url": "https://pump.mypinata.cloud",
+        "host": "pump.mypinata.cloud",
+        "resource_class": "ipfs_cid"
+      },
+      {
+        "route_id": "pinata_gateway",
+        "base_url": "https://gateway.pinata.cloud",
+        "host": "gateway.pinata.cloud",
+        "resource_class": "ipfs_cid"
+      }
+    ],
+    "arweave_base_url": "https://arweave.net"
+  },
+  "metadata_gateways": {
+    "sample_cid": "bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu",
+    "preflight_attempts": 5,
+    "preflight_sleep_seconds": 15,
+    "candidates": [
+      {
+        "host": "pump.mypinata.cloud",
+        "template": "https://pump.mypinata.cloud/ipfs/{cid}"
+      },
+      {
+        "host": "gateway.pinata.cloud",
+        "template": "https://gateway.pinata.cloud/ipfs/{cid}"
+      }
+    ],
+    "note": "The declared route is policy-checked first. A refused route is recorded without a network call; registered same-CID gateways may then be tried. Allowed declarations are requested before gateways; only retryable request failures reach the next route. When any preflight passes, gateway candidates are restricted to the confirmed subset; when none passes, registered routes remain eligible."
+  },
+  "api_candidates": [
+    {
+      "candidate_id": "publicnode-solana-mainnet",
+      "role": "primary-chain-rpc-candidate",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "selection_note": "First connection: the original Shilin PublicNode HTTPS client. Transaction queries wait 0.2 seconds after success.",
+      "transport": "https"
+    },
+    {
+      "candidate_id": "publicnode-solana-mainnet-http3",
+      "role": "second-chain-rpc-connection",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "selection_note": "Second connection: same PublicNode endpoint over HTTP/3. Transaction queries wait 0.2 seconds after success.",
+      "transport": "http3"
+    },
+    {
+      "candidate_id": "solana-official-rpc-secondary-region",
+      "role": "third-chain-rpc-connection",
+      "endpoint": "https://api.mainnet-beta.solana.com",
+      "rpc_method_min_interval_seconds": {
+        "getTransaction": 3.0
+      },
+      "official_docs_url": "https://solana.com/docs/rpc",
+      "access_decision": "allowed",
+      "selection_note": "Third connection: official Solana RPC. getTransaction waits 3 seconds after success; other methods wait 0.2 seconds. Retry-After controls rate-limit retries.",
+      "transport": "https"
+    }
+  ],
+  "fixture": {
+    "uri_files": {
+      "https://metadata.example.test/token-001.json": "fixtures/metadata/token-001.json",
+      "https://metadata.example.test/token-002.json": "fixtures/metadata/token-002.json"
+    },
+    "note": "example.test is a local fixture namespace; it is never contacted in fixture mode.",
+    "window": {
+      "start": "2026-09-28T00:00:00Z",
+      "end": "2026-09-29T00:00:00Z",
+      "inclusion": "start_inclusive_end_exclusive",
+      "note": "Offline sample events only. Live collection uses the frozen seven-day window."
+    }
+  }
+}

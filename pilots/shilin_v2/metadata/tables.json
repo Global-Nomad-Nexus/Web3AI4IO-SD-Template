@@ -1,0 +1,1160 @@
+{
+  "format_version": 1,
+  "release_id": "shilin-v2-20261029",
+  "tables": [
+    {
+      "id": "p3_v6/context_daily",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/context_daily.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/context_daily.csv",
+      "rows": 266,
+      "bytes": 89483,
+      "sha256": "da3aa272e57d986b4dded4c7e7303b795df2ed49c7005dd6ea8d2b2625851280",
+      "columns": [
+        "chain_key",
+        "platform_id",
+        "utc_day",
+        "mapping_id",
+        "pm_outcome_key",
+        "link_type",
+        "anchor_time_utc",
+        "price_observation_id",
+        "expectation_at_day_start",
+        "effective_information_time_utc",
+        "match_status",
+        "observed_created_tokens",
+        "creation_coverage_status"
+      ],
+      "header_bytes": 222,
+      "parts": [
+        {
+          "path": "data/p3_v6/context_daily/part-0001.csv.gz",
+          "sha256": "52ca3fcbede9c37db6a67c328e445b51927f194bfbcdc821c5140eaceb5dbea4",
+          "bytes": 8778,
+          "rows": 266
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/creation_events",
+      "alias_of": "p3_v6/registry",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/creation_events.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/creation_events.csv",
+      "rows": 367373,
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+      "bytes": 607586242,
+      "columns": [
+        "creation_event_id",
+        "token_id",
+        "chain_key",
+        "platform_id",
+        "platform_version_id",
+        "program_or_factory_address",
+        "token_address_raw",
+        "token_address_canonical",
+        "creation_tx_hash_or_signature",
+        "block_height_or_slot",
+        "block_hash",
+        "created_at_utc",
+        "transaction_index",
+        "transaction_format_version",
+        "native_instruction_path",
+        "outer_instruction_index",
+        "inner_instruction_path",
+        "log_index",
+        "creator_address",
+        "creator_role_definition",
+        "tx_sender_or_signer",
+        "fee_payer",
+        "initial_name",
+        "initial_symbol",
+        "initial_metadata_uri",
+        "initial_metadata_uri_status",
+        "initial_attributes_json",
+        "discovery_mode",
+        "first_decoded_at_utc",
+        "historical_metadata_status",
+        "legacy_observed_cohort",
+        "source_id",
+        "native_receipt_raw_ref",
+        "native_block_raw_ref",
+        "instruction_commitment_evidence_ref",
+        "execution_status",
+        "decoder_version",
+        "cohort_id",
+        "evidence_scope"
+      ]
+    },
+    {
+      "id": "p3_v6/metadata_coverage",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/metadata_coverage.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/metadata_coverage.csv",
+      "rows": 18672,
+      "bytes": 8284852,
+      "sha256": "44e9a390161ec84b10f1fedce373e15592b4b3738c990c734959c4d2902c2751",
+      "columns": [
+        "event_key",
+        "checkpoint",
+        "required",
+        "schedule_state",
+        "request_state",
+        "parse_state",
+        "field_state",
+        "timing_state",
+        "final_state",
+        "request_id",
+        "source_release",
+        "token_id",
+        "scheduled_at_utc",
+        "earliest_allowed_at_utc",
+        "actual_completed_at_utc",
+        "time_basis",
+        "evidence_status",
+        "delay_from_creation_seconds",
+        "in_formal_creation_cohort"
+      ],
+      "header_bytes": 290,
+      "parts": [
+        {
+          "path": "data/p3_v6/metadata_coverage/part-0001.csv.gz",
+          "sha256": "5bdd0cf062b4aa4ba9a92251d552f0281efc99a6d8acc8d050647504c33fbc93",
+          "bytes": 1269646,
+          "rows": 18672
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/metadata_observations",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/metadata_observations.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/metadata_observations.csv",
+      "rows": 133888,
+      "bytes": 97163287,
+      "sha256": "7f84e26f5cab95f5b0e368f27ac72266921671b22b13598f28a1c4017625995a",
+      "columns": [
+        "request_id",
+        "event_key",
+        "checkpoint",
+        "uri",
+        "field_name",
+        "json_pointer",
+        "presence",
+        "value_type",
+        "allowed_value",
+        "value_hash",
+        "parser_version",
+        "metadata_observation_id",
+        "token_id",
+        "actual_request_started_at_utc",
+        "actual_request_completed_at_utc",
+        "source_retrieved_at_utc",
+        "response_sha256",
+        "source_release",
+        "in_formal_creation_cohort",
+        "historical_body_status",
+        "source_ref"
+      ],
+      "header_bytes": 331,
+      "parts": [
+        {
+          "path": "data/p3_v6/metadata_observations/part-0001.csv.gz",
+          "sha256": "8cbb9f177b3ff6b826452766bda7008c60c7bcc86505e027c4da9c81cac996ff",
+          "bytes": 8646733,
+          "rows": 92389
+        },
+        {
+          "path": "data/p3_v6/metadata_observations/part-0002.csv.gz",
+          "sha256": "a03558c3fbe75bc5f6ad7c59abf0a5fc0ac3a4b154e53b9be18c692f02254a78",
+          "bytes": 3867469,
+          "rows": 41499
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_activity",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_activity.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_activity.csv",
+      "rows": 60,
+      "bytes": 8725,
+      "sha256": "c56f06d5dd5ffd5973ad8e2f1b98c1cfa7baf948e7fa5a5b42343a7108d1a24b",
+      "columns": [
+        "market_id",
+        "snapshot_at_utc",
+        "historical_activity_status",
+        "current_activity_not_used_as_historical",
+        "raw_ref"
+      ],
+      "header_bytes": 102,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_activity/part-0001.csv.gz",
+          "sha256": "2b5bf876740178492450838d8c51e2cc914efa6a4719d60480944373bbaaa1dc",
+          "bytes": 3391,
+          "rows": 60
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_candidate_catalogue",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_candidate_catalogue.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_candidate_catalogue.csv",
+      "rows": 445,
+      "bytes": 149007,
+      "sha256": "e0b9b5f7654c57dcf1284837cbaeb236d9f5827d5ebc8ceb1f08b54197323f77",
+      "columns": [
+        "candidate_id",
+        "category",
+        "market_id",
+        "event_id",
+        "question",
+        "opened_at_utc",
+        "scheduled_close_at_utc",
+        "outcomes_json",
+        "raw_ref",
+        "review_status",
+        "history_selection"
+      ],
+      "header_bytes": 142,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_candidate_catalogue/part-0001.csv.gz",
+          "sha256": "5d8896193b28d76442fba8a55c0f64ecc1609494fa427776e1ddd112fd14bf1c",
+          "bytes": 22998,
+          "rows": 445
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_mapping",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_mapping.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_mapping.csv",
+      "rows": 28,
+      "bytes": 19050,
+      "sha256": "4e3235e534d4cb158c57d33d8eae1d7a4f50858934f424f6e12ec93257b862c3",
+      "columns": [
+        "mapping_id",
+        "link_type",
+        "target_type",
+        "target_id",
+        "applicable_chain_keys",
+        "pm_market_key",
+        "pm_outcome_key",
+        "market_snapshot_id",
+        "rule_snapshot_ref",
+        "evidence_ref",
+        "semantic_valid_from_utc",
+        "semantic_valid_to_utc",
+        "rule_known_from_utc",
+        "reviewed_by",
+        "review_status",
+        "uncertainty",
+        "history_resolution_seconds"
+      ],
+      "header_bytes": 276,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_mapping/part-0001.csv.gz",
+          "sha256": "26bc110c38ea3b09de240d5bfda413b7a784c64229934b1407f962c1cf470b97",
+          "bytes": 4951,
+          "rows": 28
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_markets",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_markets.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_markets.csv",
+      "rows": 60,
+      "bytes": 42405,
+      "sha256": "8dc290b32516840442ab46e1ab737e4f40694b06c69d1ea931bf9663ea96c2e1",
+      "columns": [
+        "market_snapshot_id",
+        "pm_market_key",
+        "event_id",
+        "market_id",
+        "condition_id",
+        "question",
+        "slug",
+        "rules_ref",
+        "rules_sha256",
+        "rules_snapshot_at_utc",
+        "opened_at_utc",
+        "created_at_api_utc",
+        "scheduled_close_at_utc",
+        "actual_close_at_utc",
+        "resolved_at_utc",
+        "active_snapshot",
+        "closed_snapshot",
+        "resolution_state_snapshot",
+        "resolution_result",
+        "protocol_version_native",
+        "settlement_network",
+        "snapshot_at_utc",
+        "raw_ref",
+        "rules_historical_revision_status",
+        "topic",
+        "activity_scope"
+      ],
+      "header_bytes": 414,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_markets/part-0001.csv.gz",
+          "sha256": "8f8ad7b9b62566b11b9534993ccb8d62fe71fed25197600c888c3b0e867d6ffb",
+          "bytes": 10918,
+          "rows": 60
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_match_status",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_match_status.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_match_status.csv",
+      "rows": 6156902,
+      "bytes": 1307300329,
+      "sha256": "c2c9878c53b11e83d11128c0a1d677cd2a7e0aa7d7fcb7055ef10c4dc4baf63f",
+      "columns": [
+        "match_assessment_id",
+        "token_id",
+        "mapping_id",
+        "link_type",
+        "status",
+        "primary_reason",
+        "anchor_time_utc"
+      ],
+      "header_bytes": 89,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_match_status/part-0001.csv.gz",
+          "sha256": "69cb476be263ca379ca53c36237981c9c56da157f07e37ced066b986ec3e0649",
+          "bytes": 9531659,
+          "rows": 326829
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0002.csv.gz",
+          "sha256": "7ca0f8a54a56015d008d1a55632962e0117686bd77c3297c688f9ef3438aca56",
+          "bytes": 9492907,
+          "rows": 323093
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0003.csv.gz",
+          "sha256": "561c91b878458eb478b51f1dcde6e225a9b759af839f38094d7091f06aefb470",
+          "bytes": 9468566,
+          "rows": 316827
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0004.csv.gz",
+          "sha256": "38413f8bb3ba305731365cae9e8a19d941528e262c095c85e9367435ad9fcff8",
+          "bytes": 9373257,
+          "rows": 315377
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0005.csv.gz",
+          "sha256": "9417462715428e34d5022a55718a6d0410ffce5353ce011dd56ef00926d6daf4",
+          "bytes": 9378356,
+          "rows": 314903
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0006.csv.gz",
+          "sha256": "4c8060d581ae6ea4b12cdf723d305ea4f74dc9b00b4d75e0fdb2d53d14ce9970",
+          "bytes": 9431923,
+          "rows": 314908
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0007.csv.gz",
+          "sha256": "7631ac701d011daad6b29d7bcd913b2a6dc35f7c086e8e1648263bf135f72e8d",
+          "bytes": 9378847,
+          "rows": 314907
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0008.csv.gz",
+          "sha256": "5edfc94c368ce0077a6940eac012142bcfcb1658275178d6e113160e36397b4c",
+          "bytes": 9400734,
+          "rows": 314900
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0009.csv.gz",
+          "sha256": "fd37835613ec896009d32ed3aeba90d46d8ecf89e9661aa2f1008ed91c511593",
+          "bytes": 9396692,
+          "rows": 314909
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0010.csv.gz",
+          "sha256": "dfe09af7a23cfe1ed66f0f580e4e899cb6ba0f1963a166f7e4a00fe2e2a84009",
+          "bytes": 9366325,
+          "rows": 314902
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0011.csv.gz",
+          "sha256": "d3370f7e049580bb4d9fcb692aafd480d1daf47cc3ee218a4d65a609cb95bc1f",
+          "bytes": 9440705,
+          "rows": 314895
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0012.csv.gz",
+          "sha256": "a7c07e3f3cdafbe2abf99913d9b3cb9a7304fd19df335f24ff818ad66999fdaf",
+          "bytes": 9391768,
+          "rows": 314905
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0013.csv.gz",
+          "sha256": "ebb012bed589cd03c1e30fbc18f5f143c83e0f6d21784b0c43993a5bafb30b88",
+          "bytes": 9421606,
+          "rows": 314903
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0014.csv.gz",
+          "sha256": "9ced426e0d1517ddab2437911807084f4b712cfa1b5f68fbb96e1c55e8e08e1b",
+          "bytes": 9376083,
+          "rows": 314900
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0015.csv.gz",
+          "sha256": "e966968a9b2aae816b7e367a3eabdfb6ee62f5ea732c4090c455ddaf78382c72",
+          "bytes": 9373646,
+          "rows": 314899
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0016.csv.gz",
+          "sha256": "c44bd7cf8fa55de535af200fd3fab4329d027945915598c57e5d6876bebca0f6",
+          "bytes": 9438080,
+          "rows": 314901
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0017.csv.gz",
+          "sha256": "f58f28a719ef1c7e211337fec7dddfecd145f3043b088bc1689426d27baf0c2f",
+          "bytes": 9373024,
+          "rows": 314899
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0018.csv.gz",
+          "sha256": "c699a27d05a39462419b08679a02aadd984bbf4ac2360e58dcfd4aad68370a9d",
+          "bytes": 9427108,
+          "rows": 314903
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0019.csv.gz",
+          "sha256": "b5f1bda06e4c2ee8a7c950537d344ea8d059457a923b9a5714ee52164f225fd5",
+          "bytes": 9407514,
+          "rows": 314900
+        },
+        {
+          "path": "data/p3_v6/pm_match_status/part-0020.csv.gz",
+          "sha256": "db1d702a26317b3adc590dc7644ebba69ba3a89368fad67b1d7d9ec8b8aff0af",
+          "bytes": 4509179,
+          "rows": 151242
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_outcomes",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_outcomes.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_outcomes.csv",
+      "rows": 120,
+      "bytes": 48940,
+      "sha256": "4dc907ea5a8801072e28d0f421db1bfe73dfc30eb448fe46f4fa7a9a1f778091",
+      "columns": [
+        "pm_outcome_key",
+        "pm_market_key",
+        "market_snapshot_id",
+        "outcome_index",
+        "outcome_label",
+        "asset_id_raw",
+        "asset_id_type",
+        "protocol_version_native",
+        "native_id_type_verification",
+        "raw_ref"
+      ],
+      "header_bytes": 164,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_outcomes/part-0001.csv.gz",
+          "sha256": "49c413ad007542be44857f1bc6eda86edb1a2833998f073b5c1e6e0139eeb6a6",
+          "bytes": 11319,
+          "rows": 120
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/pm_prices",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_prices.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/pm_prices.csv",
+      "rows": 175054,
+      "bytes": 98258867,
+      "sha256": "145dc042cd7f77f9e2fde8f94e6e646bd90c959b16f69641f974a8d35690e0a1",
+      "columns": [
+        "price_observation_id",
+        "pm_outcome_key",
+        "market_snapshot_id",
+        "price",
+        "source_timestamp_utc",
+        "bucket_start_utc",
+        "bucket_end_utc",
+        "effective_information_time_utc",
+        "resolution_seconds",
+        "is_settlement_point",
+        "eligible_for_asof",
+        "time_semantics_status",
+        "price_definition_status",
+        "source_retrieved_at_utc",
+        "request_id",
+        "raw_ref",
+        "price_unit"
+      ],
+      "header_bytes": 303,
+      "parts": [
+        {
+          "path": "data/p3_v6/pm_prices/part-0001.csv.gz",
+          "sha256": "e6b2a274e333f575f7c08fd6f761df69c38ac07edd2d244a4d04425eb45b1b73",
+          "bytes": 4073902,
+          "rows": 119564
+        },
+        {
+          "path": "data/p3_v6/pm_prices/part-0002.csv.gz",
+          "sha256": "53cf5bdba99ce08030f3f9e7dc56fba64048bc7419e23fba00cf1ee3c71473d5",
+          "bytes": 1895167,
+          "rows": 55490
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/registry",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/registry.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/registry.csv",
+      "rows": 367373,
+      "bytes": 607586242,
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+      "columns": [
+        "creation_event_id",
+        "token_id",
+        "chain_key",
+        "platform_id",
+        "platform_version_id",
+        "program_or_factory_address",
+        "token_address_raw",
+        "token_address_canonical",
+        "creation_tx_hash_or_signature",
+        "block_height_or_slot",
+        "block_hash",
+        "created_at_utc",
+        "transaction_index",
+        "transaction_format_version",
+        "native_instruction_path",
+        "outer_instruction_index",
+        "inner_instruction_path",
+        "log_index",
+        "creator_address",
+        "creator_role_definition",
+        "tx_sender_or_signer",
+        "fee_payer",
+        "initial_name",
+        "initial_symbol",
+        "initial_metadata_uri",
+        "initial_metadata_uri_status",
+        "initial_attributes_json",
+        "discovery_mode",
+        "first_decoded_at_utc",
+        "historical_metadata_status",
+        "legacy_observed_cohort",
+        "source_id",
+        "native_receipt_raw_ref",
+        "native_block_raw_ref",
+        "instruction_commitment_evidence_ref",
+        "execution_status",
+        "decoder_version",
+        "cohort_id",
+        "evidence_scope"
+      ],
+      "header_bytes": 747,
+      "parts": [
+        {
+          "path": "data/p3_v6/registry/part-0001.csv.gz",
+          "sha256": "e3cfee6eb081e1e729bac8617a24b8c6a6cee19f749a7a371e143918028feb6c",
+          "bytes": 12346045,
+          "rows": 47132
+        },
+        {
+          "path": "data/p3_v6/registry/part-0002.csv.gz",
+          "sha256": "77f56c1b4867906957593d134b10132a6f9d1dfca5a221167f0015ce8461abb0",
+          "bytes": 11501601,
+          "rows": 40831
+        },
+        {
+          "path": "data/p3_v6/registry/part-0003.csv.gz",
+          "sha256": "0274ead6b83d6ab7e4449be849ffe1a9b88b6c1f8f70f32efb5312a5c74ef3ff",
+          "bytes": 11452333,
+          "rows": 39660
+        },
+        {
+          "path": "data/p3_v6/registry/part-0004.csv.gz",
+          "sha256": "4ffa35a1f949f2df06579473fe1d5af0d58822189234c9f705ffdfb0ab0e3cb9",
+          "bytes": 11297439,
+          "rows": 39547
+        },
+        {
+          "path": "data/p3_v6/registry/part-0005.csv.gz",
+          "sha256": "9345ae7cde81249b013077dec332d86bca519c6a0b83c60717c61f878ef83e08",
+          "bytes": 11235291,
+          "rows": 39559
+        },
+        {
+          "path": "data/p3_v6/registry/part-0006.csv.gz",
+          "sha256": "4375a4c1f607ad47ee992f51214b3e4f3d5b19206cd5611e673d57dc1b2d3e3a",
+          "bytes": 11229799,
+          "rows": 39612
+        },
+        {
+          "path": "data/p3_v6/registry/part-0007.csv.gz",
+          "sha256": "6b5b6e19579980f7a395b3018666d7558199c8d4e2a72709926be680c27eddad",
+          "bytes": 11113368,
+          "rows": 39638
+        },
+        {
+          "path": "data/p3_v6/registry/part-0008.csv.gz",
+          "sha256": "3f6fbe4d7b8b688c3e0141c6f4b046e24aa5b0d6d0c6171650d9dc6c3aa656cb",
+          "bytes": 11207214,
+          "rows": 39646
+        },
+        {
+          "path": "data/p3_v6/registry/part-0009.csv.gz",
+          "sha256": "ab9e1f2966354f53e2659158c6ed84a7f808763d11314155a3b19bc369b34520",
+          "bytes": 11302602,
+          "rows": 39615
+        },
+        {
+          "path": "data/p3_v6/registry/part-0010.csv.gz",
+          "sha256": "89b187a19304afa47e7310486997757b74e357a1cc092704c35bcb3372a43824",
+          "bytes": 603163,
+          "rows": 2133
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/token_expectations_at_creation",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_expectations_at_creation.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_expectations_at_creation.csv",
+      "rows": 6156902,
+      "bytes": 2856616970,
+      "sha256": "d719a0e5f7e850c4c2dea1f7522fbd98e45ef97aff27005db4b09ade8b5a2dcb",
+      "columns": [
+        "expectation_link_id",
+        "token_id",
+        "chain_key",
+        "creation_event_id",
+        "mapping_id",
+        "pm_outcome_key",
+        "price_observation_id",
+        "anchor_time_utc",
+        "effective_information_time_utc",
+        "price",
+        "price_age_hours",
+        "match_status",
+        "link_type",
+        "feature_readiness"
+      ],
+      "header_bytes": 215,
+      "parts": [
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0001.csv.gz",
+          "sha256": "c336052b38ab87512733e2f0e40f70deac68ce0f195d54587d80ce2cf6de73f9",
+          "bytes": 5455175,
+          "rows": 147024
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0002.csv.gz",
+          "sha256": "0906d9f618612e05921a85608a681118e45137db22eca03881abfe99d638e8e8",
+          "bytes": 5506695,
+          "rows": 147006
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0003.csv.gz",
+          "sha256": "7a8511226204a181e5490ab8c4f3284a43e55fe92596b78e990aed8ef58f3aa0",
+          "bytes": 5363061,
+          "rows": 147003
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0004.csv.gz",
+          "sha256": "be84665e441e7e4518a46b124b2a1b2b20745dfd46f0133db20e08f6fa1e8c7b",
+          "bytes": 5481794,
+          "rows": 145740
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0005.csv.gz",
+          "sha256": "1c7b1b537a164168cea097592da4604fa97a0c910e730063dbfac95fde87e149",
+          "bytes": 5200324,
+          "rows": 143433
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0006.csv.gz",
+          "sha256": "450c9b42a6a3955d308f69a988030df8aafb57d0d19be2441ed6d7bf621aaeea",
+          "bytes": 5264883,
+          "rows": 143426
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0007.csv.gz",
+          "sha256": "6ceb5feca7eee5075284d462dd279c263944886f5b591a5ac12df9a7f804a684",
+          "bytes": 5216457,
+          "rows": 143396
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0008.csv.gz",
+          "sha256": "8601bb35392ce2a28fa33de69a3611e3a1066ec150eef672b0deb1e7561a26b5",
+          "bytes": 5199908,
+          "rows": 144311
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0009.csv.gz",
+          "sha256": "56c43dd119c74a40185db49d1a5e11e6eae05bb55d578ce7fed76b0b6f4462a5",
+          "bytes": 5122976,
+          "rows": 144533
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0010.csv.gz",
+          "sha256": "bb9163388280ce0c20341c364182fbb931938ff0493fcc3a18fd92f5b9a867be",
+          "bytes": 5183934,
+          "rows": 144540
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0011.csv.gz",
+          "sha256": "c22e160f312f6e709e6e997c07731b3ef2b8839a4bc7c1d7b16fdd41d70e2447",
+          "bytes": 5254478,
+          "rows": 144534
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0012.csv.gz",
+          "sha256": "28c34406f39e139fe7db97ae65364dd0cb752c824a2de08dd497ed1fbca12ecb",
+          "bytes": 5316241,
+          "rows": 144550
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0013.csv.gz",
+          "sha256": "013666c7fc2217c5c26352d8a852c1a867ba7124c79cab38fefb74368b56ff24",
+          "bytes": 5283048,
+          "rows": 144529
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0014.csv.gz",
+          "sha256": "e6b8e899236fcbde12e6a194322f08e03da329914a68f44093d34088b4ea0bcf",
+          "bytes": 5239962,
+          "rows": 144541
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0015.csv.gz",
+          "sha256": "d503bb54567adfa03b4d0bc486572fdb3c1b0de8f2f9bab417e93b76cbb597e1",
+          "bytes": 5199584,
+          "rows": 144504
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0016.csv.gz",
+          "sha256": "2defd081c730bd8e3e9fb3a516762926cf6afc059c682b44b303fca968412e0e",
+          "bytes": 5204415,
+          "rows": 144495
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0017.csv.gz",
+          "sha256": "0e47757f2e0f18f019527a481a8879eaf23ce65517dedea625386b3ec310b7ed",
+          "bytes": 5241284,
+          "rows": 144497
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0018.csv.gz",
+          "sha256": "1eb55540e295367e846a3fad8e5bf5618771749af13651b762c25eebfa1c26e5",
+          "bytes": 5324767,
+          "rows": 144491
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0019.csv.gz",
+          "sha256": "c97ff9b8de836842b9d05e6c0f86ca112e63c1c52ff84a083a23abc540359666",
+          "bytes": 5254699,
+          "rows": 144490
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0020.csv.gz",
+          "sha256": "cf452a63b7f500b64941d92e74081b7fa39cf69925a1a2ec32b897fcff29ace6",
+          "bytes": 5180653,
+          "rows": 144515
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0021.csv.gz",
+          "sha256": "444c485f72c022dfd0fca294e7fa9fd6d83b545f6d6dd36f7d0c4cc78f41f4c0",
+          "bytes": 5200786,
+          "rows": 144562
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0022.csv.gz",
+          "sha256": "65c69c7df2bb893ad794679f9002f10bc42fafb0e5bc884f0b3ab26f1a2e6bf6",
+          "bytes": 5227870,
+          "rows": 144549
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0023.csv.gz",
+          "sha256": "eddfd512b6cb75c6078e60b3e57f677f39da6b4b0c6aa31f6046d714a23e6240",
+          "bytes": 5286067,
+          "rows": 144535
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0024.csv.gz",
+          "sha256": "d740f2fe11866953395f486e831368b565b7b2090d4b1b877b3248db3b0f7d64",
+          "bytes": 5319655,
+          "rows": 144517
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0025.csv.gz",
+          "sha256": "88c67946b397b6e50e11235fe3a3d733bcea9191d95884395395333acfe91a13",
+          "bytes": 5265886,
+          "rows": 144499
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0026.csv.gz",
+          "sha256": "f6c0026878f09976e89cfe6ecb21c43ba1d34ad759c12993f3397f2cc8c06038",
+          "bytes": 5229637,
+          "rows": 144502
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0027.csv.gz",
+          "sha256": "c29472c1d93e67c5b2e01aa9719812410ea544138920d10534079f916aff80d8",
+          "bytes": 5250989,
+          "rows": 144529
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0028.csv.gz",
+          "sha256": "cd932b9250eab2b95b8d0d4da96229281a41972aab607902415e2bb61b49dfc0",
+          "bytes": 5271039,
+          "rows": 144524
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0029.csv.gz",
+          "sha256": "62997dc35339dad5ad3fb90b0c485b938c6257ddeede8886c43961cac2d261b8",
+          "bytes": 5263538,
+          "rows": 144514
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0030.csv.gz",
+          "sha256": "ae9ee9ffe0b4d01d582fde6105ce9fec6697ac18da516767de56f69251fb8d26",
+          "bytes": 5193347,
+          "rows": 144491
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0031.csv.gz",
+          "sha256": "6ac44b20ef8399fd4f7002d3a3c530301e09c8f7a15765bd0f6893bd1cfa2224",
+          "bytes": 5146321,
+          "rows": 144477
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0032.csv.gz",
+          "sha256": "c44a539dcc409d6e84cc425a4429018afc7965b8be3ce5a772c92c3a5f12ce02",
+          "bytes": 5156304,
+          "rows": 144483
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0033.csv.gz",
+          "sha256": "a4ac4c9c17db04ca7e584889c9916ed3f2c40bdd760af915f4c6ffe62b51240d",
+          "bytes": 5237729,
+          "rows": 144508
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0034.csv.gz",
+          "sha256": "531f6c71dc051e1c3bbbec952be295238079843268da7af5a160dbbeaf3a08d3",
+          "bytes": 5271891,
+          "rows": 144494
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0035.csv.gz",
+          "sha256": "f8231294a283701f1bfab22c90b7587425d82b90ebde38e17892dbf07faea15e",
+          "bytes": 5270764,
+          "rows": 144531
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0036.csv.gz",
+          "sha256": "d21e267e7693de4a622836f896b831d524d1c687e6b7e09eb91b6ac62df19dd8",
+          "bytes": 5174117,
+          "rows": 144521
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0037.csv.gz",
+          "sha256": "453b5b78f15992a6cb9d6a758ec2ea347094f1da151ae7c6a07511a417453749",
+          "bytes": 5175185,
+          "rows": 144521
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0038.csv.gz",
+          "sha256": "30e1d64ec4f3d74b535043747937c8bd969cdaf49ebc005693f4acb319fb40b1",
+          "bytes": 5197363,
+          "rows": 144528
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0039.csv.gz",
+          "sha256": "94afe88ccf3fcfda1aeb5250a8988993a738155a92eebd004eb0ae3c668e89a9",
+          "bytes": 5238309,
+          "rows": 144536
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0040.csv.gz",
+          "sha256": "cf518804008b7b4021e1c73f5800b51767c999ec26fdf12169a0486d6ff07db2",
+          "bytes": 5262164,
+          "rows": 144534
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0041.csv.gz",
+          "sha256": "1d1aca264203e2b1520173386e4d0c2513808c5915a21d52fada3833801ff855",
+          "bytes": 5218030,
+          "rows": 144535
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0042.csv.gz",
+          "sha256": "3d71730a5f2d84aa6e8fe780c202b4946af94987186ef313e8744a856de70fb9",
+          "bytes": 5210866,
+          "rows": 144523
+        },
+        {
+          "path": "data/p3_v6/token_expectations_at_creation/part-0043.csv.gz",
+          "sha256": "7f9a9d3e8adfa4df2bbc83f5d20318561d44881b8ec1c3d3f490baf7dde13828",
+          "bytes": 2955530,
+          "rows": 81931
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/token_id_crosswalk",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_id_crosswalk.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_id_crosswalk.csv",
+      "rows": 4668,
+      "bytes": 756710,
+      "sha256": "4813392ae3b170b31a22b5da0631e77ea51c6083c07583df723c88cea1d85560",
+      "columns": [
+        "token_id",
+        "legacy_creation_event_id",
+        "P3_creation_event_id",
+        "legacy_native_path",
+        "P3_native_path",
+        "signature_same",
+        "conflicting_fields"
+      ],
+      "header_bytes": 124,
+      "parts": [
+        {
+          "path": "data/p3_v6/token_id_crosswalk/part-0001.csv.gz",
+          "sha256": "5b8f3c2b9befcf9dac729cf4211897a68e93fbf0355e9baf7e7ac701efbdf493",
+          "bytes": 371049,
+          "rows": 4668
+        }
+      ]
+    },
+    {
+      "id": "p3_v6/token_metadata_status",
+      "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_metadata_status.csv",
+      "restore_path": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/processed/token_metadata_status.csv",
+      "rows": 367373,
+      "bytes": 68974841,
+      "sha256": "7557d2bdceb3c334a3bd54ba00ed93b520c49484dd244532e513fe7cff709d47",
+      "columns": [
+        "token_id",
+        "chain_key",
+        "cohort_id",
+        "legacy_observed_cohort",
+        "historical_checkpoint_status",
+        "historical_plan_created"
+      ],
+      "header_bytes": 106,
+      "parts": [
+        {
+          "path": "data/p3_v6/token_metadata_status/part-0001.csv.gz",
+          "sha256": "08ac2228088073324cd6bad92d62d5e58fdb8583f23ed5910f146d9c48ccfc56",
+          "bytes": 11441233,
+          "rows": 357498
+        },
+        {
+          "path": "data/p3_v6/token_metadata_status/part-0002.csv.gz",
+          "sha256": "96c85cf0aeabab231aa8e22ad853c12158eb32a01326a7312ddb8e288abd6e7a",
+          "bytes": 323885,
+          "rows": 9875
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/coverage_ledger",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/coverage_ledger.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/coverage_ledger.csv",
+      "rows": 18672,
+      "bytes": 3491114,
+      "sha256": "43e2cd5ef5b7802322b0eca31330e98ab07035ad444c0dc7f509b5fceff0af56",
+      "columns": [
+        "event_key",
+        "checkpoint",
+        "required",
+        "schedule_state",
+        "request_state",
+        "parse_state",
+        "field_state",
+        "timing_state",
+        "final_state",
+        "request_id"
+      ],
+      "header_bytes": 119,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/coverage_ledger/part-0001.csv.gz",
+          "sha256": "987193df9fb2382dc0ae2e706d9428b7060e073ee8ee1e4d21f673c7966ec177",
+          "bytes": 717324,
+          "rows": 18672
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/field_observations",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/field_observations.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/field_observations.csv",
+      "rows": 133888,
+      "bytes": 44285308,
+      "sha256": "a80029a728980418c48ad09f9f55a8fe8b6e6f6cfbca0aed6f500b59a0798f35",
+      "columns": [
+        "request_id",
+        "event_key",
+        "checkpoint",
+        "uri",
+        "field_name",
+        "json_pointer",
+        "presence",
+        "value_type",
+        "allowed_value",
+        "value_hash",
+        "parser_version"
+      ],
+      "header_bytes": 120,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/field_observations/part-0001.csv.gz",
+          "sha256": "a50eb7b19d102e4b6260e1e1294d3ed8af35143e777b59e60103474b00b73379",
+          "bytes": 7252728,
+          "rows": 133888
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/launch_events",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/launch_events.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/launch_events.csv",
+      "rows": 4668,
+      "bytes": 2010133,
+      "sha256": "3bd86ca3249985ec5f7d8f1f62585000f48582b55d0844052555f744a625c8dd",
+      "columns": [
+        "event_key",
+        "network",
+        "platform",
+        "transaction_signature",
+        "slot",
+        "block_time",
+        "outer_instruction_index",
+        "inner_instruction_index",
+        "mint",
+        "creator",
+        "metadata_uri",
+        "decoder_version",
+        "event_status"
+      ],
+      "header_bytes": 168,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/launch_events/part-0001.csv.gz",
+          "sha256": "d5f4c01c636382b2dc163700547842f702cd19cb3a3c4d7bfb27e03747b7eccb",
+          "bytes": 802764,
+          "rows": 4668
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/observation_plan",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/observation_plan.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/observation_plan.csv",
+      "rows": 18672,
+      "bytes": 3595481,
+      "sha256": "196137c3dc45410a57ded396217394b7838fad51c6d966ce840d3ad0d4634047",
+      "columns": [
+        "event_key",
+        "checkpoint",
+        "required",
+        "scheduled_at",
+        "earliest_allowed_at",
+        "max_lateness_seconds",
+        "protocol_version",
+        "plan_status"
+      ],
+      "header_bytes": 113,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/observation_plan/part-0001.csv.gz",
+          "sha256": "88440eeec6df5cd62dcaadb91c213297153b37c5e52ee63d5c32c200aac7effa",
+          "bytes": 518201,
+          "rows": 18672
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/request_attempts",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/request_attempts.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/request_attempts.csv",
+      "rows": 60779,
+      "bytes": 25919635,
+      "sha256": "f03fc6db8001fd6c540be382cd8b003a7a97d121673be6e1b394059125833ee4",
+      "columns": [
+        "request_id",
+        "event_key",
+        "checkpoint",
+        "uri",
+        "request_url",
+        "route_id",
+        "host",
+        "attempt",
+        "started_at",
+        "completed_at",
+        "available_at",
+        "status",
+        "http_status",
+        "redirect_location",
+        "response_bytes",
+        "response_sha256",
+        "retry_after_seconds",
+        "error_class",
+        "error_message",
+        "policy_state"
+      ],
+      "header_bytes": 234,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/request_attempts/part-0001.csv.gz",
+          "sha256": "83f0f149892075a2665f54fa37b6d4c223d2c8571f36aba8fee8c343308282e1",
+          "bytes": 4171441,
+          "rows": 60779
+        }
+      ]
+    },
+    {
+      "id": "legacy_7day_72h/response_snapshots",
+      "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/response_snapshots.csv",
+      "restore_path": "1021/scientific-data-essential/data/7day-72h-20261008-release/response_snapshots.csv",
+      "rows": 16744,
+      "bytes": 7218696,
+      "sha256": "aba86902bbd09cebbf44c68f4d56de330f7d5e5ceab94e42d80f9becae7b6a9d",
+      "columns": [
+        "request_id",
+        "event_key",
+        "checkpoint",
+        "uri",
+        "request_url",
+        "route_id",
+        "retrieved_at",
+        "content_type",
+        "response_sha256",
+        "response_bytes",
+        "parse_state",
+        "integrity_state"
+      ],
+      "header_bytes": 142,
+      "parts": [
+        {
+          "path": "data/legacy_7day_72h/response_snapshots/part-0001.csv.gz",
+          "sha256": "2d6ec608e3e876050ed06357bb209c9ca5718bdaf70275dcd07247535e08e1f2",
+          "bytes": 2948289,
+          "rows": 16744
+        }
+      ]
+    }
+  ]
+}

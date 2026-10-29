@@ -1,5 +1,7 @@
 # Citation instructions
 
-This is an unfinished project template, not a published empirical dataset. Until names, release metadata and DOI are available, reference the repository and exact commit as software: [Web3AI4IO-SD-Template](https://github.com/sunshineluyao/Web3AI4IO-SD-Template).
+For this branch, cite **Shilin v2: seven-day creation records, 72-hour metadata observations, and three-chain market context**, version `shilin-v2-20261029`, with the repository URL, exact commit SHA used, and access date: [Global-Nomad-Nexus / Web3AI4IO-SD-Template, shilin_v2](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/tree/shilin_v2).
 
-Before research release, create a valid `CITATION.cff` using actual author names, title, version, date, repository URL and DOI if assigned. Cite the on-chain and off-chain source datasets and the integrated release with their actual creators and immutable identifiers. Align these with the paper and data host; do not fabricate author lists, a DOI or an accepted-publication claim.
+The paired [Release](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029) stores the complete frozen evidence capsule. Its SHA-256 and the individual data table hashes are recorded in `pilots/shilin_v2/metadata/`. Cite upstream providers and original metadata publishers as required by their terms.
+
+No DOI, complete author list, or accepted-publication claim is supplied. Confirm actual authorship before preparing a formal `CITATION.cff` or manuscript citation. Earlier pilots and teaching fixtures have separate scope and provenance.

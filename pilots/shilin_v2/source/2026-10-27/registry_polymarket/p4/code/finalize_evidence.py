@@ -1,0 +1,125 @@
+"""Create the evidence envelope after successful payload acceptance.
+
+The tested payload is never resealed or modified here. Audit receipts are siblings
+of the frozen payload, avoiding a self-referential verification manifest.
+"""
+import csv,gzip,hashlib,json,os,shutil,tarfile,time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];RELEASE=ROOT/'delivery/p4_personal_candidate_20261029'
+def sha(p):
+ h=hashlib.sha256()
+ with p.open('rb') as f:
+  for b in iter(lambda:f.read(2**20),b''):h.update(b)
+ return h.hexdigest()
+def save(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2,sort_keys=True)+'\n')
+def main():
+ acceptance=json.loads((ROOT/'reports/final_acceptance/acceptance.json').read_text())
+ if acceptance['status']!='passed':raise RuntimeError('Cannot finalize a failed package')
+ test=json.loads((ROOT/'reports/final_acceptance/test_outputs/interface_test_results.json').read_text());counts=json.loads((ROOT/'reports/final_acceptance/counts_audit/receipt.json').read_text());orig=json.loads((ROOT/'reports/original_inputs_unchanged.json').read_text())
+ assert test['status']==counts['status']==orig['status']=='passed'
+ failures=[r['path'] for r in json.loads((RELEASE/'file_manifest.json').read_text()) if sha(RELEASE/r['path'])!=r['sha256']]
+ if failures:raise RuntimeError('Tested payload changed before evidence envelope: '+str(failures))
+ scope=dict(status='independent_candidate_ready_non_manuscript',delivery_stage='personal_candidate',personal_data_validation_status='passed_for_declared_P3_scope',interface_schema_status='passed_internal_validation',interface_fixture_test_status='passed',interface_tests=test['tests_run'],real_data_revalidation_checks=35,final_delivery_checks=len(acceptance['checks']),prose_number_checks=counts['checks'],real_lifecycle_integration_status='awaiting_integration',real_lifecycle_followup_status='awaiting_integration',common_cutoff_utc=None,article_authoring='excluded_by_user',existing_article_numbers='audited_read_only',reproduction_status='passed_final_packaged_payload_in_independent_directory',creation_coverage_status='complete_for_declared_address_topic_layout_scope',polymarket_coverage_status='passed_declared_retrospective_demonstration_scope',public_release_status='local_review_only_rights_unresolved',official_croissant_validator='not_run',original_inputs_unchanged=orig['status'],payload_manifest_sha256=sha(RELEASE/'file_manifest.json'))
+ save(ROOT/'reports/release_scope.json',scope)
+ save(ROOT/'reports/current_release.json',dict(release_id='p4_personal_candidate_20261029',status=scope['status'],payload='delivery/p4_personal_candidate_20261029',acceptance='reports/final_acceptance/acceptance.json',report='reports/P4_完成与验收报告.md',archive='delivery/P4_个人交付包_20261029.tar.gz',real_lifecycle_integration_status='awaiting_integration',article_authoring='excluded_by_user'))
+ checks=[('15.1','Registry、原生创建与旧新队列证据','passed','P3完整35项重验及15表字节一致'),('15.2','Polymarket真实三链示例与时间连接','passed_with_documented_limits','价格/规则限制保持retrospective_demonstration_only'),('15.3','元数据历史时钟、复现与可测试接口','passed','51项隔离测试；真实生命周期awaiting_integration'),('15.4','五面板、字典、元数据、交接与冻结候选','passed_non_manuscript_scope','文章写作由用户排除；现有正文数字只读核对'),('P5','真实生态与共同cutoff','awaiting_integration','不属于本轮完成结论'),('publication','再分发许可、官方metadata validator与持久引用','pending_external_release','本轮为本地审阅候选，无上传')]
+ with (ROOT/'reports/acceptance_checklist.csv').open('w',newline='',encoding='utf-8') as f:
+  w=csv.writer(f);w.writerow(['plan_section','deliverable','status','evidence_or_limit']);w.writerows(checks)
+ text=f'''# P4 完成与验收报告（除文章外）
+
+## Material Passport
+
+Origin Skill：academic-research-suite / experiment-agent；Mode：reproducibility validation；日期：2026-10-29（北京时间）；Verification Status：VERIFIED for personal non-manuscript delivery。源版本 P3 formal_20261008_15_v6；交付版本 p4_personal_candidate_20261029。
+
+## 本轮结论
+
+状态 **independent_candidate_ready_non_manuscript**。用户要求的P4工程、数据、接口、隔离测试、图集、交接与最终封装验收已完成。文章未新增或修改；现有P3五节快照和详细实验报告只作数字核对。真实生命周期 **awaiting_integration**，共同cutoff=null；没有把fixture、空列或接口通过解释为真实联合随访完成。
+
+## 实际验证结果
+
+| 证据 | 本轮结果 | 含义 |
+|---|---:|---|
+| 接口隔离测试 | {test['tests_run']}项通过，失败{test['failure_count']}；CLI退出0 | 验证身份/转换/重复/缺失/时间/覆盖/删失/隔离的样例行为 |
+| 最终封装总验收 | {len(acceptance['checks'])}项通过 | 含文件集/hash、输入胶囊、真实数据重验、字典/schema、图表、数字及fixture排除 |
+| 新目录真实数据重验 | 35项通过 | 在新胶囊重建产物上重新运行原P3全量验证；不是复述旧验收 |
+| 处理表 | 15/15逐字节一致，行数一致 | 新目录生成值=原P3锁定值=交付gzip解压值 |
+| 字典与schema | 15表、251列逐项对应 | 列顺序、存储、主键、数据清单hash核对 |
+| 正文数字 | {counts['checks']}项通过 | 核心规模、逐日/逐表数量、映射、元数据、QA和既有五节；没有写文章 |
+| 图集 | 5面板CSV、选择配置、SVG和PNG再生成一致 | 真实数据作图，完成视觉检查，D为旧元数据 |
+| 完整真实母表身份连接 | 367,373币、4,668旧键保留；5项检查通过 | 未提供真实生态事件，不生成真实结局 |
+| 原文件保护 | 26,949来源文件与15张原P3表均未改变 | 包括既有文章SHA256保护 |
+
+最终验收耗时 **{acceptance['elapsed_seconds']:.3f}秒**，工作进程峰值RSS **{acceptance['peak_worker_rss_bytes']/1024**3:.3f} GiB**（macOS resource.ru_maxrss按字节）。实际成功网络请求0；两个网络负对照及一个原项目读路径负对照被阻止。禁网与隔离由Python audit hook落实到socket及文件访问事件，不只依赖某个HTTP函数的mock。包装输入26,949文件、约3.18GB未压缩，正式数据15张压缩CSV随包，运行时使用冻结Python3.14.2/macOS arm64 ABI依赖；PNG使用librsvg2.63.2。
+
+## 接口实现
+
+code/lifecycle_adapter.py已实现配置式字段映射、明确chain+address身份、旧object_id crosswalk、创建/creator角色冲突拒绝。EVM小写，Solana保留大小写，原生位置规范化，跨链同地址不合并。所有无生态记录的Registry行保留为ecosystem_unmatched；不生成死亡。
+
+同一原生事件的完全重复折叠并审计；语义冲突所有版本进入quarantine，带文件、CSV行号、原因和原始JSON。事件/观察时钟、创建前事件、cutoff后事件、覆盖区间、同源矛盾覆盖分别验证。逐目标实现完整覆盖到cutoff的行政右删失、覆盖中断失访与从未覆盖的未知；记录覆盖证据和连续可观测终点。缺口后的观察事件不认证为真正首次发生。inactivity与reactivation可并存，不自动终止随访。
+
+真实模式拒绝synthetic输入；P4 joint_definitions_confirmed=false，禁止生成真实outcome_followup。合成数据在tests/fixtures与test_outputs；正式15表全字节扫描未发现synthetic_test标记。未来整桶、当前报价及结算支付不得作为历史预期，合法历史API标量也不升级其未认证语义。
+
+## 可独立搬移的最终包
+
+封装的inputs.tar.gz保留原目录相对结构，包括原生规范化交易/日志、原始响应、每日覆盖、市场固定输入、旧六表与必要vendor依赖。新目录初始没有Registry/预期派生表，随后重建并逐表比较。市场六表作为已锁定输入保留，不宣称在本轮重新抓取或从每个API原始格式再次规范化；原始响应可供核查。
+
+原生QA的191案例、14分组是随包保留的P3冻结证据；P4重验其回执及关联数据，不将它记成新做191次QA。
+
+测试对象为已经封装的payload目录；验收证据另放相邻目录，避免验收报告修改自身被验收的文件集。最终归档再流式核对归档成员与封装清单，SHA256见delivery目录。入口和命令见README。验收完成后清理仅本次生成的大表workspace，保留日志、精确hash、负对照、逐项验证、数字审计及测试输出；不会清理P0–P3。
+
+## 交付入口
+
+- delivery/p4_personal_candidate_20261029/：冻结payload；data/*.csv.gz为15表，inputs.tar.gz为输入胶囊。
+- reports/final_acceptance/acceptance.json、worker_receipt.json、rebuild.log：新目录实际证据。
+- reports/final_acceptance/counts_audit/：独立核心数字与正文行号审计。
+- test_outputs/final_interface/：本地51项测试；封装验收中的重新运行另见final_acceptance/test_outputs。
+- figures/shilin_gallery.svg与.png、figures/data、docs/panel_specs.md：五面板和源表。
+- configs/adapter_config.json、lifecycle_schema.json、table_schema.json：版本化接口与schema。
+- configs/source_rights.csv、croissant.json、rai_metadata.json、docs/data_card.md：来源、元数据与复用边界。
+- handoff_to_claire.md、joint_revision_checklist.md：本地交接材料；没有发送。
+
+## 限制与未做事项
+
+本候选为本地审阅交付，不是公开联合release。创建覆盖仅对应声明平台/版本/地址/topic/layout；Four.memeV1排除。共享宏观/链背景不是币自己的预测概率；历史规则修订和API标量构造未认证。旧4笔缺精确签名交易及4个缺快照检查点仍未知，旧HTTP原始正文不能复原。真实生命周期和共同cutoff在P5处理。
+
+Croissant/RAI按当前官方规范组织并完成局部结构、字段引用和hash核对，官方validator未运行，发布URL、许可证和持久引用尚未填写；未声称认证合规或第三方允许再分发。来源权利未知有明确记录，候选未上传。测试环境为macOS arm64/Python3.14.2，未声称跨所有平台可复现。
+
+封装前两次验收尝试在最终冻结前被主动中断：一次修正元数据生成器语法，另一次补充接口边界并修复等价链别名回归。中断日志与失败测试保留在reports/attempt_*与interface_history；两次均未冒充通过，临时大表已清理。上表只引用最终成功运行。
+'''
+ (ROOT/'reports/P4_完成与验收报告.md').write_text(text)
+ evidence=ROOT/'delivery/acceptance_evidence';evidence.mkdir(exist_ok=True)
+ for name in ['final_acceptance','attempt_1_interrupted','attempt_2_interrupted','interface_history']:
+  shutil.copytree(ROOT/'reports'/name,evidence/name,dirs_exist_ok=True)
+ for name in ['P4_完成与验收报告.md','release_scope.json','original_inputs_unchanged.json','delivery_manifest.sha256','interface_test_report.md','acceptance_checklist.csv','real_identity_readiness.json','current_release.json','acceptance_console.log']:shutil.copy2(ROOT/'reports'/name,evidence/name)
+ shutil.copy2(ROOT/'docs/metadata_validation_scope.md',evidence/'metadata_validation_scope.md')
+ (evidence/'tools').mkdir(exist_ok=True)
+ for name in ['audit_identity_readiness.py','finalize_evidence.py']:
+  shutil.copy2(ROOT/'code'/name,evidence/'tools'/name)
+ (ROOT/'delivery/README_交付说明.md').write_text('''# P4 最终交付封装
+
+p4_personal_candidate_20261029 是已经独立离线验收的冻结payload；acceptance_evidence包含本次验收回执、日志和总报告。验收证据与payload分开，避免报告生成改变被验收文件。先阅读acceptance_evidence/P4_完成与验收报告.md，再按payload/README.md中的命令在新目录复现。
+
+payload README中reports/final_acceptance和P4完成报告的路径以原P4工作目录为基准；在此归档里，对应证据实际位于旁边acceptance_evidence目录。数据、输入、字典、图集、接口和离线入口均在payload内，可整体移动。作者侧package_delivery/build_metadata/seal工具用于原工作树封装；接收者使用accept_delivery、lifecycle_adapter和run_interface_tests入口。
+
+15张正式表在data/*.csv.gz；输入胶囊inputs.tar.gz。生命周期awaiting_integration、共同cutoff为空；文章本轮未改动。本包仅本地审阅，未公开上传，第三方再分发权利未知。额外完整解压和重建需要约8-10GB可用磁盘。
+''')
+ archive=ROOT/'delivery/P4_个人交付包_20261029.tar.gz';members=[];start=time.monotonic()
+ for base in [RELEASE,evidence,ROOT/'delivery/README_交付说明.md']:
+  for path in sorted(base.rglob('*')) if base.is_dir() else [base]:
+   if path.is_file():members.append((path,str(path.relative_to(ROOT/'delivery')),sha(path),path.stat().st_size))
+ with archive.open('wb') as f,gzip.GzipFile(fileobj=f,mode='wb',compresslevel=1,mtime=0) as gz,tarfile.open(fileobj=gz,mode='w|') as tar:
+  for path,rel,_,_ in members:tar.add(path,arcname=rel,recursive=False)
+ expected={rel:(h,size) for _,rel,h,size in members};seen={}
+ with tarfile.open(archive,'r|gz') as tar:
+  for member in tar:
+   if not member.isfile():raise RuntimeError('unexpected non-file archive entry')
+   stream=tar.extractfile(member);h=hashlib.sha256()
+   for b in iter(lambda:stream.read(2**20),b''):h.update(b)
+   if member.name in seen:raise RuntimeError('duplicate archive member')
+   seen[member.name]=(h.hexdigest(),member.size)
+ result=dict(status='passed' if seen==expected else 'failed',archive=archive.name,bytes=archive.stat().st_size,sha256=sha(archive),members=len(seen),payload_manifest_sha256=sha(RELEASE/'file_manifest.json'),payload_unchanged_since_successful_acceptance=True,elapsed_seconds=round(time.monotonic()-start,3))
+ save(ROOT/'reports/final_archive_verification.json',result);save(ROOT/'delivery/final_archive_verification.json',result)
+ (ROOT/'delivery/P4_个人交付包_20261029.tar.gz.sha256').write_text(result['sha256']+'  '+archive.name+'\n')
+ print('FINAL_ARCHIVE',result,flush=True)
+ if result['status']!='passed':raise SystemExit(1)
+if __name__=='__main__':main()

@@ -1,0 +1,216 @@
+{
+  "cases": [
+    {
+      "case": "test_lifecycle_adapter.ExpectationGateTests.test_current_price_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.ExpectationGateTests.test_exact_bucket_end_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.ExpectationGateTests.test_historical_scalar_retains_limitation",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.ExpectationGateTests.test_partial_bucket_future_leak_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.ExpectationGateTests.test_settlement_payout_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_adjacent_coverage_closes",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_alias_conflict_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_ambiguous_crosswalk_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_chain_free_address_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_complete_to_cutoff_right_censored",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_conflict_order_independent",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_conflicting_identity_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_conflicting_repeats_all_quarantined",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_coverage_gap_loss_to_followup",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_coverage_overlap_conflict",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_creation_conflict_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_creator_role_conflict_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_creator_role_only_conflict_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_cross_chain_same_address",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_crosswalk_object_id",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_diagnostic_file_and_line",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_epoch_requires_explicit_unit",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_equivalent_chain_aliases",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_event_after_gap_first_occurrence_unverified",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_event_before_creation",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_event_exact_cutoff_excluded",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_evm_case_normalized",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_exact_repeated_event_audited",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_explicit_field_mapping",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_first_seen_does_not_overwrite_creation",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_fixture_requires_label",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_inactivity_reactivation_preserved",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_late_start_is_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_missing_record_is_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_missing_venue_needs_reason",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_multiple_events_keep_registry",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_naive_time_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_native_position_leading_zero_deduplication",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_native_position_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_noncomplete_needs_missing_reason",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_numeric_epoch_only_with_declaration",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_observation_before_event",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_observed_event_not_censored",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_partial_cannot_be_complete",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_postcutoff_event_retained_excluded",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_real_mode_rejects_fixture",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_reversed_coverage_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_solana_case_preserved",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_target_specific_coverage",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_unknown_registry_token_quarantined",
+      "status": "passed"
+    },
+    {
+      "case": "test_lifecycle_adapter.LifecycleTests.test_unknown_version_rejected",
+      "status": "passed"
+    }
+  ],
+  "cli_exit_code": 0,
+  "dataset_kind": "synthetic_test",
+  "elapsed_seconds": 0.065,
+  "failure_count": 0,
+  "interface_version": "shilin_lifecycle_adapter_v1",
+  "real_lifecycle_integration_status": "awaiting_integration",
+  "status": "passed",
+  "tests_run": 51
+}

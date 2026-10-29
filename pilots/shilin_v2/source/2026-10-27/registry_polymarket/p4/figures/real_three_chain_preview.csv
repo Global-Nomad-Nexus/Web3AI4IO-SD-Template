@@ -1,0 +1,4 @@
+token_id,chain_key,platform_id,created_at_utc,creation_event_id,creator_role_definition,native_receipt_raw_ref
+eip155:56:token:0x27f275c9d7d199c275c689e481c7f54e98aeffff,eip155:56,four.meme,2026-10-08T00:00:26Z,creation:9c590dd91b8d56019a1b6c56261b6493,TokenCreate.creator,../../../p2/raw/b5082532ae6db9a62c1a41374ef11841-1793098228241937000.body
+eip155:8453:token:0xe4865bbf98203f218d259b051b72d1e755c71b07,eip155:8453,clanker,2026-10-08T00:13:39Z,creation:155ddac70ecb1f70ff89e3c518b84dd7,TokenCreated.tokenAdmin,../../../p2/raw/52d614c3d204d764f7c3ae4ffa452ebd-1793091229087021000.body
+solana:mainnet:token:6a4LJXscVdTwr2pUwApZmuwfCACD6gsfuF9s443cpump,solana:mainnet,pump.fun,2026-10-08T00:00:05Z,creation:9e157eeba42d9bc0486773400b8c19f8,creator argument;not assumed fee payer or user account,../../../p2/raw/e540929b63d49eedf27188892823b093-1793098627749247000.body.gz

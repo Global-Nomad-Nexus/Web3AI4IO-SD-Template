@@ -1,0 +1,11 @@
+{
+  "tag": "shilin-v2-20261029",
+  "assets": [
+    {
+      "name": "inputs.tar.gz",
+      "bytes": 1885362783,
+      "sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0",
+      "purpose": "Complete frozen raw/normalized evidence, upstream inputs, and original locked ABI dependencies; required only for full independent rebuild."
+    }
+  ]
+}

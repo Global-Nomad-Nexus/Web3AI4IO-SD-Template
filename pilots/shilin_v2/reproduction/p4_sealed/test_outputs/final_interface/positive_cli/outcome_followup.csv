@@ -1,0 +1,13 @@
+token_id,target_event_type,layer_or_venue,followup_start_utc,analysis_cutoff_utc,status,event_observed,is_right_censored,followup_end_utc,contiguous_observed_until_utc,first_occurrence_verified,lifecycle_event_id,coverage_evidence_refs,dataset_kind
+eip155:8453:token:0xabababababababababababababababababababab,first_trade,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,observed_event,True,False,2026-10-08T02:00:00Z,2026-10-09T00:00:00Z,True,lifecycle:3772ce1c42ea7260486330db85617c1c,"[""synthetic:coverage:1""]",synthetic_test
+eip155:8453:token:0xabababababababababababababababababababab,graduation,graduation,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+eip155:8453:token:0xabababababababababababababababababababab,migration,migration,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+eip155:56:token:0xabababababababababababababababababababab,first_trade,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+eip155:56:token:0xabababababababababababababababababababab,graduation,graduation,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+eip155:56:token:0xabababababababababababababababababababab,migration,migration,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:Ab111111111111111111111111111111,first_trade,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:Ab111111111111111111111111111111,graduation,graduation,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:Ab111111111111111111111111111111,migration,migration,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:ab111111111111111111111111111111,first_trade,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:ab111111111111111111111111111111,graduation,graduation,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test
+solana:mainnet:token:ab111111111111111111111111111111,migration,migration,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,unknown,False,,2026-10-08T00:00:00Z,2026-10-08T00:00:00Z,False,,[],synthetic_test

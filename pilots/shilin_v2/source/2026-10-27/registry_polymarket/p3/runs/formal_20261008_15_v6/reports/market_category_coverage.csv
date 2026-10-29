@@ -1,0 +1,8 @@
+category,candidate_markets,detailed_markets,outcomes,rules_reviewed_outcomes,history_obtained_outcomes,connectable_outcomes,active_queried,closed_queried,search_status
+base_token,43,12,24,24,12,1,True,True,bounded_queries_completed
+bnb,64,11,22,22,22,10,True,True,bounded_not_exhaustive
+macro,75,12,24,24,12,5,True,True,bounded_queries_completed
+pump_listing,1,1,2,2,2,1,True,True,bounded_queries_completed
+pump_revenue,40,13,26,26,6,0,True,True,bounded_queries_completed
+pump_sale,41,13,26,26,6,0,True,True,bounded_queries_completed
+solana,181,12,24,24,22,11,True,True,bounded_not_exhaustive

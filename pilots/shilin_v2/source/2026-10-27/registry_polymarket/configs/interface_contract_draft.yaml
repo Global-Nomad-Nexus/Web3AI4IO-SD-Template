@@ -1,0 +1,49 @@
+{
+  "interface_version": "shilin_interface_draft_v1",
+  "confirmation_status": "unconfirmed_by_claire",
+  "identifier_namespace": "project_chain_qualified_token_id",
+  "token_id_rule": "chain_key + :token: + canonical_address; Solana case-preserved; EVM lower-case",
+  "shilin_provides": {
+    "token_id": "string non-null primary key",
+    "chain_key": "string controlled enum",
+    "platform_id": "string non-null",
+    "token_address_canonical": "string non-null",
+    "created_at_utc": "UTC ISO8601 Z; nullable only with explicit block_time_status",
+    "creation_event_id": "string FK creation_events",
+    "creation_evidence_ref": "string source row/raw ref"
+  },
+  "requested_ecosystem_event_fields": {
+    "token_id": "string non-null FK registry",
+    "event_type": "first_trade|graduation|migration|venue_change|activity|other_evidenced_event",
+    "event_time_utc": "UTC ISO8601 Z non-null, chain event time",
+    "observed_at_utc": "UTC ISO8601 Z; separate retrieval clock",
+    "venue_id": "string; nullable with missing reason",
+    "event_evidence_ref": "string non-null"
+  },
+  "requested_coverage_fields": {
+    "token_id": "string FK registry",
+    "layer_or_venue": "string non-null",
+    "interval_start_utc": "UTC ISO8601 Z inclusive",
+    "interval_end_utc": "UTC ISO8601 Z exclusive",
+    "coverage_status": "complete|partial|unknown|not_applicable|source_missing",
+    "source_id": "string non-null",
+    "missing_reason": "string required when not complete"
+  },
+  "duplicate_event_rule": "identity by chain+tx+native log/instruction position+event_type; conflicts quarantined, never silently drop duplicates",
+  "accepted_aliases": {
+    "chain_id": "chain_key",
+    "token_address": "token_address_raw",
+    "timestamp": "event_time_utc only if explicitly documented as event time"
+  },
+  "units": {
+    "time": "UTC, epoch seconds if numeric; never guess milliseconds",
+    "raw_amount": "integer decimal string with decimals separately"
+  },
+  "missing_values": "null/empty plus explicit missing_reason; zero is an observed number",
+  "version_migration": "new version plus alias map/change log; preserve original keys and raw evidence",
+  "conflict_resolution": "retain conflicting rows in report; no canonical value without evidence",
+  "common_observation_cutoff_utc": null,
+  "fixture_policy": "synthetic_only_under_tests; outputs only test_outputs; excluded from processed/release",
+  "real_lifecycle_status": "awaiting_integration",
+  "death_and_inactivity_definitions": "not_frozen;no_real_labels"
+}

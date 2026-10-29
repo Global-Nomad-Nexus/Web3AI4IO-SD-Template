@@ -1,0 +1,52 @@
+{
+  "candidate_unique_markets": 405,
+  "context_daily_rows": 266,
+  "counts_by_chain": {
+    "eip155:56": 35777,
+    "eip155:8453": 1535,
+    "solana:mainnet": 330061
+  },
+  "creation_events_rows": 367373,
+  "expectation_assessments": 6156902,
+  "expectation_status": {
+    "mapping_outside_validity": 300690,
+    "matched_valid": 5856212
+  },
+  "first_creation": "2026-10-08T00:00:05Z",
+  "last_creation": "2026-10-14T23:59:57Z",
+  "legacy_tokens": 4668,
+  "mapping_types": {
+    "chain": 22,
+    "platform": 1,
+    "shared_economic_event": 5
+  },
+  "metadata_any_json_tokens": 4210,
+  "metadata_coverage_rows": 18672,
+  "metadata_observations_rows": 133888,
+  "metadata_states": {
+    "observed": 16736,
+    "parse_failed": 12,
+    "request_failed": 1924
+  },
+  "metadata_timeliness": {
+    "": 18672
+  },
+  "native_qa_cases": 191,
+  "native_qa_groups": 14,
+  "pm_activity_rows": 60,
+  "pm_candidate_catalogue_rows": 445,
+  "pm_mapping_rows": 28,
+  "pm_markets_rows": 60,
+  "pm_match_status_rows": 6156902,
+  "pm_outcomes_rows": 120,
+  "pm_prices_rows": 175054,
+  "real_checks": 35,
+  "real_failed": 0,
+  "registry_rows": 367373,
+  "registry_tokens": 367373,
+  "rule_hashes": 16,
+  "token_expectations_at_creation_rows": 6156902,
+  "token_id_crosswalk_rows": 4668,
+  "token_metadata_status_rows": 367373,
+  "tokens_with_any_background": 367373
+}

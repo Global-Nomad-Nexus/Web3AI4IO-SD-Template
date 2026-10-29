@@ -1,0 +1,1917 @@
+{
+  "metadata_fk_exception": "legacy observations preserve full legacy cohort; formal membership is explicit",
+  "schema_version": "P4_csv_schema_v1",
+  "tables": {
+    "context_daily": {
+      "columns": [
+        {
+          "name": "chain_key",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "platform_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "utc_day",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "mapping_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_outcome_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "link_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "anchor_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "price_observation_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "expectation_at_day_start",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "effective_information_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "match_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "observed_created_tokens",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creation_coverage_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "chain_key",
+        "utc_day",
+        "mapping_id"
+      ],
+      "rows": 266,
+      "sha256": "da3aa272e57d986b4dded4c7e7303b795df2ed49c7005dd6ea8d2b2625851280",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "creation_events": {
+      "columns": [
+        {
+          "name": "creation_event_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "chain_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "platform_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "platform_version_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "program_or_factory_address",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_address_raw",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_address_canonical",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creation_tx_hash_or_signature",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "block_height_or_slot",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "block_hash",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "created_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "transaction_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "transaction_format_version",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_instruction_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "outer_instruction_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "inner_instruction_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "log_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creator_address",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creator_role_definition",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "tx_sender_or_signer",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "fee_payer",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_name",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_symbol",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_metadata_uri",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_metadata_uri_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_attributes_json",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "discovery_mode",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "first_decoded_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "historical_metadata_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "legacy_observed_cohort",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_receipt_raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_block_raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "instruction_commitment_evidence_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "execution_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "decoder_version",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "cohort_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "evidence_scope",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "creation_event_id"
+      ],
+      "rows": 367373,
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "metadata_coverage": {
+      "columns": [
+        {
+          "name": "event_key",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "checkpoint",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "required",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "schedule_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "request_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "parse_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "field_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "timing_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "final_state",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "request_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_release",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "scheduled_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "earliest_allowed_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "actual_completed_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "time_basis",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "evidence_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "delay_from_creation_seconds",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "in_formal_creation_cohort",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "event_key",
+        "checkpoint"
+      ],
+      "rows": 18672,
+      "sha256": "44e9a390161ec84b10f1fedce373e15592b4b3738c990c734959c4d2902c2751",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "metadata_observations": {
+      "columns": [
+        {
+          "name": "request_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "event_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "checkpoint",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "uri",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "field_name",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "json_pointer",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "presence",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "value_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "allowed_value",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "value_hash",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "parser_version",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "metadata_observation_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "actual_request_started_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "actual_request_completed_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "source_retrieved_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "response_sha256",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_release",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "in_formal_creation_cohort",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "historical_body_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "metadata_observation_id"
+      ],
+      "rows": 133888,
+      "sha256": "7f84e26f5cab95f5b0e368f27ac72266921671b22b13598f28a1c4017625995a",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_activity": {
+      "columns": [
+        {
+          "name": "market_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "snapshot_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "historical_activity_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "current_activity_not_used_as_historical",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "market_id"
+      ],
+      "rows": 60,
+      "sha256": "c56f06d5dd5ffd5973ad8e2f1b98c1cfa7baf948e7fa5a5b42343a7108d1a24b",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_candidate_catalogue": {
+      "columns": [
+        {
+          "name": "candidate_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "category",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "question",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "opened_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "scheduled_close_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "outcomes_json",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "review_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "history_selection",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "candidate_id"
+      ],
+      "rows": 445,
+      "sha256": "e0b9b5f7654c57dcf1284837cbaeb236d9f5827d5ebc8ceb1f08b54197323f77",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_mapping": {
+      "columns": [
+        {
+          "name": "mapping_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "link_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "target_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "target_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "applicable_chain_keys",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_market_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_outcome_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "market_snapshot_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "rule_snapshot_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "evidence_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "semantic_valid_from_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "semantic_valid_to_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "rule_known_from_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "reviewed_by",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "review_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "uncertainty",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "history_resolution_seconds",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "mapping_id"
+      ],
+      "rows": 28,
+      "sha256": "4e3235e534d4cb158c57d33d8eae1d7a4f50858934f424f6e12ec93257b862c3",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_markets": {
+      "columns": [
+        {
+          "name": "market_snapshot_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_market_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "condition_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "question",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "slug",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "rules_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "rules_sha256",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "rules_snapshot_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "opened_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "created_at_api_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "scheduled_close_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "actual_close_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "resolved_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "active_snapshot",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "closed_snapshot",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "resolution_state_snapshot",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "resolution_result",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "protocol_version_native",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "settlement_network",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "snapshot_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "rules_historical_revision_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "topic",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "activity_scope",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "market_snapshot_id"
+      ],
+      "rows": 60,
+      "sha256": "8dc290b32516840442ab46e1ab737e4f40694b06c69d1ea931bf9663ea96c2e1",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_match_status": {
+      "columns": [
+        {
+          "name": "match_assessment_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "mapping_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "link_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "primary_reason",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "anchor_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        }
+      ],
+      "primary_key": [
+        "match_assessment_id"
+      ],
+      "rows": 6156902,
+      "sha256": "c2c9878c53b11e83d11128c0a1d677cd2a7e0aa7d7fcb7055ef10c4dc4baf63f",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_outcomes": {
+      "columns": [
+        {
+          "name": "pm_outcome_key",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_market_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "market_snapshot_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "outcome_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "outcome_label",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "asset_id_raw",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "asset_id_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "protocol_version_native",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_id_type_verification",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "pm_outcome_key"
+      ],
+      "rows": 120,
+      "sha256": "4dc907ea5a8801072e28d0f421db1bfe73dfc30eb448fe46f4fa7a9a1f778091",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "pm_prices": {
+      "columns": [
+        {
+          "name": "price_observation_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_outcome_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "market_snapshot_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "price",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_timestamp_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "bucket_start_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "bucket_end_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "effective_information_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "resolution_seconds",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "is_settlement_point",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "eligible_for_asof",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "time_semantics_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "price_definition_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_retrieved_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "request_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "price_unit",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "price_observation_id"
+      ],
+      "rows": 175054,
+      "sha256": "145dc042cd7f77f9e2fde8f94e6e646bd90c959b16f69641f974a8d35690e0a1",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "registry": {
+      "columns": [
+        {
+          "name": "creation_event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "chain_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "platform_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "platform_version_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "program_or_factory_address",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_address_raw",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_address_canonical",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creation_tx_hash_or_signature",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "block_height_or_slot",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "block_hash",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "created_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "transaction_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "transaction_format_version",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_instruction_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "outer_instruction_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "inner_instruction_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "log_index",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creator_address",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creator_role_definition",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "tx_sender_or_signer",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "fee_payer",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_name",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_symbol",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_metadata_uri",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_metadata_uri_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "initial_attributes_json",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "discovery_mode",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "first_decoded_at_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "historical_metadata_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "legacy_observed_cohort",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "source_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_receipt_raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "native_block_raw_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "instruction_commitment_evidence_ref",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "execution_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "decoder_version",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "cohort_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "evidence_scope",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "token_id"
+      ],
+      "rows": 367373,
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "token_expectations_at_creation": {
+      "columns": [
+        {
+          "name": "expectation_link_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "token_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "chain_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "creation_event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "mapping_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "pm_outcome_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "price_observation_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "anchor_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "effective_information_time_utc",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "UTC ISO8601"
+        },
+        {
+          "name": "price",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "price_age_hours",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": "hours"
+        },
+        {
+          "name": "match_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "link_type",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "feature_readiness",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "expectation_link_id"
+      ],
+      "rows": 6156902,
+      "sha256": "d719a0e5f7e850c4c2dea1f7522fbd98e45ef97aff27005db4b09ade8b5a2dcb",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "token_id_crosswalk": {
+      "columns": [
+        {
+          "name": "token_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "legacy_creation_event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "P3_creation_event_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "legacy_native_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "P3_native_path",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "signature_same",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "conflicting_fields",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "token_id"
+      ],
+      "rows": 4668,
+      "sha256": "4813392ae3b170b31a22b5da0631e77ea51c6083c07583df723c88cea1d85560",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    },
+    "token_metadata_status": {
+      "columns": [
+        {
+          "name": "token_id",
+          "nullable": false,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "chain_key",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "cohort_id",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "legacy_observed_cohort",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "historical_checkpoint_status",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        },
+        {
+          "name": "historical_plan_created",
+          "nullable": true,
+          "precision": "IDs/amount integers are literal strings; no float round-trip",
+          "type": "string",
+          "unit": ""
+        }
+      ],
+      "primary_key": [
+        "token_id"
+      ],
+      "rows": 367373,
+      "sha256": "7557d2bdceb3c334a3bd54ba00ed93b520c49484dd244532e513fe7cff709d47",
+      "storage": "UTF-8 CSV; RFC4180 quoting; empty string represents nullable values, see status/reason"
+    }
+  },
+  "time_policy": "creation window [start,end); strict prior expectation; common lifecycle cutoff not set"
+}

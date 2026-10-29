@@ -1,0 +1,4 @@
+chain_key,background_days_numerator,declared_days_denominator,joint_complete_days_numerator
+solana:mainnet,7,7,7
+eip155:8453,7,7,7
+eip155:56,7,7,7

@@ -1,0 +1,77 @@
+{
+  "dataset_kind": "synthetic_test",
+  "cutoff": "2026-10-09T00:00:00Z",
+  "registry": [
+    {
+      "token_id": "eip155:8453:token:0xabababababababababababababababababababab",
+      "chain_key": "eip155:8453",
+      "token_address_canonical": "0xabababababababababababababababababababab",
+      "created_at_utc": "2026-10-08T00:00:00Z",
+      "creator_address": "0xefefefefefefefefefefefefefefefefefefefef",
+      "creator_role_definition": "platform_declared_creator",
+      "dataset_kind": "synthetic_test"
+    },
+    {
+      "token_id": "eip155:56:token:0xabababababababababababababababababababab",
+      "chain_key": "eip155:56",
+      "token_address_canonical": "0xabababababababababababababababababababab",
+      "created_at_utc": "2026-10-08T00:00:00Z",
+      "creator_address": "0xefefefefefefefefefefefefefefefefefefefef",
+      "creator_role_definition": "platform_declared_creator",
+      "dataset_kind": "synthetic_test"
+    },
+    {
+      "token_id": "solana:mainnet:token:Ab111111111111111111111111111111",
+      "chain_key": "solana:mainnet",
+      "token_address_canonical": "Ab111111111111111111111111111111",
+      "created_at_utc": "2026-10-08T00:00:00Z",
+      "creator_address": "0xefefefefefefefefefefefefefefefefefefefef",
+      "creator_role_definition": "platform_declared_creator",
+      "dataset_kind": "synthetic_test"
+    },
+    {
+      "token_id": "solana:mainnet:token:ab111111111111111111111111111111",
+      "chain_key": "solana:mainnet",
+      "token_address_canonical": "ab111111111111111111111111111111",
+      "created_at_utc": "2026-10-08T00:00:00Z",
+      "creator_address": "0xefefefefefefefefefefefefefefefefefefefef",
+      "creator_role_definition": "platform_declared_creator",
+      "dataset_kind": "synthetic_test"
+    }
+  ],
+  "crosswalk": [
+    {
+      "chain_key": "eip155:8453",
+      "object_id": "old-1",
+      "token_id": "eip155:8453:token:0xabababababababababababababababababababab"
+    }
+  ],
+  "events": [
+    {
+      "chain_id": "8453",
+      "token_address": "0xABABABABABABABABABABABABABABABABABABABAB",
+      "event_type": "first_trade",
+      "timestamp": "2026-10-08T02:00:00Z",
+      "retrieved_at": "2026-10-10T00:00:00Z",
+      "tx_hash": "0x1212121212121212121212121212121212121212121212121212121212121212",
+      "event_index": "log:1",
+      "source_id": "synthetic_source",
+      "event_evidence_ref": "synthetic:transaction:1",
+      "venue_id": "synthetic_pool",
+      "dataset_kind": "synthetic_test"
+    }
+  ],
+  "coverage": [
+    {
+      "chain_id": "8453",
+      "token_address": "0xabababababababababababababababababababab",
+      "layer_or_venue": "trades",
+      "start": "2026-10-08T00:00:00Z",
+      "end": "2026-10-09T00:00:00Z",
+      "coverage_status": "complete",
+      "source_id": "synthetic_source",
+      "coverage_evidence_ref": "synthetic:coverage:1",
+      "dataset_kind": "synthetic_test"
+    }
+  ]
+}

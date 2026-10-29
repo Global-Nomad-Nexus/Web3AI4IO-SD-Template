@@ -1,0 +1,13 @@
+chain_key,link_type,valid_token_numerator,token_denominator,mapping_rows
+solana:mainnet,verified_token_identity,0,330061,0
+solana:mainnet,platform,330061,330061,1
+solana:mainnet,chain,330061,330061,11
+solana:mainnet,shared_economic_event,330061,330061,5
+eip155:8453,verified_token_identity,0,1535,0
+eip155:8453,platform,0,1535,0
+eip155:8453,chain,1535,1535,1
+eip155:8453,shared_economic_event,1535,1535,5
+eip155:56,verified_token_identity,0,35777,0
+eip155:56,platform,0,35777,0
+eip155:56,chain,35777,35777,10
+eip155:56,shared_economic_event,35777,35777,5

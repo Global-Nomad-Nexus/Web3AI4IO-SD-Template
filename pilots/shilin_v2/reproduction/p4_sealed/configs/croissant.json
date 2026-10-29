@@ -1,0 +1,4272 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "containedIn": "cr:containedIn",
+    "cr": "http://mlcommons.org/croissant/",
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileObject": "cr:fileObject",
+    "key": "cr:key",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "recordSet": "cr:recordSet",
+    "sc": "https://schema.org/",
+    "sha256": "cr:sha256",
+    "source": "cr:source"
+  },
+  "@type": "sc:Dataset",
+  "conformsTo": [
+    "http://mlcommons.org/croissant/1.1",
+    "http://mlcommons.org/croissant/RAI/1.0"
+  ],
+  "creator": {
+    "@type": "sc:Person",
+    "name": "Shilin"
+  },
+  "dateCreated": "2026-10-29",
+  "description": "367373 chain-qualified token identities in the P3 v6 declared 2026-10-08 to 2026-10-15 UTC scope. Local review candidate; rights unresolved; no public license asserted. Existing article snapshots are read-only.",
+  "distribution": [
+    {
+      "@id": "context_daily_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/context_daily.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "context_daily.csv.gz",
+      "sha256": "b2aa9a79e1505e110f0be768909c48b02270c065fe33a464148672463da6d004"
+    },
+    {
+      "@id": "context_daily_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "context_daily_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "context_daily.csv",
+      "sha256": "da3aa272e57d986b4dded4c7e7303b795df2ed49c7005dd6ea8d2b2625851280"
+    },
+    {
+      "@id": "creation_events_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/creation_events.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "creation_events.csv.gz",
+      "sha256": "ffb949f8448abc9f61df556d38da7948b5f08daf8718c642782dd7a276bb87f9"
+    },
+    {
+      "@id": "creation_events_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "creation_events_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "creation_events.csv",
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020"
+    },
+    {
+      "@id": "metadata_coverage_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/metadata_coverage.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "metadata_coverage.csv.gz",
+      "sha256": "9101a0fc0b201db0c38fab02d3480d4e7b04ed2971cc078afc7257b5d3936116"
+    },
+    {
+      "@id": "metadata_coverage_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "metadata_coverage_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "metadata_coverage.csv",
+      "sha256": "44e9a390161ec84b10f1fedce373e15592b4b3738c990c734959c4d2902c2751"
+    },
+    {
+      "@id": "metadata_observations_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/metadata_observations.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "metadata_observations.csv.gz",
+      "sha256": "15b68cfd2d37e626f62463bd702e7c757ca405feff32b01ae7408adc0a56e3c2"
+    },
+    {
+      "@id": "metadata_observations_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "metadata_observations_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "metadata_observations.csv",
+      "sha256": "7f84e26f5cab95f5b0e368f27ac72266921671b22b13598f28a1c4017625995a"
+    },
+    {
+      "@id": "pm_activity_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_activity.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_activity.csv.gz",
+      "sha256": "344ffaf01a6514f33c41aba7f48e455846266b46789c67e31ce8a2e53ad29c3e"
+    },
+    {
+      "@id": "pm_activity_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_activity_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_activity.csv",
+      "sha256": "c56f06d5dd5ffd5973ad8e2f1b98c1cfa7baf948e7fa5a5b42343a7108d1a24b"
+    },
+    {
+      "@id": "pm_candidate_catalogue_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_candidate_catalogue.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_candidate_catalogue.csv.gz",
+      "sha256": "67f032081e5385c76e10048f112f87cb6b58d9ef42476ebb0a19191b8a74124c"
+    },
+    {
+      "@id": "pm_candidate_catalogue_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_candidate_catalogue_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_candidate_catalogue.csv",
+      "sha256": "e0b9b5f7654c57dcf1284837cbaeb236d9f5827d5ebc8ceb1f08b54197323f77"
+    },
+    {
+      "@id": "pm_mapping_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_mapping.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_mapping.csv.gz",
+      "sha256": "2f3486788c72c0640c7e67390947586da0427c2e638e0bd34bf56c490cd1c2a1"
+    },
+    {
+      "@id": "pm_mapping_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_mapping_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_mapping.csv",
+      "sha256": "4e3235e534d4cb158c57d33d8eae1d7a4f50858934f424f6e12ec93257b862c3"
+    },
+    {
+      "@id": "pm_markets_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_markets.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_markets.csv.gz",
+      "sha256": "8ba027d64bb9c0e7fba292002f1950101782d32e6c14833e5f3ffc9675c97262"
+    },
+    {
+      "@id": "pm_markets_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_markets_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_markets.csv",
+      "sha256": "8dc290b32516840442ab46e1ab737e4f40694b06c69d1ea931bf9663ea96c2e1"
+    },
+    {
+      "@id": "pm_match_status_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_match_status.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_match_status.csv.gz",
+      "sha256": "83e7916f816bfa4b180cd7e4b21cd3616c85966a82a550c5a926d4069645b241"
+    },
+    {
+      "@id": "pm_match_status_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_match_status_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_match_status.csv",
+      "sha256": "c2c9878c53b11e83d11128c0a1d677cd2a7e0aa7d7fcb7055ef10c4dc4baf63f"
+    },
+    {
+      "@id": "pm_outcomes_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_outcomes.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_outcomes.csv.gz",
+      "sha256": "021e30980301f6efe2839c8c16addb4b59a771dd31495945500eb4e315f90e51"
+    },
+    {
+      "@id": "pm_outcomes_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_outcomes_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_outcomes.csv",
+      "sha256": "4dc907ea5a8801072e28d0f421db1bfe73dfc30eb448fe46f4fa7a9a1f778091"
+    },
+    {
+      "@id": "pm_prices_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/pm_prices.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "pm_prices.csv.gz",
+      "sha256": "6fe6a22055bb27363dd181d39dae2a50150bd5b863c7614f76c33c56ef0b48cc"
+    },
+    {
+      "@id": "pm_prices_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "pm_prices_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "pm_prices.csv",
+      "sha256": "145dc042cd7f77f9e2fde8f94e6e646bd90c959b16f69641f974a8d35690e0a1"
+    },
+    {
+      "@id": "registry_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/registry.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "registry.csv.gz",
+      "sha256": "e48cbf7cfbd2c07373362e2912b9c6d0ca309cf117a2c0870a01f0ebe006b247"
+    },
+    {
+      "@id": "registry_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "registry_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "registry.csv",
+      "sha256": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020"
+    },
+    {
+      "@id": "token_expectations_at_creation_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/token_expectations_at_creation.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "token_expectations_at_creation.csv.gz",
+      "sha256": "04981ef065e89bdc3434d468c88119502b4db21b269f81c3e42e35d69d7e111a"
+    },
+    {
+      "@id": "token_expectations_at_creation_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "token_expectations_at_creation_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "token_expectations_at_creation.csv",
+      "sha256": "d719a0e5f7e850c4c2dea1f7522fbd98e45ef97aff27005db4b09ade8b5a2dcb"
+    },
+    {
+      "@id": "token_id_crosswalk_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/token_id_crosswalk.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "token_id_crosswalk.csv.gz",
+      "sha256": "e34c09f551ae5f68d5c8b16889e924bf76b6fd82d9b16e9cda981cb6163e664b"
+    },
+    {
+      "@id": "token_id_crosswalk_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "token_id_crosswalk_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "token_id_crosswalk.csv",
+      "sha256": "4813392ae3b170b31a22b5da0631e77ea51c6083c07583df723c88cea1d85560"
+    },
+    {
+      "@id": "token_metadata_status_gzip",
+      "@type": "cr:FileObject",
+      "contentUrl": "data/token_metadata_status.csv.gz",
+      "encodingFormat": "application/gzip",
+      "name": "token_metadata_status.csv.gz",
+      "sha256": "df69d464bb1ccaf014e0d9a69175dcd2917cba34d394fb78e0dfa805ef704bf9"
+    },
+    {
+      "@id": "token_metadata_status_csv",
+      "@type": "cr:FileObject",
+      "containedIn": {
+        "@id": "token_metadata_status_gzip"
+      },
+      "encodingFormat": "text/csv",
+      "name": "token_metadata_status.csv",
+      "sha256": "7557d2bdceb3c334a3bd54ba00ed93b520c49484dd244532e513fe7cff709d47"
+    }
+  ],
+  "isAccessibleForFree": true,
+  "name": "Three-chain launch registry and retrospective expectation context - P4 local candidate",
+  "rai:dataBiases": "Single declared week and selected launch platforms; bounded market discovery; old metadata cohort selected by historical collection and access success.",
+  "rai:dataCollection": "Fixed P3 v6 native evidence and public historical market observations; legacy six-table metadata summaries. No new online acquisition during P4 acceptance.",
+  "rai:dataCollectionRawData": "Saved original provider responses and normalized native transaction/log envelopes; unavailable old metadata HTTP bodies remain unavailable.",
+  "rai:dataLimitations": "Declared platform/version/address scope only; Four.meme V1 excluded. Market scalar construction and historical rule revisions unverified. Legacy metadata coverage is Solana only. Real lifecycle awaits integration.",
+  "rai:dataReleaseMaintenance": "Local immutable personal candidate; P5 integration and external release require a new version and rights review.",
+  "rai:dataSocialImpact": "Public wallet addresses can be linkable. Do not infer personal identity or equate token inactivity/metadata failure with people or project failure.",
+  "rai:useCases": "Data provenance, deterministic ETL reuse, identity/time joins, coverage inspection. Not investment advice, natural-person identification, causal inference or certified prospective prediction.",
+  "recordSet": [
+    {
+      "@id": "context_daily",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "context_daily/chain_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "chain_key",
+          "source": {
+            "extract": {
+              "column": "chain_key"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/platform_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "platform_id",
+          "source": {
+            "extract": {
+              "column": "platform_id"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/utc_day",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "utc_day",
+          "source": {
+            "extract": {
+              "column": "utc_day"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/mapping_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "mapping_id",
+          "source": {
+            "extract": {
+              "column": "mapping_id"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/pm_outcome_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "pm_outcome_key",
+          "source": {
+            "extract": {
+              "column": "pm_outcome_key"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/link_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "link_type",
+          "source": {
+            "extract": {
+              "column": "link_type"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/anchor_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "anchor_time_utc",
+          "source": {
+            "extract": {
+              "column": "anchor_time_utc"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/price_observation_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "price_observation_id",
+          "source": {
+            "extract": {
+              "column": "price_observation_id"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/expectation_at_day_start",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "expectation_at_day_start",
+          "source": {
+            "extract": {
+              "column": "expectation_at_day_start"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/effective_information_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "bucket start plus returned resolution; strictly before anchor",
+          "name": "effective_information_time_utc",
+          "source": {
+            "extract": {
+              "column": "effective_information_time_utc"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/match_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "match_status",
+          "source": {
+            "extract": {
+              "column": "match_status"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/observed_created_tokens",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "observed_created_tokens",
+          "source": {
+            "extract": {
+              "column": "observed_created_tokens"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        },
+        {
+          "@id": "context_daily/creation_coverage_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_coverage_status",
+          "source": {
+            "extract": {
+              "column": "creation_coverage_status"
+            },
+            "fileObject": {
+              "@id": "context_daily_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "context_daily/chain_key"
+        },
+        {
+          "@id": "context_daily/utc_day"
+        },
+        {
+          "@id": "context_daily/mapping_id"
+        }
+      ],
+      "name": "context_daily"
+    },
+    {
+      "@id": "creation_events",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "creation_events/creation_event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_event_id",
+          "source": {
+            "extract": {
+              "column": "creation_event_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/chain_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "chain_key",
+          "source": {
+            "extract": {
+              "column": "chain_key"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/platform_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "platform_id",
+          "source": {
+            "extract": {
+              "column": "platform_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/platform_version_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "platform_version_id",
+          "source": {
+            "extract": {
+              "column": "platform_version_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/program_or_factory_address",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "program_or_factory_address",
+          "source": {
+            "extract": {
+              "column": "program_or_factory_address"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/token_address_raw",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "token_address_raw",
+          "source": {
+            "extract": {
+              "column": "token_address_raw"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/token_address_canonical",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "token_address_canonical",
+          "source": {
+            "extract": {
+              "column": "token_address_canonical"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/creation_tx_hash_or_signature",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_tx_hash_or_signature",
+          "source": {
+            "extract": {
+              "column": "creation_tx_hash_or_signature"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/block_height_or_slot",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "block_height_or_slot",
+          "source": {
+            "extract": {
+              "column": "block_height_or_slot"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/block_hash",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "block_hash",
+          "source": {
+            "extract": {
+              "column": "block_hash"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/created_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "native block timestamp in UTC",
+          "name": "created_at_utc",
+          "source": {
+            "extract": {
+              "column": "created_at_utc"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/transaction_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "transaction_index",
+          "source": {
+            "extract": {
+              "column": "transaction_index"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/transaction_format_version",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "transaction_format_version",
+          "source": {
+            "extract": {
+              "column": "transaction_format_version"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/native_instruction_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_instruction_path",
+          "source": {
+            "extract": {
+              "column": "native_instruction_path"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/outer_instruction_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "outer_instruction_index",
+          "source": {
+            "extract": {
+              "column": "outer_instruction_index"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/inner_instruction_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "inner_instruction_path",
+          "source": {
+            "extract": {
+              "column": "inner_instruction_path"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/log_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "log_index",
+          "source": {
+            "extract": {
+              "column": "log_index"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/creator_address",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creator_address",
+          "source": {
+            "extract": {
+              "column": "creator_address"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/creator_role_definition",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creator_role_definition",
+          "source": {
+            "extract": {
+              "column": "creator_role_definition"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/tx_sender_or_signer",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "tx_sender_or_signer",
+          "source": {
+            "extract": {
+              "column": "tx_sender_or_signer"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/fee_payer",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "fee_payer",
+          "source": {
+            "extract": {
+              "column": "fee_payer"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/initial_name",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_name",
+          "source": {
+            "extract": {
+              "column": "initial_name"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/initial_symbol",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_symbol",
+          "source": {
+            "extract": {
+              "column": "initial_symbol"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/initial_metadata_uri",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_metadata_uri",
+          "source": {
+            "extract": {
+              "column": "initial_metadata_uri"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/initial_metadata_uri_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_metadata_uri_status",
+          "source": {
+            "extract": {
+              "column": "initial_metadata_uri_status"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/initial_attributes_json",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_attributes_json",
+          "source": {
+            "extract": {
+              "column": "initial_attributes_json"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/discovery_mode",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "discovery_mode",
+          "source": {
+            "extract": {
+              "column": "discovery_mode"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/first_decoded_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "first_decoded_at_utc",
+          "source": {
+            "extract": {
+              "column": "first_decoded_at_utc"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/historical_metadata_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "historical_metadata_status",
+          "source": {
+            "extract": {
+              "column": "historical_metadata_status"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/legacy_observed_cohort",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "membership in original 4668-token observation cohort",
+          "name": "legacy_observed_cohort",
+          "source": {
+            "extract": {
+              "column": "legacy_observed_cohort"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/source_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_id",
+          "source": {
+            "extract": {
+              "column": "source_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/native_receipt_raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_receipt_raw_ref",
+          "source": {
+            "extract": {
+              "column": "native_receipt_raw_ref"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/native_block_raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_block_raw_ref",
+          "source": {
+            "extract": {
+              "column": "native_block_raw_ref"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/instruction_commitment_evidence_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "instruction_commitment_evidence_ref",
+          "source": {
+            "extract": {
+              "column": "instruction_commitment_evidence_ref"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/execution_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "execution_status",
+          "source": {
+            "extract": {
+              "column": "execution_status"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/decoder_version",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "decoder_version",
+          "source": {
+            "extract": {
+              "column": "decoder_version"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/cohort_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "cohort_id",
+          "source": {
+            "extract": {
+              "column": "cohort_id"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        },
+        {
+          "@id": "creation_events/evidence_scope",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "evidence_scope",
+          "source": {
+            "extract": {
+              "column": "evidence_scope"
+            },
+            "fileObject": {
+              "@id": "creation_events_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "creation_events/creation_event_id"
+        }
+      ],
+      "name": "creation_events"
+    },
+    {
+      "@id": "metadata_coverage",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "metadata_coverage/event_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "event_key",
+          "source": {
+            "extract": {
+              "column": "event_key"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/checkpoint",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "checkpoint",
+          "source": {
+            "extract": {
+              "column": "checkpoint"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/required",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "required",
+          "source": {
+            "extract": {
+              "column": "required"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/schedule_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "schedule_state",
+          "source": {
+            "extract": {
+              "column": "schedule_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/request_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "request_state",
+          "source": {
+            "extract": {
+              "column": "request_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/parse_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "parse_state",
+          "source": {
+            "extract": {
+              "column": "parse_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/field_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "field_state",
+          "source": {
+            "extract": {
+              "column": "field_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/timing_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "timing_state",
+          "source": {
+            "extract": {
+              "column": "timing_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/final_state",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "original legacy checkpoint terminal state; parse failure may include missing evidence",
+          "name": "final_state",
+          "source": {
+            "extract": {
+              "column": "final_state"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/request_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "request_id",
+          "source": {
+            "extract": {
+              "column": "request_id"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/source_release",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_release",
+          "source": {
+            "extract": {
+              "column": "source_release"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/scheduled_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "scheduled_at_utc",
+          "source": {
+            "extract": {
+              "column": "scheduled_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/earliest_allowed_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "earliest_allowed_at_utc",
+          "source": {
+            "extract": {
+              "column": "earliest_allowed_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/actual_completed_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "actual_completed_at_utc",
+          "source": {
+            "extract": {
+              "column": "actual_completed_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/time_basis",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "time_basis",
+          "source": {
+            "extract": {
+              "column": "time_basis"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/evidence_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "evidence_status",
+          "source": {
+            "extract": {
+              "column": "evidence_status"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/delay_from_creation_seconds",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "delay_from_creation_seconds",
+          "source": {
+            "extract": {
+              "column": "delay_from_creation_seconds"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_coverage/in_formal_creation_cohort",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "in_formal_creation_cohort",
+          "source": {
+            "extract": {
+              "column": "in_formal_creation_cohort"
+            },
+            "fileObject": {
+              "@id": "metadata_coverage_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "metadata_coverage/event_key"
+        },
+        {
+          "@id": "metadata_coverage/checkpoint"
+        }
+      ],
+      "name": "metadata_coverage"
+    },
+    {
+      "@id": "metadata_observations",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "metadata_observations/request_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "request_id",
+          "source": {
+            "extract": {
+              "column": "request_id"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/event_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "event_key",
+          "source": {
+            "extract": {
+              "column": "event_key"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/checkpoint",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "checkpoint",
+          "source": {
+            "extract": {
+              "column": "checkpoint"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/uri",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "uri",
+          "source": {
+            "extract": {
+              "column": "uri"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/field_name",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "field_name",
+          "source": {
+            "extract": {
+              "column": "field_name"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/json_pointer",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "json_pointer",
+          "source": {
+            "extract": {
+              "column": "json_pointer"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/presence",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "presence",
+          "source": {
+            "extract": {
+              "column": "presence"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/value_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "value_type",
+          "source": {
+            "extract": {
+              "column": "value_type"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/allowed_value",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "legacy exported value, preserved without reconstruction",
+          "name": "allowed_value",
+          "source": {
+            "extract": {
+              "column": "allowed_value"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/value_hash",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "legacy field-value summary; full HTTP body unavailable",
+          "name": "value_hash",
+          "source": {
+            "extract": {
+              "column": "value_hash"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/parser_version",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "parser_version",
+          "source": {
+            "extract": {
+              "column": "parser_version"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/metadata_observation_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "metadata_observation_id",
+          "source": {
+            "extract": {
+              "column": "metadata_observation_id"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/actual_request_started_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "actual_request_started_at_utc",
+          "source": {
+            "extract": {
+              "column": "actual_request_started_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/actual_request_completed_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "actual_request_completed_at_utc",
+          "source": {
+            "extract": {
+              "column": "actual_request_completed_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/source_retrieved_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_retrieved_at_utc",
+          "source": {
+            "extract": {
+              "column": "source_retrieved_at_utc"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/response_sha256",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "response_sha256",
+          "source": {
+            "extract": {
+              "column": "response_sha256"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/source_release",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_release",
+          "source": {
+            "extract": {
+              "column": "source_release"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/in_formal_creation_cohort",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "in_formal_creation_cohort",
+          "source": {
+            "extract": {
+              "column": "in_formal_creation_cohort"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/historical_body_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "historical_body_status",
+          "source": {
+            "extract": {
+              "column": "historical_body_status"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        },
+        {
+          "@id": "metadata_observations/source_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_ref",
+          "source": {
+            "extract": {
+              "column": "source_ref"
+            },
+            "fileObject": {
+              "@id": "metadata_observations_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "metadata_observations/metadata_observation_id"
+        }
+      ],
+      "name": "metadata_observations"
+    },
+    {
+      "@id": "pm_activity",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_activity/market_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_id",
+          "source": {
+            "extract": {
+              "column": "market_id"
+            },
+            "fileObject": {
+              "@id": "pm_activity_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_activity/snapshot_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "snapshot_at_utc",
+          "source": {
+            "extract": {
+              "column": "snapshot_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_activity_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_activity/historical_activity_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "historical_activity_status",
+          "source": {
+            "extract": {
+              "column": "historical_activity_status"
+            },
+            "fileObject": {
+              "@id": "pm_activity_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_activity/current_activity_not_used_as_historical",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "current_activity_not_used_as_historical",
+          "source": {
+            "extract": {
+              "column": "current_activity_not_used_as_historical"
+            },
+            "fileObject": {
+              "@id": "pm_activity_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_activity/raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "raw_ref",
+          "source": {
+            "extract": {
+              "column": "raw_ref"
+            },
+            "fileObject": {
+              "@id": "pm_activity_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_activity/market_id"
+        }
+      ],
+      "name": "pm_activity"
+    },
+    {
+      "@id": "pm_candidate_catalogue",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_candidate_catalogue/candidate_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "candidate_id",
+          "source": {
+            "extract": {
+              "column": "candidate_id"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/category",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "category",
+          "source": {
+            "extract": {
+              "column": "category"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/market_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_id",
+          "source": {
+            "extract": {
+              "column": "market_id"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "event_id",
+          "source": {
+            "extract": {
+              "column": "event_id"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/question",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "question",
+          "source": {
+            "extract": {
+              "column": "question"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/opened_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "opened_at_utc",
+          "source": {
+            "extract": {
+              "column": "opened_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/scheduled_close_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "scheduled_close_at_utc",
+          "source": {
+            "extract": {
+              "column": "scheduled_close_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/outcomes_json",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "outcomes_json",
+          "source": {
+            "extract": {
+              "column": "outcomes_json"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "raw_ref",
+          "source": {
+            "extract": {
+              "column": "raw_ref"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/review_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "review_status",
+          "source": {
+            "extract": {
+              "column": "review_status"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_candidate_catalogue/history_selection",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "history_selection",
+          "source": {
+            "extract": {
+              "column": "history_selection"
+            },
+            "fileObject": {
+              "@id": "pm_candidate_catalogue_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_candidate_catalogue/candidate_id"
+        }
+      ],
+      "name": "pm_candidate_catalogue"
+    },
+    {
+      "@id": "pm_mapping",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_mapping/mapping_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "mapping_id",
+          "source": {
+            "extract": {
+              "column": "mapping_id"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/link_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "link_type",
+          "source": {
+            "extract": {
+              "column": "link_type"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/target_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "target_type",
+          "source": {
+            "extract": {
+              "column": "target_type"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/target_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "target_id",
+          "source": {
+            "extract": {
+              "column": "target_id"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/applicable_chain_keys",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "applicable_chain_keys",
+          "source": {
+            "extract": {
+              "column": "applicable_chain_keys"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/pm_market_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_market_key",
+          "source": {
+            "extract": {
+              "column": "pm_market_key"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/pm_outcome_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_outcome_key",
+          "source": {
+            "extract": {
+              "column": "pm_outcome_key"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/market_snapshot_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_snapshot_id",
+          "source": {
+            "extract": {
+              "column": "market_snapshot_id"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/rule_snapshot_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rule_snapshot_ref",
+          "source": {
+            "extract": {
+              "column": "rule_snapshot_ref"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/evidence_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "evidence_ref",
+          "source": {
+            "extract": {
+              "column": "evidence_ref"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/semantic_valid_from_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "semantic_valid_from_utc",
+          "source": {
+            "extract": {
+              "column": "semantic_valid_from_utc"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/semantic_valid_to_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "semantic_valid_to_utc",
+          "source": {
+            "extract": {
+              "column": "semantic_valid_to_utc"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/rule_known_from_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rule_known_from_utc",
+          "source": {
+            "extract": {
+              "column": "rule_known_from_utc"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/reviewed_by",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "reviewed_by",
+          "source": {
+            "extract": {
+              "column": "reviewed_by"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/review_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "review_status",
+          "source": {
+            "extract": {
+              "column": "review_status"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/uncertainty",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "uncertainty",
+          "source": {
+            "extract": {
+              "column": "uncertainty"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_mapping/history_resolution_seconds",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "history_resolution_seconds",
+          "source": {
+            "extract": {
+              "column": "history_resolution_seconds"
+            },
+            "fileObject": {
+              "@id": "pm_mapping_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_mapping/mapping_id"
+        }
+      ],
+      "name": "pm_mapping"
+    },
+    {
+      "@id": "pm_markets",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_markets/market_snapshot_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_snapshot_id",
+          "source": {
+            "extract": {
+              "column": "market_snapshot_id"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/pm_market_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_market_key",
+          "source": {
+            "extract": {
+              "column": "pm_market_key"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "event_id",
+          "source": {
+            "extract": {
+              "column": "event_id"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/market_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_id",
+          "source": {
+            "extract": {
+              "column": "market_id"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/condition_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "condition_id",
+          "source": {
+            "extract": {
+              "column": "condition_id"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/question",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "question",
+          "source": {
+            "extract": {
+              "column": "question"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/slug",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "slug",
+          "source": {
+            "extract": {
+              "column": "slug"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/rules_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rules_ref",
+          "source": {
+            "extract": {
+              "column": "rules_ref"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/rules_sha256",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rules_sha256",
+          "source": {
+            "extract": {
+              "column": "rules_sha256"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/rules_snapshot_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rules_snapshot_at_utc",
+          "source": {
+            "extract": {
+              "column": "rules_snapshot_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/opened_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "opened_at_utc",
+          "source": {
+            "extract": {
+              "column": "opened_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/created_at_api_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "created_at_api_utc",
+          "source": {
+            "extract": {
+              "column": "created_at_api_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/scheduled_close_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "scheduled_close_at_utc",
+          "source": {
+            "extract": {
+              "column": "scheduled_close_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/actual_close_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "actual_close_at_utc",
+          "source": {
+            "extract": {
+              "column": "actual_close_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/resolved_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "resolved_at_utc",
+          "source": {
+            "extract": {
+              "column": "resolved_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/active_snapshot",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "active_snapshot",
+          "source": {
+            "extract": {
+              "column": "active_snapshot"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/closed_snapshot",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "closed_snapshot",
+          "source": {
+            "extract": {
+              "column": "closed_snapshot"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/resolution_state_snapshot",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "resolution_state_snapshot",
+          "source": {
+            "extract": {
+              "column": "resolution_state_snapshot"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/resolution_result",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "resolution_result",
+          "source": {
+            "extract": {
+              "column": "resolution_result"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/protocol_version_native",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "protocol_version_native",
+          "source": {
+            "extract": {
+              "column": "protocol_version_native"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/settlement_network",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "settlement_network",
+          "source": {
+            "extract": {
+              "column": "settlement_network"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/snapshot_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "snapshot_at_utc",
+          "source": {
+            "extract": {
+              "column": "snapshot_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "raw_ref",
+          "source": {
+            "extract": {
+              "column": "raw_ref"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/rules_historical_revision_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "rules_historical_revision_status",
+          "source": {
+            "extract": {
+              "column": "rules_historical_revision_status"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/topic",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "topic",
+          "source": {
+            "extract": {
+              "column": "topic"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_markets/activity_scope",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "activity_scope",
+          "source": {
+            "extract": {
+              "column": "activity_scope"
+            },
+            "fileObject": {
+              "@id": "pm_markets_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_markets/market_snapshot_id"
+        }
+      ],
+      "name": "pm_markets"
+    },
+    {
+      "@id": "pm_match_status",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_match_status/match_assessment_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "match_assessment_id",
+          "source": {
+            "extract": {
+              "column": "match_assessment_id"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/mapping_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "mapping_id",
+          "source": {
+            "extract": {
+              "column": "mapping_id"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/link_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "link_type",
+          "source": {
+            "extract": {
+              "column": "link_type"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "status",
+          "source": {
+            "extract": {
+              "column": "status"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/primary_reason",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "primary_reason",
+          "source": {
+            "extract": {
+              "column": "primary_reason"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_match_status/anchor_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "anchor_time_utc",
+          "source": {
+            "extract": {
+              "column": "anchor_time_utc"
+            },
+            "fileObject": {
+              "@id": "pm_match_status_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_match_status/match_assessment_id"
+        }
+      ],
+      "name": "pm_match_status"
+    },
+    {
+      "@id": "pm_outcomes",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_outcomes/pm_outcome_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_outcome_key",
+          "source": {
+            "extract": {
+              "column": "pm_outcome_key"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/pm_market_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_market_key",
+          "source": {
+            "extract": {
+              "column": "pm_market_key"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/market_snapshot_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_snapshot_id",
+          "source": {
+            "extract": {
+              "column": "market_snapshot_id"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/outcome_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "outcome_index",
+          "source": {
+            "extract": {
+              "column": "outcome_index"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/outcome_label",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "outcome_label",
+          "source": {
+            "extract": {
+              "column": "outcome_label"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/asset_id_raw",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "asset_id_raw",
+          "source": {
+            "extract": {
+              "column": "asset_id_raw"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/asset_id_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "asset_id_type",
+          "source": {
+            "extract": {
+              "column": "asset_id_type"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/protocol_version_native",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "protocol_version_native",
+          "source": {
+            "extract": {
+              "column": "protocol_version_native"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/native_id_type_verification",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "native_id_type_verification",
+          "source": {
+            "extract": {
+              "column": "native_id_type_verification"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_outcomes/raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "raw_ref",
+          "source": {
+            "extract": {
+              "column": "raw_ref"
+            },
+            "fileObject": {
+              "@id": "pm_outcomes_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_outcomes/pm_outcome_key"
+        }
+      ],
+      "name": "pm_outcomes"
+    },
+    {
+      "@id": "pm_prices",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "pm_prices/price_observation_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "price_observation_id",
+          "source": {
+            "extract": {
+              "column": "price_observation_id"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/pm_outcome_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "pm_outcome_key",
+          "source": {
+            "extract": {
+              "column": "pm_outcome_key"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/market_snapshot_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "market_snapshot_id",
+          "source": {
+            "extract": {
+              "column": "market_snapshot_id"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/price",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "source API scalar; construction unconfirmed",
+          "name": "price",
+          "source": {
+            "extract": {
+              "column": "price"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/source_timestamp_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "source_timestamp_utc",
+          "source": {
+            "extract": {
+              "column": "source_timestamp_utc"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/bucket_start_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "bucket_start_utc",
+          "source": {
+            "extract": {
+              "column": "bucket_start_utc"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/bucket_end_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "bucket_end_utc",
+          "source": {
+            "extract": {
+              "column": "bucket_end_utc"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/effective_information_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "bucket start plus returned resolution; strictly before anchor",
+          "name": "effective_information_time_utc",
+          "source": {
+            "extract": {
+              "column": "effective_information_time_utc"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/resolution_seconds",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "resolution_seconds",
+          "source": {
+            "extract": {
+              "column": "resolution_seconds"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/is_settlement_point",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "is_settlement_point",
+          "source": {
+            "extract": {
+              "column": "is_settlement_point"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/eligible_for_asof",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "eligible_for_asof",
+          "source": {
+            "extract": {
+              "column": "eligible_for_asof"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/time_semantics_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "time_semantics_status",
+          "source": {
+            "extract": {
+              "column": "time_semantics_status"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/price_definition_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "price_definition_status",
+          "source": {
+            "extract": {
+              "column": "price_definition_status"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/source_retrieved_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "source_retrieved_at_utc",
+          "source": {
+            "extract": {
+              "column": "source_retrieved_at_utc"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/request_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "request_id",
+          "source": {
+            "extract": {
+              "column": "request_id"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "raw_ref",
+          "source": {
+            "extract": {
+              "column": "raw_ref"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        },
+        {
+          "@id": "pm_prices/price_unit",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/markets.py",
+          "name": "price_unit",
+          "source": {
+            "extract": {
+              "column": "price_unit"
+            },
+            "fileObject": {
+              "@id": "pm_prices_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "pm_prices/price_observation_id"
+        }
+      ],
+      "name": "pm_prices"
+    },
+    {
+      "@id": "registry",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "registry/creation_event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_event_id",
+          "source": {
+            "extract": {
+              "column": "creation_event_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/chain_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "chain_key",
+          "source": {
+            "extract": {
+              "column": "chain_key"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/platform_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "platform_id",
+          "source": {
+            "extract": {
+              "column": "platform_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/platform_version_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "platform_version_id",
+          "source": {
+            "extract": {
+              "column": "platform_version_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/program_or_factory_address",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "program_or_factory_address",
+          "source": {
+            "extract": {
+              "column": "program_or_factory_address"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/token_address_raw",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "token_address_raw",
+          "source": {
+            "extract": {
+              "column": "token_address_raw"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/token_address_canonical",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "token_address_canonical",
+          "source": {
+            "extract": {
+              "column": "token_address_canonical"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/creation_tx_hash_or_signature",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_tx_hash_or_signature",
+          "source": {
+            "extract": {
+              "column": "creation_tx_hash_or_signature"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/block_height_or_slot",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "block_height_or_slot",
+          "source": {
+            "extract": {
+              "column": "block_height_or_slot"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/block_hash",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "block_hash",
+          "source": {
+            "extract": {
+              "column": "block_hash"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/created_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "native block timestamp in UTC",
+          "name": "created_at_utc",
+          "source": {
+            "extract": {
+              "column": "created_at_utc"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/transaction_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "transaction_index",
+          "source": {
+            "extract": {
+              "column": "transaction_index"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/transaction_format_version",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "transaction_format_version",
+          "source": {
+            "extract": {
+              "column": "transaction_format_version"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/native_instruction_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_instruction_path",
+          "source": {
+            "extract": {
+              "column": "native_instruction_path"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/outer_instruction_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "outer_instruction_index",
+          "source": {
+            "extract": {
+              "column": "outer_instruction_index"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/inner_instruction_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "inner_instruction_path",
+          "source": {
+            "extract": {
+              "column": "inner_instruction_path"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/log_index",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "log_index",
+          "source": {
+            "extract": {
+              "column": "log_index"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/creator_address",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creator_address",
+          "source": {
+            "extract": {
+              "column": "creator_address"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/creator_role_definition",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creator_role_definition",
+          "source": {
+            "extract": {
+              "column": "creator_role_definition"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/tx_sender_or_signer",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "tx_sender_or_signer",
+          "source": {
+            "extract": {
+              "column": "tx_sender_or_signer"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/fee_payer",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "fee_payer",
+          "source": {
+            "extract": {
+              "column": "fee_payer"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/initial_name",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_name",
+          "source": {
+            "extract": {
+              "column": "initial_name"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/initial_symbol",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_symbol",
+          "source": {
+            "extract": {
+              "column": "initial_symbol"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/initial_metadata_uri",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_metadata_uri",
+          "source": {
+            "extract": {
+              "column": "initial_metadata_uri"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/initial_metadata_uri_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_metadata_uri_status",
+          "source": {
+            "extract": {
+              "column": "initial_metadata_uri_status"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/initial_attributes_json",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "initial_attributes_json",
+          "source": {
+            "extract": {
+              "column": "initial_attributes_json"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/discovery_mode",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "discovery_mode",
+          "source": {
+            "extract": {
+              "column": "discovery_mode"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/first_decoded_at_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "first_decoded_at_utc",
+          "source": {
+            "extract": {
+              "column": "first_decoded_at_utc"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/historical_metadata_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "historical_metadata_status",
+          "source": {
+            "extract": {
+              "column": "historical_metadata_status"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/legacy_observed_cohort",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "membership in original 4668-token observation cohort",
+          "name": "legacy_observed_cohort",
+          "source": {
+            "extract": {
+              "column": "legacy_observed_cohort"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/source_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "source_id",
+          "source": {
+            "extract": {
+              "column": "source_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/native_receipt_raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_receipt_raw_ref",
+          "source": {
+            "extract": {
+              "column": "native_receipt_raw_ref"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/native_block_raw_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "native_block_raw_ref",
+          "source": {
+            "extract": {
+              "column": "native_block_raw_ref"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/instruction_commitment_evidence_ref",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "instruction_commitment_evidence_ref",
+          "source": {
+            "extract": {
+              "column": "instruction_commitment_evidence_ref"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/execution_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "execution_status",
+          "source": {
+            "extract": {
+              "column": "execution_status"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/decoder_version",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "decoder_version",
+          "source": {
+            "extract": {
+              "column": "decoder_version"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/cohort_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "cohort_id",
+          "source": {
+            "extract": {
+              "column": "cohort_id"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        },
+        {
+          "@id": "registry/evidence_scope",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "evidence_scope",
+          "source": {
+            "extract": {
+              "column": "evidence_scope"
+            },
+            "fileObject": {
+              "@id": "registry_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "registry/token_id"
+        }
+      ],
+      "name": "registry"
+    },
+    {
+      "@id": "token_expectations_at_creation",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "token_expectations_at_creation/expectation_link_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "expectation_link_id",
+          "source": {
+            "extract": {
+              "column": "expectation_link_id"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/chain_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "chain_key",
+          "source": {
+            "extract": {
+              "column": "chain_key"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/creation_event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "creation_event_id",
+          "source": {
+            "extract": {
+              "column": "creation_event_id"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/mapping_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "mapping_id",
+          "source": {
+            "extract": {
+              "column": "mapping_id"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/pm_outcome_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "pm_outcome_key",
+          "source": {
+            "extract": {
+              "column": "pm_outcome_key"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/price_observation_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "price_observation_id",
+          "source": {
+            "extract": {
+              "column": "price_observation_id"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/anchor_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "anchor_time_utc",
+          "source": {
+            "extract": {
+              "column": "anchor_time_utc"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/effective_information_time_utc",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "bucket start plus returned resolution; strictly before anchor",
+          "name": "effective_information_time_utc",
+          "source": {
+            "extract": {
+              "column": "effective_information_time_utc"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/price",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "source API scalar; construction unconfirmed",
+          "name": "price",
+          "source": {
+            "extract": {
+              "column": "price"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/price_age_hours",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "anchor minus effective information end in hours",
+          "name": "price_age_hours",
+          "source": {
+            "extract": {
+              "column": "price_age_hours"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/match_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "match_status",
+          "source": {
+            "extract": {
+              "column": "match_status"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/link_type",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "link_type",
+          "source": {
+            "extract": {
+              "column": "link_type"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_expectations_at_creation/feature_readiness",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "feature_readiness",
+          "source": {
+            "extract": {
+              "column": "feature_readiness"
+            },
+            "fileObject": {
+              "@id": "token_expectations_at_creation_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "token_expectations_at_creation/expectation_link_id"
+        }
+      ],
+      "name": "token_expectations_at_creation"
+    },
+    {
+      "@id": "token_id_crosswalk",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "token_id_crosswalk/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/legacy_creation_event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "legacy_creation_event_id",
+          "source": {
+            "extract": {
+              "column": "legacy_creation_event_id"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/P3_creation_event_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "P3_creation_event_id",
+          "source": {
+            "extract": {
+              "column": "P3_creation_event_id"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/legacy_native_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "legacy_native_path",
+          "source": {
+            "extract": {
+              "column": "legacy_native_path"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/P3_native_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "P3_native_path",
+          "source": {
+            "extract": {
+              "column": "P3_native_path"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/signature_same",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "signature_same",
+          "source": {
+            "extract": {
+              "column": "signature_same"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_id_crosswalk/conflicting_fields",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "conflicting_fields",
+          "source": {
+            "extract": {
+              "column": "conflicting_fields"
+            },
+            "fileObject": {
+              "@id": "token_id_crosswalk_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "token_id_crosswalk/token_id"
+        }
+      ],
+      "name": "token_id_crosswalk"
+    },
+    {
+      "@id": "token_metadata_status",
+      "@type": "cr:RecordSet",
+      "field": [
+        {
+          "@id": "token_metadata_status/token_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "chain-qualified token identity; EVM lowercase/Solana case-preserving",
+          "name": "token_id",
+          "source": {
+            "extract": {
+              "column": "token_id"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_metadata_status/chain_key",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "chain_key",
+          "source": {
+            "extract": {
+              "column": "chain_key"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_metadata_status/cohort_id",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "cohort_id",
+          "source": {
+            "extract": {
+              "column": "cohort_id"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_metadata_status/legacy_observed_cohort",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "membership in original 4668-token observation cohort",
+          "name": "legacy_observed_cohort",
+          "source": {
+            "extract": {
+              "column": "legacy_observed_cohort"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_metadata_status/historical_checkpoint_status",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "backfills never inherit old checkpoint observations",
+          "name": "historical_checkpoint_status",
+          "source": {
+            "extract": {
+              "column": "historical_checkpoint_status"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        },
+        {
+          "@id": "token_metadata_status/historical_plan_created",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "description": "Preserved named source field or deterministic derivation; see code/views.py",
+          "name": "historical_plan_created",
+          "source": {
+            "extract": {
+              "column": "historical_plan_created"
+            },
+            "fileObject": {
+              "@id": "token_metadata_status_csv"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "token_metadata_status/token_id"
+        }
+      ],
+      "name": "token_metadata_status"
+    }
+  ],
+  "version": "p4_personal_candidate_20261029"
+}

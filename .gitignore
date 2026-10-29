@@ -7,3 +7,9 @@ __pycache__/
 outputs/
 dist/
 .ipynb_checkpoints/
+
+# Local release materialization and evidence downloads
+.DS_Store
+pilots/shilin_v2/**/.run.lock
+pilots/shilin_v2/source/**/test_outputs/*
+!pilots/shilin_v2/source/**/test_outputs/.gitkeep

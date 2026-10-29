@@ -1,0 +1,8 @@
+utc_day,coverage_status,legacy_tokens,reconstructed_tokens,intersection,new_only,old_not_found,not_evaluated,field_conflicts,reason_unknown
+2026-10-08,complete_for_declared_address_topic_scope,451,55508,451,55057,0,0,0,55057
+2026-10-09,complete_for_declared_address_topic_scope,1170,47691,1170,46521,0,0,0,46521
+2026-10-10,complete_for_declared_address_topic_scope,1015,49262,1015,48247,0,0,0,48247
+2026-10-11,complete_for_declared_address_topic_scope,633,42857,633,42224,0,0,0,42224
+2026-10-12,complete_for_declared_address_topic_scope,360,49578,360,49218,0,0,0,49218
+2026-10-13,complete_for_declared_address_topic_scope,478,43456,478,42978,0,0,0,42978
+2026-10-14,complete_for_declared_address_topic_scope,561,41709,561,41148,0,0,0,41148

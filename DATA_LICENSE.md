@@ -1,5 +1,7 @@
 # Data licensing
 
-The invented teaching fixtures included here are distributed with this template under the repository's existing MIT license. Their identifiers and evidence labels are fictional. No third-party research data are included.
+This branch includes real research data under [`pilots/shilin_v2/`](pilots/shilin_v2/README.md), plus earlier real-data pilots and the original synthetic teaching fixtures.
 
-For the empirical project, complete a source-by-source license register in `templates/DATA_README.md`. State source terms, rights to redistribute raw records, derived-data rights, attribution, access restrictions and the license selected for each released component. Integrated data must respect all applicable source conditions. Do not copy the demo license into a research dataset card without establishing those rights. The code license alone does not license external data.
+The code license does not license third-party data. Shilin v2 preserves a source-by-source rights register with incomplete/unknown review findings; no blanket external-data license is asserted. See [Shilin v2 data rights and attribution](pilots/shilin_v2/DATA_RIGHTS.md).
+
+The original invented teaching fixtures use the repository's existing MIT license. Empirical material is governed separately by its source terms and documented permissions. Public API access alone does not establish redistribution rights.

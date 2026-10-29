@@ -1,0 +1,13 @@
+checkpoint,terminal_state,checkpoints,denominator,cohort
+T0,observed,4197,4668,legacy_7day_20261008
+T0,request_failed,468,4668,legacy_7day_20261008
+T0,parse_failed,3,4668,legacy_7day_20261008
+T24,observed,4182,4668,legacy_7day_20261008
+T24,request_failed,483,4668,legacy_7day_20261008
+T24,parse_failed,3,4668,legacy_7day_20261008
+T48,observed,4181,4668,legacy_7day_20261008
+T48,request_failed,484,4668,legacy_7day_20261008
+T48,parse_failed,3,4668,legacy_7day_20261008
+T72,observed,4176,4668,legacy_7day_20261008
+T72,request_failed,489,4668,legacy_7day_20261008
+T72,parse_failed,3,4668,legacy_7day_20261008

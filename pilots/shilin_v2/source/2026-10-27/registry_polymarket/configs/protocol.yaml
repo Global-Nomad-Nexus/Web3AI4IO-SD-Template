@@ -1,0 +1,77 @@
+{
+  "P2_protocol_ref": "p2/configs/pilot_protocol.json",
+  "candidate_windows": [
+    {
+      "end": "2026-10-09T00:00:00Z",
+      "role": "preferred pilot probe within legacy week",
+      "start": "2026-10-08T00:00:00Z",
+      "window_id": "legacy_day1"
+    },
+    {
+      "end": "2026-10-15T00:00:00Z",
+      "role": "legacy audit and candidate formal scope subject to P2/P3 coverage",
+      "start": "2026-10-08T00:00:00Z",
+      "window_id": "legacy_week"
+    },
+    {
+      "end": "2026-09-15T00:00:00Z",
+      "role": "fallback feasibility only; no silent cohort switch",
+      "start": "2026-09-14T00:00:00Z",
+      "window_id": "prior_pilot_day"
+    },
+    {
+      "end": "2026-11-02T00:00:00Z",
+      "role": "candidate only if historical public sources fail; not frozen/not collected",
+      "start": "2026-11-01T00:00:00Z",
+      "window_id": "prospective_candidate"
+    }
+  ],
+  "chain_scope": [
+    "solana:mainnet",
+    "eip155:8453",
+    "eip155:56"
+  ],
+  "decoder_version": "legacy_import_v1;raw_source_probe_v1",
+  "delivery_stage": "personal",
+  "formal_creation_end_utc": null,
+  "formal_creation_start_utc": null,
+  "http_timeout_seconds": 12,
+  "include_settlement_points_as_expectations": false,
+  "interface_status": "unconfirmed_by_claire",
+  "interval_convention": "[start,end)",
+  "legacy_creation_end_utc": "2026-10-15T00:00:00Z",
+  "legacy_creation_start_utc": "2026-10-08T00:00:00Z",
+  "lifecycle_analysis_enabled": false,
+  "lifecycle_real_data_status": "awaiting_integration",
+  "max_candidate_markets_for_history": 4,
+  "max_requests_per_round": 220,
+  "max_saved_bytes_per_response": 12000000,
+  "max_search_pages_per_term_status": 2,
+  "max_total_raw_bytes": 100000000,
+  "observation_cutoff_utc": null,
+  "pilot_creation_end_utc": "2026-10-09T00:00:00Z",
+  "pilot_creation_start_utc": "2026-10-08T00:00:00Z",
+  "platform_scope": [
+    "pump.fun",
+    "clanker",
+    "four.meme"
+  ],
+  "polymarket_daily_anchor": "00:00:00Z",
+  "primary_max_price_age_hours": 24,
+  "protocol_version": "registry_pm_p0p1_v1",
+  "random_seed": 20261027,
+  "request_concurrency": 1,
+  "retain_unmatched_registry_tokens": true,
+  "retry_policy": "no_automatic_retries;record_errors;honor_retry_after_before_a_new_round",
+  "rpc_finality": {
+    "evm": "historical_block_hash_receipt_crosscheck;no_tip_admission",
+    "solana": "finalized"
+  },
+  "sensitivity_max_price_age_hours": [
+    12,
+    48
+  ],
+  "status": "P2_complete_for_declared_platform_version_scope",
+  "strict_price_before_creation": true,
+  "window_selection_rule": "Try legacy week first. Alternate windows are only feasibility probes, never silently redefine legacy cohort. P2 candidate chosen on public creation/history coverage, not outcomes."
+}

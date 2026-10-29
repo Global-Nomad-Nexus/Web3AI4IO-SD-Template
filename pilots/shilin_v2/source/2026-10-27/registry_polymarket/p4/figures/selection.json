@@ -1,0 +1,12 @@
+{
+  "actual_close_utc": "",
+  "close_utc": "2027-01-29T04:59:00Z",
+  "dataset_kind": "real_formal",
+  "mapping_id": "mapping:55820787ca5b19c9e0fd34543b3e59af",
+  "outcome_id": "polymarket:gamma_asset:44988145651657165705599548149732848615827306030030294113026805446816695818477",
+  "price_feature_readiness": "retrospective_demonstration_only",
+  "question": "Fed rate cut by October 2026 meeting?",
+  "resolved_utc": "",
+  "selection_rule": "shared economic event; most valid daily UTC-start anchors; mapping_id ascending tie break",
+  "window": "[2026-10-08,2026-10-15) UTC"
+}

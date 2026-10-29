@@ -1,0 +1,152 @@
+{
+  "$defs": {
+    "coverage": {
+      "additionalProperties": true,
+      "properties": {
+        "chain_key": {
+          "enum": [
+            "solana:mainnet",
+            "eip155:8453",
+            "eip155:56"
+          ],
+          "type": "string"
+        },
+        "coverage_evidence_ref": {
+          "type": "string"
+        },
+        "coverage_status": {
+          "enum": [
+            "complete",
+            "partial",
+            "unknown",
+            "not_applicable",
+            "source_missing"
+          ],
+          "type": "string"
+        },
+        "interface_version": {
+          "const": "shilin_lifecycle_adapter_v1",
+          "type": "string"
+        },
+        "interval_end_utc": {
+          "format": "date-time",
+          "pattern": ".*(Z|\\+00:00)$",
+          "type": "string"
+        },
+        "interval_start_utc": {
+          "format": "date-time",
+          "pattern": ".*(Z|\\+00:00)$",
+          "type": "string"
+        },
+        "layer_or_venue": {
+          "type": "string"
+        },
+        "missing_reason": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "token_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "token_id",
+        "chain_key",
+        "layer_or_venue",
+        "interval_start_utc",
+        "interval_end_utc",
+        "coverage_status",
+        "source_id",
+        "coverage_evidence_ref"
+      ],
+      "type": "object"
+    },
+    "event": {
+      "additionalProperties": true,
+      "properties": {
+        "chain_key": {
+          "enum": [
+            "solana:mainnet",
+            "eip155:8453",
+            "eip155:56"
+          ],
+          "type": "string"
+        },
+        "event_evidence_ref": {
+          "type": "string"
+        },
+        "event_time_utc": {
+          "format": "date-time",
+          "pattern": ".*(Z|\\+00:00)$",
+          "type": "string"
+        },
+        "event_type": {
+          "enum": [
+            "first_trade",
+            "graduation",
+            "migration",
+            "venue_change",
+            "activity",
+            "inactivity",
+            "reactivation",
+            "other_evidenced_event"
+          ],
+          "type": "string"
+        },
+        "interface_version": {
+          "const": "shilin_lifecycle_adapter_v1",
+          "type": "string"
+        },
+        "missing_reason": {
+          "type": "string"
+        },
+        "native_position": {
+          "pattern": "^(log:\\d+|ix:\\d+(\\.\\d+)*)$",
+          "type": "string"
+        },
+        "observed_at_utc": {
+          "format": "date-time",
+          "pattern": ".*(Z|\\+00:00)$",
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "token_id": {
+          "type": "string"
+        },
+        "transaction_id": {
+          "type": "string"
+        },
+        "venue_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "token_id",
+        "chain_key",
+        "event_type",
+        "event_time_utc",
+        "observed_at_utc",
+        "source_id",
+        "transaction_id",
+        "native_position",
+        "event_evidence_ref"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "urn:shilin:lifecycle:adapter:v1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Canonical row shapes; alias mapping precedes relational/time/identity checks in adapter. P5 definitions unconfirmed.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/event"
+    },
+    {
+      "$ref": "#/$defs/coverage"
+    }
+  ]
+}

@@ -1,0 +1,2216 @@
+[
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/README.md",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/README.md",
+    "bytes": 4097,
+    "sha256": "2c8e901f83ccc962b881aca6b47f73bf9012960e5703d5819b2acf537306b6a6"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/configs/mvp_protocol.json",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/configs/mvp_protocol.json",
+    "bytes": 5372,
+    "sha256": "b5c650a35a5736e0be736cdf2f7ca445c29bda9ebda1688c1911affb79aaa6cb"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/configs/source_register.csv",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/configs/source_register.csv",
+    "bytes": 2466,
+    "sha256": "16bf330319a401cb1ad7e301be0f2916abf0ad31d2c5636dd67c7980a6d9f1f8"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/figures/checkpoints.png",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/figures/checkpoints.png",
+    "bytes": 25884,
+    "sha256": "c8813d3e46e17ee8af2c25b815d028365a6dd947414654322716a3478391c8bd"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/figures/daily.png",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/figures/daily.png",
+    "bytes": 20281,
+    "sha256": "e270ad70cedd7783e0c4742fbe8050d24712a60aa098cf558c7d534d92a3880f"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/figures/draw_figures.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/figures/draw_figures.py",
+    "bytes": 14802,
+    "sha256": "66f07b96aa4838c199cd4ccc246bbefbde23e70c3056bbf0486cb9f2d686444a"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/figures/fields.png",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/figures/fields.png",
+    "bytes": 27944,
+    "sha256": "07830e026b80c5702df05ac6c064f63097f1fb8017dd32ef45aa0170892f2bb7"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/figures/sources.png",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/figures/sources.png",
+    "bytes": 38775,
+    "sha256": "be6774b53c190e535607d1963077fc51c810b3a545ee740cc4c7bbd58fdbe041"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/fill_gap.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/fill_gap.py",
+    "bytes": 20362,
+    "sha256": "13b8f194e69095dfbfafbbc5673cdc238148fddd447bea6d9a1402eb6b98c57e"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/fixtures/metadata/token-001.json",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/fixtures/metadata/token-001.json",
+    "bytes": 284,
+    "sha256": "62a129027da87400d82bf6ee6bd6acb68908ffd22872e03000d62a5c5926bfcb"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/fixtures/metadata/token-002.json",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/fixtures/metadata/token-002.json",
+    "bytes": 248,
+    "sha256": "76e84af26c34a38325e11440d3ac6b3057f436fd3404a46552bc23b7634ddc4d"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/fixtures/sample_events.json",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/fixtures/sample_events.json",
+    "bytes": 2257,
+    "sha256": "21ade5fa250765130339d0a3a414a66c6d1e771365be1aee8b703da56cbebac5"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/__init__.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/acquire_chain.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/acquire_chain.py",
+    "bytes": 29866,
+    "sha256": "98a88da472974736f421d97ca117d100860c78c9f9530f1c95dc573f746b6360"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/build_release.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/build_release.py",
+    "bytes": 14607,
+    "sha256": "38210d72e060596e3d6bdec449fe18b70cc9215aebe8a7bb66f746ee439a2e90"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/common.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/common.py",
+    "bytes": 7334,
+    "sha256": "f03debfb9f1ff8774bbb5bd7fc50f683cf5134b09c2b7fb94413627b40aaca5a"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/gateway_preflight.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/gateway_preflight.py",
+    "bytes": 4428,
+    "sha256": "b213a68a931c93035b5fa1d84b56c8395ec32193d62f73256f0c8ab2f5d649d8"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/live_cohort.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/live_cohort.py",
+    "bytes": 27471,
+    "sha256": "bf8e30f3446f90d8e357f6124b46c1b3d41c081757599899be7be040c5f8493a"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/observe_metadata.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/observe_metadata.py",
+    "bytes": 18302,
+    "sha256": "e76f334fb1d568082b1700d7ba0b7ca24d5cee960d5c95244f71fb822c46c377"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/rpc_helpers.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/rpc_helpers.py",
+    "bytes": 1261,
+    "sha256": "2282771d6e9f1220ed1221710acf59323454eb02098f0027a646042ad630da1c"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/schedule.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/schedule.py",
+    "bytes": 5463,
+    "sha256": "102faddda7ae1d0f193b0b58e74aa541159bb5fcc77673fbe159de1281637c56"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/mvp/schema.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/mvp/schema.py",
+    "bytes": 2012,
+    "sha256": "8a53a6f4c75e464bc27a02779079084284f5b7bda8e288cb1b2d883dd3abb6c3"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/probe_live.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/probe_live.py",
+    "bytes": 4894,
+    "sha256": "2afab60a2aa462d6cddcae5433edfa7d06ee2aee054de40b751e86cbf7a0d24a"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/requirements.txt",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/requirements.txt",
+    "bytes": 164,
+    "sha256": "2661a7a16894d3ce516030d1e4bd073ff5aeb19d2433b4b32b38c8fe645a6237"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/run_mvp.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/run_mvp.py",
+    "bytes": 16500,
+    "sha256": "38c5dcc266610f87d0dc7edf2364dd93d7f167ba7b76be4cc2e9b37ddc1854e1"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/slurm/collect-7day-72h.sh",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/slurm/collect-7day-72h.sh",
+    "bytes": 1822,
+    "sha256": "8cb0d51f4cbfd7f0920f9c8696d6eeafa8f6cb40b59186f1b0100ab893b399e2"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/slurm/fill-window.sh",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/slurm/fill-window.sh",
+    "bytes": 633,
+    "sha256": "7965c33be88eb65aac347f8d9ae4c9d5a84dda265056e1cb3280ada4aa03a1e6"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/slurm/probe-live.sh",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/slurm/probe-live.sh",
+    "bytes": 580,
+    "sha256": "15faf31ca7dea368f520b86d3bd272d4a333f900f0b5958b62db50b9f382ca8f"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/slurm/smoke-cpu.sh",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/slurm/smoke-cpu.sh",
+    "bytes": 1939,
+    "sha256": "54d634d398e4a5ab77bf028f73f12941c72b067643fcad31bf22785b97188eb8"
+  },
+  {
+    "source": "1021/scientific-data-essential/code-7day-72h/tests/test_cohort.py",
+    "path": "source/1021/scientific-data-essential/code-7day-72h/tests/test_cohort.py",
+    "bytes": 24247,
+    "sha256": "cc6f04842e082736e382c869cc3684555ae5fdc705dc9eb357a7c2640f7c1cdb"
+  },
+  {
+    "source": "1021/scientific-data-essential/analysis/rq_feasibility_audit.json",
+    "path": "source/1021/scientific-data-essential/analysis/rq_feasibility_audit.json",
+    "bytes": 9690,
+    "sha256": "e56b9b5f13330422de23ef1524844cef6a28ca8a0d9d29cc41643756759c3612"
+  },
+  {
+    "source": "1021/scientific-data-essential/analysis/rq_feasibility_audit.py",
+    "path": "source/1021/scientific-data-essential/analysis/rq_feasibility_audit.py",
+    "bytes": 18729,
+    "sha256": "85f070cfc9b74632131880b692c1284e73277e0c3bd030398bbe639a654d455b"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.json",
+    "bytes": 430522,
+    "sha256": "c90f41a4065840effb162edd29040cda533438a7dbb6aeb76c240cfe8e453fe5"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.md",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.md",
+    "bytes": 194,
+    "sha256": "9421b4f92a80659b8aa1496dd5f1c0a07c572929f1adaea29bcc508066e1e073"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/DGP_DATA_LINEAGE.csv",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/DGP_DATA_LINEAGE.csv",
+    "bytes": 1225,
+    "sha256": "c290cade2df0ae3f10ac399e3c17932c0339fd0147db419a885926c17f1b4caa"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/api_benchmark.csv",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/api_benchmark.csv",
+    "bytes": 167,
+    "sha256": "41fc91ee0a6afd3e0aeaccd3e1a99b9ceca42fe1850e8dadb6f3ca85e1886506"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/gateway_preflight.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/gateway_preflight.json",
+    "bytes": 1217,
+    "sha256": "e7f1ba248506c4522436c48598cecacac22e29cb373aed02c67cacb35bfed022"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/input_manifest.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/input_manifest.json",
+    "bytes": 290,
+    "sha256": "1b0aafd88dfbf286902ffad8a512d3873d6c12412e26e47f00b4b88c340a83aa"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/mvp_protocol.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/mvp_protocol.json",
+    "bytes": 6214,
+    "sha256": "23b279692f11f137ad4a9bb20387a196cb9740d4bddd30c44d26442dbf6d595a"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/progress.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/progress.json",
+    "bytes": 843,
+    "sha256": "d230002b2ea72b107de0502c6ba13b9046754d79f133a1103825d5590845ba25"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/run_status.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/run_status.json",
+    "bytes": 111,
+    "sha256": "057e9426d68dcb7b94a867caca7a093f4e0203048fea97edbf90f63fa56827b9"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-protocol/source_register.csv",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-protocol/source_register.csv",
+    "bytes": 2415,
+    "sha256": "752e2d88c1d9c54bb0a0666b92de34356250348b3246ea52e020960e18981505"
+  },
+  {
+    "source": "1021/scientific-data-essential/README.txt",
+    "path": "source/1021/scientific-data-essential/README.txt",
+    "bytes": 2120,
+    "sha256": "5489e5663d69472dc42735d4bd052a7cf52b5a4bb08b9f9067fc0adb83d50a38"
+  },
+  {
+    "source": "1021/scientific-data-essential/WORK_PROGRESS_REPORT.md",
+    "path": "source/1021/scientific-data-essential/WORK_PROGRESS_REPORT.md",
+    "bytes": 10203,
+    "sha256": "6a71b916572a6ea9954db506dee63d13c46802f8ffbb50477c7b2f8253305713"
+  },
+  {
+    "source": "2026-10-27/README.md",
+    "path": "source/2026-10-27/README.md",
+    "bytes": 2594,
+    "sha256": "6d653b63ac5d916c79db9c880df02efa2e51a69dcd44f9cb300bc5b8f86d6851"
+  },
+  {
+    "source": "2026-10-27/执行路径.md",
+    "path": "source/2026-10-27/执行路径.md",
+    "bytes": 116039,
+    "sha256": "1a1f139e650aa289dd8f7d70acaeae6f6554a08329bfe68ac33c66ce398f1e14"
+  },
+  {
+    "source": "2026-10-27/Shilin_任务解读与实施建议.md",
+    "path": "source/2026-10-27/Shilin_任务解读与实施建议.md",
+    "bytes": 16953,
+    "sha256": "8ae73eaccf907ea64ff14b35e0001fd097ce09f95b0ab5a4a321b90259ff7a58"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/P0-P2_工作内容与实验过程详记.md",
+    "path": "source/2026-10-27/registry_polymarket/P0-P2_工作内容与实验过程详记.md",
+    "bytes": 65839,
+    "sha256": "658c42605718fda2cca00bc9b105db33316570bc3c811b082aa06e07d2764477"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/build_views.py",
+    "path": "source/2026-10-27/registry_polymarket/code/build_views.py",
+    "bytes": 8754,
+    "sha256": "01610049bcbf1aa57035b56ef8596c76062e8c65425ee5b384899d6360506e3b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/common.py",
+    "path": "source/2026-10-27/registry_polymarket/code/common.py",
+    "bytes": 5370,
+    "sha256": "b3c53364f74cd71a1105dedb0341dadce7d48af88a035576581292225da751ff"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/make_deliverables.py",
+    "path": "source/2026-10-27/registry_polymarket/code/make_deliverables.py",
+    "bytes": 34014,
+    "sha256": "29c93e26039c49380659a3124d1759b660dd542b53557b30737c0fde49fbe452"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/p0_baseline.py",
+    "path": "source/2026-10-27/registry_polymarket/code/p0_baseline.py",
+    "bytes": 12656,
+    "sha256": "1e61f53bc412dc3d1756c4cff5b0966f05a40c018e9e0b4b3f52b7ebea4e2013"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/polymarket.py",
+    "path": "source/2026-10-27/registry_polymarket/code/polymarket.py",
+    "bytes": 11841,
+    "sha256": "2d61c5e95768ad54a425465343cbf6a049eecbb79fc1309bdaa5ec53cc1afccb"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/probe_log_fallbacks.py",
+    "path": "source/2026-10-27/registry_polymarket/code/probe_log_fallbacks.py",
+    "bytes": 3036,
+    "sha256": "cd4ef336f63e0588602fa920a8fd04aeda24fd7f1120a5b272ec61f94ab32d25"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/probe_sources.py",
+    "path": "source/2026-10-27/registry_polymarket/code/probe_sources.py",
+    "bytes": 7126,
+    "sha256": "0694339e2b1ff4270abe186533850af5a91e5834b88061139a06365e83bd0ae5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/reproduce_offline.py",
+    "path": "source/2026-10-27/registry_polymarket/code/reproduce_offline.py",
+    "bytes": 1967,
+    "sha256": "b9c896a17a00b512ec175d2a49387abb54e4889fac2fa93bf7f900bbac1de680"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/code/validate.py",
+    "path": "source/2026-10-27/registry_polymarket/code/validate.py",
+    "bytes": 5758,
+    "sha256": "bdeb737c855b35219d144b57ef8e71ac358261d5b061d36c7239f8c33f22d85e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/data_dictionary.csv",
+    "path": "source/2026-10-27/registry_polymarket/configs/data_dictionary.csv",
+    "bytes": 86262,
+    "sha256": "d3b87e71c184b062e94b5806cbbdfc8240890396d2700bf39520d380c6aa7d75"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/interface_contract_draft.yaml",
+    "path": "source/2026-10-27/registry_polymarket/configs/interface_contract_draft.yaml",
+    "bytes": 2536,
+    "sha256": "2a3c314023c5575035a2c7cd2caad8e4b807d2680730cd9dd725fdd23a3258d5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/legacy_six_table_dictionary.csv",
+    "path": "source/2026-10-27/registry_polymarket/configs/legacy_six_table_dictionary.csv",
+    "bytes": 32030,
+    "sha256": "5697d7c1d4c20fa1c2a329c3c19fa132a01c55f80480e7f5a21589dd6239e708"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/market_search_terms.csv",
+    "path": "source/2026-10-27/registry_polymarket/configs/market_search_terms.csv",
+    "bytes": 615,
+    "sha256": "418c415fefb736388f68951b28cad4db976f0eeac5aea4dc9e1ca8417d79658b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/platform_versions.csv",
+    "path": "source/2026-10-27/registry_polymarket/configs/platform_versions.csv",
+    "bytes": 5503,
+    "sha256": "f6fff7a3a9d3b618e74ced41be98633d4f06afde340bcf9d193bde19837f10a8"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/protocol.yaml",
+    "path": "source/2026-10-27/registry_polymarket/configs/protocol.yaml",
+    "bytes": 2731,
+    "sha256": "4bac31b3f5cf21061795a4a166cd04198c7011ad8f866f94a45f537f9bb6340f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/schema.json",
+    "path": "source/2026-10-27/registry_polymarket/configs/schema.json",
+    "bytes": 10069,
+    "sha256": "0f4e7bd70a3bfb5ca0e939944c9d2c5c1ceb87eedef3479df2327044809ffb99"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/configs/source_inventory.csv",
+    "path": "source/2026-10-27/registry_polymarket/configs/source_inventory.csv",
+    "bytes": 3850,
+    "sha256": "c9fb236702ff392ebb4677cb23930e592d5b4803c3f93fdd93fb3fb04a0343d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/tests/test_time_and_identity.py",
+    "path": "source/2026-10-27/registry_polymarket/tests/test_time_and_identity.py",
+    "bytes": 1700,
+    "sha256": "d79c2cf93b82dac3221613ac98045204c1ef93f0df04a88b4ebead0e88a1a33b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/README.md",
+    "path": "source/2026-10-27/registry_polymarket/README.md",
+    "bytes": 2778,
+    "sha256": "72f92894ff52ce4b190046924af214f31a356d73396f58a9acad398904546d59"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/audit_native_index.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/audit_native_index.py",
+    "bytes": 4739,
+    "sha256": "d68fbd3116095bb2432ff80585dacaf294f7e963dbc4fe816c34d96f01c8560d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/bsc_full_receipt_qa.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/bsc_full_receipt_qa.py",
+    "bytes": 3924,
+    "sha256": "3a2ba11e6e5f9480b69e9e797c3fa66d09a8e12e4060d753641bb3886f645483"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/build.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/build.py",
+    "bytes": 13680,
+    "sha256": "9a9c1410e26bc5e94bccaaf6d376509f0561adb9bee1c311731fcb8d509c9b6a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect.py",
+    "bytes": 4809,
+    "sha256": "1f92995362b2ce8637e50481d93677e3a569fe8b44c221af4648fecf5c212511"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_base_rpc.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_base_rpc.py",
+    "bytes": 4306,
+    "sha256": "f367e8a30c3f63008efab7f42eb2547aa35637b165e7014fd24ee9b853b98c0a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_cryptohouse_headers.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_cryptohouse_headers.py",
+    "bytes": 4307,
+    "sha256": "84b808ed5f5f9cd85192688dbf2360d350a2fc6cea29e66d6f406c4444d2cb8e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_solana_light.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_solana_light.py",
+    "bytes": 3312,
+    "sha256": "371b79bfd6305551768ba11e74798b62ec848cd0bf854c4d297e64b4bfedbe2e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_solana_round_robin.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_solana_round_robin.py",
+    "bytes": 4162,
+    "sha256": "0e2051b85d0331a4e782c435726bc3d1593ccb1409c5a9ebce13a278560ebb40"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_vibe_history.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_vibe_history.py",
+    "bytes": 4813,
+    "sha256": "4c28579993547e8cce1a41a583218e5b5c36f1ab91ac1da30593f37b2c153f7b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/collect_vibe_partitions.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/collect_vibe_partitions.py",
+    "bytes": 5777,
+    "sha256": "ad1666edbc97dd4bb5d24a183a1e28355275c51e999ccb85eee2349a9c534cb7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/continue_collection.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/continue_collection.py",
+    "bytes": 906,
+    "sha256": "2f8cf8be94b584c09ba02e6a0797a5a6db6c9ac67fb52a0d3ed77658e9fde2ba"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/decode.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/decode.py",
+    "bytes": 12916,
+    "sha256": "559475e0e1f8d1d90784457151db93359702d0c20249f4196aded36e4025babc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/discover.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/discover.py",
+    "bytes": 1682,
+    "sha256": "63f0f4a82c13a228dc730bf0d5ac0fc055f87edea733d31ef48bb1b3e12fa8a1"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/figures.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/figures.py",
+    "bytes": 5962,
+    "sha256": "f22a1bea7c83426c98b50f95faa5f88aa4128d57520317489b602c3002864c50"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/finalize_delivery.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/finalize_delivery.py",
+    "bytes": 4280,
+    "sha256": "d20eb15747e15df3557d23153344207732bd790f8ff7ebd629aaea4fa54c3fef"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/native_call_tree.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/native_call_tree.py",
+    "bytes": 3577,
+    "sha256": "c9167b163a102d81655345696dfae975608b3854cc056fcc6c1bfe0c438c01e0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/native_qa.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/native_qa.py",
+    "bytes": 5942,
+    "sha256": "e788188cb3f991695ab25bb3532eff93d3a014b5e0a1b772e540ac99e2a87d74"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/p2io.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/p2io.py",
+    "bytes": 5108,
+    "sha256": "cdfab1d2e2e4648eff5f7500cff996073474b39daa0597c15922f78b54158a9c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/prepare.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/prepare.py",
+    "bytes": 6357,
+    "sha256": "c4e36fe47596027c94342a213bc335bbcdc411be6a5aa224a3468ee2756a12b0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/prepare_vibe_creations.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/prepare_vibe_creations.py",
+    "bytes": 7578,
+    "sha256": "375803708a5fa870e35217f3a7e9b796eca6d09d4371d8f12e5ab8a3d3eafaa0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/report.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/report.py",
+    "bytes": 19510,
+    "sha256": "d4d847d7ed9a1443d1413349c5d5a7052d4871c1984d538d2af21b49fceae9fd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/reproduce_offline.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/reproduce_offline.py",
+    "bytes": 3716,
+    "sha256": "768e26dccf5de1e266f896a2f7d65756484ff42309dbc7728dba11bd5b197725"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/solana_index.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/solana_index.py",
+    "bytes": 4420,
+    "sha256": "80fe02dab7217bcf1ef4cd89b20422013c00d5a52f829b31d472d29aa842a82d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/solana_native.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/solana_native.py",
+    "bytes": 8995,
+    "sha256": "3a3eb94ff82ac518769907fb9b144302e2c8836abbe59b49c629def931c0629f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/validate.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/validate.py",
+    "bytes": 8427,
+    "sha256": "7540a2a7399b2d86df5e8634c07221d5ddc1f9327b17d0590f8af24bf9b49b08"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/code/write_manuscript.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/code/write_manuscript.py",
+    "bytes": 8933,
+    "sha256": "f963f61a79219130d87257d951a24465f81918fc5f437422d66642edc056ecb8"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v0.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v0.ts",
+    "bytes": 7895,
+    "sha256": "34ababe799632bff364a4c3189dc7d66b8633feed4b067d7937ed9450471541e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v1.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v1.ts",
+    "bytes": 9183,
+    "sha256": "88ccc10ae3840f6dfe04cec399f2f6f1b27a282e1eea07db49282595af1c87e7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v2.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v2.ts",
+    "bytes": 8785,
+    "sha256": "8395cca55d368ff630e0da55b68d337210b2e87dbd829c6b4557d40e9e707c61"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v3.1.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v3.1.ts",
+    "bytes": 19174,
+    "sha256": "96e65b77c3810200c76750a5fee28cff6a0eb4efd2238f2a84ab5b7858ee3912"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v3.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v3.ts",
+    "bytes": 9930,
+    "sha256": "20fb9a70ac0263545c666b8f812c4c81b8b70ed78d3eb07680e4141710da2046"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/clanker_v4.ts",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/clanker_v4.ts",
+    "bytes": 15439,
+    "sha256": "35c2bfc5fcc0a0706a921b84e2e9e803d0034eec87906ba3661d073b8940e3e3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/data_dictionary.csv",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/data_dictionary.csv",
+    "bytes": 76065,
+    "sha256": "08477da16e7257c0aac91a6701810b514b280199d15a7c7015db845d6fe3ce0b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/four_meme_event_definitions.md",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/four_meme_event_definitions.md",
+    "bytes": 3853,
+    "sha256": "28214632495527a142ad21f2e20bf63abbf98ea8bf7aca4c416b5e4201b3613a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/four_meme_v2_events.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/four_meme_v2_events.json",
+    "bytes": 3067,
+    "sha256": "b9e7b906e59457fc31909fe73d60804b831d444e5369105933278c4e2c2ba814"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/pilot_protocol.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/pilot_protocol.json",
+    "bytes": 5898,
+    "sha256": "3c0a1c008ac035335d428e59d844146c3628794b6f94d0f3a70019418dbb7c4d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/platform_events.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/platform_events.json",
+    "bytes": 16210,
+    "sha256": "1406475a41030a37684bbbd9fda1a7d23b739358353d7d2a8e5d452c9431f1cc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/platform_scope.csv",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/platform_scope.csv",
+    "bytes": 3458,
+    "sha256": "55aca20a582160f946a7b02463697db1237b44a0d7313da06e0727d3f977d755"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/pump_2293f9a66c654e9fe82dc5e8f4618538f24bb35f.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/pump_2293f9a66c654e9fe82dc5e8f4618538f24bb35f.json",
+    "bytes": 327956,
+    "sha256": "6a19bad7758fb822cee79a91575e51a7bd60391c670200408676643e00a79a6d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/pump_8cda1fa30ea658b20909d8aedf002047119388d2.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/pump_8cda1fa30ea658b20909d8aedf002047119388d2.json",
+    "bytes": 327602,
+    "sha256": "38b8abcc5b279bda85cf473e7c6f67bd15eb89df658cf93434687a43c88ad937"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/requirements-lock.txt",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/requirements-lock.txt",
+    "bytes": 266,
+    "sha256": "9ab54993b9cc5b542ec43294366a6fabe379d08413fdab080a5e1265c427c0f7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/configs/schema.json",
+    "path": "source/2026-10-27/registry_polymarket/p2/configs/schema.json",
+    "bytes": 6843,
+    "sha256": "638c7065b4aeded83dc2838e3235490ad3b4146dfdfd8a906b9d079cbf476b87"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/tests/test_native_commitment.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/tests/test_native_commitment.py",
+    "bytes": 2346,
+    "sha256": "687f8d56d35a8bd7fa84565bbf56b07de81a1be97c06572b4b5def6baf074eb4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/tests/test_native_decoding.py",
+    "path": "source/2026-10-27/registry_polymarket/p2/tests/test_native_decoding.py",
+    "bytes": 1598,
+    "sha256": "95e7715ea94b77875be69615e7f9dcb5d8216efebafe096e5eb3ef0dd9dd4bd4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p2/README.md",
+    "path": "source/2026-10-27/registry_polymarket/p2/README.md",
+    "bytes": 2024,
+    "sha256": "46a1619abfc961902d5c63adfa2b39c5edc01683a103952ac8e5fa1c18856842"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/collectors.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/collectors.py",
+    "bytes": 30372,
+    "sha256": "f724b8436b80128e8658298652f6d60099fe9f161419ee140c93778c739cebc5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/core.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/core.py",
+    "bytes": 14875,
+    "sha256": "13e56904084024cc8f6252248d334f5f0250fd00ad6780c34a644550cb704ad2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/markets.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/markets.py",
+    "bytes": 20656,
+    "sha256": "ab7b01d354a241856a3767ceaf1f637ba3e42fb418855df624d28b3bb53a7645"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/native_call_tree.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/native_call_tree.py",
+    "bytes": 3584,
+    "sha256": "24d4698347427ce2965f3f76ba37229b3f8ed9206fec1bae1edc57dbd20ca865"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/native_decode.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/native_decode.py",
+    "bytes": 2368,
+    "sha256": "a9ca2e137ad73e721a10e425be55d315b12ebe6845e1ec8170a13011c837b446"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/p3.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/p3.py",
+    "bytes": 3460,
+    "sha256": "bc79d53f3e38bd3b7b1eefb8a2a8f27ed5d8ac10c49f7a93cf6bdb4879b4872a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/pipeline.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/pipeline.py",
+    "bytes": 41119,
+    "sha256": "44f61e3f6c53d531e38fdee3e6edf5f86b7bbd1a192f7e9f88d42e7017fb5acd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/smoke_adapters.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/smoke_adapters.py",
+    "bytes": 3779,
+    "sha256": "c2a811098d14e769d6a230cb726de24c378fe9956c7cf71ba58f09e29d573a6d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/code/views.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/code/views.py",
+    "bytes": 24300,
+    "sha256": "69ba79560f579acdf7f9289c4e5e9da7c7a810717f6093ae689f64b9e93345dc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v0.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v0.ts",
+    "bytes": 7895,
+    "sha256": "34ababe799632bff364a4c3189dc7d66b8633feed4b067d7937ed9450471541e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v1.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v1.ts",
+    "bytes": 9183,
+    "sha256": "88ccc10ae3840f6dfe04cec399f2f6f1b27a282e1eea07db49282595af1c87e7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v2.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v2.ts",
+    "bytes": 8785,
+    "sha256": "8395cca55d368ff630e0da55b68d337210b2e87dbd829c6b4557d40e9e707c61"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v3.1.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v3.1.ts",
+    "bytes": 19174,
+    "sha256": "96e65b77c3810200c76750a5fee28cff6a0eb4efd2238f2a84ab5b7858ee3912"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v3.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v3.ts",
+    "bytes": 9930,
+    "sha256": "20fb9a70ac0263545c666b8f812c4c81b8b70ed78d3eb07680e4141710da2046"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/clanker_v4.ts",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/clanker_v4.ts",
+    "bytes": 15439,
+    "sha256": "35c2bfc5fcc0a0706a921b84e2e9e803d0034eec87906ba3661d073b8940e3e3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/four_meme_v2_events.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/four_meme_v2_events.json",
+    "bytes": 3067,
+    "sha256": "b9e7b906e59457fc31909fe73d60804b831d444e5369105933278c4e2c2ba814"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/input_locks.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/input_locks.json",
+    "bytes": 392288,
+    "sha256": "f6d3a1b6c5edeb12651ef5c911dae96dd9fb34be4e728e919e80de97c84835dd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/mapping_reviews.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/mapping_reviews.csv",
+    "bytes": 1374,
+    "sha256": "79eaca212943043dd7b9cde4707fd161a03e6bcdc4f466b6d3b5ee7eecc8ad2a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/platform_events.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/platform_events.json",
+    "bytes": 16210,
+    "sha256": "1406475a41030a37684bbbd9fda1a7d23b739358353d7d2a8e5d452c9431f1cc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/protocol.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/protocol.json",
+    "bytes": 2654,
+    "sha256": "bfa554defaa31ac8aee0e30c77ad773e06ae590a9ab7fc864924b3d4838cc7ca"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/protocol_formal_v4.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/protocol_formal_v4.json",
+    "bytes": 2663,
+    "sha256": "29f26b5a0893b336a91ef4448eb9e973167a8c26d0ef50848ea27f75bfe23d60"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/protocol_formal_v5.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/protocol_formal_v5.json",
+    "bytes": 2684,
+    "sha256": "b588a0cecb4f99ef75050e7136e213df1e7693c98662356369a50808760c314d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/protocol_formal_v6.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/protocol_formal_v6.json",
+    "bytes": 2681,
+    "sha256": "d0a8801b6929a9a8db2eadb4208edcf867087fd0eecc707592be9cdde196ecc7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/pump_2293f9a66c654e9fe82dc5e8f4618538f24bb35f.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/pump_2293f9a66c654e9fe82dc5e8f4618538f24bb35f.json",
+    "bytes": 327956,
+    "sha256": "6a19bad7758fb822cee79a91575e51a7bd60391c670200408676643e00a79a6d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/pump_8cda1fa30ea658b20909d8aedf002047119388d2.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/pump_8cda1fa30ea658b20909d8aedf002047119388d2.json",
+    "bytes": 327602,
+    "sha256": "38b8abcc5b279bda85cf473e7c6f67bd15eb89df658cf93434687a43c88ad937"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/reused_sources.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/reused_sources.json",
+    "bytes": 1269,
+    "sha256": "9b1dc6a734c70cacac9cc7aecb4d096391447591f3db34a5a439f063a16bc8b5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/schema.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/schema.json",
+    "bytes": 2338,
+    "sha256": "91ad3fc29480ffc6cdc275a5069be8c95879c981b03150a5ca00b46efc4ab9a2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/configs/source_inventory.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/configs/source_inventory.csv",
+    "bytes": 4065,
+    "sha256": "c5c1488a71f49151d9b899bd4fb83f5559431ca7d76897c6d517f05e65e0540c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/tests/test_native_commitment.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/tests/test_native_commitment.py",
+    "bytes": 2353,
+    "sha256": "2d1d7157587b34d3150394144b9b8b13d3aeea8ec571a6ab2a049b2829c9f68c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/tests/test_native_decoding.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/tests/test_native_decoding.py",
+    "bytes": 1605,
+    "sha256": "0ff156cb5481b62bcecabfbe21ba8d9f77505ffa772d4096b2b6622cea0a57d9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/tests/test_p3.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/tests/test_p3.py",
+    "bytes": 26675,
+    "sha256": "734ce181b63404b6cc015bcdf28c3adbe07cb20be7d3079bced89576ffbfe325"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/README.md",
+    "path": "source/2026-10-27/registry_polymarket/p3/README.md",
+    "bytes": 3423,
+    "sha256": "cd91c5ccbaef2484e3b9c17ed3e492d7129962557e833a8ed1deecc3486d5c40"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/P3_详细实验报告.md",
+    "path": "source/2026-10-27/registry_polymarket/p3/P3_详细实验报告.md",
+    "bytes": 51489,
+    "sha256": "b8c8a772481cd38d153c07d8b3eb4a14afb357d20496294f75be4909f88c929f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/accept_delivery.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/accept_delivery.py",
+    "bytes": 10787,
+    "sha256": "e8452e393368cd303d0166c6a4682798f0e475d96b7c1f7cf8b7c387fbbfc578"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/audit_counts.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/audit_counts.py",
+    "bytes": 6470,
+    "sha256": "c3f49e4d38a437b895cc5c975375a308ce3093b79a19b694566d647b12ce7c88"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/audit_identity_readiness.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/audit_identity_readiness.py",
+    "bytes": 2437,
+    "sha256": "ebfdc8037200a750c15bb66f7633d29b7a502a1029ad7375ccc2ba341f5b65d9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/build_metadata.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/build_metadata.py",
+    "bytes": 10962,
+    "sha256": "dd728af337b5ce641f98f09baeaedf94316f4e2877420c6bb7a07abd674a102e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/finalize_evidence.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/finalize_evidence.py",
+    "bytes": 14355,
+    "sha256": "7417d7ea2d3bed961afcea8c017e9505c4c3a95fadc0e5ee79d86ff383e230ff"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/gallery.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/gallery.py",
+    "bytes": 12205,
+    "sha256": "38de68457e0b89621265872ec6f9ae8fba89faec84f9ed57a0acc7fde11d9b18"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/lifecycle_adapter.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/lifecycle_adapter.py",
+    "bytes": 19983,
+    "sha256": "6ffa54319f93fd5880369a53816ed5aec7a96930e78291b2b09b058b10542f03"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/package_delivery.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/package_delivery.py",
+    "bytes": 3644,
+    "sha256": "02d5985f5628920bc139a0288089b280f41f646ed90e3183741f029716c17c76"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/rebuild_worker.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/rebuild_worker.py",
+    "bytes": 3278,
+    "sha256": "d66e1ed3931b68eaded7c9f4e4e037c68237dec57d5b2f6f8ce1785815a3a980"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/run_interface_tests.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/run_interface_tests.py",
+    "bytes": 2686,
+    "sha256": "da54b4edac7f6d92bac9030e7d67d4e3c1d4569609b60b380743c943b49ff3d9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/code/seal_delivery.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/code/seal_delivery.py",
+    "bytes": 2530,
+    "sha256": "d1c9caa68e40517e33bf196932f1650fb7c9c3627590df4286a987bbff058bc4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/adapter_config.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/adapter_config.json",
+    "bytes": 1609,
+    "sha256": "f41afe5d2927b47f90551ee310d43aeaa0b34cc371ae948dd83ec03980f41678"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/croissant.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/croissant.json",
+    "bytes": 135744,
+    "sha256": "16deab89255217f0e9b6b0416806358f0ce94b7665b423879624347e71d63784"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/environment.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/environment.json",
+    "bytes": 810,
+    "sha256": "3d42153ea1c99ee9d80c617a4ee78c6174d81225f8237b859fad537a608c8373"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/lifecycle_schema.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/lifecycle_schema.json",
+    "bytes": 3601,
+    "sha256": "0f724e34ac10b4e9d3e49f0827275e30be858880cc3996482f3abc587f2f8772"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/rai_metadata.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/rai_metadata.json",
+    "bytes": 1426,
+    "sha256": "d475b556d43ca9bf85cc42c9a4b9fcb91af483066befc5263a4330f0942d3292"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/source_rights.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/source_rights.csv",
+    "bytes": 6769,
+    "sha256": "38a1acb15eb1387ab6646b79fee353e36c0e1c01d80ba3f4fa6fb4557fdcf203"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/configs/table_schema.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/configs/table_schema.json",
+    "bytes": 61586,
+    "sha256": "7a06628234716cd275f79b1c3b4ac218be8b47708e5fb96f9d4af893116c1596"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/tests/fixtures/lifecycle_cases.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/tests/fixtures/lifecycle_cases.json",
+    "bytes": 2895,
+    "sha256": "8c3c015bfdfc30827ec32a292c9be20c8e5f9eb0787f0fcea723ab62ed565031"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/tests/test_lifecycle_adapter.py",
+    "path": "source/2026-10-27/registry_polymarket/p4/tests/test_lifecycle_adapter.py",
+    "bytes": 11241,
+    "sha256": "41ee31e04528dd1094358711b88bf93d6619c276a24193e7b39f4943544f431b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/docs/data_card.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/docs/data_card.md",
+    "bytes": 3935,
+    "sha256": "7e85499eebb76b1a252a80ccd7e293a2f82624bf9880af1a4c29b1e65095b1d7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/docs/interface_contract.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/docs/interface_contract.md",
+    "bytes": 4949,
+    "sha256": "66b0cda5d2b2ec46ce29674dfd5402f562a23ad2308dcad777865004a2bc3d67"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/docs/metadata_validation_scope.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/docs/metadata_validation_scope.md",
+    "bytes": 1360,
+    "sha256": "7a1d452e70d10cdea92b05ad8bba9cdbc2fbcfa1d84fa7cc628badfa0d6c3072"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/docs/panel_specs.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/docs/panel_specs.md",
+    "bytes": 2648,
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/data/panel_A_activity.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/data/panel_A_activity.csv",
+    "bytes": 1547,
+    "sha256": "0e163bbdeb8b3763b7dc518b7b55c98d85177e299f48e648b62abfcbc8eaf13e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/data/panel_B_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/data/panel_B_coverage.csv",
+    "bytes": 1593,
+    "sha256": "98743720ba144e9f82711e7fabeb35277e9a0aa9d85afd92fa622e7cdeb55681"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/data/panel_C_links.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/data/panel_C_links.csv",
+    "bytes": 211,
+    "sha256": "8207efe3e2b987d860289bcbd877afa55e008776351ba5158ea7fd3250d0da9f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/data/panel_D_metadata.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/data/panel_D_metadata.csv",
+    "bytes": 619,
+    "sha256": "db59e8d4a1e32e2f6a3738a0c1ef073f5bac912b9d76dee8698a48be90558189"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/data/panel_E_alignment.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/data/panel_E_alignment.csv",
+    "bytes": 1596,
+    "sha256": "d969caa84b8f6ade5f2d8c13a9e4d677db10b4d0015b247f0a8cc86083ac88c7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/panel_specs.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/panel_specs.md",
+    "bytes": 2648,
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/real_three_chain_preview.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/real_three_chain_preview.csv",
+    "bytes": 878,
+    "sha256": "7e03ae680a2ec4f75335fe2307cd0bb36d878887be81d1342dd4ebb42bc5d447"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/selection.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/selection.json",
+    "bytes": 579,
+    "sha256": "2a2814f6f8316724b4e12876bdc12f85e426aa30656accfcad108cbcf410b912"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/shilin_gallery.png",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/shilin_gallery.png",
+    "bytes": 703328,
+    "sha256": "4166214e7a89e14fd0cf25775d9dca4b5f4eed69e0fcba07c14dd896cecb3ec7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/figures/shilin_gallery.svg",
+    "path": "source/2026-10-27/registry_polymarket/p4/figures/shilin_gallery.svg",
+    "bytes": 30350,
+    "sha256": "39264341c3da7b007a34dde30fae31d512af6a38f05fdb3e9f5796db1031a8af"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/README.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/README.md",
+    "bytes": 3847,
+    "sha256": "10e8cbf52d714aafceae9f1597854dbf05ead2e853ccd80caabcc053ab246cf7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/P4_完成与验收报告.md",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/P4_完成与验收报告.md",
+    "bytes": 6592,
+    "sha256": "4c6f0d713838afeb7903bb5db07c92eb4783cb1716499e7ce8c0ef01a48e96e8"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/code_lock.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/code_lock.json",
+    "bytes": 775,
+    "sha256": "50d4dd85ae8165dce1f75f3d1aed8f5ca0115929e42fa2e06dfdeda8961b06eb"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/data_dictionary.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/data_dictionary.csv",
+    "bytes": 82344,
+    "sha256": "03e6d542bb241f175e593f5b5c96253a8041e2cd4d261e1efde2a26ee7c979d0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/collectors.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/collectors.py",
+    "bytes": 30372,
+    "sha256": "f724b8436b80128e8658298652f6d60099fe9f161419ee140c93778c739cebc5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/core.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/core.py",
+    "bytes": 14875,
+    "sha256": "13e56904084024cc8f6252248d334f5f0250fd00ad6780c34a644550cb704ad2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/markets.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/markets.py",
+    "bytes": 20656,
+    "sha256": "ab7b01d354a241856a3767ceaf1f637ba3e42fb418855df624d28b3bb53a7645"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/native_call_tree.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/native_call_tree.py",
+    "bytes": 3584,
+    "sha256": "24d4698347427ce2965f3f76ba37229b3f8ed9206fec1bae1edc57dbd20ca865"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/native_decode.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/native_decode.py",
+    "bytes": 2368,
+    "sha256": "a9ca2e137ad73e721a10e425be55d315b12ebe6845e1ec8170a13011c837b446"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/p3.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/p3.py",
+    "bytes": 3460,
+    "sha256": "bc79d53f3e38bd3b7b1eefb8a2a8f27ed5d8ac10c49f7a93cf6bdb4879b4872a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/pipeline.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/pipeline.py",
+    "bytes": 41119,
+    "sha256": "44f61e3f6c53d531e38fdee3e6edf5f86b7bbd1a192f7e9f88d42e7017fb5acd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/smoke_adapters.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/smoke_adapters.py",
+    "bytes": 3779,
+    "sha256": "c2a811098d14e769d6a230cb726de24c378fe9956c7cf71ba58f09e29d573a6d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/views.py",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/frozen_code/views.py",
+    "bytes": 24300,
+    "sha256": "69ba79560f579acdf7f9289c4e5e9da7c7a810717f6093ae689f64b9e93345dc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/mapping_reviews.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/mapping_reviews.csv",
+    "bytes": 68503,
+    "sha256": "b36a093e5f57ba36badf30ae74b257ef25aa8d9c55aad3b6cac31cc3033bada1"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/previous_run_code_lock.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/previous_run_code_lock.json",
+    "bytes": 775,
+    "sha256": "78471139ebac5e1ddc3d4ecb1cccefd53e683bb51789df4b136044c09e6d253d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/protocol.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/protocol.json",
+    "bytes": 2946,
+    "sha256": "e9298e061e84935453125b8ca0c9395c979b8f50acd4457526b4e3fcbd8800c2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/source_inventory.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/configs/source_inventory.csv",
+    "bytes": 2311,
+    "sha256": "fabef196ee267629d0d0ebcaaaabf1c317ab4180dfcafb8c7f20bdc127cc5369"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/P3_run_report.md",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/P3_run_report.md",
+    "bytes": 2746,
+    "sha256": "dd96071f81f1f2c43592ce9efde4361c043fd0e40cb46133d4dddaf2a35210e3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/background_day_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/background_day_coverage.csv",
+    "bytes": 151,
+    "sha256": "29644a8916553dc1738064af818d49f4e9e3e388d9ab06b14148f508a0ce6ba0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/creation_conflicts.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/creation_conflicts.csv",
+    "bytes": 46,
+    "sha256": "ec1a92fb1cb10177043909273313e9da12403cdb44f242c199418ff6693f992d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/creation_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/creation_coverage.csv",
+    "bytes": 3160,
+    "sha256": "a458cf049a795299fe0ed77bd5026fe60ca2b7150643b6d9b7f42e0d229c16a9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/expectation_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/expectation_coverage.csv",
+    "bytes": 568,
+    "sha256": "b9285c5cbbfb3eb27f2c9d95a4dd9bc53019273e1e3da0f19ce7a8547e008cba"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/full_rule_review_audit.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/full_rule_review_audit.csv",
+    "bytes": 24255,
+    "sha256": "769826433b351556a5b6db51ad2e40e2dae9fda1c1fb037ea18b990b9df89771"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/history_requests.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/history_requests.csv",
+    "bytes": 119704,
+    "sha256": "50a9eceb8f8b68f749e1226d657eff3299ca89c4b8dee07751a377fe404ed45c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/legacy_reason_audit.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/legacy_reason_audit.json",
+    "bytes": 598,
+    "sha256": "ba4dfaa8ca965591e70df6cb984de0d582f70dde7d2a4456cf44f57bb62e6139"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/legacy_week_summary.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/legacy_week_summary.csv",
+    "bytes": 747,
+    "sha256": "f5ac3c1078bce3b9a7c6aff97ba553f97ebea32bc98ea326145806597945d13b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/mapping_review_queue.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/mapping_review_queue.csv",
+    "bytes": 41416,
+    "sha256": "3a98987f24b35abdd7d1a521d339cd2375375620439ffeeada8f43e9e20599f1"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_category_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_category_coverage.csv",
+    "bytes": 601,
+    "sha256": "7c879d9045b1422c94139f79bb18fd2a121225b7dc392a525cdfd08ed37c70b5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_history_anchor_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_history_anchor_coverage.csv",
+    "bytes": 4207,
+    "sha256": "bc2d7de4b3e756e4063d48b25d545075883e7135d5e47c9a8db75c35f3700a89"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_search_log.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/market_search_log.csv",
+    "bytes": 9004,
+    "sha256": "084c3c596f45bbb33b416d68f6b4fb22fe1fed565d8230c0dc641625fd385829"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/metadata_cohort_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/metadata_cohort_coverage.csv",
+    "bytes": 785,
+    "sha256": "ba17a9b44e80a17b99e42b9076d548da3b4ab5b5ec1592675167de451a512be1"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/native_QA.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/native_QA.csv",
+    "bytes": 61365,
+    "sha256": "0e4073765c8874df612b28242cda21ce1b8841a13bf4add120d911b28aa4650d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/native_QA_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/native_QA_receipt.json",
+    "bytes": 9557,
+    "sha256": "bdf5382489584e2e73876562d414b0840199934b0185fc2e33093fc0b4faf0e0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/offline_reproduction.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/offline_reproduction.json",
+    "bytes": 23985,
+    "sha256": "48873d436d7769bcd18a3d55e2bfa3f77ed5498917706a14cb478e245b7cb9ce"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/polymarket_feasibility.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/polymarket_feasibility.csv",
+    "bytes": 36175,
+    "sha256": "21e0299a3b9d7159c442664ead99a1250ff486c976cd30c8ebbb29f43ca657a7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/price_age_sensitivity.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/price_age_sensitivity.csv",
+    "bytes": 1593,
+    "sha256": "c7b8e0af1a8c147fb7aaa5cb18c31bd7fa69e6d02331643e6122a58a53cf27f7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/review_application.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/review_application.json",
+    "bytes": 207,
+    "sha256": "5d1bd113c39cb5943dfc635bcb4ace66e0f9af261099e3572c9762b8f98f8a9e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/run_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/run_receipt.json",
+    "bytes": 471,
+    "sha256": "f95339d493b919970784d477c806416babdd81550ac9d7876ee775200099c3da"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/unresolved_cases.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/unresolved_cases.csv",
+    "bytes": 4156,
+    "sha256": "d4c5160346f2a06ba244b33909e8fcf97fb9d844b4b10eb30d2c971a092296dd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/validation_checks.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/validation_checks.csv",
+    "bytes": 2075,
+    "sha256": "e43ee157eb30afbc381b52c302c95453ba01d6bbe22fd38e5e8400e633a24665"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/validation_results.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/validation_results.json",
+    "bytes": 7369,
+    "sha256": "293a7a032d3e332e2b927d4f027f9adbef590b9c19e323b06d205fb936296715"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/version_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/reports/version_coverage.csv",
+    "bytes": 21980,
+    "sha256": "b4b8b463da07e11347ef7b7da7ebb94315768973e45a8abf591f815d165e5cb1"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/monitor_history.jsonl",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/monitor_history.jsonl",
+    "bytes": 10219,
+    "sha256": "59578a827972e337dc64ea9ccc7d215153d36ba3c83836055759a0ecac01dd2c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/processed_manifest.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/processed_manifest.csv",
+    "bytes": 8032,
+    "sha256": "a4507765ebc458adf7aa431e098544998d9da56844212512ccb82923e745731b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/review_amendments.jsonl",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/review_amendments.jsonl",
+    "bytes": 158,
+    "sha256": "96c01f81b2ab30472fdb1da73ff0ba7dae10867ec32c9b7cfaf251424690576e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/run_history.jsonl",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/provenance/run_history.jsonl",
+    "bytes": 28554,
+    "sha256": "8bab63d7c8db904b35d6ec86f0c40f669ba098d477a9e21f8791af4aee293e66"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_A_activity.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_A_activity.csv",
+    "bytes": 5200,
+    "sha256": "a960fa6d2068c95ce60528479d8e5298bfca8263a5ed1cabb051e68c6ae3e9d0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_B_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_B_coverage.csv",
+    "bytes": 3160,
+    "sha256": "a458cf049a795299fe0ed77bd5026fe60ca2b7150643b6d9b7f42e0d229c16a9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_C_links.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_C_links.csv",
+    "bytes": 568,
+    "sha256": "b9285c5cbbfb3eb27f2c9d95a4dd9bc53019273e1e3da0f19ce7a8547e008cba"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_D_metadata.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_D_metadata.csv",
+    "bytes": 1359,
+    "sha256": "609cc9ea29c0728ccb9275a012cef86d6ca29093333017c5043892f8d6a0172c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_E_alignment.csv",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/figures/data/panel_E_alignment.csv",
+    "bytes": 89483,
+    "sha256": "da3aa272e57d986b4dded4c7e7303b795df2ed49c7005dd6ea8d2b2625851280"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224264_b8112f78402b5a30487cff48bffd4de12b10378beffa944d30e3ae22430eff32.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224264_b8112f78402b5a30487cff48bffd4de12b10378beffa944d30e3ae22430eff32.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224266_f69a16e0958e88aa9ea77feee27ea7926243be8cce72c58ec70f75ba1d7486e7.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224266_f69a16e0958e88aa9ea77feee27ea7926243be8cce72c58ec70f75ba1d7486e7.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224268_991ca17765910d99166551e45211d4e6ac615f2cd409ff943b75ebe45b0d4c43.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224268_991ca17765910d99166551e45211d4e6ac615f2cd409ff943b75ebe45b0d4c43.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224269_29ed0d8fbd5cd9a744db233f20538f0d9f964452e35c5b6845dd99a81f3409e2.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224269_29ed0d8fbd5cd9a744db233f20538f0d9f964452e35c5b6845dd99a81f3409e2.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224271_0c053696c2b0f9ddb7ec491a7f676685aac5b8ea7749a10191b2f189c9b77970.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224271_0c053696c2b0f9ddb7ec491a7f676685aac5b8ea7749a10191b2f189c9b77970.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224272_e931ab319b2ce33b8ca48abd3237cfdefd9461a18149a2f281ec799318afb7dc.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224272_e931ab319b2ce33b8ca48abd3237cfdefd9461a18149a2f281ec799318afb7dc.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224273_809f87c84e2b78f28f4d7adc6de3741965e0c66dfd5a2b11e66f720ac20a6b04.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224273_809f87c84e2b78f28f4d7adc6de3741965e0c66dfd5a2b11e66f720ac20a6b04.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224274_20489f14dd8455f964c867274edad5d9821170c628ae06ac6e1a5072a225c990.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224274_20489f14dd8455f964c867274edad5d9821170c628ae06ac6e1a5072a225c990.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224275_e05a8c4f153afb82e9ba5b8165c75b0a25e653ac309feb9ae5704be01f84d87c.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224275_e05a8c4f153afb82e9ba5b8165c75b0a25e653ac309feb9ae5704be01f84d87c.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224276_796a7a4db94d342830b9123ffacf01ab7bee733489ba1c4c44dc7226b965df3b.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224276_796a7a4db94d342830b9123ffacf01ab7bee733489ba1c4c44dc7226b965df3b.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224277_49af864821fd32f9a00d2dc6d36bb0334c319f4b091dd659500c71476aee5871.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1224277_49af864821fd32f9a00d2dc6d36bb0334c319f4b091dd659500c71476aee5871.txt",
+    "bytes": 1188,
+    "sha256": "ed488cf603008052c9a0fb85238b5793e514f092fa9398380a0483869ecec75f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439549_9b6172c50e6d7f9650462d6b3247ebf1b8e0ea037f95a4eacfd263fb301ada38.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439549_9b6172c50e6d7f9650462d6b3247ebf1b8e0ea037f95a4eacfd263fb301ada38.txt",
+    "bytes": 732,
+    "sha256": "93cf3105a7a794b7026c41a5502442b0fc91e6a647bc4f3839d6ea5d1586f795"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439550_8154c54fd4e42b7f9444b2e114a2af7b34e85d3e64d803d3ea56f671ac53e166.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439550_8154c54fd4e42b7f9444b2e114a2af7b34e85d3e64d803d3ea56f671ac53e166.txt",
+    "bytes": 727,
+    "sha256": "fd122789e72673b5a6e1d5ec1f2476e4c7fa2cc693d7ea3fbf17f1b4853669b3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439555_aa2ffc6662e5e61c29264d8e812de86efe33894a7aa69064f22a1a8ee020a8ef.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1439555_aa2ffc6662e5e61c29264d8e812de86efe33894a7aa69064f22a1a8ee020a8ef.txt",
+    "bytes": 727,
+    "sha256": "e0bf6cbbb5ed9e802d2d336b581516bff43cc9d84ea52669d8b5d4c2aba636db"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808544_fe2854f9b2df85641d422a1f5948b04bc3749582fa0109fc1cd57fd028f19bbf.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808544_fe2854f9b2df85641d422a1f5948b04bc3749582fa0109fc1cd57fd028f19bbf.txt",
+    "bytes": 794,
+    "sha256": "6633f289364907fe7a1764bc108a4dd63cc27dfcdf90f8537894cec0490370d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808545_60d9fcb82204b695ea9b917076a0b408682c3069445edb3af8c7d21801831119.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808545_60d9fcb82204b695ea9b917076a0b408682c3069445edb3af8c7d21801831119.txt",
+    "bytes": 794,
+    "sha256": "6633f289364907fe7a1764bc108a4dd63cc27dfcdf90f8537894cec0490370d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808546_99461c04b573eb079a74f11f948e898142192f8d4bd2cf2899e1ea5cb56bd161.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808546_99461c04b573eb079a74f11f948e898142192f8d4bd2cf2899e1ea5cb56bd161.txt",
+    "bytes": 794,
+    "sha256": "6633f289364907fe7a1764bc108a4dd63cc27dfcdf90f8537894cec0490370d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808547_424834069424e4bc29aba94e232f89656bd969f409e40c48f72b7fabd430305b.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808547_424834069424e4bc29aba94e232f89656bd969f409e40c48f72b7fabd430305b.txt",
+    "bytes": 794,
+    "sha256": "6633f289364907fe7a1764bc108a4dd63cc27dfcdf90f8537894cec0490370d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808548_b2a48a13b847b933a419cfc1b7961cbfe42ead669a367b481d5716fe7a935cdc.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_1808548_b2a48a13b847b933a419cfc1b7961cbfe42ead669a367b481d5716fe7a935cdc.txt",
+    "bytes": 794,
+    "sha256": "6633f289364907fe7a1764bc108a4dd63cc27dfcdf90f8537894cec0490370d6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2000296_8a9778f747f1c916597728767daaa4f89bc706f450ce40d04d69a8bdc958b9e9.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2000296_8a9778f747f1c916597728767daaa4f89bc706f450ce40d04d69a8bdc958b9e9.txt",
+    "bytes": 1084,
+    "sha256": "7d426c959e4cd2110ef6567ca7a6b9d5d912d3afd468c5befab48b5f137fd13e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2007290_048e269309ec4786c20b80ce98a1e5fba26128c857b057665c069f05d814243c.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2007290_048e269309ec4786c20b80ce98a1e5fba26128c857b057665c069f05d814243c.txt",
+    "bytes": 440,
+    "sha256": "8eab627dba8e5d7e0c0f791377f01aa5d5a86ff2f497dea208278105a1f86a37"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2589810_44c3aecde99c6dc3d0aa5ef28f387080325b1273b937c4398f8e10e902c43b6b.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2589810_44c3aecde99c6dc3d0aa5ef28f387080325b1273b937c4398f8e10e902c43b6b.txt",
+    "bytes": 1322,
+    "sha256": "aef6b5c5a5f96b0671c51926d2cbccdc9bb10ff82330b7b8b95d41d50ea8bf8e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2589812_d7da633c7f7fcd3d223326c73e322bd4fde5761b87e4056d70bc62a80eedd484.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_2589812_d7da633c7f7fcd3d223326c73e322bd4fde5761b87e4056d70bc62a80eedd484.txt",
+    "bytes": 1322,
+    "sha256": "aef6b5c5a5f96b0671c51926d2cbccdc9bb10ff82330b7b8b95d41d50ea8bf8e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170796_987a8e502198602fdc420d6de1bc7c9033e3433e49e7b7eddeae2af14638b5cb.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170796_987a8e502198602fdc420d6de1bc7c9033e3433e49e7b7eddeae2af14638b5cb.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170797_0dffedfa38ae7473188a4673f7097307f48efca10e54a9c749f1f113f7e02f4d.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170797_0dffedfa38ae7473188a4673f7097307f48efca10e54a9c749f1f113f7e02f4d.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170798_91dc57f65cc0e8fd1bd33512411ed545cb5bd48d5532875d945197d70b93f22a.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170798_91dc57f65cc0e8fd1bd33512411ed545cb5bd48d5532875d945197d70b93f22a.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170799_ba310c4bed0d2d5edc9c1dc25494c3ea07d82abe9a703440bbbe647ca06543b9.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170799_ba310c4bed0d2d5edc9c1dc25494c3ea07d82abe9a703440bbbe647ca06543b9.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170800_a862445d9582c462a00ca89695404943a9b7794b65a8f6fb57e1202decd3844f.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170800_a862445d9582c462a00ca89695404943a9b7794b65a8f6fb57e1202decd3844f.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170801_1e0fefb2a76fcd4a260477c4751b0bd1864f0bc2ccf12a1fd3a4911e918065cb.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170801_1e0fefb2a76fcd4a260477c4751b0bd1864f0bc2ccf12a1fd3a4911e918065cb.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170802_33a1457ef36a893ce4d079b06eb44631eb765e2904d94e318459c69e85763607.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170802_33a1457ef36a893ce4d079b06eb44631eb765e2904d94e318459c69e85763607.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170803_c5851784278f5b87aff4b76665bfec2f69268a23c0872c06ca0af61bc513332f.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170803_c5851784278f5b87aff4b76665bfec2f69268a23c0872c06ca0af61bc513332f.txt",
+    "bytes": 791,
+    "sha256": "17b730ff22b1c5c33dcaa0eca51a0758d5dc3a10bac39d0e20aabdebe4828a13"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170804_2e7c741b717a24793e4bcbd9a21ed09fa90035221afd0da66c886a0330f5d2e2.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170804_2e7c741b717a24793e4bcbd9a21ed09fa90035221afd0da66c886a0330f5d2e2.txt",
+    "bytes": 787,
+    "sha256": "88380302fbaac2b9778692162934ed438fc2bcd328985544b39ce2c3cab1cf14"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170805_9c913e6c3a9a3305bf79d5952b55f3f8932a2a5676d595bb6112548e73ce42b2.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170805_9c913e6c3a9a3305bf79d5952b55f3f8932a2a5676d595bb6112548e73ce42b2.txt",
+    "bytes": 787,
+    "sha256": "88380302fbaac2b9778692162934ed438fc2bcd328985544b39ce2c3cab1cf14"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170806_def8739fad0825a9541e83509a1736d2d3d0dd0fc61f43b1d756bedeb565c05b.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5170806_def8739fad0825a9541e83509a1736d2d3d0dd0fc61f43b1d756bedeb565c05b.txt",
+    "bytes": 787,
+    "sha256": "88380302fbaac2b9778692162934ed438fc2bcd328985544b39ce2c3cab1cf14"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171322_9cbd30f5b928549088abdb431cc430407a25c540b7aa723a003e363373dcbd60.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171322_9cbd30f5b928549088abdb431cc430407a25c540b7aa723a003e363373dcbd60.txt",
+    "bytes": 790,
+    "sha256": "15106aec3169977ddc1b290789b80a2ec140af48a4c23c622b90bda373e811c3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171323_03e8e69bd9e164e60dece18344de79b0487df4ccc66c7d830410d94552c00a50.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171323_03e8e69bd9e164e60dece18344de79b0487df4ccc66c7d830410d94552c00a50.txt",
+    "bytes": 790,
+    "sha256": "15106aec3169977ddc1b290789b80a2ec140af48a4c23c622b90bda373e811c3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171324_7098eb38a7141157544cf39533520042917853203887a8f2f68c31eb1b050188.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171324_7098eb38a7141157544cf39533520042917853203887a8f2f68c31eb1b050188.txt",
+    "bytes": 790,
+    "sha256": "15106aec3169977ddc1b290789b80a2ec140af48a4c23c622b90bda373e811c3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171325_a2f81e09e0a77e09ef99df82ecb6d31151fa14ebe69d6cde17b29d29eb621585.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171325_a2f81e09e0a77e09ef99df82ecb6d31151fa14ebe69d6cde17b29d29eb621585.txt",
+    "bytes": 790,
+    "sha256": "15106aec3169977ddc1b290789b80a2ec140af48a4c23c622b90bda373e811c3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171326_cf770185bf7bb01f344ce45b481d557d9899089dc0abd125c2835045810caaa3.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171326_cf770185bf7bb01f344ce45b481d557d9899089dc0abd125c2835045810caaa3.txt",
+    "bytes": 786,
+    "sha256": "2cec240ca53625ebee9222e008c3e6e45c40697d4caa62154ee8846de35241bc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171327_3e823fd86a15e2894ce49b7db2d04c09abfc1656c6f9ce4abe8fb09d7be0095d.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171327_3e823fd86a15e2894ce49b7db2d04c09abfc1656c6f9ce4abe8fb09d7be0095d.txt",
+    "bytes": 786,
+    "sha256": "2cec240ca53625ebee9222e008c3e6e45c40697d4caa62154ee8846de35241bc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171328_b07fc1abc031300f2bd8c00ff3d01321f2fcdc06f2ba3c9f144c1be203ea4aeb.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171328_b07fc1abc031300f2bd8c00ff3d01321f2fcdc06f2ba3c9f144c1be203ea4aeb.txt",
+    "bytes": 786,
+    "sha256": "2cec240ca53625ebee9222e008c3e6e45c40697d4caa62154ee8846de35241bc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171329_82cbb717b6f12350c0075a156b490b93f4b90129af118b14e8b76ac2476342a3.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171329_82cbb717b6f12350c0075a156b490b93f4b90129af118b14e8b76ac2476342a3.txt",
+    "bytes": 786,
+    "sha256": "2cec240ca53625ebee9222e008c3e6e45c40697d4caa62154ee8846de35241bc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171330_ad9c7a1e06e245704d82adb1911fc14936e9196f92dfe7d0b0bdc3e676dd42eb.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5171330_ad9c7a1e06e245704d82adb1911fc14936e9196f92dfe7d0b0bdc3e676dd42eb.txt",
+    "bytes": 786,
+    "sha256": "2cec240ca53625ebee9222e008c3e6e45c40697d4caa62154ee8846de35241bc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5331668_43aa82c5c68da3ff51f021886d84763e7a42ff52759c831b959912a4b317f0c2.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_5331668_43aa82c5c68da3ff51f021886d84763e7a42ff52759c831b959912a4b317f0c2.txt",
+    "bytes": 847,
+    "sha256": "9f889fd750374deae619e1f63aadbd980c76035aecd8e4d763e6e7ca8f5673cd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701858_4396d4180840af41a94303ecea457c250360ec103cbcd0040222592bbbe6b2c6.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701858_4396d4180840af41a94303ecea457c250360ec103cbcd0040222592bbbe6b2c6.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701859_e7e5b4dc139869805f57f48414a2a31c1ebfe377fe27d50a8491bd9678478ab6.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701859_e7e5b4dc139869805f57f48414a2a31c1ebfe377fe27d50a8491bd9678478ab6.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701860_abb797f93090899e5c5a74fec01d7c39285e414d0e47d1eb1523ab3aef3f7149.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701860_abb797f93090899e5c5a74fec01d7c39285e414d0e47d1eb1523ab3aef3f7149.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701861_0deaeae7c32717720b6116d1afc2a3924e991d82ac2f54a7326ef93e59780cd5.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701861_0deaeae7c32717720b6116d1afc2a3924e991d82ac2f54a7326ef93e59780cd5.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701862_1b433a669a963cbb89d6cdaf8fd7a1659df378892b5ec3f08250d1ac84d013d9.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701862_1b433a669a963cbb89d6cdaf8fd7a1659df378892b5ec3f08250d1ac84d013d9.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701863_91e5c62a31cb94dbabf5c8d8727d1f97100a9cc9774ce3ffd076591952f8b616.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701863_91e5c62a31cb94dbabf5c8d8727d1f97100a9cc9774ce3ffd076591952f8b616.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701865_3311b7f4cfaf28927c467518e17ef14d7a7d180464647b93f6ebf0b014e09da2.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701865_3311b7f4cfaf28927c467518e17ef14d7a7d180464647b93f6ebf0b014e09da2.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701867_8403b3dfeee8de52d898fb19b02f965e0e39e2a2cc0ccc5d7858aab003a7769a.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701867_8403b3dfeee8de52d898fb19b02f965e0e39e2a2cc0ccc5d7858aab003a7769a.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701868_fb059f8aaf1568fc22c85738b25134fae9d3dc7c199e2180ec488f41852d2e21.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701868_fb059f8aaf1568fc22c85738b25134fae9d3dc7c199e2180ec488f41852d2e21.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701869_c3136922855126aaba32243cd7b27ca388f4babddf462cd5a068a25bfbefc155.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701869_c3136922855126aaba32243cd7b27ca388f4babddf462cd5a068a25bfbefc155.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701870_453aa335b31a4fde3e32e62eb0214e950c3a14f14b74927d096cfdc50bcbe2f7.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701870_453aa335b31a4fde3e32e62eb0214e950c3a14f14b74927d096cfdc50bcbe2f7.txt",
+    "bytes": 791,
+    "sha256": "ff771fcf0913e4f8bffaa128d925b13a028737e45697bf244644a2d9396633d2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701871_366de21bc179b829878cad32221e4f8cf9f8e9bb94d6fcf02a24af15a7e0b14a.txt",
+    "path": "source/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6/rules/market_701871_366de21bc179b829878cad32221e4f8cf9f8e9bb94d6fcf02a24af15a7e0b14a.txt",
+    "bytes": 801,
+    "sha256": "5b7e0e01a270d883a6e9765b2c9c9d60aaeba3c71d5732221148ef65456f350d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/acceptance.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/acceptance.json",
+    "bytes": 23812,
+    "sha256": "65c3683d93bd4c048c42d0f3f0930d69d08c4638b58770055963142adbfb0951"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/metrics.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/metrics.json",
+    "bytes": 1348,
+    "sha256": "cc0e115db06cd246ee0de27f99ff4f8cc4339e86b34c938eb7cae4a436ff3d61"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/prose_number_checks.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/prose_number_checks.csv",
+    "bytes": 22242,
+    "sha256": "2b3dba8e1c6071a5c29289f416428ef6e788145115ffab7be28c578a02b56071"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/counts_audit/receipt.json",
+    "bytes": 236,
+    "sha256": "774c81d1e4e177cbb08617678419bf7001e3c4371008634e45e5fce5c707716f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/rebuild.log",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/rebuild.log",
+    "bytes": 67,
+    "sha256": "4c376242b632dd49b52a7180220c9026d12a87cf2f1e88b10feee13fd885241c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/cli.log",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/cli.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/coverage.csv",
+    "bytes": 270,
+    "sha256": "f54619b523b997497978e448ab5404a4f67c7a8bfb4f936e21dc22773206dde2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/crosswalk.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/crosswalk.csv",
+    "bytes": 110,
+    "sha256": "a48f425070e79d8962c4090bcbef3f147d998c245e8723961989fd424a8dc9ff"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/events.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/events.csv",
+    "bytes": 376,
+    "sha256": "1fb3d6f94a2940a980d56f8c16c5ddd5224037178c3d29a2243cdd8ff9c2d96f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/interface_test_results.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/interface_test_results.json",
+    "bytes": 6769,
+    "sha256": "e40422cefc17ab86241d28d9869f00cb32ed9ffb4a46128a155271d9674b0ed6"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/identity_join.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/identity_join.csv",
+    "bytes": 1215,
+    "sha256": "35803e011ec3f727b9e20dc55648f4a78e239bc7018a6b60f25205c20886dca9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/lifecycle_events.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/lifecycle_events.csv",
+    "bytes": 837,
+    "sha256": "f4254e951aed1a384c7881fcfc6909fccb113e454c59ab24f3c93cfb1e6f69fb"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/observation_coverage.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/observation_coverage.csv",
+    "bytes": 561,
+    "sha256": "4146c635df49badeb1a658d47463b5f8f161f10f535412f9364220a19deff218"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/outcome_followup.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/outcome_followup.csv",
+    "bytes": 2756,
+    "sha256": "97aa7631569d98223aca047717303a7477d106ea7c90066ec752a5be6745be64"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/quarantine.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/quarantine.csv",
+    "bytes": 57,
+    "sha256": "ed470d0b19bcad4f2dce1ca75a61de144966e0dcd063d1cad480eb18031f87c4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/positive_cli/receipt.json",
+    "bytes": 339,
+    "sha256": "a71bd557f7990963878d03596e92c8446dd84f7167d4d287aad5ab533895347a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/registry.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/registry.csv",
+    "bytes": 968,
+    "sha256": "16f7accd934bdd96e25f3004a67918d9b1bc7a5c4c7448d6438d088cf344ae14"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/unittest.log",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/test_outputs/unittest.log",
+    "bytes": 5946,
+    "sha256": "5145b543a9a9b8c8316ae98c00c6c522f07d79e9513c1191001ad06f616777bf"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/final_acceptance/worker_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/final_acceptance/worker_receipt.json",
+    "bytes": 8839,
+    "sha256": "5a88ec67740062aa223439c3f3682a1b260d3cd3e255bb558cc8603e4900118d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/counts_audit/metrics.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/counts_audit/metrics.json",
+    "bytes": 1348,
+    "sha256": "cc0e115db06cd246ee0de27f99ff4f8cc4339e86b34c938eb7cae4a436ff3d61"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/counts_audit/prose_number_checks.csv",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/counts_audit/prose_number_checks.csv",
+    "bytes": 16999,
+    "sha256": "006a83949ae5a230e3673d2bb1628a107305f5b65e81242f62fb822708ce4677"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/reports/counts_audit/receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/p4/reports/counts_audit/receipt.json",
+    "bytes": 236,
+    "sha256": "774c81d1e4e177cbb08617678419bf7001e3c4371008634e45e5fce5c707716f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/README.md",
+    "path": "reproduction/p4_sealed/README.md",
+    "bytes": 3847,
+    "sha256": "10e8cbf52d714aafceae9f1597854dbf05ead2e853ccd80caabcc053ab246cf7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/accept_delivery.py",
+    "path": "reproduction/p4_sealed/code/accept_delivery.py",
+    "bytes": 10787,
+    "sha256": "e8452e393368cd303d0166c6a4682798f0e475d96b7c1f7cf8b7c387fbbfc578"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/audit_counts.py",
+    "path": "reproduction/p4_sealed/code/audit_counts.py",
+    "bytes": 6470,
+    "sha256": "c3f49e4d38a437b895cc5c975375a308ce3093b79a19b694566d647b12ce7c88"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/build_metadata.py",
+    "path": "reproduction/p4_sealed/code/build_metadata.py",
+    "bytes": 10962,
+    "sha256": "dd728af337b5ce641f98f09baeaedf94316f4e2877420c6bb7a07abd674a102e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/gallery.py",
+    "path": "reproduction/p4_sealed/code/gallery.py",
+    "bytes": 12205,
+    "sha256": "38de68457e0b89621265872ec6f9ae8fba89faec84f9ed57a0acc7fde11d9b18"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/lifecycle_adapter.py",
+    "path": "reproduction/p4_sealed/code/lifecycle_adapter.py",
+    "bytes": 19983,
+    "sha256": "6ffa54319f93fd5880369a53816ed5aec7a96930e78291b2b09b058b10542f03"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/package_delivery.py",
+    "path": "reproduction/p4_sealed/code/package_delivery.py",
+    "bytes": 3644,
+    "sha256": "02d5985f5628920bc139a0288089b280f41f646ed90e3183741f029716c17c76"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/rebuild_worker.py",
+    "path": "reproduction/p4_sealed/code/rebuild_worker.py",
+    "bytes": 3278,
+    "sha256": "d66e1ed3931b68eaded7c9f4e4e037c68237dec57d5b2f6f8ce1785815a3a980"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/run_interface_tests.py",
+    "path": "reproduction/p4_sealed/code/run_interface_tests.py",
+    "bytes": 2686,
+    "sha256": "da54b4edac7f6d92bac9030e7d67d4e3c1d4569609b60b380743c943b49ff3d9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/code/seal_delivery.py",
+    "path": "reproduction/p4_sealed/code/seal_delivery.py",
+    "bytes": 2530,
+    "sha256": "d1c9caa68e40517e33bf196932f1650fb7c9c3627590df4286a987bbff058bc4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/adapter_config.json",
+    "path": "reproduction/p4_sealed/configs/adapter_config.json",
+    "bytes": 1609,
+    "sha256": "f41afe5d2927b47f90551ee310d43aeaa0b34cc371ae948dd83ec03980f41678"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/croissant.json",
+    "path": "reproduction/p4_sealed/configs/croissant.json",
+    "bytes": 135744,
+    "sha256": "16deab89255217f0e9b6b0416806358f0ce94b7665b423879624347e71d63784"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/environment.json",
+    "path": "reproduction/p4_sealed/configs/environment.json",
+    "bytes": 810,
+    "sha256": "3d42153ea1c99ee9d80c617a4ee78c6174d81225f8237b859fad537a608c8373"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/lifecycle_schema.json",
+    "path": "reproduction/p4_sealed/configs/lifecycle_schema.json",
+    "bytes": 3601,
+    "sha256": "0f724e34ac10b4e9d3e49f0827275e30be858880cc3996482f3abc587f2f8772"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/rai_metadata.json",
+    "path": "reproduction/p4_sealed/configs/rai_metadata.json",
+    "bytes": 1426,
+    "sha256": "d475b556d43ca9bf85cc42c9a4b9fcb91af483066befc5263a4330f0942d3292"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/source_rights.csv",
+    "path": "reproduction/p4_sealed/configs/source_rights.csv",
+    "bytes": 6769,
+    "sha256": "38a1acb15eb1387ab6646b79fee353e36c0e1c01d80ba3f4fa6fb4557fdcf203"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/configs/table_schema.json",
+    "path": "reproduction/p4_sealed/configs/table_schema.json",
+    "bytes": 61586,
+    "sha256": "7a06628234716cd275f79b1c3b4ac218be8b47708e5fb96f9d4af893116c1596"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/data_dictionary.csv",
+    "path": "reproduction/p4_sealed/data_dictionary.csv",
+    "bytes": 82344,
+    "sha256": "03e6d542bb241f175e593f5b5c96253a8041e2cd4d261e1efde2a26ee7c979d0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/data_manifest.csv",
+    "path": "reproduction/p4_sealed/data_manifest.csv",
+    "bytes": 8032,
+    "sha256": "a4507765ebc458adf7aa431e098544998d9da56844212512ccb82923e745731b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/docs/data_card.md",
+    "path": "reproduction/p4_sealed/docs/data_card.md",
+    "bytes": 3935,
+    "sha256": "7e85499eebb76b1a252a80ccd7e293a2f82624bf9880af1a4c29b1e65095b1d7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/docs/interface_contract.md",
+    "path": "reproduction/p4_sealed/docs/interface_contract.md",
+    "bytes": 4949,
+    "sha256": "66b0cda5d2b2ec46ce29674dfd5402f562a23ad2308dcad777865004a2bc3d67"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/docs/panel_specs.md",
+    "path": "reproduction/p4_sealed/docs/panel_specs.md",
+    "bytes": 2648,
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/panel_specs.md",
+    "path": "reproduction/p4_sealed/figures/panel_specs.md",
+    "bytes": 2648,
+    "sha256": "b2fd871460e4ec6a8a99fb99e1446314ed3e11832bec975386465a0e8b66819f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/real_three_chain_preview.csv",
+    "path": "reproduction/p4_sealed/figures/real_three_chain_preview.csv",
+    "bytes": 878,
+    "sha256": "7e03ae680a2ec4f75335fe2307cd0bb36d878887be81d1342dd4ebb42bc5d447"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/selection.json",
+    "path": "reproduction/p4_sealed/figures/selection.json",
+    "bytes": 579,
+    "sha256": "2a2814f6f8316724b4e12876bdc12f85e426aa30656accfcad108cbcf410b912"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/shilin_gallery.png",
+    "path": "reproduction/p4_sealed/figures/shilin_gallery.png",
+    "bytes": 703328,
+    "sha256": "4166214e7a89e14fd0cf25775d9dca4b5f4eed69e0fcba07c14dd896cecb3ec7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/shilin_gallery.svg",
+    "path": "reproduction/p4_sealed/figures/shilin_gallery.svg",
+    "bytes": 30350,
+    "sha256": "39264341c3da7b007a34dde30fae31d512af6a38f05fdb3e9f5796db1031a8af"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/file_manifest.json",
+    "path": "reproduction/p4_sealed/file_manifest.json",
+    "bytes": 26756,
+    "sha256": "5b94b5fff6cb14c8b4737486c3db5be96175f7aee822710408fc54ddf52ff14e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/handoff_to_claire.md",
+    "path": "reproduction/p4_sealed/handoff_to_claire.md",
+    "bytes": 2390,
+    "sha256": "08ef858df431e6305c95d0dd9b4464e73e4197daadf1a2cd38db594755daf187"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/input_manifest.json",
+    "path": "reproduction/p4_sealed/input_manifest.json",
+    "bytes": 6993197,
+    "sha256": "18e5fd482200304d5ab3e1ea4ef5485a3061fdc66984b173f3bfbb3fb6ff2da0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/joint_revision_checklist.md",
+    "path": "reproduction/p4_sealed/joint_revision_checklist.md",
+    "bytes": 1666,
+    "sha256": "f7db1b04921b28e70f99a31f596e716ce4dfd31b5d6fdae1f07f32261e1eb0f9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/release.json",
+    "path": "reproduction/p4_sealed/release.json",
+    "bytes": 2239,
+    "sha256": "d318de5f4b821d05f7509dfdc3dc125cfd24291c8b6a7633534afa63a2e6fa28"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/reports/counts_audit/metrics.json",
+    "path": "reproduction/p4_sealed/reports/counts_audit/metrics.json",
+    "bytes": 1348,
+    "sha256": "cc0e115db06cd246ee0de27f99ff4f8cc4339e86b34c938eb7cae4a436ff3d61"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/reports/counts_audit/prose_number_checks.csv",
+    "path": "reproduction/p4_sealed/reports/counts_audit/prose_number_checks.csv",
+    "bytes": 16999,
+    "sha256": "006a83949ae5a230e3673d2bb1628a107305f5b65e81242f62fb822708ce4677"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/reports/counts_audit/receipt.json",
+    "path": "reproduction/p4_sealed/reports/counts_audit/receipt.json",
+    "bytes": 236,
+    "sha256": "774c81d1e4e177cbb08617678419bf7001e3c4371008634e45e5fce5c707716f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/reports/interface_test_report.md",
+    "path": "reproduction/p4_sealed/reports/interface_test_report.md",
+    "bytes": 1604,
+    "sha256": "741a68da409c23a980871e8766741fa2451972148240e1431a909240063e91a0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/cli.log",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/cli.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/coverage.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/coverage.csv",
+    "bytes": 270,
+    "sha256": "f54619b523b997497978e448ab5404a4f67c7a8bfb4f936e21dc22773206dde2"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/crosswalk.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/crosswalk.csv",
+    "bytes": 110,
+    "sha256": "a48f425070e79d8962c4090bcbef3f147d998c245e8723961989fd424a8dc9ff"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/events.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/events.csv",
+    "bytes": 376,
+    "sha256": "1fb3d6f94a2940a980d56f8c16c5ddd5224037178c3d29a2243cdd8ff9c2d96f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/interface_test_results.json",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/interface_test_results.json",
+    "bytes": 6769,
+    "sha256": "e88ae8c0ad264d5668cbc75815fba5e1097d7f1c03b33841ad855a4cb7cb9f73"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/identity_join.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/identity_join.csv",
+    "bytes": 1215,
+    "sha256": "35803e011ec3f727b9e20dc55648f4a78e239bc7018a6b60f25205c20886dca9"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/lifecycle_events.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/lifecycle_events.csv",
+    "bytes": 837,
+    "sha256": "f4254e951aed1a384c7881fcfc6909fccb113e454c59ab24f3c93cfb1e6f69fb"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/observation_coverage.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/observation_coverage.csv",
+    "bytes": 561,
+    "sha256": "4146c635df49badeb1a658d47463b5f8f161f10f535412f9364220a19deff218"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/outcome_followup.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/outcome_followup.csv",
+    "bytes": 2756,
+    "sha256": "97aa7631569d98223aca047717303a7477d106ea7c90066ec752a5be6745be64"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/quarantine.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/quarantine.csv",
+    "bytes": 57,
+    "sha256": "ed470d0b19bcad4f2dce1ca75a61de144966e0dcd063d1cad480eb18031f87c4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/positive_cli/receipt.json",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/positive_cli/receipt.json",
+    "bytes": 339,
+    "sha256": "a71bd557f7990963878d03596e92c8446dd84f7167d4d287aad5ab533895347a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/registry.csv",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/registry.csv",
+    "bytes": 968,
+    "sha256": "16f7accd934bdd96e25f3004a67918d9b1bc7a5c4c7448d6438d088cf344ae14"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/test_outputs/final_interface/unittest.log",
+    "path": "reproduction/p4_sealed/test_outputs/final_interface/unittest.log",
+    "bytes": 5946,
+    "sha256": "c4d8f594e16eb58bfdee3d8e40d11134162bcec2c4a3fc3a24a0996b65460b7c"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/tests/fixtures/lifecycle_cases.json",
+    "path": "reproduction/p4_sealed/tests/fixtures/lifecycle_cases.json",
+    "bytes": 2895,
+    "sha256": "8c3c015bfdfc30827ec32a292c9be20c8e5f9eb0787f0fcea723ab62ed565031"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/tests/test_lifecycle_adapter.py",
+    "path": "reproduction/p4_sealed/tests/test_lifecycle_adapter.py",
+    "bytes": 11241,
+    "sha256": "41ee31e04528dd1094358711b88bf93d6619c276a24193e7b39f4943544f431b"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/validation_results.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-release/validation_results.json",
+    "bytes": 838,
+    "sha256": "8111141dbcf4e388b2a202e2607bec701d0ae10895c8edd27a960911d07ac9f5"
+  },
+  {
+    "source": "1021/scientific-data-essential/data/7day-72h-20261008-release/release_manifest.json",
+    "path": "source/1021/scientific-data-essential/data/7day-72h-20261008-release/release_manifest.json",
+    "bytes": 455225,
+    "sha256": "65fa329d8540b3db09a8270792e965fa0f1e91c8fc619c707ec45012d0a77c8a"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/data_dictionary.csv",
+    "path": "metadata/data_dictionary.csv",
+    "bytes": 82344,
+    "sha256": "03e6d542bb241f175e593f5b5c96253a8041e2cd4d261e1efde2a26ee7c979d0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/data_manifest.csv",
+    "path": "metadata/p3_original_processed_manifest.csv",
+    "bytes": 8032,
+    "sha256": "a4507765ebc458adf7aa431e098544998d9da56844212512ccb82923e745731b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/input_manifest.json",
+    "path": "metadata/reproduction_input_manifest.json",
+    "bytes": 6993197,
+    "sha256": "18e5fd482200304d5ab3e1ea4ef5485a3061fdc66984b173f3bfbb3fb6ff2da0"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/data/panel_D_metadata.csv",
+    "path": "reproduction/p4_sealed/figures/data/panel_D_metadata.csv",
+    "bytes": 619,
+    "sha256": "db59e8d4a1e32e2f6a3738a0c1ef073f5bac912b9d76dee8698a48be90558189"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/data/panel_A_activity.csv",
+    "path": "reproduction/p4_sealed/figures/data/panel_A_activity.csv",
+    "bytes": 1547,
+    "sha256": "0e163bbdeb8b3763b7dc518b7b55c98d85177e299f48e648b62abfcbc8eaf13e"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/data/panel_C_links.csv",
+    "path": "reproduction/p4_sealed/figures/data/panel_C_links.csv",
+    "bytes": 211,
+    "sha256": "8207efe3e2b987d860289bcbd877afa55e008776351ba5158ea7fd3250d0da9f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/data/panel_B_coverage.csv",
+    "path": "reproduction/p4_sealed/figures/data/panel_B_coverage.csv",
+    "bytes": 1593,
+    "sha256": "98743720ba144e9f82711e7fabeb35277e9a0aa9d85afd92fa622e7cdeb55681"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p4/delivery/p4_personal_candidate_20261029/figures/data/panel_E_alignment.csv",
+    "path": "reproduction/p4_sealed/figures/data/panel_E_alignment.csv",
+    "bytes": 1596,
+    "sha256": "d969caa84b8f6ade5f2d8c13a9e4d677db10b4d0015b247f0a8cc86083ac88c7"
+  }
+]

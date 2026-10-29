@@ -1,0 +1,3 @@
+# Live HTTP/3 fallback. curl_cffi 0.16.3 requires Python 3.10+.
+# DKUCC's system Python is 3.9, so the Slurm script uses the project Python 3.12.
+curl_cffi==0.16.3

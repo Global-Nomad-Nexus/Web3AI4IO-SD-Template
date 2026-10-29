@@ -1,0 +1,62 @@
+[
+  {
+    "event_key": "solana:fixture-signature-001:0:0",
+    "network": "solana-mainnet",
+    "platform": "pump.fun",
+    "transaction_signature": "fixture-signature-001",
+    "slot": "300000001",
+    "block_time": "1790554200",
+    "outer_instruction_index": "0",
+    "inner_instruction_index": "0",
+    "mint": "MintFixture1111111111111111111111111111111111",
+    "creator": "CreatorFixture111111111111111111111111111111",
+    "metadata_uri": "https://metadata.example.test/token-001.json",
+    "decoder_version": "fixture-v1",
+    "event_status": "success"
+  },
+  {
+    "event_key": "solana:fixture-signature-002:0:0",
+    "network": "solana-mainnet",
+    "platform": "pump.fun",
+    "transaction_signature": "fixture-signature-002",
+    "slot": "300000002",
+    "block_time": "1790556000",
+    "outer_instruction_index": "0",
+    "inner_instruction_index": "0",
+    "mint": "MintFixture2222222222222222222222222222222222",
+    "creator": "CreatorFixture222222222222222222222222222222",
+    "metadata_uri": "https://metadata.example.test/token-002.json",
+    "decoder_version": "fixture-v1",
+    "event_status": "success"
+  },
+  {
+    "event_key": "solana:fixture-signature-003:0:0",
+    "network": "solana-mainnet",
+    "platform": "pump.fun",
+    "transaction_signature": "fixture-signature-003",
+    "slot": "300000003",
+    "block_time": "1790557800",
+    "outer_instruction_index": "0",
+    "inner_instruction_index": "0",
+    "mint": "MintFixture3333333333333333333333333333333333",
+    "creator": "CreatorFixture333333333333333333333333333333",
+    "metadata_uri": "https://unknown.example/token-003.json",
+    "decoder_version": "fixture-v1",
+    "event_status": "success"
+  },
+  {
+    "event_key": "solana:fixture-signature-004:0:0",
+    "network": "solana-mainnet",
+    "platform": "pump.fun",
+    "transaction_signature": "fixture-signature-004",
+    "slot": "300000004",
+    "block_time": "1790559600",
+    "outer_instruction_index": "0",
+    "inner_instruction_index": "0",
+    "mint": "MintFixture4444444444444444444444444444444444",
+    "creator": "CreatorFixture444444444444444444444444444444",
+    "metadata_uri": "https://metadata.example.test/token-001.json",
+    "decoder_version": "fixture-v1",
+    "event_status": "success"
+  }
+]

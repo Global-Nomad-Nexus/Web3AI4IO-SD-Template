@@ -1,0 +1,21 @@
+{
+  "interface_version": "shilin_lifecycle_adapter_v1",
+  "confirmation_status": "unconfirmed_by_claire",
+  "joint_definitions_confirmed": false,
+  "common_observation_cutoff_utc": null,
+  "real_lifecycle_integration_status": "awaiting_integration",
+  "interval_semantics": "[creation,cutoff); event at cutoff excluded; coverage [start,end)",
+  "chain_aliases": {"8453":"eip155:8453","56":"eip155:56","solana":"solana:mainnet"},
+  "field_mapping": {
+    "events": {"chain_id":"chain_key","token_address":"token_address_raw","timestamp":"event_time_utc","tx_hash":"transaction_id","event_index":"native_position","retrieved_at":"observed_at_utc"},
+    "coverage": {"chain_id":"chain_key","token_address":"token_address_raw","start":"interval_start_utc","end":"interval_end_utc"}
+  },
+  "time_units": {"event_time_utc":"iso8601","observed_at_utc":"iso8601"},
+  "timestamp_alias_declaration": "timestamp is explicitly declared chain event UTC time, never retrieval or first-seen time",
+  "target_layers": {"first_trade":"trades","graduation":"graduation","migration":"migration"},
+  "duplicate_policy": "chain+transaction+native_position+event_type; exact semantic repeats collapse with audit; every conflicting version quarantined",
+  "missing_venue_policy": "empty venue requires missing_reason",
+  "crosswalk_policy": "explicit (chain_key,object_id)->token_id; conflicting candidate identities rejected",
+  "inactivity_policy": "source-evidenced event only; no automatic death or permanent termination",
+  "synthetic_policy": "only tests/fixtures and test_outputs; never formal processed or gallery inputs"
+}

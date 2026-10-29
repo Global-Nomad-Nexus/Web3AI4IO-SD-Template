@@ -1,0 +1,91 @@
+{
+  "ID_policy": "chain-qualified identities; preserve integer strings",
+  "interval": "[start,end)",
+  "schema_version": "p3_v1",
+  "tables": {
+    "context_daily": {
+      "primary_key": [
+        "chain_key",
+        "utc_day",
+        "mapping_id"
+      ],
+      "row_grain": "chain/platform/day/fixed mapping/outcome"
+    },
+    "creation_events": {
+      "primary_key": [
+        "creation_event_id"
+      ],
+      "row_grain": "one committed native creation instruction or log"
+    },
+    "metadata_coverage": {
+      "expected_rows": 18672,
+      "primary_key": [
+        "source_release",
+        "event_key",
+        "checkpoint"
+      ],
+      "row_grain": "legacy event checkpoint"
+    },
+    "metadata_observations": {
+      "preserve_original_columns": true,
+      "primary_key": [
+        "metadata_observation_id"
+      ],
+      "row_grain": "one historical request field"
+    },
+    "pm_mapping": {
+      "link_types": [
+        "verified_token_identity",
+        "platform",
+        "chain",
+        "shared_economic_event"
+      ],
+      "primary_key": [
+        "mapping_id"
+      ]
+    },
+    "pm_markets": {
+      "primary_key": [
+        "market_snapshot_id"
+      ],
+      "row_grain": "one immutable rule snapshot"
+    },
+    "pm_outcomes": {
+      "primary_key": [
+        "pm_outcome_key",
+        "market_snapshot_id"
+      ],
+      "row_grain": "one native asset and saved market snapshot"
+    },
+    "pm_prices": {
+      "primary_key": [
+        "price_observation_id"
+      ],
+      "resolution_policy": "do not stitch mixed resolutions without explicit mapping series selection",
+      "row_grain": "one actual outcome/series historical observation"
+    },
+    "registry": {
+      "foreign_keys": {
+        "creation_event_id": "creation_events.creation_event_id"
+      },
+      "primary_key": [
+        "token_id"
+      ],
+      "row_grain": "one canonical token"
+    },
+    "token_expectations_at_creation": {
+      "primary_key": [
+        "expectation_link_id"
+      ],
+      "row_grain": "token x reviewed mapping or explicit unmatched row",
+      "time_rule": "information_end < anchor AND age<=threshold"
+    },
+    "token_metadata_status": {
+      "backfill_status": "not_collected_historically",
+      "primary_key": [
+        "token_id"
+      ],
+      "row_grain": "one formal token"
+    }
+  }
+}

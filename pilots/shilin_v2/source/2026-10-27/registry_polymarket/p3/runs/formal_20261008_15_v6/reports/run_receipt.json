@@ -1,0 +1,15 @@
+{
+  "RPC_elements_this_invocation": 7900,
+  "RSS_units": "bytes on macOS; KiB on Linux",
+  "elapsed_seconds": 4682.057,
+  "failures": [],
+  "finished_at_utc": "2026-10-28T23:28:56Z",
+  "formal_window_frozen": true,
+  "lifecycle": "awaiting_integration",
+  "network_requests_this_invocation": 437,
+  "peak_RSS_raw": 5243142144,
+  "started_at_utc": "2026-10-28T22:10:54Z",
+  "status": "passed_for_declared_P3_scope",
+  "stop_reason": "",
+  "stored_raw_bytes": 1245323308
+}

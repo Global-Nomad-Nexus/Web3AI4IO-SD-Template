@@ -1,0 +1,184 @@
+{
+  "acquisition": {
+    "max_pages": 50,
+    "page_limit": 1000,
+    "transaction_workers": 1,
+    "transactions_per_poll": 10
+  },
+  "api_candidates": [
+    {
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "candidate_id": "publicnode-solana-mainnet",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "role": "primary-chain-rpc-candidate",
+      "selection_note": "First connection: the original Shilin PublicNode HTTPS client. Transaction queries wait 0.2 seconds after success.",
+      "transport": "https"
+    },
+    {
+      "access_decision": "allowed",
+      "address_family": "ipv4",
+      "candidate_id": "publicnode-solana-mainnet-http3",
+      "endpoint": "https://solana-rpc.publicnode.com",
+      "official_docs_url": "https://www.publicnode.com/",
+      "role": "second-chain-rpc-connection",
+      "selection_note": "Second connection: same PublicNode endpoint over HTTP/3. Transaction queries wait 0.2 seconds after success.",
+      "transport": "http3"
+    },
+    {
+      "access_decision": "allowed",
+      "candidate_id": "solana-official-rpc-secondary-region",
+      "endpoint": "https://api.mainnet-beta.solana.com",
+      "official_docs_url": "https://solana.com/docs/rpc",
+      "role": "third-chain-rpc-connection",
+      "rpc_method_min_interval_seconds": {
+        "getTransaction": 3.0
+      },
+      "selection_note": "Third connection: official Solana RPC. getTransaction waits 3 seconds after success; other methods wait 0.2 seconds. Retry-After controls rate-limit retries.",
+      "transport": "https"
+    }
+  ],
+  "collection_started_at": "2026-10-08T00:00:00Z",
+  "fixture": {
+    "note": "example.test is a local fixture namespace; it is never contacted in fixture mode.",
+    "uri_files": {
+      "https://metadata.example.test/token-001.json": "fixtures/metadata/token-001.json",
+      "https://metadata.example.test/token-002.json": "fixtures/metadata/token-002.json"
+    },
+    "window": {
+      "end": "2026-09-29T00:00:00Z",
+      "inclusion": "start_inclusive_end_exclusive",
+      "note": "Offline sample events only. Live collection uses the frozen seven-day window.",
+      "start": "2026-09-28T00:00:00Z"
+    }
+  },
+  "metadata": {
+    "allowed_fields": [
+      "name",
+      "symbol",
+      "description",
+      "createdOn",
+      "image",
+      "website",
+      "twitter",
+      "telegram"
+    ],
+    "arweave_base_url": "https://arweave.net",
+    "cookies": false,
+    "follow_redirects": false,
+    "gateway_candidates": [
+      {
+        "base_url": "https://pump.mypinata.cloud",
+        "host": "pump.mypinata.cloud",
+        "resource_class": "ipfs_cid",
+        "route_id": "pump_pinata_gateway"
+      },
+      {
+        "base_url": "https://gateway.pinata.cloud",
+        "host": "gateway.pinata.cloud",
+        "resource_class": "ipfs_cid",
+        "route_id": "pinata_gateway"
+      }
+    ],
+    "javascript": false,
+    "parser_version": "metadata-json-fields-v1",
+    "request_method": "GET"
+  },
+  "metadata_gateways": {
+    "candidates": [
+      {
+        "host": "pump.mypinata.cloud",
+        "template": "https://pump.mypinata.cloud/ipfs/{cid}"
+      },
+      {
+        "host": "gateway.pinata.cloud",
+        "template": "https://gateway.pinata.cloud/ipfs/{cid}"
+      }
+    ],
+    "confirmed": [
+      {
+        "error": "",
+        "host": "pump.mypinata.cloud",
+        "http_status": "200",
+        "json_keys": [
+          "coin_community",
+          "createdOn",
+          "description",
+          "image",
+          "name",
+          "showName",
+          "symbol",
+          "twitter"
+        ],
+        "status": "json_ok",
+        "template": "https://pump.mypinata.cloud/ipfs/{cid}",
+        "url": "https://pump.mypinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+      },
+      {
+        "error": "",
+        "host": "gateway.pinata.cloud",
+        "http_status": "200",
+        "json_keys": [
+          "coin_community",
+          "createdOn",
+          "description",
+          "image",
+          "name",
+          "showName",
+          "symbol",
+          "twitter"
+        ],
+        "status": "json_ok",
+        "template": "https://gateway.pinata.cloud/ipfs/{cid}",
+        "url": "https://gateway.pinata.cloud/ipfs/bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+      }
+    ],
+    "note": "The declared route is policy-checked first. A refused route is recorded without a network call; registered same-CID gateways may then be tried. Allowed declarations are requested before gateways; only retryable request failures reach the next route. When any preflight passes, gateway candidates are restricted to the confirmed subset; when none passes, registered routes remain eligible.",
+    "preflight_attempts": 5,
+    "preflight_sleep_seconds": 15,
+    "sample_cid": "bafkreigdujngo4ghle7nfzo3wlgvpl5mbyyiinvetr2qiwdhvhxrexvxuu"
+  },
+  "network": "solana-mainnet",
+  "observation": {
+    "autosave_seconds": 600,
+    "checkpoint_max_lateness_seconds": {
+      "T0": 300,
+      "T24": 3600,
+      "T48": 7200,
+      "T72": 10800
+    },
+    "checkpoint_offsets_seconds": {
+      "T0": 0,
+      "T24": 86400,
+      "T48": 172800,
+      "T72": 259200
+    },
+    "checkpoints": [
+      "T0",
+      "T24",
+      "T48",
+      "T72"
+    ],
+    "enrollment_seconds": 604800,
+    "followup_seconds": 259200,
+    "max_attempts": 3,
+    "max_lateness_seconds": 10800,
+    "max_response_bytes": 1000000,
+    "max_retry_rounds": 5,
+    "max_retry_sleep_seconds": 30,
+    "max_signature_retries": 5,
+    "note": "Lateness values are the frozen engineering targets from the 2026-09-28 proposal: T0 within 5 minutes of first sight, T24 within 1 hour, T48 within 2 hours, T72 within 3 hours. They are not scientific inclusion thresholds.",
+    "poll_seconds": 20
+  },
+  "platform": "pump.fun",
+  "protocol_version": "cohort-2026-10-07-7day-72h",
+  "pumpfun_program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+  "window": {
+    "clock": "chain_event_time",
+    "end": "2026-10-15T00:00:00Z",
+    "frozen": true,
+    "inclusion": "start_inclusive_end_exclusive",
+    "start": "2026-10-08T00:00:00Z"
+  }
+}

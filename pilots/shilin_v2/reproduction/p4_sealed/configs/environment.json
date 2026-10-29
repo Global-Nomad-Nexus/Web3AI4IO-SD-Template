@@ -1,0 +1,14 @@
+{
+  "adapter_runtime": "Python>=3.10 standard library",
+  "croissant_spec": "https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html",
+  "machine": "arm64",
+  "network_install_required": false,
+  "official_croissant_validator": "not_run; local structural integrity checks only",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "png_runtime": "rsvg-convert version 2.63.2\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.5.0\n  fontconfig 2.18.3\n",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "rai_spec": "https://docs.mlcommons.org/croissant/docs/croissant-rai-spec.html",
+  "rebuild_runtime": "Python3.14.2 macOS arm64; p2/vendor frozen in capsule",
+  "spec_checked_at": "2026-10-29",
+  "svg_runtime": "Python standard library"
+}

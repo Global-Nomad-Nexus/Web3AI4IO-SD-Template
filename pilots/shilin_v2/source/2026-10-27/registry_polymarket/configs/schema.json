@@ -1,0 +1,350 @@
+{
+  "id_algorithm": "SHA256 of compact UTF-8 JSON array, ensure_ascii=false, first 32 hex; namespaced prefixes",
+  "identity_rule": "chain_key+:token:+canonical_address; internal Solana chain alias not claimed CAIP-compliant",
+  "missing_rule": "CSV empty string corresponds to unknown/not applicable/not exported; explicit status identifies cause. Never convert missing to numeric zero.",
+  "schema_version": "registry_pm_minimal_v1",
+  "schemas": {
+    "context_daily": {
+      "columns": [
+        "chain_key",
+        "platform_id",
+        "utc_day",
+        "market_key",
+        "outcome_key",
+        "link_type",
+        "anchor_time_utc",
+        "expectation_available",
+        "price",
+        "effective_information_time_utc",
+        "legacy_enrolled_creation_count",
+        "creation_coverage",
+        "background_scope"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/context_daily.csv",
+      "primary_key_components": [
+        "chain_key",
+        "platform_id",
+        "utc_day",
+        "market_key",
+        "outcome_key"
+      ],
+      "row_grain": "one declared chain/platform/day/fixed outcome",
+      "rows": 21
+    },
+    "creation_events": {
+      "columns": [
+        "token_id",
+        "chain_key",
+        "platform_id",
+        "platform_version_id",
+        "program_or_factory_address",
+        "token_address_raw",
+        "token_address_canonical",
+        "creation_event_id",
+        "creation_tx_hash_or_signature",
+        "block_height_or_slot",
+        "block_hash",
+        "created_at_utc",
+        "block_time_status",
+        "outer_instruction_index",
+        "inner_instruction_index",
+        "creator_address",
+        "creator_role_definition",
+        "tx_sender_or_signer",
+        "fee_payer",
+        "initial_name",
+        "initial_symbol",
+        "initial_metadata_uri",
+        "initial_attributes_status",
+        "discovery_mode",
+        "first_decoded_at_utc",
+        "first_decoded_time_basis",
+        "retrieved_at_utc",
+        "imported_at_utc",
+        "decoder_version",
+        "raw_ref",
+        "source_row_ref",
+        "source_id",
+        "validation_status",
+        "cohort_id",
+        "execution_status_legacy"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/creation_events.csv",
+      "primary_key_components": [
+        "creation_event_id"
+      ],
+      "row_grain": "one enrolled native creation event",
+      "rows": 4668
+    },
+    "metadata_coverage": {
+      "columns": [
+        "event_key",
+        "checkpoint",
+        "required",
+        "schedule_state",
+        "request_state",
+        "parse_state",
+        "field_state",
+        "timing_state",
+        "final_state",
+        "request_id",
+        "source_release",
+        "token_id",
+        "scheduled_at_utc",
+        "earliest_allowed_at_utc",
+        "actual_completed_at_utc",
+        "time_basis",
+        "evidence_status",
+        "delay_from_creation_seconds"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/metadata_coverage.csv",
+      "primary_key_components": [
+        "source_release",
+        "event_key",
+        "checkpoint"
+      ],
+      "row_grain": "one legacy event/checkpoint",
+      "rows": 18672
+    },
+    "pm_candidate_catalogue": {
+      "columns": [
+        "event_id",
+        "market_id",
+        "condition_id",
+        "question",
+        "topic",
+        "start_at_utc",
+        "scheduled_end_at_utc",
+        "closed_snapshot",
+        "native_version",
+        "outcome_labels_json",
+        "outcome_asset_ids_json",
+        "time_overlap_legacy",
+        "decision",
+        "decision_reason",
+        "evidence_ref",
+        "market_url"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/pm_candidate_catalogue.csv",
+      "primary_key_components": [
+        "market_id"
+      ],
+      "row_grain": "one discovered market; bounded nonexhaustive catalogue",
+      "rows": 270
+    },
+    "pm_mapping": {
+      "columns": [
+        "mapping_id",
+        "link_type",
+        "target_type",
+        "target_id",
+        "applicable_chain_keys",
+        "pm_market_key",
+        "pm_outcome_key",
+        "market_snapshot_id",
+        "rule_snapshot_ref",
+        "evidence_ref",
+        "semantic_valid_from_utc",
+        "semantic_valid_to_utc",
+        "rule_known_from_utc",
+        "mapping_created_at_utc",
+        "reviewed_by",
+        "review_status",
+        "uncertainty"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/pm_mapping.csv",
+      "primary_key_components": [
+        "mapping_id"
+      ],
+      "row_grain": "one typed semantic target/outcome mapping",
+      "rows": 1
+    },
+    "pm_markets": {
+      "columns": [
+        "market_snapshot_id",
+        "pm_market_key",
+        "event_id",
+        "market_id",
+        "condition_id",
+        "question",
+        "slug",
+        "rules_ref",
+        "rules_sha256",
+        "rules_snapshot_at_utc",
+        "opened_at_utc",
+        "created_at_api_utc",
+        "scheduled_close_at_utc",
+        "actual_close_at_utc",
+        "resolved_at_utc",
+        "active_snapshot",
+        "closed_snapshot",
+        "resolution_state_snapshot",
+        "resolution_result",
+        "protocol_version_native",
+        "settlement_network",
+        "snapshot_at_utc",
+        "raw_ref",
+        "rules_historical_revision_status",
+        "topic"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/pm_markets.csv",
+      "primary_key_components": [
+        "market_snapshot_id"
+      ],
+      "row_grain": "one market definition snapshot",
+      "rows": 4
+    },
+    "pm_outcomes": {
+      "columns": [
+        "pm_outcome_key",
+        "pm_market_key",
+        "market_snapshot_id",
+        "outcome_index",
+        "outcome_label",
+        "asset_id_raw",
+        "asset_id_type",
+        "protocol_version_native",
+        "native_id_type_verification",
+        "raw_ref"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/pm_outcomes.csv",
+      "primary_key_components": [
+        "pm_outcome_key"
+      ],
+      "row_grain": "one outcome asset in P1 snapshot",
+      "rows": 8
+    },
+    "pm_prices": {
+      "columns": [
+        "price_observation_id",
+        "pm_outcome_key",
+        "market_snapshot_id",
+        "price",
+        "price_unit",
+        "price_definition_status",
+        "source_timestamp_utc",
+        "bucket_start_utc",
+        "bucket_end_utc",
+        "effective_information_time_utc",
+        "resolution_seconds",
+        "time_semantics_status",
+        "is_settlement_point",
+        "eligible_for_asof",
+        "source_retrieved_at_utc",
+        "request_id",
+        "raw_ref"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/pm_prices.csv",
+      "primary_key_components": [
+        "price_observation_id"
+      ],
+      "row_grain": "one native outcome/observation/resolution/value",
+      "rows": 1728
+    },
+    "registry": {
+      "columns": [
+        "token_id",
+        "chain_key",
+        "platform_id",
+        "platform_version_id",
+        "program_or_factory_address",
+        "token_address_raw",
+        "token_address_canonical",
+        "creation_event_id",
+        "creation_tx_hash_or_signature",
+        "block_height_or_slot",
+        "block_hash",
+        "created_at_utc",
+        "block_time_status",
+        "outer_instruction_index",
+        "inner_instruction_index",
+        "creator_address",
+        "creator_role_definition",
+        "tx_sender_or_signer",
+        "fee_payer",
+        "initial_name",
+        "initial_symbol",
+        "initial_metadata_uri",
+        "initial_attributes_status",
+        "discovery_mode",
+        "first_decoded_at_utc",
+        "first_decoded_time_basis",
+        "retrieved_at_utc",
+        "imported_at_utc",
+        "decoder_version",
+        "raw_ref",
+        "source_row_ref",
+        "source_id",
+        "validation_status",
+        "cohort_id",
+        "execution_status_legacy"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/registry.csv",
+      "primary_key_components": [
+        "token_id"
+      ],
+      "row_grain": "one chain-qualified legacy token",
+      "rows": 4668
+    },
+    "token_expectations_at_creation": {
+      "columns": [
+        "expectation_link_id",
+        "token_id",
+        "creation_event_id",
+        "mapping_id",
+        "price_observation_id",
+        "anchor_time_utc",
+        "price",
+        "source_timestamp_utc",
+        "bucket_start_utc",
+        "bucket_end_utc",
+        "effective_information_time_utc",
+        "price_age_hours",
+        "is_stale",
+        "source_retrieved_at_utc",
+        "time_semantics_status",
+        "match_status",
+        "link_type",
+        "feature_readiness",
+        "direct_identity_match"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/token_expectations_at_creation.csv",
+      "primary_key_components": [
+        "expectation_link_id"
+      ],
+      "row_grain": "one token/mapping evaluated at creation; unmatched retained",
+      "rows": 4668
+    },
+    "token_id_crosswalk": {
+      "columns": [
+        "source_release",
+        "legacy_event_key",
+        "network_raw",
+        "mint_raw",
+        "token_id",
+        "creation_event_id",
+        "conversion_rule",
+        "verification_status"
+      ],
+      "data_status": "real_legacy_or_public_API_not_synthetic",
+      "file": "processed/token_id_crosswalk.csv",
+      "primary_key_components": [
+        "source_release",
+        "legacy_event_key"
+      ],
+      "row_grain": "one legacy event identity mapping",
+      "rows": 4668
+    }
+  },
+  "time_rule": "UTC ISO8601 Z; raw block_time in legacy dictionary is Unix seconds; strict bucket-end < anchor"
+}

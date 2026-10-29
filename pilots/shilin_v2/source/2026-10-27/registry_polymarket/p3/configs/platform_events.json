@@ -1,0 +1,566 @@
+[
+  {
+    "abi_path": "configs/four_meme_v2_events.json",
+    "abi_sha256": "b9e7b906e59457fc31909fe73d60804b831d444e5369105933278c4e2c2ba814",
+    "address": "0x5c952063c7fc8610ffdb798152d69f0b9550762b",
+    "chain_key": "eip155:56",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "creator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "requestId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "totalSupply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "launchTime",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "launchFee",
+          "type": "uint256"
+        }
+      ],
+      "name": "TokenCreate",
+      "type": "event"
+    },
+    "event_name": "TokenCreate",
+    "event_signature": "TokenCreate(address,address,uint256,string,string,uint256,uint256,uint256)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "four.meme",
+    "source_revision": "c81f0eebbabec16998b2457f7e881e1b70b86420",
+    "topic0": "0x396d5e902b675b032348d3d2e9517ee8f0c4a926603fbc075d3d282ff00cad20",
+    "version": "v2"
+  },
+  {
+    "abi_path": "configs/clanker_v3.ts",
+    "abi_sha256": "20fb9a70ac0263545c666b8f812c4c81b8b70ed78d3eb07680e4141710da2046",
+    "address": "0x375c15db32d28cecdcab5c03ab889bf15cbd2c5e",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "positionId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "deployer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "fid",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "supply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "castHash",
+          "type": "string"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,uint256,address,uint256,string,string,uint256,string)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0x8df367d10c042c43a79f6842addf298c4b250b4cb2145cae311c9ba110ff8e17",
+    "version": "v3"
+  },
+  {
+    "abi_path": "configs/clanker_v3.1.ts",
+    "abi_sha256": "96e65b77c3810200c76750a5fee28cff6a0eb4efd2238f2a84ab5b7858ee3912",
+    "address": "0x2a787b2362021cc3eea3c24c4748a6cd5b687382",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "creatorAdmin",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "interfaceAdmin",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "creatorRewardRecipient",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "interfaceRewardRecipient",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "positionId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "int24",
+          "name": "startingTickIfToken0IsNewToken",
+          "type": "int24"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "metadata",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amountTokensBought",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "vaultDuration",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "vaultPercentage",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "msgSender",
+          "type": "address"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,address,address,address,address,uint256,string,string,int24,string,uint256,uint256,uint8,address)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0x6b04d68ca5c822b9c981d731c83ecb1356b96c8596c7659d397d234856a4537b",
+    "version": "v3.1"
+  },
+  {
+    "abi_path": "configs/clanker_v4.ts",
+    "abi_sha256": "35c2bfc5fcc0a0706a921b84e2e9e803d0034eec87906ba3661d073b8940e3e3",
+    "address": "0xe85a59c628f7d27878aceb4bf3b35733630083a9",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "msgSender",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "tokenAdmin",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "tokenImage",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "tokenName",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "tokenSymbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "tokenMetadata",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "tokenContext",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "int24",
+          "name": "startingTick",
+          "type": "int24"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "poolHook",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "PoolId",
+          "name": "poolId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "pairedToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "locker",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "mevModule",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "extensionsSupply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address[]",
+          "name": "extensions",
+          "type": "address[]"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,address,address,string,string,string,string,string,int24,address,bytes32,address,address,address,uint256,address[])",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0x9299d1d1a88d8e1abdc591ae7a167a6bc63a8f17d695804e9091ee33aa89fb67",
+    "version": "v4"
+  },
+  {
+    "abi_path": "configs/clanker_v0.ts",
+    "abi_sha256": "34ababe799632bff364a4c3189dc7d66b8633feed4b067d7937ed9450471541e",
+    "address": "0x250c9fb2b411b48273f69879007803790a6aea47",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "lpNftId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "deployer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "supply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_supply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "lockerAddress",
+          "type": "address"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,uint256,address,string,string,uint256,uint256,address)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0xcd465acec733178787a0c3bc8cd8f6eae657c45b61c6a3e15d13c176c9c536ad",
+    "version": "v0"
+  },
+  {
+    "abi_path": "configs/clanker_v1.ts",
+    "abi_sha256": "88ccc10ae3840f6dfe04cec399f2f6f1b27a282e1eea07db49282595af1c87e7",
+    "address": "0x9b84fce5dcd9a38d2d01d5d72373f6b6b067c3e1",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "lpNftId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "deployer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "fid",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "supply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "lockerAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "castHash",
+          "type": "string"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,uint256,address,uint256,string,string,uint256,address,string)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0x0e9d60e5c5597233717659e7b39411e0a61e7177252521b9c6f515f75f6fef01",
+    "version": "v1"
+  },
+  {
+    "abi_path": "configs/clanker_v2.ts",
+    "abi_sha256": "8395cca55d368ff630e0da55b68d337210b2e87dbd829c6b4557d40e9e707c61",
+    "address": "0x732560fa1d1a76350b1a500155ba978031b53833",
+    "chain_key": "eip155:8453",
+    "event_abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "positionId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "deployer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "fid",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "supply",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "lockerAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "castHash",
+          "type": "string"
+        }
+      ],
+      "name": "TokenCreated",
+      "type": "event"
+    },
+    "event_name": "TokenCreated",
+    "event_signature": "TokenCreated(address,uint256,address,uint256,string,string,uint256,address,string)",
+    "historical_scope": "observed native event matching pinned ABI at listed address in frozen day; proxy implementation lineage not fully reconstructed",
+    "platform_id": "clanker",
+    "source_revision": "4f4d2bbf41c7f10543559dc043c85f443a6d452e",
+    "topic0": "0x0e9d60e5c5597233717659e7b39411e0a61e7177252521b9c6f515f75f6fef01",
+    "version": "v2"
+  }
+]

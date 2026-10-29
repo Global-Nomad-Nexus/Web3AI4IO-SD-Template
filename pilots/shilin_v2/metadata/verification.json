@@ -1,0 +1,62 @@
+{
+  "release_id": "shilin-v2-20261029",
+  "checked_at_utc": "2026-10-29T05:09:41.596727+00:00",
+  "data": {
+    "logical_tables": 21,
+    "stored_tables": 20,
+    "shards": 93,
+    "compressed_bytes": 558546745,
+    "full_csv_sha256": "passed_all_21",
+    "logical_row_counts": "passed_all_21",
+    "ordered_columns": "passed_all_21"
+  },
+  "offline_tests": {
+    "legacy_collector": {
+      "passed": 17,
+      "failed": 0
+    },
+    "p3": {
+      "passed": 63,
+      "failed": 0,
+      "dependency_source": "original frozen p2/vendor, Python 3.14.2 macOS arm64"
+    },
+    "lifecycle_interface": {
+      "passed": 51,
+      "failed": 0,
+      "cli_exit_code": 0
+    },
+    "storage_tools": {
+      "passed": 4,
+      "failed": 0
+    }
+  },
+  "source_and_capsule_scan": {
+    "source_private_credential_pattern_hits": 0,
+    "capsule_members_scanned": 26949,
+    "capsule_pattern_hits_reviewed": "7 private-key markers, all bundled PyCryptodome Crypto/SelfTest public test fixtures; no user private keys or access tokens identified"
+  },
+  "historical_validation": {
+    "p3": {
+      "status": "passed_for_declared_P3_scope",
+      "checks": 35
+    },
+    "p4_original": {
+      "status": "passed",
+      "checks": 55
+    },
+    "legacy": "INCOMPLETE; 4 unresolved chain transactions"
+  },
+  "new_packaging_verification": {
+    "legacy_table_restoration": "passed_all_six_exact_csv_hashes",
+    "p4_sealed_restoration": "passed_all_71_sealed_file_hashes; original gzip bytes reconstructed",
+    "full_independent_acceptance_rerun": "running; final receipt will be committed after completion"
+  },
+  "guide_links": "passed_local_targets",
+  "limits": {
+    "legacy_historical_http_bodies": "absent_from_original_compact_archive",
+    "real_lifecycle": "awaiting_integration",
+    "price_features": "retrospective_demonstration_only",
+    "official_croissant_validation": "not_run",
+    "third_party_rights": "preserved_unreviewed_or_unknown_status"
+  }
+}

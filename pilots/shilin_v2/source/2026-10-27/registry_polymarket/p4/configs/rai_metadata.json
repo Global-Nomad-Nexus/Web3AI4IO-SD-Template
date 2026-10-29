@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "rai": "http://mlcommons.org/croissant/RAI/"
+  },
+  "@type": "https://schema.org/Dataset",
+  "rai:dataBiases": "Single declared week and selected launch platforms; bounded market discovery; old metadata cohort selected by historical collection and access success.",
+  "rai:dataCollection": "Fixed P3 v6 native evidence and public historical market observations; legacy six-table metadata summaries. No new online acquisition during P4 acceptance.",
+  "rai:dataCollectionRawData": "Saved original provider responses and normalized native transaction/log envelopes; unavailable old metadata HTTP bodies remain unavailable.",
+  "rai:dataLimitations": "Declared platform/version/address scope only; Four.meme V1 excluded. Market scalar construction and historical rule revisions unverified. Legacy metadata coverage is Solana only. Real lifecycle awaits integration.",
+  "rai:dataReleaseMaintenance": "Local immutable personal candidate; P5 integration and external release require a new version and rights review.",
+  "rai:dataSocialImpact": "Public wallet addresses can be linkable. Do not infer personal identity or equate token inactivity/metadata failure with people or project failure.",
+  "rai:useCases": "Data provenance, deterministic ETL reuse, identity/time joins, coverage inspection. Not investment advice, natural-person identification, causal inference or certified prospective prediction."
+}

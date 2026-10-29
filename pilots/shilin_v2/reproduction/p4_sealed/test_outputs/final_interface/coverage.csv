@@ -1,0 +1,2 @@
+chain_id,token_address,layer_or_venue,start,end,coverage_status,source_id,coverage_evidence_ref,dataset_kind
+8453,0xabababababababababababababababababababab,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,complete,synthetic_source,synthetic:coverage:1,synthetic_test

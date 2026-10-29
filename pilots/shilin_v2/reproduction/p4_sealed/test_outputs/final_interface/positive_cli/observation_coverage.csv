@@ -1,0 +1,2 @@
+chain_id,token_address,layer_or_venue,start,end,coverage_status,source_id,coverage_evidence_ref,dataset_kind,chain_key,token_address_raw,interval_start_utc,interval_end_utc,token_id,interface_version,_source_row
+8453,0xabababababababababababababababababababab,trades,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,complete,synthetic_source,synthetic:coverage:1,synthetic_test,eip155:8453,0xabababababababababababababababababababab,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,eip155:8453:token:0xabababababababababababababababababababab,shilin_lifecycle_adapter_v1,2
