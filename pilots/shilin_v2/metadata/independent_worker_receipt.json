@@ -1,0 +1,311 @@
+{
+  "blocked_negative_controls": {
+    "network": 2,
+    "outside_file": 4
+  },
+  "elapsed_seconds": 617.399,
+  "filesystem_guard": "Python audit hook: capsule files + interpreter install only; original project read negative control blocked",
+  "network_guard": "Python audit hook for socket transport; urllib + socket negative controls blocked",
+  "peak_rss_bytes": 3958996992,
+  "processed_hashes": {
+    "context_daily.csv": "da3aa272e57d986b4dded4c7e7303b795df2ed49c7005dd6ea8d2b2625851280",
+    "creation_events.csv": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+    "metadata_coverage.csv": "44e9a390161ec84b10f1fedce373e15592b4b3738c990c734959c4d2902c2751",
+    "metadata_observations.csv": "7f84e26f5cab95f5b0e368f27ac72266921671b22b13598f28a1c4017625995a",
+    "pm_activity.csv": "c56f06d5dd5ffd5973ad8e2f1b98c1cfa7baf948e7fa5a5b42343a7108d1a24b",
+    "pm_candidate_catalogue.csv": "e0b9b5f7654c57dcf1284837cbaeb236d9f5827d5ebc8ceb1f08b54197323f77",
+    "pm_mapping.csv": "4e3235e534d4cb158c57d33d8eae1d7a4f50858934f424f6e12ec93257b862c3",
+    "pm_markets.csv": "8dc290b32516840442ab46e1ab737e4f40694b06c69d1ea931bf9663ea96c2e1",
+    "pm_match_status.csv": "c2c9878c53b11e83d11128c0a1d677cd2a7e0aa7d7fcb7055ef10c4dc4baf63f",
+    "pm_outcomes.csv": "4dc907ea5a8801072e28d0f421db1bfe73dfc30eb448fe46f4fa7a9a1f778091",
+    "pm_prices.csv": "145dc042cd7f77f9e2fde8f94e6e646bd90c959b16f69641f974a8d35690e0a1",
+    "registry.csv": "e5670346c228529c65c9011f6b3882ccc5034684fff97483379dbc585329e020",
+    "token_expectations_at_creation.csv": "d719a0e5f7e850c4c2dea1f7522fbd98e45ef97aff27005db4b09ade8b5a2dcb",
+    "token_id_crosswalk.csv": "4813392ae3b170b31a22b5da0631e77ea51c6083c07583df723c88cea1d85560",
+    "token_metadata_status.csv": "7557d2bdceb3c334a3bd54ba00ed93b520c49484dd244532e513fe7cff709d47"
+  },
+  "status": "passed",
+  "successful_network_requests": 0,
+  "validation_checks": [
+    {
+      "check_id": "unique_token_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "unique_event_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "registry_event_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "creation_UTC_range",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "native_success_only",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "stable_chain_address_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "native_transaction_and_block_evidence_present",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "left_join_exact_token_set",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "duplicate_link",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "registry_link_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "price_mapping_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "strict_prior_information_and_age",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "outcome_snapshot_FK",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "mapping_semantics_and_last_valid_price",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "unmatched_has_fake_price",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 6156902
+    },
+    {
+      "check_id": "finite_price_0_to_1",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 175054
+    },
+    {
+      "check_id": "legacy_checkpoint_count_unchanged",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 18672
+    },
+    {
+      "check_id": "legacy_field_rows_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "legacy_plans_states_and_original_clocks_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 18672
+    },
+    {
+      "check_id": "all_original_metadata_field_values_preserved",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "unique_metadata_observation_identity",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 133888
+    },
+    {
+      "check_id": "backfills_not_fake_historical_observations",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "all_declared_chain_days_closed",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 21
+    },
+    {
+      "check_id": "whole_legacy_week_audited",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "all_requested_categories_queried",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "selected_outcome_rules_reviewed",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 148
+    },
+    {
+      "check_id": "history_pagination_and_request_status",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 468
+    },
+    {
+      "check_id": "lifecycle_disabled",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "fixture_rows_excluded",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 367373
+    },
+    {
+      "check_id": "all_mapping_rule_evidence_present",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 28
+    },
+    {
+      "check_id": "saved_public_response_hashes",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 9883
+    },
+    {
+      "check_id": "P3_fixed_input_zero_network_reproduction",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "fixed_seed_independent_native_QA",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "integrity",
+      "status": "passed",
+      "tested_count": 1
+    },
+    {
+      "check_id": "historical_daily_version_checks",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 7
+    },
+    {
+      "check_id": "formal_scope_frozen",
+      "failure_count": 0,
+      "failure_refs": "[]",
+      "kind": "coverage",
+      "status": "passed",
+      "tested_count": 1
+    }
+  ]
+}
