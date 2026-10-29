@@ -59,10 +59,10 @@ GitHub's source ZIP does not include Release assets. Download the separate capsu
 ```bash
 gh release download shilin-v2-20261029 \
   --repo Global-Nomad-Nexus/Web3AI4IO-SD-Template \
-  --pattern 'inputs.tar.gz.part-*' --dir outputs/shilin_v2_assets
+  --pattern inputs.tar.gz --dir outputs/shilin_v2_assets
 ```
 
-The capsule is distributed as numbered lossless binary parts to keep each upload manageable. `metadata/release_assets.json` records each part's size/SHA-256 and the original assembled capsule's size/SHA-256. The restoration tool verifies all parts, concatenates them in manifest order, and verifies the original complete capsule before use. The capsule preserves original relative paths, raw API bodies, normalized transactions/logs, QA/coverage evidence, legacy tables and frozen prerequisites. It does not recover missing legacy metadata HTTP bodies.
+The evidence is delivered as one complete `inputs.tar.gz` archive. `metadata/release_assets.json` records its exact size and SHA-256. The restoration tool verifies this complete archive before use; no evidence-part assembly is required. The capsule preserves original relative paths, raw API bodies, normalized transactions/logs, QA/coverage evidence, legacy tables and frozen prerequisites. It does not recover missing legacy metadata HTTP bodies.
 
 ## 5. Restore and independently revalidate the sealed P4 delivery
 

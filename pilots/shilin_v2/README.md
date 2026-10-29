@@ -33,7 +33,7 @@ python3 pilots/shilin_v2/tools/data.py restore --output outputs/shilin_v2
 
 The tools need only Python's standard library. Data are stored as gzip CSV shards containing complete records and a header; restoration verifies the original full-file SHA-256. **All 21 logical tables are present without sampling.** The restored package also passed a fresh **55-check independent offline rebuild**; see the [verification receipt](metadata/independent_acceptance.json). `registry` and `creation_events` share one physical copy because their original bytes are identical. Both original filenames are recreated on restoration. See the [full table catalogue](docs/TABLES.md) for grains, row counts and fields.
 
-For raw/normalized evidence and the locked environment needed to repeat the complete independent rebuild, obtain the separate **`inputs.tar.gz`**, distributed as numbered verified parts, from the [Release assets](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029). The capsule is optional for table analysis. [Reproduction instructions](docs/REPRODUCE.md) explain download verification, exact P4 package restoration, platform requirements, and offline acceptance.
+For raw/normalized evidence and the locked environment needed to repeat the complete independent rebuild, obtain the separate **`inputs.tar.gz`** [Release asset](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029). The capsule is optional for table analysis. [Reproduction instructions](docs/REPRODUCE.md) explain download verification, exact P4 package restoration, platform requirements, and offline acceptance.
 
 ## Project map
 

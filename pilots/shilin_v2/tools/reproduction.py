@@ -36,18 +36,8 @@ def main():
     stage = Path(tempfile.mkdtemp(prefix='.shilin-p4-', dir=output.parent))
     try:
         shutil.copytree(ROOT / 'reproduction/p4_sealed', stage, dirs_exist_ok=True)
-        assembled = asset_manifest.get('assembled_asset')
-        if assembled:
-            capsule = stage / assembled['name']
-            with capsule.open('wb') as stream:
-                for asset in assets:
-                    with (a.assets / asset['name']).open('rb') as part:
-                        shutil.copyfileobj(part, stream, 2**20)
-            if capsule.stat().st_size != assembled['bytes'] or sha(capsule) != assembled['sha256']:
-                raise ValueError('Reassembled evidence capsule failed verification')
-        else:
-            for asset in assets:
-                shutil.copy2(a.assets / asset['name'], stage / asset['name'])
+        for asset in assets:
+            shutil.copy2(a.assets / asset['name'], stage / asset['name'])
         seal = json.loads((stage / 'file_manifest.json').read_text())
         expected = {r['path']: r for r in seal}
         # Original gzip writer uses level=1, mtime=0 and the target filename header.
