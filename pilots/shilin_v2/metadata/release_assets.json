@@ -1,11 +1,30 @@
 {
+  "format_version": 2,
   "tag": "shilin-v2-20261029",
   "assets": [
     {
-      "name": "inputs.tar.gz",
-      "bytes": 1885362783,
-      "sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0",
-      "purpose": "Complete frozen raw/normalized evidence, upstream inputs, and original locked ABI dependencies; required only for full independent rebuild."
+      "name": "inputs.tar.gz.part-001",
+      "bytes": 671088640,
+      "sha256": "1867628b1df06b8aafbc38eccd01934d6da5cd02313c1d775e95b41df79fad4c",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-002",
+      "bytes": 671088640,
+      "sha256": "891eafc887f14199cdd4422801c80204fa99d29c46237c78cc91e42b5f89a3a5",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
+    },
+    {
+      "name": "inputs.tar.gz.part-003",
+      "bytes": 543185503,
+      "sha256": "48ec036a45515b5ca67b3a971ec3a45b7edc39e4c0338190f7a6d382f85c8882",
+      "purpose": "Lossless ordered part of the complete frozen evidence capsule"
     }
-  ]
+  ],
+  "assembled_asset": {
+    "name": "inputs.tar.gz",
+    "bytes": 1885362783,
+    "sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0",
+    "purpose": "Complete frozen raw/normalized evidence, upstream inputs, and original locked ABI dependencies; required only for full independent rebuild."
+  }
 }

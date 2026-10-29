@@ -25,7 +25,7 @@ python3 pilots/shilin_v2/tools/data.py restore --output outputs/shilin_v2
 
 [`source/`](../source/) 保留采集、处理、验证代码、测试、冻结协议和现行报告。相对目录结构沿用原项目；原 README 的历史路径应在恢复工作区或完整输入胶囊中查找。旧版本、重复归档、缓存、过程日志和无用途副本不重复上传。
 
-完整原始响应、规范化链上证据、上游输入与锁定依赖单独放在 [GitHub Release](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029) 的 `inputs.tar.gz` 中。读取正式 CSV 不需要先下载它；完整离线重建需要该胶囊。下载、恢复封装和原验收命令见 [复现指南](REPRODUCE.md)。
+完整原始响应、规范化链上证据、上游输入与锁定依赖单独放在 [GitHub Release](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/shilin-v2-20261029) 的三个 `inputs.tar.gz.part-*` 无损分块中（恢复工具自动合并）。读取正式 CSV 不需要先下载它；完整离线重建需要该胶囊。下载、恢复封装和原验收命令见 [复现指南](REPRODUCE.md)。
 
 历史 P4 文档中的“仅本地审阅”描述的是当时的候选包，本次上传单独标记为 `shilin-v2-20261029`。原来源权利登记保留未知／未审核状态，本次公开上传不会自动授予第三方数据许可。详见 [数据权利与来源](../DATA_RIGHTS.md)。
 

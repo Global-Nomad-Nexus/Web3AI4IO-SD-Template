@@ -1,6 +1,6 @@
 {
   "release_id": "shilin-v2-20261029",
-  "checked_at_utc": "2026-10-29T05:44:19.696507+00:00",
+  "checked_at_utc": "2026-10-29T05:58:59.642211+00:00",
   "data": {
     "logical_tables": 21,
     "stored_tables": 20,
@@ -58,6 +58,13 @@
       "elapsed_seconds": 738.613,
       "receipt": "metadata/independent_acceptance.json",
       "scope": "Restored exact sealed P4 delivery from curated GitHub table shards plus the frozen evidence capsule; fresh isolated offline rebuild"
+    },
+    "split_evidence_restoration": {
+      "status": "passed",
+      "parts": 3,
+      "assembled_capsule_sha256": "d2e6cfd069cfde8ef5ecc507d4a397375d7975eb56b13ee3c535fc47ddc20fc0",
+      "sealed_files_verified": 71,
+      "meaning": "Lossless parts reconstruct the exact capsule and complete original sealed P4 delivery; frozen reconstruction inputs remain byte-identical to the successful 55-check run."
     }
   },
   "guide_links": "passed_local_targets",

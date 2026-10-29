@@ -11,7 +11,7 @@ The `shilin_v2` branch is a curated publication of Shilin's two completed engine
 | P0/P1, P2, P3 and P4 source | `source/2026-10-27/registry_polymarket/` | Preserve acquisition, decoding, mappings, validation, interface, and packaging code |
 | Frozen protocol, dictionaries, QA and final receipts | `source/` and `metadata/` | Keep small current evidence readily browsable |
 | Five-panel gallery and source CSVs | P4 `figures/` | Keep the complete figure evidence rather than decorative screenshots |
-| Complete input evidence capsule | GitHub Release: `inputs.tar.gz` | Preserve raw API responses, normalized native evidence, prerequisite tables and exact ABI dependencies without expanding thousands of large evidence files in Git |
+| Complete input evidence capsule | GitHub Release: three lossless `inputs.tar.gz.part-*` parts | Preserve raw API responses, normalized native evidence, prerequisite tables and exact ABI dependencies without expanding thousands of large evidence files in Git |
 | Exact P4 acceptance skeleton | `reproduction/p4_sealed/` | Retain the sealed code/configuration/manifest for independent offline reconstruction |
 
 CSV shards use gzip, a repeated header, and complete CSV records. Quoted multiline fields are kept within a shard. Concatenating decompressed shards directly would repeat headers; use `tools/data.py restore`. The tool removes only repeated headers and verifies the original full-file SHA-256. Source CSV bytes, integer strings, Unicode, missingness codes and row ordering are preserved.
