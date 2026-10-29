@@ -2212,5 +2212,191 @@
     "path": "reproduction/p4_sealed/figures/data/panel_E_alignment.csv",
     "bytes": 1596,
     "sha256": "d969caa84b8f6ade5f2d8c13a9e4d677db10b4d0015b247f0a8cc86083ac88c7"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/legacy_rq_audit.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/legacy_rq_audit.json",
+    "bytes": 9690,
+    "sha256": "e56b9b5f13330422de23ef1524844cef6a28ca8a0d9d29cc41643756759c3612"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/unresolved_cases.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/unresolved_cases.csv",
+    "bytes": 3274,
+    "sha256": "a3f4fe90f286144920db8c3281b072c9bbf67d622ed44692ad37e4dbe6e39f70"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/three_chain_feasibility.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/three_chain_feasibility.csv",
+    "bytes": 1205,
+    "sha256": "04bb51eebafcab0756f5b73b12d9e33bd10713d5184dad1fee10093b9f3d402f"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/polymarket_feasibility.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/polymarket_feasibility.csv",
+    "bytes": 3048,
+    "sha256": "319fcc3e4ed0f5e10549db5acd3c4ce530e3a60560e1e7e4e8f032cafc8143a4"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/verified_creation_samples.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/verified_creation_samples.csv",
+    "bytes": 1271,
+    "sha256": "baa3dc324a4ede232259d3bfcf6278f4dcb3753ed385c8d220ab6d5d3b81825b"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/source_capability.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/source_capability.csv",
+    "bytes": 58997,
+    "sha256": "e14ccde3c7ac61abd6f0b207f25fe5b055cae6d589e722dc68a440bfcb3c0f7d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/solana_start_transaction_check.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/solana_start_transaction_check.json",
+    "bytes": 446,
+    "sha256": "b6259d2d59bdaf075a88349bb5c516d2c54ba45e90fb2519bc192e2905646832"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/offline_reproduction.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/offline_reproduction.json",
+    "bytes": 2547,
+    "sha256": "315f0a6d481e4ff9ec691a50735b2b705d2b6eb0870abfe349868b36e978d473"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/source_probe_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/source_probe_receipt.json",
+    "bytes": 283,
+    "sha256": "ffdbb4cad6ddeafb295cda4fa8586b3af52d8ffff4e5556d554a960e85c0e677"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/validation_results.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/validation_results.json",
+    "bytes": 10302,
+    "sha256": "e44235c38bd3efc6073d282dd62397fd116bdd7bf7fedce8c7cc8543b08c3089"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/stage_gates.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/stage_gates.json",
+    "bytes": 2020,
+    "sha256": "4a9f0f262d918ef85dca1a4ccc1c52f4e7d881d79096fb763f35606035cd2c36"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/resources.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/resources.csv",
+    "bytes": 846,
+    "sha256": "0adf5adbd146105eb9490721097ce00758274f176e010830f35b7461cc6b9eb5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/real_asof_example.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/real_asof_example.json",
+    "bytes": 3188,
+    "sha256": "a72caba2fe29e6398d9a8d68bc8c14b5493fe40be15751e3a75f93745b559933"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/resources.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/resources.json",
+    "bytes": 923,
+    "sha256": "804f4ffbe38850117bea3d1c1b405a3800da82415f9dfa33a09d89c7aca04dec"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/baseline_audit.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/baseline_audit.json",
+    "bytes": 8878,
+    "sha256": "d19ee6ced55d2404d6377a4ca822cc37dc07c0b78fad411c68201e286f5ad3c5"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/solana_end_transaction_check.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/solana_end_transaction_check.json",
+    "bytes": 447,
+    "sha256": "ed498805799377aefcb5a247ae64e76348c79be72f591ea63d83b3b7602901ae"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/validation_checks.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/validation_checks.csv",
+    "bytes": 3843,
+    "sha256": "0d526dfb953ad9eeaccc43eb810fd95a93997ac369434dc8e10af411ef7c18e3"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/chain_query_ledger.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/chain_query_ledger.csv",
+    "bytes": 68892,
+    "sha256": "23a51a9722adefcd359cb813243869d759c0c914945599f83a6e4fae16f9e5ac"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/window_feasibility.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/window_feasibility.csv",
+    "bytes": 2480,
+    "sha256": "1d42c8962534696f6a281bf859588991a230d95c9080db2524ec46ad3c8a5579"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/solana_mid_transaction_check.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/solana_mid_transaction_check.json",
+    "bytes": 447,
+    "sha256": "9fce7aa2dce4c8a35be575d31a7d663249f371eb2ae073e279c3d657d3fae573"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/market_search_log.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/market_search_log.csv",
+    "bytes": 8333,
+    "sha256": "97695b878266e8a64ae8d81fd7b29f0fdbed9cf5f33ca291efe3c97c0939a234"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/run_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/run_receipt.json",
+    "bytes": 2291,
+    "sha256": "22c91dccfd9663e30a9fa7720402404cdf594dc815b7d03541c0f0a9cc9d7ce8"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/coverage_summary.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/coverage_summary.csv",
+    "bytes": 494,
+    "sha256": "821722517b0649d8604107fa402481e77ffa0e5054599ce0f5180c8af9984681"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/polymarket_probe_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/polymarket_probe_receipt.json",
+    "bytes": 581,
+    "sha256": "5c4c05b737eb3eaf4e6cbd1c8c4392d5e02d4de7c4d96d10e568805d902f86cd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/P0_P1_完成报告.md",
+    "path": "source/2026-10-27/registry_polymarket/reports/P0_P1_完成报告.md",
+    "bytes": 7951,
+    "sha256": "c96ba1c968d45304a94e44175b4c49d020d77e45c31aa4beae47740ad95dd92d"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/price_age_sensitivity.csv",
+    "path": "source/2026-10-27/registry_polymarket/reports/price_age_sensitivity.csv",
+    "bytes": 334,
+    "sha256": "e1b2475f74be48e4ea6f060e44c2f86f25d55e12bfd55837211311b9613b14ba"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/reports/log_fallback_receipt.json",
+    "path": "source/2026-10-27/registry_polymarket/reports/log_fallback_receipt.json",
+    "bytes": 238,
+    "sha256": "8811c9a02a6cb41f08db2fa3ca3ce990da2531f4e663f81229496bcbfec5c3da"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/reports/current_formal_run.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/reports/current_formal_run.json",
+    "bytes": 1029,
+    "sha256": "0225e03eb96743fc8ed7ed9106f0e4a300c438b606882ca496e32146865876c8"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/reports/README.md",
+    "path": "source/2026-10-27/registry_polymarket/p3/reports/README.md",
+    "bytes": 433,
+    "sha256": "464f5f6da89d44ac492ba6d61ee98759f9abbb96494d2910d724548c45af88dc"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/reports/P3_详细报告统计依据.json",
+    "path": "source/2026-10-27/registry_polymarket/p3/reports/P3_详细报告统计依据.json",
+    "bytes": 3548,
+    "sha256": "59c2c00de31a10e9a922eb772de3ae089d1d7635e42b067630c235c6cf2dd4bd"
+  },
+  {
+    "source": "2026-10-27/registry_polymarket/p3/reports/maintenance_v6_unit_tests.log",
+    "path": "source/2026-10-27/registry_polymarket/p3/reports/maintenance_v6_unit_tests.log",
+    "bytes": 8069,
+    "sha256": "793d695d2fa0bc6ee12fb2f242ae859b212df3df449dc618d61913f68763e09d"
   }
 ]

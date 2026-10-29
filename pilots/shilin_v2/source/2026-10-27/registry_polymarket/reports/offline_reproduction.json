@@ -1,0 +1,55 @@
+{
+  "child_peak_rss_raw": 481198080,
+  "completed_at_utc": "2026-10-27T07:23:58Z",
+  "elapsed_seconds": 4.534,
+  "excluded_clock_fields": [
+    "imported_at_utc",
+    "mapping_created_at_utc"
+  ],
+  "network_calls": 0,
+  "rss_unit": "bytes_on_macOS;KiB_on_Linux",
+  "same_semantic_outputs": true,
+  "semantic_fingerprints_after": {
+    "context_daily": "19ce680d780a36df15ebe93e3091fd60",
+    "creation_events": "c45f595ead533bc3fa8c34ed974beb00",
+    "metadata_coverage": "38cf51a132604569852ca13b230f005f",
+    "pm_mapping": "79e25713fe599e6da5eb136013db3e82",
+    "registry": "c45f595ead533bc3fa8c34ed974beb00",
+    "token_expectations_at_creation": "cb62e8677fd78b5b2980897af8a5ff7b",
+    "token_id_crosswalk": "719af3ed1d033a8ffac2f3240b9fe724"
+  },
+  "semantic_fingerprints_before": {
+    "context_daily": "19ce680d780a36df15ebe93e3091fd60",
+    "creation_events": "c45f595ead533bc3fa8c34ed974beb00",
+    "metadata_coverage": "38cf51a132604569852ca13b230f005f",
+    "pm_mapping": "79e25713fe599e6da5eb136013db3e82",
+    "registry": "c45f595ead533bc3fa8c34ed974beb00",
+    "token_expectations_at_creation": "cb62e8677fd78b5b2980897af8a5ff7b",
+    "token_id_crosswalk": "719af3ed1d033a8ffac2f3240b9fe724"
+  },
+  "started_at_utc": "2026-10-27T07:23:54Z",
+  "status": "passed",
+  "steps": [
+    {
+      "elapsed_seconds": 3.2436,
+      "exit_code": 0,
+      "script": "p0_baseline.py",
+      "stderr": "",
+      "stdout": "{\"six_table_reference_counts\": {\"launch_events\": 4668, \"observation_plan\": 18672, \"request_attempts\": 60779, \"response_snapshots\": 16744, \"field_observations\": 133888, \"coverage_ledger\": 18672}, \"event_keys_unique\": true, \"registry_unique\": true, \"crosswalk_total\": 4668, \"distinct_creators\": 2993, \"window_violations\": 0, \"missing_selected_snapshots\": 4, \"all_legacy_files_unchanged\": true, \"reference_aggregate_check\": \"passed\", \"raw_body_replay\": \"unavailable\", \"independent_window_enumeration\": \"not_run_P3B\"}\n"
+    },
+    {
+      "elapsed_seconds": 0.2739,
+      "exit_code": 0,
+      "script": "build_views.py",
+      "stderr": "",
+      "stdout": "{\"registry_tokens\": 4668, \"joined_distinct_tokens\": 4668, \"valid_background_tokens\": 4668, \"native_revalidated_examples\": 3, \"example\": true}\n"
+    },
+    {
+      "elapsed_seconds": 0.384,
+      "exit_code": 0,
+      "script": "validate.py",
+      "stderr": "",
+      "stdout": "{\"status\": \"passed_with_disclosed_limitations\", \"checks\": 29, \"actual_data_errors\": 0, \"open_limitations\": 15}\n"
+    }
+  ]
+}

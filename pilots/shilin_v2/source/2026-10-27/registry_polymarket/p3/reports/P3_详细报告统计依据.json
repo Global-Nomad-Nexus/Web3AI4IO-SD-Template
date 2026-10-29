@@ -1,0 +1,146 @@
+{
+  "version_totals": [
+    {
+      "chain": "solana:mainnet",
+      "version": "create",
+      "tokens": 896
+    },
+    {
+      "chain": "solana:mainnet",
+      "version": "create_v2",
+      "tokens": 329165
+    },
+    {
+      "chain": "eip155:56",
+      "version": "v2",
+      "tokens": 35777
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v3",
+      "tokens": 0
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v3.1",
+      "tokens": 0
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v4",
+      "tokens": 1535
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v0",
+      "tokens": 0
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v1",
+      "tokens": 0
+    },
+    {
+      "chain": "eip155:8453",
+      "version": "v2",
+      "tokens": 0
+    }
+  ],
+  "mapping_assessment_counts": [
+    {
+      "chain": "eip155:56",
+      "link_type": "chain",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 357770
+    },
+    {
+      "chain": "eip155:56",
+      "link_type": "shared_economic_event",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 178885
+    },
+    {
+      "chain": "eip155:8453",
+      "link_type": "chain",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 1535
+    },
+    {
+      "chain": "eip155:8453",
+      "link_type": "shared_economic_event",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 7675
+    },
+    {
+      "chain": "solana:mainnet",
+      "link_type": "chain",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 3329981
+    },
+    {
+      "chain": "solana:mainnet",
+      "link_type": "shared_economic_event",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 1650305
+    },
+    {
+      "chain": "solana:mainnet",
+      "link_type": "platform",
+      "status": "matched_valid",
+      "reason": "matched_valid",
+      "rows": 330061
+    },
+    {
+      "chain": "solana:mainnet",
+      "link_type": "chain",
+      "status": "mapping_outside_validity",
+      "reason": "mapping_outside_validity",
+      "rows": 300690
+    }
+  ],
+  "outcome_labels_with_history": {
+    "Yes": 37,
+    "No": 37
+  },
+  "market_eligible_daily_anchors": {
+    "valid": 190,
+    "eligible": 190
+  },
+  "solana_index_candidates": 359657,
+  "percentages": {
+    "solana_share": 89.843565,
+    "base_share": 0.417831,
+    "bsc_share": 9.738604,
+    "historical_JSON_among_legacy": 90.188518,
+    "historical_JSON_among_formal": 1.145974,
+    "observed_checkpoints": 89.631534,
+    "late_checkpoints": 1.344259,
+    "legacy_share_in_rebuilt_solana": 1.414284
+  },
+  "processed_logical_bytes": 5652885950,
+  "inherited_request_ledger_status_counts": {
+    "200|True": 9877,
+    "529|False": 826,
+    "200|False": 2,
+    "None|False": 5
+  },
+  "request_ledger_start_end": [
+    "2026-10-27T17:05:05Z",
+    "2026-10-28T23:04:14Z"
+  ],
+  "request_error_counts": {
+    "HTTP Error 529: <none>": 826,
+    "{\"code\":-32601,\"message\":\"Method not found\"}": 1,
+    "ConnectionResetError: [Errno 54] Connection reset by peer": 1,
+    "URLError: <urlopen error timed out>": 2,
+    "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>": 3
+  },
+  "derived_from": "/Users/oushilin/Desktop/SRS/03 孜然/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6",
+  "notes": "Read-only descriptive aggregation for the P3 detailed report; no new online calls or changes to frozen data."
+}

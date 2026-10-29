@@ -1,0 +1,21 @@
+{
+  "HTTP_status_counts": {
+    "200": 199,
+    "403": 3,
+    "429": 18,
+    "None": 2
+  },
+  "JSON_RPC_or_HTTP_errors": 32,
+  "network_wire_bytes": "not_measured",
+  "offline_elapsed_seconds": 4.534,
+  "offline_peak_child_rss_bytes_on_this_macOS": 481198080,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "probe_rounds": "source round 170 calls; market round 26 calls; initial/time-semantics/docs and fallback rounds separately logged; max per module round configured, not a claim of total <=220",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "recorded_network_requests": 222,
+  "saved_response_bytes": 3930865,
+  "total_request_elapsed_seconds": 215.963,
+  "whole_session_peak_memory": "not_measured",
+  "whole_session_wall_time": "not_measured; recorded requests span 2026-10-27T07:09:09Z to 2026-10-27T07:16:30Z",
+  "workspace_bytes_before_final_reports": 27926619
+}

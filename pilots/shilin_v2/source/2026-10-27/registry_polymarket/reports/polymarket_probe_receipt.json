@@ -1,0 +1,18 @@
+{
+  "catalogue_markets": 270,
+  "chosen_market_ids": [
+    "2589811",
+    "5171321",
+    "690693",
+    "5170795"
+  ],
+  "completed_at_utc": "2026-10-27T07:14:13Z",
+  "history_markets": 4,
+  "history_points": 1728,
+  "network_calls_this_invocation": 26,
+  "raw_is_local_only": true,
+  "scalar_price_semantics": "not_assumed_trade_midpoint_or_probability_calibration",
+  "search_exhaustive": false,
+  "search_request_count": 17,
+  "selection_rule": "fixed Fed 25bps contract then minimum numerical market id in each temporally overlapping semantic topic, before history responses"
+}

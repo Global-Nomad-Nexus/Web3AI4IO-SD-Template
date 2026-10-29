@@ -1,0 +1,13 @@
+window_id,start_utc,end_utc,chain_key,creation_history_status,price_history_status,full_window_creation_enumeration,selection_status,role
+legacy_day1,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,solana:mainnet,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,preferred pilot probe within legacy week
+legacy_day1,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,eip155:8453,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,preferred pilot probe within legacy week
+legacy_day1,2026-10-08T00:00:00Z,2026-10-09T00:00:00Z,eip155:56,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,preferred pilot probe within legacy week
+legacy_week,2026-10-08T00:00:00Z,2026-10-15T00:00:00Z,solana:mainnet,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,legacy audit and candidate formal scope subject to P2/P3 coverage
+legacy_week,2026-10-08T00:00:00Z,2026-10-15T00:00:00Z,eip155:8453,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,legacy audit and candidate formal scope subject to P2/P3 coverage
+legacy_week,2026-10-08T00:00:00Z,2026-10-15T00:00:00Z,eip155:56,finite_boundary_probes_only,actual_history_obtained,not_run,candidate_not_frozen,legacy audit and candidate formal scope subject to P2/P3 coverage
+prior_pilot_day,2026-09-14T00:00:00Z,2026-09-15T00:00:00Z,solana:mainnet,not_tested,not_tested,not_run,candidate_not_frozen,fallback feasibility only; no silent cohort switch
+prior_pilot_day,2026-09-14T00:00:00Z,2026-09-15T00:00:00Z,eip155:8453,not_tested,not_tested,not_run,candidate_not_frozen,fallback feasibility only; no silent cohort switch
+prior_pilot_day,2026-09-14T00:00:00Z,2026-09-15T00:00:00Z,eip155:56,not_tested,not_tested,not_run,candidate_not_frozen,fallback feasibility only; no silent cohort switch
+prospective_candidate,2026-11-01T00:00:00Z,2026-11-02T00:00:00Z,solana:mainnet,not_tested,not_tested,not_run,candidate_not_frozen,candidate only if historical public sources fail; not frozen/not collected
+prospective_candidate,2026-11-01T00:00:00Z,2026-11-02T00:00:00Z,eip155:8453,not_tested,not_tested,not_run,candidate_not_frozen,candidate only if historical public sources fail; not frozen/not collected
+prospective_candidate,2026-11-01T00:00:00Z,2026-11-02T00:00:00Z,eip155:56,not_tested,not_tested,not_run,candidate_not_frozen,candidate only if historical public sources fail; not frozen/not collected

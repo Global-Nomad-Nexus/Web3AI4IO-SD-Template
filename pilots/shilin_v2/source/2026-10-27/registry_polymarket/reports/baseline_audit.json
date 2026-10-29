@@ -1,0 +1,203 @@
+{
+  "checks": {
+    "all_legacy_files_unchanged": true,
+    "crosswalk_total": 4668,
+    "distinct_creators": 2993,
+    "event_keys_unique": true,
+    "independent_window_enumeration": "not_run_P3B",
+    "missing_selected_snapshots": 4,
+    "raw_body_replay": "unavailable",
+    "reference_aggregate_check": "passed",
+    "registry_unique": true,
+    "six_table_reference_counts": {
+      "coverage_ledger": 18672,
+      "field_observations": 133888,
+      "launch_events": 4668,
+      "observation_plan": 18672,
+      "request_attempts": 60779,
+      "response_snapshots": 16744
+    },
+    "window_violations": 0
+  },
+  "finished_at_utc": "2026-10-27T07:23:57Z",
+  "inputs": [
+    {
+      "bytes": 3491114,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/coverage_ledger.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/coverage_ledger.csv",
+      "rows": 18672,
+      "sha256": "43e2cd5ef5b7802322b0eca31330e98ab07035ad444c0dc7f509b5fceff0af56"
+    },
+    {
+      "bytes": 25919635,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/request_attempts.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/request_attempts.csv",
+      "rows": 60779,
+      "sha256": "f03fc6db8001fd6c540be382cd8b003a7a97d121673be6e1b394059125833ee4"
+    },
+    {
+      "bytes": 44285308,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/field_observations.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/field_observations.csv",
+      "rows": 133888,
+      "sha256": "a80029a728980418c48ad09f9f55a8fe8b6e6f6cfbca0aed6f500b59a0798f35"
+    },
+    {
+      "bytes": 838,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/validation_results.json",
+      "relative_to_legacy": "data/7day-72h-20261008-release/validation_results.json",
+      "rows": "",
+      "sha256": "8111141dbcf4e388b2a202e2607bec701d0ae10895c8edd27a960911d07ac9f5"
+    },
+    {
+      "bytes": 2010133,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/launch_events.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/launch_events.csv",
+      "rows": 4668,
+      "sha256": "3bd86ca3249985ec5f7d8f1f62585000f48582b55d0844052555f744a625c8dd"
+    },
+    {
+      "bytes": 455225,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/release_manifest.json",
+      "relative_to_legacy": "data/7day-72h-20261008-release/release_manifest.json",
+      "rows": "",
+      "sha256": "65fa329d8540b3db09a8270792e965fa0f1e91c8fc619c707ec45012d0a77c8a"
+    },
+    {
+      "bytes": 3595481,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/observation_plan.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/observation_plan.csv",
+      "rows": 18672,
+      "sha256": "196137c3dc45410a57ded396217394b7838fad51c6d966ce840d3ad0d4634047"
+    },
+    {
+      "bytes": 7218696,
+      "manifest_hash_matches": true,
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-release/response_snapshots.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-release/response_snapshots.csv",
+      "rows": 16744,
+      "sha256": "aba86902bbd09cebbf44c68f4d56de330f7d5e5ceab94e42d80f9becae7b6a9d"
+    },
+    {
+      "bytes": 290,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/input_manifest.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/input_manifest.json",
+      "rows": "",
+      "sha256": "1b0aafd88dfbf286902ffad8a512d3873d6c12412e26e47f00b4b88c340a83aa"
+    },
+    {
+      "bytes": 167,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/api_benchmark.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/api_benchmark.csv",
+      "rows": "",
+      "sha256": "41fc91ee0a6afd3e0aeaccd3e1a99b9ceca42fe1850e8dadb6f3ca85e1886506"
+    },
+    {
+      "bytes": 1225,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/DGP_DATA_LINEAGE.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/DGP_DATA_LINEAGE.csv",
+      "rows": "",
+      "sha256": "c290cade2df0ae3f10ac399e3c17932c0339fd0147db419a885926c17f1b4caa"
+    },
+    {
+      "bytes": 194,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.md",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/API_SELECTION.md",
+      "rows": "",
+      "sha256": "9421b4f92a80659b8aa1496dd5f1c0a07c572929f1adaea29bcc508066e1e073"
+    },
+    {
+      "bytes": 1217,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/gateway_preflight.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/gateway_preflight.json",
+      "rows": "",
+      "sha256": "e7f1ba248506c4522436c48598cecacac22e29cb373aed02c67cacb35bfed022"
+    },
+    {
+      "bytes": 2415,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/source_register.csv",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/source_register.csv",
+      "rows": "",
+      "sha256": "752e2d88c1d9c54bb0a0666b92de34356250348b3246ea52e020960e18981505"
+    },
+    {
+      "bytes": 843,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/progress.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/progress.json",
+      "rows": "",
+      "sha256": "d230002b2ea72b107de0502c6ba13b9046754d79f133a1103825d5590845ba25"
+    },
+    {
+      "bytes": 6214,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/mvp_protocol.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/mvp_protocol.json",
+      "rows": "",
+      "sha256": "23b279692f11f137ad4a9bb20387a196cb9740d4bddd30c44d26442dbf6d595a"
+    },
+    {
+      "bytes": 111,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/run_status.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/run_status.json",
+      "rows": "",
+      "sha256": "057e9426d68dcb7b94a867caca7a093f4e0203048fea97edbf90f63fa56827b9"
+    },
+    {
+      "bytes": 430522,
+      "manifest_hash_matches": "not_declared",
+      "path": "/Users/oushilin/Desktop/SRS/03 孜然/1021/scientific-data-essential/data/7day-72h-20261008-protocol/API_SELECTION.json",
+      "relative_to_legacy": "data/7day-72h-20261008-protocol/API_SELECTION.json",
+      "rows": "",
+      "sha256": "c90f41a4065840effb162edd29040cda533438a7dbb6aeb76c240cfe8e453fe5"
+    }
+  ],
+  "legacy_validation": {
+    "attempt_rows": 60779,
+    "created_at": "2026-10-18T02:34:18.871Z",
+    "errors": [
+      "4 chain transactions could not be fetched after the configured retries",
+      "4 chain transactions remain unresolved; the event denominator may be incomplete"
+    ],
+    "event_count": 4668,
+    "field_rows": 133888,
+    "final_state_counts": {
+      "observed": 16736,
+      "parse_failed": 12,
+      "request_failed": 1924
+    },
+    "ledger_rows": 18672,
+    "plan_rows": 18672,
+    "protocol_hash": "17dee08181cb29008893df1db5ff1be1c540c13639f1eb6852c6917a943dc6fe",
+    "rules": [
+      "unique event key",
+      "event x checkpoint denominator",
+      "foreign keys",
+      "response SHA-256",
+      "field allow-list",
+      "terminal ledger state"
+    ],
+    "snapshot_rows": 16744,
+    "status": "INCOMPLETE",
+    "timing_state_counts": {
+      "late": 251,
+      "on_time": 18421
+    }
+  },
+  "started_at_utc": "2026-10-27T07:23:54Z",
+  "status": "P0_A_passed"
+}

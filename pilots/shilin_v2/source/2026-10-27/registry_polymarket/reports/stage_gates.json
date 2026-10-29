@@ -1,0 +1,41 @@
+{
+  "G1": "passed_for_limited_retrospective_time_alignment_demonstration",
+  "P0": "passed",
+  "P0_A": "passed",
+  "P0_B": "passed_private_draft",
+  "P1_overall_feasibility": "partial",
+  "P1_prerequisite_gaps_at_close": [
+    "BSC historical factory-log public path unresolved on three tested providers",
+    "Platform historical version boundaries unknown",
+    "Base finite 20-block probes returned zero logs; does not show absence of creations",
+    "Historical rule revisions not obtained; retrospective demonstration only",
+    "API scalar construction not verified as trade/midpoint; no calibrated probability claim"
+  ],
+  "P1_work_status": "completed_feasibility_investigation",
+  "P2_completed_at_utc": "2026-10-27T11:33:36Z",
+  "P2_counts_by_chain": {
+    "eip155:56": 6211,
+    "eip155:8453": 197,
+    "solana:mainnet": 55508
+  },
+  "P2_current_report": "p2/reports/P2_执行与验收报告.md",
+  "P2_prerequisite_gaps": [
+    "Historical rule revisions and scalar trade/midpoint construction remain unverified; retrospective demonstration only",
+    "Only declared platform versions;Four.meme V1 excluded;full proxy histories not claimed"
+  ],
+  "P2_remaining_creation_gap": null,
+  "P2_resolved_sources": {
+    "BSC": "full-day declared Four.meme V2 log range,every native receipt/header/field;6211 creates",
+    "Base": "full-day declared native log range,every receipt/header;197 creates",
+    "Solana": "65-page official mandatory-PDA index,595 public SVS full-transaction pages,all native candidates resolved,independent block hashes/time;55508 creates"
+  },
+  "P2_started": true,
+  "P2_status": "complete_for_declared_platform_version_scope",
+  "P2_validation_report": "p2/reports/validation_results.json",
+  "P2_window_frozen": true,
+  "common_cutoff_utc": null,
+  "contacts_sent": false,
+  "external_publish": false,
+  "joint_lifecycle": "awaiting_integration",
+  "verification_status": "P2_FULL_DECLARED_DAY_CREATION_SCOPE_AND_FIXED_INPUT_REPRODUCTION_VERIFIED;P0P1_HISTORICAL_REPORT_PRESERVED"
+}

@@ -1,0 +1,5 @@
+metric,numerator,denominator,unit,scope
+direct_token_identity_match,0,4668,tokens,no verified direct token-identity mapping established
+creation_anchor_background_coverage,4668,4668,tokens,legacy Solana; retrospective shared macro demonstration
+common_macro_background_day_coverage,21,21,chain_platform_days,declared 3x7 grid; creation completeness not implied
+jointly_complete_creation_and_background_days,0,21,chain_platform_days,no chain has completed whole-window enumeration in P0/P1

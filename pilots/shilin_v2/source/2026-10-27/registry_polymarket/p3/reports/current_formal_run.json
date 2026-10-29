@@ -1,0 +1,19 @@
+{
+  "PID": null,
+  "budget_revision": "raw total cap tightened to 2GB; all per-invocation caps unchanged",
+  "budgets_expanded": false,
+  "config_path": "configs/protocol_formal_v6.json",
+  "exec_session_id": null,
+  "phase": "formal_P3_completed",
+  "previous_run_directory": null,
+  "raw_cap_bytes": 2000000000,
+  "remaining_gate": null,
+  "run_directory": "/Users/oushilin/Desktop/SRS/03 孜然/2026-10-27/registry_polymarket/p3/runs/formal_20261008_15_v6",
+  "run_version": "formal_20261008_15_v6",
+  "scope_changed": false,
+  "status": "completed",
+  "updated_at_utc": "2026-10-28T23:28:56Z",
+  "log_path": "/Users/oushilin/Desktop/SRS/03 孜然/2026-10-27/registry_polymarket/p3/archive/process_logs/maintenance/v6_continuation_20261028T2210.log",
+  "previous_versions_archive": "/Users/oushilin/Desktop/SRS/03 孜然/2026-10-27/registry_polymarket/p3/archive/formal_history",
+  "organization_note": "Final v6 remains at its frozen path; obsolete versions have verified evidence archives with duplicate-file references."
+}

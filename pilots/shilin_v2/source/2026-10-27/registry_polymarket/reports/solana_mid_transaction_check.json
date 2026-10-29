@@ -1,0 +1,10 @@
+{
+  "block_time_matches": true,
+  "inner_instruction_groups": 1,
+  "legacy_event_key": "solana:5qSme4jRR7BtNSTjXptFcrMfu2K9WerRaQUjtQVzckwhheaBWLNQEcQeUkTQT5xYAucUoZCv7dNJvkAR8UArHikW:2:0",
+  "meta_err": null,
+  "raw_ref": "raw/chain/9179f923ed46a5552dd1ee2b7b7df2f2-2026-10-27T071052Z.body",
+  "slot_matches": true,
+  "validation_scope": "transport and native transaction fields; legacy create decoder not silently generalized",
+  "version": 0
+}

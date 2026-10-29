@@ -1,0 +1,30 @@
+check_id,scope,tested_count,failure_count,failure_refs,severity,executed_at_utc,code_version,status
+legacy_archive_byte_integrity,P0/P1_actual_data,18,0,,error,2026-10-27T07:23:57Z,774779588b082664f3fcec1f1aadea14,passed
+registry_token_unique,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+creation_event_unique,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+crosswalk_all_legacy_events,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+crosswalk_token_foreign_keys,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+registry_creation_foreign_keys,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+legacy_creation_window,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+metadata_coverage_denominator,P0/P1_actual_data,18672,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+pm_markets_unique,P0/P1_actual_data,4,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+pm_outcomes_unique,P0/P1_actual_data,8,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+pm_prices_unique,P0/P1_actual_data,1728,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+pm_mapping_unique,P0/P1_actual_data,1,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+token_expectations_at_creation_unique,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+outcome_market_fk,P0/P1_actual_data,8,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+price_outcome_fk,P0/P1_actual_data,1728,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+price_range,P0/P1_actual_data,1728,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+bucket_end_matches_width,P0/P1_actual_data,1728,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+left_join_retains_exact_token_set,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+joined_price_and_mapping_fks,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+strict_price_end_before_creation,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+primary_staleness_limit,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+settlement_and_ambiguous_tick_not_joined,P0/P1_actual_data,4668,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+three_native_creation_samples,P0/P1_actual_data,3,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+raw_response_hashes,P0/P1_actual_data,221,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+real_lifecycle_disabled_without_cutoff,P0/P1_actual_data,1,0,,error,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,passed
+legacy_chain_unresolved_cases,P0/P1_actual_data,4,4,Original signatures unavailable in retained report; requires cluster logs,limitation,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,open_limitation
+legacy_missing_snapshot_cases,P0/P1_actual_data,4,4,reports/unresolved_cases.csv,limitation,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,open_limitation
+whole_window_creation_completeness,P0/P1_actual_data,3,3,Deferred to P2/P3B; finite probes are not enumeration,limitation,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,open_limitation
+historical_rule_revision_archive,P0/P1_actual_data,4,4,Current rules snapshots retained; retrospective mapping flagged,limitation,2026-10-27T07:23:58Z,774779588b082664f3fcec1f1aadea14,open_limitation

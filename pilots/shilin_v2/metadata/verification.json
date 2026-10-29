@@ -33,7 +33,9 @@
   "source_and_capsule_scan": {
     "source_private_credential_pattern_hits": 0,
     "capsule_members_scanned": 26949,
-    "capsule_pattern_hits_reviewed": "7 private-key markers, all bundled PyCryptodome Crypto/SelfTest public test fixtures; no user private keys or access tokens identified"
+    "capsule_pattern_hits_reviewed": "7 private-key markers, all bundled PyCryptodome Crypto/SelfTest public test fixtures; no user private keys or access tokens identified",
+    "nested_gzip_members_scanned": 11308,
+    "nested_gzip_credential_pattern_hits": 0
   },
   "historical_validation": {
     "p3": {
@@ -58,5 +60,6 @@
     "price_features": "retrospective_demonstration_only",
     "official_croissant_validation": "not_run",
     "third_party_rights": "preserved_unreviewed_or_unknown_status"
-  }
+  },
+  "preserved_source_and_artifact_files": 400
 }

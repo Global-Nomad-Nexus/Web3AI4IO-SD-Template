@@ -1,0 +1,4 @@
+max_price_age_hours,matched_creation_tokens,registry_tokens,selection_rule
+12,4668,4668,strict_information_end_before_creation;settlement/exact0_ticks_excluded
+24,4668,4668,strict_information_end_before_creation;settlement/exact0_ticks_excluded
+48,4668,4668,strict_information_end_before_creation;settlement/exact0_ticks_excluded

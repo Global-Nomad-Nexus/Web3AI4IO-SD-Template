@@ -1,0 +1,5 @@
+{
+  "completed_at_utc": "2026-10-27T07:16:30Z",
+  "network_calls_this_invocation": 3,
+  "reason": "Primary public providers returned log-method refusal; one bounded independent-provider capability diagnostic, no rate-limit retry loop."
+}

@@ -1,0 +1,328 @@
+{
+  "at_24h": {
+    "fields": {
+      "createdOn": {
+        "absent": 148,
+        "empty_or_whitespace_string": 10,
+        "missing_field_row": 0,
+        "nonempty_string": 4039,
+        "null": 0,
+        "other_type": 0,
+        "present": 4049,
+        "string": 4049
+      },
+      "description": {
+        "absent": 166,
+        "empty_or_whitespace_string": 1884,
+        "missing_field_row": 0,
+        "nonempty_string": 2140,
+        "null": 7,
+        "other_type": 0,
+        "present": 4031,
+        "string": 4024
+      },
+      "image": {
+        "absent": 0,
+        "empty_or_whitespace_string": 0,
+        "http_url_syntax": 4196,
+        "missing_field_row": 0,
+        "nonempty_string": 4197,
+        "null": 0,
+        "other_nonempty_string": 1,
+        "other_type": 0,
+        "present": 4197,
+        "string": 4197
+      },
+      "name": {
+        "absent": 0,
+        "empty_or_whitespace_string": 3,
+        "missing_field_row": 0,
+        "nonempty_string": 4194,
+        "null": 0,
+        "other_type": 0,
+        "present": 4197,
+        "string": 4197
+      },
+      "symbol": {
+        "absent": 0,
+        "empty_or_whitespace_string": 7,
+        "missing_field_row": 0,
+        "nonempty_string": 4190,
+        "null": 0,
+        "other_type": 0,
+        "present": 4197,
+        "string": 4197
+      },
+      "telegram": {
+        "absent": 3915,
+        "empty_or_whitespace_string": 181,
+        "http_url_syntax": 84,
+        "missing_field_row": 0,
+        "nonempty_string": 84,
+        "null": 17,
+        "other_nonempty_string": 0,
+        "other_type": 0,
+        "present": 282,
+        "string": 265
+      },
+      "twitter": {
+        "absent": 1671,
+        "empty_or_whitespace_string": 62,
+        "http_url_syntax": 2453,
+        "missing_field_row": 0,
+        "nonempty_string": 2460,
+        "null": 4,
+        "other_nonempty_string": 7,
+        "other_type": 0,
+        "present": 2526,
+        "string": 2522
+      },
+      "website": {
+        "absent": 2139,
+        "empty_or_whitespace_string": 372,
+        "http_url_syntax": 1676,
+        "missing_field_row": 0,
+        "nonempty_string": 1681,
+        "null": 5,
+        "other_nonempty_string": 5,
+        "other_type": 0,
+        "present": 2058,
+        "string": 2053
+      }
+    },
+    "fields_denominator": 4197,
+    "groups": {
+      "attempted_without_json": 470,
+      "json_success_by_24h": 4197,
+      "state_unknown": 1
+    },
+    "json_success_first_observed_after_24h": 13,
+    "no_completed_network_attempt": 0,
+    "no_json_evidence": 471,
+    "non_json_by_last_completed_status": {
+      "http_error": 452,
+      "http_success_without_snapshot": 1,
+      "json_parse_error": 2,
+      "timeout": 13,
+      "transport_error": 3
+    },
+    "qualifying_snapshot_count_per_event": {
+      "1": 4197
+    },
+    "qualifying_snapshots_by_checkpoint": {
+      "T0": 4197
+    },
+    "started_but_no_completed_attempt": 0
+  },
+  "audit_version": "1.0",
+  "checks": {
+    "all_records_reference_enrolled_events": true,
+    "input_hashes_unchanged_after_read": true,
+    "ledger_keys_match_event_times_four_checkpoints": true,
+    "plan_keys_match_event_times_four_checkpoints": true,
+    "selected_snapshots_without_eight_field_rows": 0,
+    "snapshot_success_match_anomalies": 0,
+    "unique_event_keys": true,
+    "unique_snapshot_request_ids": true
+  },
+  "cohort_events": 4668,
+  "definitions": {
+    "attempted_without_json": "completed actual network attempts without qualifying JSON, with known request/parse failure and no unresolved HTTP success",
+    "cutoff": "block_time + 86400 seconds; actual completed_at <= cutoff",
+    "field_change": "different (presence, value_type, value_hash) across successfully recorded checkpoints",
+    "field_selection": "last qualifying JSON by cutoff; field states are conditional on having that JSON",
+    "http_url_syntax": "nonempty string parsed as HTTP(S) with a hostname; no network or ownership validation",
+    "json_success": "json_ok snapshot matched to one success attempt by request_id, completion time and response SHA-256",
+    "nonempty_string": "value_type=string and allowed_value.strip() is nonempty",
+    "state_unknown": "no completed network evidence or unresolved HTTP success without qualifying snapshot",
+    "uri_form": "scheme=ipfs OR path starts /ipfs/ OR hostname contains .ipfs.; string classification, not CID validation"
+  },
+  "input_files": {
+    "coverage_ledger.csv": {
+      "bytes": 3491114,
+      "rows": 18672,
+      "sha256": "43e2cd5ef5b7802322b0eca31330e98ab07035ad444c0dc7f509b5fceff0af56"
+    },
+    "field_observations.csv": {
+      "bytes": 44285308,
+      "rows": 133888,
+      "sha256": "a80029a728980418c48ad09f9f55a8fe8b6e6f6cfbca0aed6f500b59a0798f35"
+    },
+    "launch_events.csv": {
+      "bytes": 2010133,
+      "rows": 4668,
+      "sha256": "3bd86ca3249985ec5f7d8f1f62585000f48582b55d0844052555f744a625c8dd"
+    },
+    "observation_plan.csv": {
+      "bytes": 3595481,
+      "rows": 18672,
+      "sha256": "196137c3dc45410a57ded396217394b7838fad51c6d966ce840d3ad0d4634047"
+    },
+    "request_attempts.csv": {
+      "bytes": 25919635,
+      "rows": 60779,
+      "sha256": "f03fc6db8001fd6c540be382cd8b003a7a97d121673be6e1b394059125833ee4"
+    },
+    "response_snapshots.csv": {
+      "bytes": 7218696,
+      "rows": 16744,
+      "sha256": "aba86902bbd09cebbf44c68f4d56de330f7d5e5ceab94e42d80f9becae7b6a9d"
+    }
+  },
+  "longitudinal": {
+    "any_extracted_field_changed_events": 0,
+    "at_least_two_successful_json_events": 4185,
+    "checkpoint_order": [
+      "T0",
+      "T24",
+      "T48",
+      "T72"
+    ],
+    "ever_json_success_events": 4210,
+    "final_state_trajectories": {
+      "observed|observed|observed|observed": 4161,
+      "observed|observed|observed|request_failed": 5,
+      "observed|observed|request_failed|request_failed": 3,
+      "observed|request_failed|observed|observed": 1,
+      "observed|request_failed|observed|request_failed": 1,
+      "observed|request_failed|request_failed|observed": 1,
+      "observed|request_failed|request_failed|request_failed": 25,
+      "parse_failed|parse_failed|parse_failed|parse_failed": 3,
+      "request_failed|observed|observed|observed": 13,
+      "request_failed|request_failed|request_failed|request_failed": 455
+    },
+    "per_field_changed_events": {
+      "createdOn": 0,
+      "description": 0,
+      "image": 0,
+      "name": 0,
+      "symbol": 0,
+      "telegram": 0,
+      "twitter": 0,
+      "website": 0
+    },
+    "per_field_comparable_events": {
+      "createdOn": 4185,
+      "description": 4185,
+      "image": 4185,
+      "name": 4185,
+      "symbol": 4185,
+      "telegram": 4185,
+      "twitter": 4185,
+      "website": 4185
+    },
+    "response_sha256_changed_events": 21
+  },
+  "observation_states": {
+    "attempt_status_counts": {
+      "http_error": 19676,
+      "route_refused_policy": 12864,
+      "success": 16748,
+      "timeout": 7534,
+      "transport_error": 3957
+    },
+    "by_checkpoint": {
+      "T0": {
+        "observed": 4197,
+        "parse_failed": 3,
+        "request_failed": 468
+      },
+      "T24": {
+        "observed": 4182,
+        "parse_failed": 3,
+        "request_failed": 483
+      },
+      "T48": {
+        "observed": 4181,
+        "parse_failed": 3,
+        "request_failed": 484
+      },
+      "T72": {
+        "observed": 4176,
+        "parse_failed": 3,
+        "request_failed": 489
+      }
+    },
+    "ledger_final_state_counts": {
+      "observed": 16736,
+      "parse_failed": 12,
+      "request_failed": 1924
+    },
+    "ledger_timing_counts": {
+      "late": 251,
+      "on_time": 18421
+    },
+    "snapshot_parse_counts": {
+      "json_ok": 16736,
+      "parse_error": 8
+    }
+  },
+  "package_evidence": {
+    "note": "File-presence check only; no claim about current retention on the collection cluster",
+    "raw_response_body_files_present": 0,
+    "raw_response_body_in_package": false
+  },
+  "request_routes": {
+    "policy_refusal_hosts": {
+      "ipfs.io": 12864
+    },
+    "policy_refusal_rows": 12864,
+    "policy_refusal_without_started_or_completed_at": 12864,
+    "route_counts": {
+      "declared_exact": 47675,
+      "pump.mypinata.cloud": 4,
+      "pump_pinata_gateway": 13100
+    },
+    "selected_json_routes_by_24h": {
+      "declared_exact": 1394,
+      "pump_pinata_gateway": 2803
+    },
+    "selected_json_with_prior_same_checkpoint_network_failure": 7,
+    "selected_json_with_same_checkpoint_policy_refusal": 2803
+  },
+  "resources": {
+    "declared_host_buckets": {
+      "ipfs.io": {
+        "attempted_without_json": 413,
+        "events": 3216,
+        "json_success_by_24h": 2803
+      },
+      "m.rapidlaunch.io": {
+        "events": 96,
+        "json_success_by_24h": 96
+      },
+      "meta.uxento.io": {
+        "events": 182,
+        "json_success_by_24h": 182
+      },
+      "metadata.j7tracker.io": {
+        "events": 728,
+        "json_success_by_24h": 728
+      },
+      "no_host": {
+        "attempted_without_json": 1,
+        "events": 1
+      },
+      "other_hosts": {
+        "attempted_without_json": 56,
+        "events": 363,
+        "json_success_by_24h": 306,
+        "state_unknown": 1
+      },
+      "pump.mypinata.cloud": {
+        "events": 82,
+        "json_success_by_24h": 82
+      }
+    },
+    "distinct_uri_original_strings": 3745,
+    "empty_uri_events": 0,
+    "events_in_shared_uri_groups": 1248,
+    "fraction_events_in_shared_uri_groups": 0.26735218508997427,
+    "shared_uri_groups": 325,
+    "uri_string_forms": {
+      "ipfs_string_form": 3415,
+      "other_string_form": 1253
+    }
+  },
+  "scope": "Six seven-day release tables; offline aggregate analysis only"
+}
