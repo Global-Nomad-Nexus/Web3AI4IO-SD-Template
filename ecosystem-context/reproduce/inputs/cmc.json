@@ -1,0 +1,743 @@
+[
+  {
+    "timestamp": "2026-09-01T00:00:00.000Z",
+    "btcDominance": 59.7082,
+    "ethDominance": 11.2708,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2641368826434.4,
+        "totalVolume24H": 79674757428.14,
+        "totalVolume24HReported": 501072398319.35
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-02T00:00:00.000Z",
+    "btcDominance": 59.6186,
+    "ethDominance": 11.1934,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2606650234319.52,
+        "totalVolume24H": 82161630703.07,
+        "totalVolume24HReported": 548017392120.74
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-03T00:00:00.000Z",
+    "btcDominance": 59.5756,
+    "ethDominance": 11.1992,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2605423437342.62,
+        "totalVolume24H": 73484496262.5,
+        "totalVolume24HReported": 508420122998.58
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-04T00:00:00.000Z",
+    "btcDominance": 59.8634,
+    "ethDominance": 11.2251,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2726005455192.26,
+        "totalVolume24H": 104292363785.14,
+        "totalVolume24HReported": 710074000259.51
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-05T00:00:00.000Z",
+    "btcDominance": 59.6421,
+    "ethDominance": 11.1724,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2682396418745.22,
+        "totalVolume24H": 100954299777.97,
+        "totalVolume24HReported": 614973691347.2
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-06T00:00:00.000Z",
+    "btcDominance": 59.2871,
+    "ethDominance": 11.1955,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2703716390983.96,
+        "totalVolume24H": 59389006759.21,
+        "totalVolume24HReported": 278750295130.85
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-07T00:00:00.000Z",
+    "btcDominance": 59.1639,
+    "ethDominance": 11.2517,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2727160755507.33,
+        "totalVolume24H": 68704378343.47,
+        "totalVolume24HReported": 371245145678.99
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-08T00:00:00.000Z",
+    "btcDominance": 59.0344,
+    "ethDominance": 11.2937,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2690822024270.6,
+        "totalVolume24H": 73703407608.21,
+        "totalVolume24HReported": 423604930553.96
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T00:00:00.000Z",
+    "btcDominance": 58.7704,
+    "ethDominance": 11.3131,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2680380621424.72,
+        "totalVolume24H": 88181030953.19,
+        "totalVolume24HReported": 529716261850.05
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-10T00:00:00.000Z",
+    "btcDominance": 59.0414,
+    "ethDominance": 11.3091,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2662448580841.18,
+        "totalVolume24H": 87035355000.25,
+        "totalVolume24HReported": 557064264282.31
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-11T00:00:00.000Z",
+    "btcDominance": 58.9556,
+    "ethDominance": 11.4059,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2607500479503.08,
+        "totalVolume24H": 85251113236.4,
+        "totalVolume24HReported": 537617509336.45
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-12T00:00:00.000Z",
+    "btcDominance": 58.727,
+    "ethDominance": 11.6283,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2639633952246.94,
+        "totalVolume24H": 109837250806.52,
+        "totalVolume24HReported": 699104630868.26
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-13T00:00:00.000Z",
+    "btcDominance": 58.718,
+    "ethDominance": 11.6635,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2642899974481.19,
+        "totalVolume24H": 41733122532.78,
+        "totalVolume24HReported": 213539834826.09
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-14T00:00:00.000Z",
+    "btcDominance": 58.906,
+    "ethDominance": 11.5385,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2619116411023.31,
+        "totalVolume24H": 48148108597.56,
+        "totalVolume24HReported": 306289941836.1
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T00:00:00.000Z",
+    "btcDominance": 58.9546,
+    "ethDominance": 11.5248,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2663136461882.13,
+        "totalVolume24H": 84586658291.18,
+        "totalVolume24HReported": 596117964068.77
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-16T00:00:00.000Z",
+    "btcDominance": 58.9692,
+    "ethDominance": 11.3681,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2574912528011.32,
+        "totalVolume24H": 102372942864.36,
+        "totalVolume24HReported": 684178384627.62
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-17T00:00:00.000Z",
+    "btcDominance": 58.8313,
+    "ethDominance": 11.3434,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2599743602397.51,
+        "totalVolume24H": 87124516247.74,
+        "totalVolume24HReported": 588752418286.64
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-18T00:00:00.000Z",
+    "btcDominance": 58.5394,
+    "ethDominance": 11.3935,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2620653325625.07,
+        "totalVolume24H": 72705238958.32,
+        "totalVolume24HReported": 500197835359.7
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-19T00:00:00.000Z",
+    "btcDominance": 58.7544,
+    "ethDominance": 11.5259,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2765338474194.78,
+        "totalVolume24H": 117503403033.89,
+        "totalVolume24HReported": 774382220026.41
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T00:00:00.000Z",
+    "btcDominance": 58.7637,
+    "ethDominance": 11.5699,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2776633020352.49,
+        "totalVolume24H": 71724184365.17,
+        "totalVolume24HReported": 454000148340.34
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-21T00:00:00.000Z",
+    "btcDominance": 58.596,
+    "ethDominance": 11.6001,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2781989675851.02,
+        "totalVolume24H": 71361592724.92,
+        "totalVolume24HReported": 450837365007.68
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00.000Z",
+    "btcDominance": 59.2663,
+    "ethDominance": 11.5456,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2935248974870.06,
+        "totalVolume24H": 148632164497.52,
+        "totalVolume24HReported": 949587355471.57
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-23T00:00:00.000Z",
+    "btcDominance": 58.9871,
+    "ethDominance": 11.4498,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2935071902114.96,
+        "totalVolume24H": 114260697106.23,
+        "totalVolume24HReported": 726743062106.77
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T00:00:00.000Z",
+    "btcDominance": 59.172,
+    "ethDominance": 11.4392,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2864511750857.13,
+        "totalVolume24H": 125358866589.07,
+        "totalVolume24HReported": 772416730802.13
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-25T00:00:00.000Z",
+    "btcDominance": 58.87,
+    "ethDominance": 11.3935,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2879361743577.49,
+        "totalVolume24H": 100865307372.66,
+        "totalVolume24HReported": 671228744360.26
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-26T00:00:00.000Z",
+    "btcDominance": 58.5176,
+    "ethDominance": 11.3833,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2885776385722.52,
+        "totalVolume24H": 101261756566.13,
+        "totalVolume24HReported": 611124732566.48
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-27T00:00:00.000Z",
+    "btcDominance": 58.603,
+    "ethDominance": 11.3707,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2894051174767.06,
+        "totalVolume24H": 51527368257.91,
+        "totalVolume24HReported": 287683658699.02
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-28T00:00:00.000Z",
+    "btcDominance": 58.5443,
+    "ethDominance": 11.32,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2898215440592.96,
+        "totalVolume24H": 62910065623.19,
+        "totalVolume24HReported": 378160231866.9
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-29T00:00:00.000Z",
+    "btcDominance": 58.5627,
+    "ethDominance": 11.4575,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2864390978151.81,
+        "totalVolume24H": 113633625222.72,
+        "totalVolume24HReported": 705368213320.16
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T00:00:00.000Z",
+    "btcDominance": 58.7193,
+    "ethDominance": 11.4219,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2861178489804.26,
+        "totalVolume24H": 91372385067.83,
+        "totalVolume24HReported": 608452981324.47
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T00:00:00.000Z",
+    "btcDominance": 58.6257,
+    "ethDominance": 11.4438,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2863596223601.9,
+        "totalVolume24H": 98905498776.04,
+        "totalVolume24HReported": 628659763849.47
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-02T00:00:00.000Z",
+    "btcDominance": 58.9816,
+    "ethDominance": 11.4287,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2890523936573.14,
+        "totalVolume24H": 92236188647.09,
+        "totalVolume24HReported": 581320014057.9
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-03T00:00:00.000Z",
+    "btcDominance": 59.0606,
+    "ethDominance": 11.3326,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2874882410458.82,
+        "totalVolume24H": 118685794420.3,
+        "totalVolume24HReported": 749879466699.39
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-04T00:00:00.000Z",
+    "btcDominance": 58.9048,
+    "ethDominance": 11.3488,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2891044095137.66,
+        "totalVolume24H": 43220001218.1,
+        "totalVolume24HReported": 245673474790.1
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-05T00:00:00.000Z",
+    "btcDominance": 59.1546,
+    "ethDominance": 11.3319,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2938096262310.51,
+        "totalVolume24H": 46110507814.14,
+        "totalVolume24HReported": 290029115962.56
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-06T00:00:00.000Z",
+    "btcDominance": 58.9546,
+    "ethDominance": 11.3217,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2923309526303.64,
+        "totalVolume24H": 84551892906.63,
+        "totalVolume24HReported": 543318334361.06
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T00:00:00.000Z",
+    "btcDominance": 59.0147,
+    "ethDominance": 11.3071,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2912995426544.6,
+        "totalVolume24H": 72369785804.85,
+        "totalVolume24HReported": 465464048665.69
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-08T00:00:00.000Z",
+    "btcDominance": 59.0986,
+    "ethDominance": 11.0977,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2831676126235.16,
+        "totalVolume24H": 105198813506.24,
+        "totalVolume24HReported": 625490579429.02
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T00:00:00.000Z",
+    "btcDominance": 59.4709,
+    "ethDominance": 10.9378,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2760161196901.17,
+        "totalVolume24H": 120784386778.98,
+        "totalVolume24HReported": 776806058774.68
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-10T00:00:00.000Z",
+    "btcDominance": 59.5382,
+    "ethDominance": 10.893,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2786481237380.52,
+        "totalVolume24H": 70444692134.97,
+        "totalVolume24HReported": 448371329649.94
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-11T00:00:00.000Z",
+    "btcDominance": 59.4468,
+    "ethDominance": 10.9099,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2802884340193.77,
+        "totalVolume24H": 43636254618.28,
+        "totalVolume24HReported": 227951948071.53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-12T00:00:00.000Z",
+    "btcDominance": 59.4147,
+    "ethDominance": 10.936,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2830332759965.19,
+        "totalVolume24H": 48247310684.97,
+        "totalVolume24HReported": 297116377882.51
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00.000Z",
+    "btcDominance": 59.7264,
+    "ethDominance": 10.8499,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2751215876462.17,
+        "totalVolume24H": 80678065029.96,
+        "totalVolume24HReported": 556683228616.55
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-14T00:00:00.000Z",
+    "btcDominance": 59.817,
+    "ethDominance": 10.9207,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2791869663637.54,
+        "totalVolume24H": 84897992281.39,
+        "totalVolume24HReported": 594867852863.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-15T00:00:00.000Z",
+    "btcDominance": 59.8558,
+    "ethDominance": 10.7838,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2739010252659.25,
+        "totalVolume24H": 84725463801.86,
+        "totalVolume24HReported": 620134903823.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-16T00:00:00.000Z",
+    "btcDominance": 59.8856,
+    "ethDominance": 10.8113,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2756676818555.36,
+        "totalVolume24H": 107498233749.75,
+        "totalVolume24HReported": 753217812474.72
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-17T00:00:00.000Z",
+    "btcDominance": 59.8935,
+    "ethDominance": 10.8066,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2734978984321.67,
+        "totalVolume24H": 75696697438.69,
+        "totalVolume24HReported": 543888337815.46
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-18T00:00:00.000Z",
+    "btcDominance": 60.08,
+    "ethDominance": 10.7663,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2722541349724.47,
+        "totalVolume24H": 42245350139.1,
+        "totalVolume24HReported": 257516363601.96
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T00:00:00.000Z",
+    "btcDominance": 60.1977,
+    "ethDominance": 10.7433,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2738270965250.77,
+        "totalVolume24H": 53670782058.21,
+        "totalVolume24HReported": 368752314115.03
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-20T00:00:00.000Z",
+    "btcDominance": 60.1165,
+    "ethDominance": 10.7352,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2736327490614.46,
+        "totalVolume24H": 66438750632.16,
+        "totalVolume24HReported": 486841855354.02
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-21T00:00:00.000Z",
+    "btcDominance": 60.0977,
+    "ethDominance": 10.7748,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2773841996604.55,
+        "totalVolume24H": 74206720700.57,
+        "totalVolume24HReported": 560263010344.83
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-22T00:00:00.000Z",
+    "btcDominance": 60.1978,
+    "ethDominance": 10.7586,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2805500601924.95,
+        "totalVolume24H": 79878364187.73,
+        "totalVolume24HReported": 574156336499.94
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-23T00:00:00.000Z",
+    "btcDominance": 60.0843,
+    "ethDominance": 10.7146,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2720460114814.21,
+        "totalVolume24H": 79452737323.06,
+        "totalVolume24HReported": 601256197552.79
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-24T00:00:00.000Z",
+    "btcDominance": 60.0922,
+    "ethDominance": 10.7383,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2712269080223.04,
+        "totalVolume24H": 64897139030.8,
+        "totalVolume24HReported": 494500340581.62
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-25T00:00:00.000Z",
+    "btcDominance": 60.1089,
+    "ethDominance": 10.6525,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2701641303856.54,
+        "totalVolume24H": 56942826891.37,
+        "totalVolume24HReported": 388131726572.51
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-26T00:00:00.000Z",
+    "btcDominance": 60.0359,
+    "ethDominance": 10.6077,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2679932799103.39,
+        "totalVolume24H": 39185669545.92,
+        "totalVolume24HReported": 285673083571.2
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-27T00:00:00.000Z",
+    "btcDominance": 60.0301,
+    "ethDominance": 10.5794,
+    "quote": [
+      {
+        "name": "USD",
+        "totalMarketCap": 2679522849435.56,
+        "totalVolume24H": 68220432840.28,
+        "totalVolume24HReported": 510166644052.96
+      }
+    ]
+  }
+]

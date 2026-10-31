@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-13T20:21:22.724Z",
+  "assets": [
+    {
+      "slug": "bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "category": "cryptocurrency",
+      "consensus": "SHA-256",
+      "hashrate": 999441198156526500000,
+      "price_usd": 83226,
+      "market_cap_usd": 1672577227506,
+      "rank": 1,
+      "supply": {
+        "circulating": 20097740,
+        "max": 21000000
+      },
+      "ledger": "overlay",
+      "nature": "commodity",
+      "nature_basis": "Named a digital commodity in the joint SEC-CFTC interpretation (Mar 17, 2026).",
+      "nature_tags": [
+        "commodity"
+      ],
+      "chains": null,
+      "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400"
+    },
+    {
+      "slug": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "category": "cryptocurrency",
+      "consensus": "Gasper (Casper-FFG + LMD-GHOST)",
+      "hashrate": null,
+      "price_usd": 2506.79,
+      "market_cap_usd": 306171082341,
+      "rank": 2,
+      "supply": {
+        "circulating": 122130709.73792061,
+        "max": null
+      },
+      "ledger": "multi",
+      "nature": "commodity",
+      "nature_basis": "Officially a digital commodity (SEC-CFTC, Mar 2026) AND contested — its securities status was alleged or widely disputed. Both classifications apply. Context: ~60% of supply was pre-issued in the 2014 ICO (no mining).",
+      "nature_tags": [
+        "commodity",
+        "contested"
+      ],
+      "chains": null,
+      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+    },
+    {
+      "slug": "solana",
+      "symbol": "SOL",
+      "name": "Solana",
+      "category": "cryptocurrency",
+      "consensus": "Tower BFT + Proof of History",
+      "hashrate": null,
+      "price_usd": 107.49,
+      "market_cap_usd": 63332350347,
+      "rank": 7,
+      "supply": {
+        "circulating": 589162331.2551152,
+        "max": null
+      },
+      "ledger": "multi",
+      "nature": "commodity",
+      "nature_basis": "Officially a digital commodity (SEC-CFTC, Mar 2026) AND contested — its securities status was alleged or widely disputed. Both classifications apply. Context: pre-issued via Solana Labs/Foundation sales (no mining).",
+      "nature_tags": [
+        "commodity",
+        "contested"
+      ],
+      "chains": null,
+      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756"
+    }
+  ]
+}

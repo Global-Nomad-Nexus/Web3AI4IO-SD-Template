@@ -1,0 +1,1708 @@
+[
+  {
+    "output": "solana/layer2/sol_usdt_binance_hourly.csv",
+    "fields": [
+      "pair",
+      "time_utc",
+      "open_usdt",
+      "high_usdt",
+      "low_usdt",
+      "close_usdt",
+      "volume_sol",
+      "volume_usdt",
+      "trade_count",
+      "source_url",
+      "archive_sha256"
+    ],
+    "kind": "binance",
+    "spec": {
+      "pair": "SOLUSDT",
+      "interval": "1h",
+      "archives": [
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-01.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-02.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-03.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-04.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-05.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-06.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-07.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-08.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-09.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-10.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-11.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-12.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-13.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-14.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-15.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-16.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-17.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-18.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-19.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-20.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-21.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-22.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-23.zip",
+          "pair": "SOLUSDT"
+        },
+        {
+          "path": "binance/SOLUSDT-1h-2026-10-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDT/1h/SOLUSDT-1h-2026-10-24.zip",
+          "pair": "SOLUSDT"
+        }
+      ]
+    }
+  },
+  {
+    "output": "solana/layer2/raydium_pool_liquidity_daily.csv",
+    "fields": [
+      "time_utc",
+      "pool_address",
+      "liquidity_usd"
+    ],
+    "kind": "raydium",
+    "input": "raydium.json",
+    "spec": {
+      "pool": "58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2",
+      "start": "2026-10-01",
+      "end": "2026-10-25"
+    }
+  },
+  {
+    "output": "solana/layer2/rpc_transaction_counts_hourly.csv",
+    "fields": [
+      "hour_start_utc",
+      "hour_end_utc",
+      "population_blocks",
+      "sampled_blocks",
+      "sampling_fraction",
+      "transaction_count_estimate",
+      "transaction_count_standard_error",
+      "transaction_count_ci95_low",
+      "transaction_count_ci95_high",
+      "successful_transaction_count_estimate",
+      "successful_transaction_count_standard_error",
+      "successful_transaction_count_ci95_low",
+      "successful_transaction_count_ci95_high",
+      "failed_transaction_count_estimate",
+      "failed_transaction_count_standard_error",
+      "failed_transaction_count_ci95_low",
+      "failed_transaction_count_ci95_high",
+      "tps_estimate",
+      "failed_transaction_share_estimate",
+      "sample_transaction_count"
+    ],
+    "kind": "rpc",
+    "input": "curated/solana/layer2/rpc_transaction_count_sample_blocks.csv",
+    "spec": {}
+  },
+  {
+    "output": "solana/layer2/rpc_hourly_sample_selection.csv",
+    "fields": [
+      "hour_start_utc",
+      "slot",
+      "population_blocks",
+      "sample_size",
+      "inclusion_probability"
+    ],
+    "kind": "curated",
+    "input": "curated/solana/layer2/rpc_hourly_sample_selection.csv",
+    "spec": {}
+  },
+  {
+    "output": "solana/layer2/rpc_transaction_count_sample_blocks.csv",
+    "fields": [
+      "hour_start_utc",
+      "slot",
+      "block_time_utc",
+      "population_blocks",
+      "sample_size",
+      "transaction_count",
+      "successful_transaction_count",
+      "failed_transaction_count",
+      "vote_program_reference_transaction_count"
+    ],
+    "kind": "curated",
+    "input": "curated/solana/layer2/rpc_transaction_count_sample_blocks.csv",
+    "spec": {}
+  },
+  {
+    "output": "solana/layer3/news_facts.csv",
+    "fields": [
+      "Fact ID",
+      "Chain",
+      "Organization or protocol",
+      "Event type",
+      "Fact status",
+      "Independently written fact",
+      "Report date",
+      "Source organization",
+      "Source URL",
+      "Verification status",
+      "Scope of fact",
+      "Primary verification source",
+      "Verification date (UTC)"
+    ],
+    "kind": "curated",
+    "input": "curated/solana/layer3/news_facts.csv",
+    "spec": {}
+  },
+  {
+    "output": "solana/layer4/mechanism-facts.csv",
+    "fields": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "kind": "curated",
+    "input": "curated/solana/layer4/mechanism-facts.csv",
+    "spec": {}
+  },
+  {
+    "output": "solana/layer4/mechanism-facts-window-l2.csv",
+    "fields": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "kind": "window",
+    "spec": {
+      "dependency": "solana/layer4/mechanism-facts.csv",
+      "start": "2026-10-01",
+      "end": "2026-10-25"
+    }
+  },
+  {
+    "output": "solana/layer4/mechanism-facts-window-l3.csv",
+    "fields": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "kind": "window",
+    "spec": {
+      "dependency": "solana/layer4/mechanism-facts.csv",
+      "start": "2026-10-05",
+      "end": "2026-10-18"
+    }
+  },
+  {
+    "output": "shared/layer5/binance_spot_daily.csv",
+    "fields": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "kind": "binance",
+    "spec": {
+      "pair": "multi",
+      "interval": "1d",
+      "archives": [
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-01.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-02.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-03.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-04.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-05.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-06.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-07.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-08.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-09.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-10.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-11.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-12.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-13.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-14.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-15.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-16.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-17.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-18.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-19.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-20.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-21.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-22.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-23.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-24.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-25.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-26.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-27.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-28.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-28.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-29.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-29.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-09-30.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-09-30.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-01.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-02.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-03.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-04.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-05.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-06.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-07.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-08.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-09.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-10.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-11.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-12.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-13.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-14.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-15.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-16.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-17.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-18.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-19.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-20.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-21.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-22.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-23.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-24.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-25.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-26.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/BTCUSDC-1d-2026-10-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDC/1d/BTCUSDC-1d-2026-10-27.zip",
+          "pair": "BTCUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-01.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-02.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-03.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-04.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-05.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-06.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-07.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-08.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-09.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-10.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-11.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-12.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-13.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-14.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-15.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-16.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-17.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-18.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-19.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-20.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-21.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-22.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-23.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-24.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-25.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-26.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-27.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-28.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-28.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-29.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-29.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-09-30.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-09-30.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-01.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-02.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-03.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-04.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-05.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-06.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-07.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-08.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-09.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-10.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-11.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-12.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-13.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-14.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-15.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-16.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-17.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-18.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-19.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-20.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-21.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-22.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-23.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-24.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-25.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-26.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1d-2026-10-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1d/ETHUSDC-1d-2026-10-27.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-01.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-02.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-03.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-04.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-05.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-06.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-07.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-08.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-09.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-10.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-11.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-12.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-13.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-14.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-15.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-16.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-17.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-18.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-19.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-20.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-21.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-22.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-23.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-24.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-25.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-26.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-27.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-28.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-28.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-29.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-29.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-09-30.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-09-30.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-01.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-02.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-03.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-04.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-05.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-06.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-07.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-08.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-09.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-10.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-11.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-12.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-13.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-14.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-15.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-16.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-17.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-18.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-19.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-20.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-21.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-22.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-22.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-23.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-23.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-24.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-24.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-25.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-25.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-26.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-26.zip",
+          "pair": "SOLUSDC"
+        },
+        {
+          "path": "binance/SOLUSDC-1d-2026-10-27.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/SOLUSDC/1d/SOLUSDC-1d-2026-10-27.zip",
+          "pair": "SOLUSDC"
+        }
+      ]
+    }
+  },
+  {
+    "output": "shared/layer5/coinmetrics_assets_daily.csv",
+    "fields": [
+      "asset",
+      "observation_time_utc",
+      "market_cap_current_usd",
+      "market_cap_estimated_usd",
+      "reported_spot_volume_usd_1d",
+      "source_url"
+    ],
+    "kind": "coinmetrics",
+    "input": "coinmetrics.json",
+    "spec": {}
+  },
+  {
+    "output": "shared/layer5/coinspectrum_global.csv",
+    "fields": [
+      "generated_at_utc",
+      "archive_capture_utc",
+      "total_market_cap_usd",
+      "source_url",
+      "archive_url"
+    ],
+    "kind": "coinspectrum",
+    "input": "coinspectrum_global.json",
+    "spec": {
+      "archive_capture_utc": "2026-10-13T23:59:51+00:00",
+      "source_url": "https://coin-spectrum.com/api/v1/global.json",
+      "archive_url": "https://web.archive.org/web/20261013235951id_/https://coin-spectrum.com/api/v1/global.json"
+    }
+  },
+  {
+    "output": "shared/layer5/coinspectrum_assets.csv",
+    "fields": [
+      "generated_at_utc",
+      "archive_capture_utc",
+      "asset",
+      "symbol",
+      "price_usd",
+      "market_cap_usd",
+      "circulating_supply",
+      "rank",
+      "source_url",
+      "archive_url"
+    ],
+    "kind": "coinspectrum",
+    "input": "coinspectrum_assets.json",
+    "spec": {
+      "archive_capture_utc": "2026-10-14T00:40:15+00:00",
+      "source_url": "https://coin-spectrum.com/api/v1/categories/cryptocurrencies.json",
+      "archive_url": "https://web.archive.org/web/20261014004015id_/https://coin-spectrum.com/api/v1/categories/cryptocurrencies.json"
+    }
+  },
+  {
+    "output": "shared/layer5/macro_observations.csv",
+    "fields": [
+      "series",
+      "observation_date",
+      "value",
+      "unit",
+      "frequency",
+      "publication_timestamp_utc",
+      "revision_indicator",
+      "source_url"
+    ],
+    "kind": "macro",
+    "input": "macro.json",
+    "spec": {
+      "urls": {
+        "nyfed_effr": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2026-01-01&endDate=2026-10-27",
+        "bls_cuur0000sa0": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2026&endyear=2026",
+        "bls_lns14000000": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?startyear=2026&endyear=2026"
+      }
+    }
+  },
+  {
+    "output": "shared/layer5/treasury_10y.csv",
+    "fields": [
+      "observation_date",
+      "series",
+      "value_percent",
+      "source_url"
+    ],
+    "kind": "treasury",
+    "input": "treasury.xml",
+    "spec": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026"
+    }
+  },
+  {
+    "output": "shared/layer5/bls_initial_release.csv",
+    "fields": [
+      "series",
+      "observation_date",
+      "initial_value",
+      "unit",
+      "release_embargo_end_local",
+      "release_embargo_end_utc",
+      "source_url"
+    ],
+    "kind": "bls_release",
+    "input": "curated/bls_release.csv",
+    "spec": {}
+  },
+  {
+    "output": "shared/layer5/crypto_global.csv",
+    "fields": [
+      "observation_time_utc",
+      "market_cap_usd",
+      "volume_24h_usd",
+      "volume_24h_reported_usd",
+      "btc_dominance_percent",
+      "eth_dominance_percent",
+      "source_url"
+    ],
+    "kind": "cmc",
+    "input": "cmc.json",
+    "spec": {
+      "url": "https://api.coinmarketcap.com/data-api/v3/global-metrics/quotes/historical?format=chart_crypto_details&interval=1d&timeStart=1788220800&timeEnd=1793145600"
+    }
+  },
+  {
+    "output": "base/layer2/eth_usdc_binance_hourly.csv",
+    "fields": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "kind": "binance",
+    "spec": {
+      "pair": "ETHUSDC",
+      "interval": "1h",
+      "archives": [
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-01.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-02.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-03.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-04.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-05.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-06.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-07.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-08.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-09.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-10.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-11.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-12.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-13.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-14.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-15.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-16.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-17.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-18.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-19.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-20.zip",
+          "pair": "ETHUSDC"
+        },
+        {
+          "path": "binance/ETHUSDC-1h-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDC/1h/ETHUSDC-1h-2026-10-21.zip",
+          "pair": "ETHUSDC"
+        }
+      ]
+    }
+  },
+  {
+    "output": "base/layer2/chain_metrics.csv",
+    "fields": [
+      "chain",
+      "chain_id",
+      "date_utc",
+      "metric",
+      "value",
+      "unit",
+      "source_metric",
+      "source",
+      "source_url",
+      "source_updated_at_utc",
+      "retrieved_at_utc",
+      "source_sha256"
+    ],
+    "kind": "growthepie",
+    "input": "growthepie.json",
+    "spec": {}
+  },
+  {
+    "output": "base/layer3/news_facts.csv",
+    "fields": [
+      "record_id",
+      "publication_date",
+      "publisher",
+      "subject",
+      "fact",
+      "event_time_or_period",
+      "primary_source_url",
+      "report_source_url",
+      "published_at_utc",
+      "date_basis",
+      "evidence_status",
+      "verification_note",
+      "observed_at_utc"
+    ],
+    "kind": "curated",
+    "input": "curated/base/layer3/news_facts.csv",
+    "spec": {}
+  },
+  {
+    "output": "base/layer4/mechanism-facts.csv",
+    "fields": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "kind": "curated",
+    "input": "curated/base/layer4/mechanism-facts.csv",
+    "spec": {}
+  },
+  {
+    "output": "base/layer4/version_timeline.csv",
+    "fields": [
+      "repository",
+      "commit",
+      "documented_at_utc",
+      "change_title",
+      "source_url",
+      "date_kind",
+      "onchain_effective_at_utc",
+      "onchain_effective_status",
+      "coverage"
+    ],
+    "kind": "curated",
+    "input": "curated/base/layer4/version_timeline.csv",
+    "spec": {}
+  },
+  {
+    "output": "bsc/layer2/bnb_usdc_binance_hourly.csv",
+    "fields": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "kind": "binance",
+    "spec": {
+      "pair": "BNBUSDC",
+      "interval": "1h",
+      "archives": [
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-01.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-01.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-02.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-02.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-03.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-03.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-04.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-04.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-05.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-05.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-06.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-06.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-07.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-07.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-08.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-08.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-09.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-09.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-10.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-10.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-11.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-11.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-12.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-12.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-13.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-13.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-14.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-14.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-15.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-15.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-16.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-16.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-17.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-17.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-18.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-18.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-19.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-19.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-20.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-20.zip",
+          "pair": "BNBUSDC"
+        },
+        {
+          "path": "binance/BNBUSDC-1h-2026-10-21.zip",
+          "url": "https://data.binance.vision/data/spot/daily/klines/BNBUSDC/1h/BNBUSDC-1h-2026-10-21.zip",
+          "pair": "BNBUSDC"
+        }
+      ]
+    }
+  },
+  {
+    "output": "bsc/layer2/bnb_usdc_price_metrics_hourly.csv",
+    "fields": [
+      "pair",
+      "interval_start_utc",
+      "available_at_utc",
+      "close_usdc",
+      "log_return_1h",
+      "rolling_24h_return_std",
+      "return_observations"
+    ],
+    "kind": "price_metrics",
+    "spec": {
+      "dependency": "bsc/layer2/bnb_usdc_binance_hourly.csv"
+    }
+  },
+  {
+    "output": "bsc/layer3/news_facts.csv",
+    "fields": [
+      "record_id",
+      "publication_date",
+      "publisher",
+      "subject",
+      "fact",
+      "event_time_or_period",
+      "primary_source_url",
+      "report_source_url",
+      "published_at_utc",
+      "date_basis",
+      "evidence_status",
+      "verification_note",
+      "observed_at_utc",
+      "inclusion_decision"
+    ],
+    "kind": "curated",
+    "input": "curated/bsc/layer3/news_facts.csv",
+    "spec": {}
+  },
+  {
+    "output": "bsc/layer4/four_meme_mechanisms.csv",
+    "fields": [
+      "fact_id",
+      "topic",
+      "statement",
+      "source_id",
+      "source_url",
+      "evidence_type",
+      "target_window_start_utc",
+      "target_window_end_exclusive_utc",
+      "target_window_applicability",
+      "deployment_time_utc",
+      "remaining",
+      "version_scope",
+      "source_section",
+      "source_commit",
+      "inclusion_decision",
+      "decision_basis"
+    ],
+    "kind": "curated",
+    "input": "curated/bsc/layer4/four_meme_mechanisms.csv",
+    "spec": {}
+  },
+  {
+    "output": "bsc/layer4/four_meme_timeline.csv",
+    "fields": [
+      "source_id",
+      "date",
+      "date_meaning",
+      "record",
+      "source_url",
+      "deployment_verified",
+      "complete_history"
+    ],
+    "kind": "curated",
+    "input": "curated/bsc/layer4/four_meme_timeline.csv",
+    "spec": {}
+  }
+]

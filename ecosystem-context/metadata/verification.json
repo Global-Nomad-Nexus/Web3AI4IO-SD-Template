@@ -1,0 +1,196 @@
+{
+  "status": "Verified",
+  "inputs_verified": 493,
+  "tables": 27,
+  "results": [
+    {
+      "file": "solana/layer2/sol_usdt_binance_hourly.csv",
+      "rows": 576,
+      "kind": "binance",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer2/raydium_pool_liquidity_daily.csv",
+      "rows": 24,
+      "kind": "raydium",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer2/rpc_transaction_counts_hourly.csv",
+      "rows": 240,
+      "kind": "rpc",
+      "comparison": "numeric tolerance 1e-12 relative / 1e-9 absolute",
+      "byte_identical": false
+    },
+    {
+      "file": "solana/layer2/rpc_hourly_sample_selection.csv",
+      "rows": 12000,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer2/rpc_transaction_count_sample_blocks.csv",
+      "rows": 12000,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer3/news_facts.csv",
+      "rows": 16,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer4/mechanism-facts.csv",
+      "rows": 70,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer4/mechanism-facts-window-l2.csv",
+      "rows": 56,
+      "kind": "window",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "solana/layer4/mechanism-facts-window-l3.csv",
+      "rows": 56,
+      "kind": "window",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/binance_spot_daily.csv",
+      "rows": 171,
+      "kind": "binance",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/coinmetrics_assets_daily.csv",
+      "rows": 171,
+      "kind": "coinmetrics",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/coinspectrum_global.csv",
+      "rows": 1,
+      "kind": "coinspectrum",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/coinspectrum_assets.csv",
+      "rows": 3,
+      "kind": "coinspectrum",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/macro_observations.csv",
+      "rows": 224,
+      "kind": "macro",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/treasury_10y.csv",
+      "rows": 206,
+      "kind": "treasury",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/bls_initial_release.csv",
+      "rows": 18,
+      "kind": "bls_release",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "shared/layer5/crypto_global.csv",
+      "rows": 57,
+      "kind": "cmc",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "base/layer2/eth_usdc_binance_hourly.csv",
+      "rows": 504,
+      "kind": "binance",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "base/layer2/chain_metrics.csv",
+      "rows": 42,
+      "kind": "growthepie",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "base/layer3/news_facts.csv",
+      "rows": 14,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "base/layer4/mechanism-facts.csv",
+      "rows": 29,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "base/layer4/version_timeline.csv",
+      "rows": 28,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "bsc/layer2/bnb_usdc_binance_hourly.csv",
+      "rows": 504,
+      "kind": "binance",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "bsc/layer2/bnb_usdc_price_metrics_hourly.csv",
+      "rows": 504,
+      "kind": "price_metrics",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "bsc/layer3/news_facts.csv",
+      "rows": 5,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "bsc/layer4/four_meme_mechanisms.csv",
+      "rows": 22,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    },
+    {
+      "file": "bsc/layer4/four_meme_timeline.csv",
+      "rows": 6,
+      "kind": "curated",
+      "comparison": "exact field values",
+      "byte_identical": true
+    }
+  ]
+}

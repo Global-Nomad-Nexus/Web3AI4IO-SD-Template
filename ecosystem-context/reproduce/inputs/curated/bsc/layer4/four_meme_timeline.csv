@@ -1,0 +1,7 @@
+source_id,date,date_meaning,record,source_url,deployment_verified,complete_history
+FM02,2026-02-13,current_document_with_stated_transition,Tax allocations and dividend handling; internal wording conflict on activation phase.,https://four-meme.gitbook.io/four.meme/guide/introducing-tax-tokens-on-four.meme,false,false
+FM03,2024-09-19,date_in_title,"Curve progress badge, trading protection and user-interface changes.",https://four-meme.gitbook.io/four.meme/product-update/1-product-update-24-09-19,false,false
+FM04,2025-03-31,date_in_title,Token address suffix and PancakeSwap V2 migration announcement.,https://four-meme.gitbook.io/four.meme/product-update/3-product-update-25-03-31,false,false
+FM05,2025-06-04,date_in_title,USD1 project creation and trading interface.,https://four-meme.gitbook.io/four.meme/product-update/4-product-update-25-06-04,false,false
+FM06,2025-10-18,date_in_title,Fair Mode name-protection mechanism.,https://four-meme.gitbook.io/four.meme/product-update/5-product-update-25-10-18,false,false
+FM07,2025-10-30T08:00:00Z,source_stated_planned_launch,"X Mode launch, dynamic fees, and fee-funded buyback/burn.",https://four-meme.gitbook.io/four.meme/product-update/6-product-update-25-10-30,false,false

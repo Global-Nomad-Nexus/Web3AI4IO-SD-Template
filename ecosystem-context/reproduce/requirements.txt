@@ -1,0 +1,2 @@
+# Python 3.11 or newer; standard library only.
+# An IANA time-zone database is required for America/New_York.

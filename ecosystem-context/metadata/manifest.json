@@ -1,0 +1,532 @@
+[
+  {
+    "path": "solana/layer2/sol_usdt_binance_hourly.csv",
+    "rows": 576,
+    "columns": [
+      "pair",
+      "time_utc",
+      "open_usdt",
+      "high_usdt",
+      "low_usdt",
+      "close_usdt",
+      "volume_sol",
+      "volume_usdt",
+      "trade_count",
+      "source_url",
+      "archive_sha256"
+    ],
+    "sha256": "47318a0763aa5f373f854a0fb32dfb4cd4103f8ccc12673a7e15444d01f8e454",
+    "source_sha256": "47318a0763aa5f373f854a0fb32dfb4cd4103f8ccc12673a7e15444d01f8e454",
+    "source_path": "solana/layer2/output/sol_usdt_binance_hourly.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer2/raydium_pool_liquidity_daily.csv",
+    "rows": 24,
+    "columns": [
+      "time_utc",
+      "pool_address",
+      "liquidity_usd"
+    ],
+    "sha256": "2ddccb304ee1a403af48be0efcde632d9dcda41de516bffb1c9f9efb29524508",
+    "source_sha256": "2ddccb304ee1a403af48be0efcde632d9dcda41de516bffb1c9f9efb29524508",
+    "source_path": "solana/layer2/output/raydium_pool_liquidity_daily.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer2/rpc_transaction_counts_hourly.csv",
+    "rows": 240,
+    "columns": [
+      "hour_start_utc",
+      "hour_end_utc",
+      "population_blocks",
+      "sampled_blocks",
+      "sampling_fraction",
+      "transaction_count_estimate",
+      "transaction_count_standard_error",
+      "transaction_count_ci95_low",
+      "transaction_count_ci95_high",
+      "successful_transaction_count_estimate",
+      "successful_transaction_count_standard_error",
+      "successful_transaction_count_ci95_low",
+      "successful_transaction_count_ci95_high",
+      "failed_transaction_count_estimate",
+      "failed_transaction_count_standard_error",
+      "failed_transaction_count_ci95_low",
+      "failed_transaction_count_ci95_high",
+      "tps_estimate",
+      "failed_transaction_share_estimate",
+      "sample_transaction_count"
+    ],
+    "sha256": "d35d4995ef0a64742c31830347e8c26f2b402ff090810831e23ebe4040568033",
+    "source_sha256": "d35d4995ef0a64742c31830347e8c26f2b402ff090810831e23ebe4040568033",
+    "source_path": "solana/layer2/output/rpc_transaction_counts_hourly.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer2/rpc_hourly_sample_selection.csv",
+    "rows": 12000,
+    "columns": [
+      "hour_start_utc",
+      "slot",
+      "population_blocks",
+      "sample_size",
+      "inclusion_probability"
+    ],
+    "sha256": "0d482c2f57ed64afbe5192488f66bdec729047c4a6fc914812301892fd9232cb",
+    "source_sha256": "0d482c2f57ed64afbe5192488f66bdec729047c4a6fc914812301892fd9232cb",
+    "source_path": "solana/layer2/output/rpc_hourly_sample_selection.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer2/rpc_transaction_count_sample_blocks.csv",
+    "rows": 12000,
+    "columns": [
+      "hour_start_utc",
+      "slot",
+      "block_time_utc",
+      "population_blocks",
+      "sample_size",
+      "transaction_count",
+      "successful_transaction_count",
+      "failed_transaction_count",
+      "vote_program_reference_transaction_count"
+    ],
+    "sha256": "0dd38f894a725693fd59ea632089119057c5e97a0ea459ce9756f4272772d38b",
+    "source_sha256": "0dd38f894a725693fd59ea632089119057c5e97a0ea459ce9756f4272772d38b",
+    "source_path": "solana/layer2/output/rpc_transaction_count_sample_blocks.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer3/news_facts.csv",
+    "rows": 16,
+    "columns": [
+      "Fact ID",
+      "Chain",
+      "Organization or protocol",
+      "Event type",
+      "Fact status",
+      "Independently written fact",
+      "Report date",
+      "Source organization",
+      "Source URL",
+      "Verification status",
+      "Scope of fact",
+      "Primary verification source",
+      "Verification date (UTC)"
+    ],
+    "sha256": "0cc3fceb538b7932ed5c86329421046e2a659daef7ac46380a5047d609fc1093",
+    "source_sha256": "017e801fa738ed0bba945dc8a2ff5d816648cccbe17002487f5dc487bcb63a66",
+    "source_path": "solana/layer3/output/news_facts.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer4/mechanism-facts.csv",
+    "rows": 70,
+    "columns": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "sha256": "4bc284ec5f6034cc1bbc95ff07e69a2f1dfadda8276cd502edc67ff1b44af31e",
+    "source_sha256": "4bc284ec5f6034cc1bbc95ff07e69a2f1dfadda8276cd502edc67ff1b44af31e",
+    "source_path": "solana/layer4/output/mechanism-facts.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer4/mechanism-facts-window-l2.csv",
+    "rows": 56,
+    "columns": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "sha256": "29716cc9ece24f0b911a1368c02285bb37356d7f15df58c357b83f62b211ed63",
+    "source_sha256": "29716cc9ece24f0b911a1368c02285bb37356d7f15df58c357b83f62b211ed63",
+    "source_path": "solana/layer4/output/mechanism-facts-window-l2.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "solana/layer4/mechanism-facts-window-l3.csv",
+    "rows": 56,
+    "columns": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "sha256": "5a8c8ca857f01c0c1511298208b376bea97fca7c6e0b634de6e1c9e3652f1221",
+    "source_sha256": "5a8c8ca857f01c0c1511298208b376bea97fca7c6e0b634de6e1c9e3652f1221",
+    "source_path": "solana/layer4/output/mechanism-facts-window-l3.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/binance_spot_daily.csv",
+    "rows": 171,
+    "columns": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "sha256": "a5f96c93f41c3a6dcc0bd306a248947b5983e70f91f373d214e34e6b1f88e1af",
+    "source_sha256": "a5f96c93f41c3a6dcc0bd306a248947b5983e70f91f373d214e34e6b1f88e1af",
+    "source_path": "solana/layer5/output/binance_spot_daily.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/coinmetrics_assets_daily.csv",
+    "rows": 171,
+    "columns": [
+      "asset",
+      "observation_time_utc",
+      "market_cap_current_usd",
+      "market_cap_estimated_usd",
+      "reported_spot_volume_usd_1d",
+      "source_url"
+    ],
+    "sha256": "4794bf762fc5f7aa741f3ce54c96f41254b72faf21ea95efd9ce6fb2c155b989",
+    "source_sha256": "4794bf762fc5f7aa741f3ce54c96f41254b72faf21ea95efd9ce6fb2c155b989",
+    "source_path": "solana/layer5/output/coinmetrics_assets_daily.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/coinspectrum_global.csv",
+    "rows": 1,
+    "columns": [
+      "generated_at_utc",
+      "archive_capture_utc",
+      "total_market_cap_usd",
+      "source_url",
+      "archive_url"
+    ],
+    "sha256": "fd3c5f33d7d669a1284cef9f72350b2822f27f3e4d57a546ef0c2215fedb633c",
+    "source_sha256": "fd3c5f33d7d669a1284cef9f72350b2822f27f3e4d57a546ef0c2215fedb633c",
+    "source_path": "solana/layer5/output/coinspectrum_global.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/coinspectrum_assets.csv",
+    "rows": 3,
+    "columns": [
+      "generated_at_utc",
+      "archive_capture_utc",
+      "asset",
+      "symbol",
+      "price_usd",
+      "market_cap_usd",
+      "circulating_supply",
+      "rank",
+      "source_url",
+      "archive_url"
+    ],
+    "sha256": "b3019c778fd42a16e7a89652e45a518ceef6fcdbd3550e183d45bb31b969f9df",
+    "source_sha256": "b3019c778fd42a16e7a89652e45a518ceef6fcdbd3550e183d45bb31b969f9df",
+    "source_path": "solana/layer5/output/coinspectrum_assets.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/macro_observations.csv",
+    "rows": 224,
+    "columns": [
+      "series",
+      "observation_date",
+      "value",
+      "unit",
+      "frequency",
+      "publication_timestamp_utc",
+      "revision_indicator",
+      "source_url"
+    ],
+    "sha256": "210cc49e4b4b0c066570fcc0d276a77e581228615a58ed5d988e0ddc9790d6bc",
+    "source_sha256": "210cc49e4b4b0c066570fcc0d276a77e581228615a58ed5d988e0ddc9790d6bc",
+    "source_path": "solana/layer5/output/macro_observations.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/treasury_10y.csv",
+    "rows": 206,
+    "columns": [
+      "observation_date",
+      "series",
+      "value_percent",
+      "source_url"
+    ],
+    "sha256": "6c97181e71164e89404cf3c1a6bd3d7c809e0bde234b2767a4c64cf0b7cc992a",
+    "source_sha256": "6c97181e71164e89404cf3c1a6bd3d7c809e0bde234b2767a4c64cf0b7cc992a",
+    "source_path": "solana/layer5/output/treasury_10y.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/bls_initial_release.csv",
+    "rows": 18,
+    "columns": [
+      "series",
+      "observation_date",
+      "initial_value",
+      "unit",
+      "release_embargo_end_local",
+      "release_embargo_end_utc",
+      "source_url"
+    ],
+    "sha256": "473f881852bc1e61b34a99e9aaf377c7d91048ad461d6a4f35767cfe5c882be3",
+    "source_sha256": "473f881852bc1e61b34a99e9aaf377c7d91048ad461d6a4f35767cfe5c882be3",
+    "source_path": "solana/layer5/output/bls_initial_release.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "shared/layer5/crypto_global.csv",
+    "rows": 57,
+    "columns": [
+      "observation_time_utc",
+      "market_cap_usd",
+      "volume_24h_usd",
+      "volume_24h_reported_usd",
+      "btc_dominance_percent",
+      "eth_dominance_percent",
+      "source_url"
+    ],
+    "sha256": "3582fc26e1b6d9522c0b67c240e712799090cff851cdb14a73b519623f24dd5a",
+    "source_sha256": "3582fc26e1b6d9522c0b67c240e712799090cff851cdb14a73b519623f24dd5a",
+    "source_path": "solana/layer5/output/crypto_global.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "base/layer2/eth_usdc_binance_hourly.csv",
+    "rows": 504,
+    "columns": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "sha256": "88da982d37f601187fcc331cb08dbcd040aeac61d0e1c16f6d59aa33dde9cfe6",
+    "source_sha256": "88da982d37f601187fcc331cb08dbcd040aeac61d0e1c16f6d59aa33dde9cfe6",
+    "source_path": "base/layer2/output/eth_usdc_binance_hourly.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "base/layer2/chain_metrics.csv",
+    "rows": 42,
+    "columns": [
+      "chain",
+      "chain_id",
+      "date_utc",
+      "metric",
+      "value",
+      "unit",
+      "source_metric",
+      "source",
+      "source_url",
+      "source_updated_at_utc",
+      "retrieved_at_utc",
+      "source_sha256"
+    ],
+    "sha256": "b373d8b8e07d1eea8d1b3a00cf7b3aba84f8137216d07af406b186854a97b301",
+    "source_sha256": "b373d8b8e07d1eea8d1b3a00cf7b3aba84f8137216d07af406b186854a97b301",
+    "source_path": "base/layer2/output/chain_metrics.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "base/layer3/news_facts.csv",
+    "rows": 14,
+    "columns": [
+      "record_id",
+      "publication_date",
+      "publisher",
+      "subject",
+      "fact",
+      "event_time_or_period",
+      "primary_source_url",
+      "report_source_url",
+      "published_at_utc",
+      "date_basis",
+      "evidence_status",
+      "verification_note",
+      "observed_at_utc"
+    ],
+    "sha256": "e295583cf0cb203615c514b71f8761e00e6c3625f6f77cdc1c20a115cb4a4bd8",
+    "source_sha256": "2f1f73bf5c71d0ea8a92bf4fa84db564070afb8b8eab38a396a2532404d34b52",
+    "source_path": "base/layer3/output/news_facts.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "base/layer4/mechanism-facts.csv",
+    "rows": 29,
+    "columns": [
+      "record_id",
+      "category",
+      "rule_name",
+      "fact",
+      "applicability",
+      "document_date_utc",
+      "source",
+      "supplementary_information"
+    ],
+    "sha256": "f7b0023abda40edbf30f10c9b2136cabc97a37e46ca9c595113ac3fde9e59d38",
+    "source_sha256": "f7b0023abda40edbf30f10c9b2136cabc97a37e46ca9c595113ac3fde9e59d38",
+    "source_path": "base/layer4/output/mechanism-facts.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "base/layer4/version_timeline.csv",
+    "rows": 28,
+    "columns": [
+      "repository",
+      "commit",
+      "documented_at_utc",
+      "change_title",
+      "source_url",
+      "date_kind",
+      "onchain_effective_at_utc",
+      "onchain_effective_status",
+      "coverage"
+    ],
+    "sha256": "78b163c12c1a087092a9065beaaa706dbe9dcfdebc43a73da5ccec79638a436e",
+    "source_sha256": "78b163c12c1a087092a9065beaaa706dbe9dcfdebc43a73da5ccec79638a436e",
+    "source_path": "base/layer4/output/version_timeline.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "bsc/layer2/bnb_usdc_binance_hourly.csv",
+    "rows": 504,
+    "columns": [
+      "pair",
+      "interval_start_utc",
+      "interval_end_utc",
+      "open_usdc",
+      "high_usdc",
+      "low_usdc",
+      "close_usdc",
+      "volume_base_asset",
+      "quote_volume_usdc",
+      "trade_count",
+      "taker_buy_volume_base_asset",
+      "taker_buy_quote_volume_usdc",
+      "source_url",
+      "archive_sha256"
+    ],
+    "sha256": "47d5e1a88ff95b9cd02f780d7431bd3218305832ac03e53ad3cfaf44f510b61f",
+    "source_sha256": "47d5e1a88ff95b9cd02f780d7431bd3218305832ac03e53ad3cfaf44f510b61f",
+    "source_path": "BSC/layer2/output/bnb_usdc_binance_hourly.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "bsc/layer2/bnb_usdc_price_metrics_hourly.csv",
+    "rows": 504,
+    "columns": [
+      "pair",
+      "interval_start_utc",
+      "available_at_utc",
+      "close_usdc",
+      "log_return_1h",
+      "rolling_24h_return_std",
+      "return_observations"
+    ],
+    "sha256": "1d9b13bbac95643d5446abf0e4affdc288203a210a4d697a97bc27a782863da3",
+    "source_sha256": "1d9b13bbac95643d5446abf0e4affdc288203a210a4d697a97bc27a782863da3",
+    "source_path": "BSC/layer2/output/bnb_usdc_price_metrics_hourly.csv",
+    "selection": "all retained rows"
+  },
+  {
+    "path": "bsc/layer3/news_facts.csv",
+    "rows": 5,
+    "columns": [
+      "record_id",
+      "publication_date",
+      "publisher",
+      "subject",
+      "fact",
+      "event_time_or_period",
+      "primary_source_url",
+      "report_source_url",
+      "published_at_utc",
+      "date_basis",
+      "evidence_status",
+      "verification_note",
+      "observed_at_utc",
+      "inclusion_decision"
+    ],
+    "sha256": "694a674ae343556490d41f0c608114200e256f634867fb66fc10e7e35937c9bc",
+    "source_sha256": "7ad5c3705158c0545ee0de99c368b68ba5f96ae91633b623f03313fbafc9825c",
+    "source_path": "BSC/layer3/output/news_facts.csv",
+    "selection": "inclusion_decision=confirmed_inclusion"
+  },
+  {
+    "path": "bsc/layer4/four_meme_mechanisms.csv",
+    "rows": 22,
+    "columns": [
+      "fact_id",
+      "topic",
+      "statement",
+      "source_id",
+      "source_url",
+      "evidence_type",
+      "target_window_start_utc",
+      "target_window_end_exclusive_utc",
+      "target_window_applicability",
+      "deployment_time_utc",
+      "remaining",
+      "version_scope",
+      "source_section",
+      "source_commit",
+      "inclusion_decision",
+      "decision_basis"
+    ],
+    "sha256": "e2658c49786088cc22688d13ea8b390d6f2bd865edcb7e6b1f99a90f6affa622",
+    "source_sha256": "ea053d11f22d78584ef434b58d9fd11b7e73931280114b34e747aaf722ea400d",
+    "source_path": "BSC/layer4/output/four_meme_mechanisms.csv",
+    "selection": "inclusion_decision=confirmed_inclusion"
+  },
+  {
+    "path": "bsc/layer4/four_meme_timeline.csv",
+    "rows": 6,
+    "columns": [
+      "source_id",
+      "date",
+      "date_meaning",
+      "record",
+      "source_url",
+      "deployment_verified",
+      "complete_history"
+    ],
+    "sha256": "13c8a4aa0c3ef271b86a7b6f1cf68c0c856752b218ef167c5f3d7258f6c24fe2",
+    "source_sha256": "13c8a4aa0c3ef271b86a7b6f1cf68c0c856752b218ef167c5f3d7258f6c24fe2",
+    "source_path": "BSC/layer4/output/four_meme_timeline.csv",
+    "selection": "all retained rows"
+  }
+]

@@ -1,0 +1,28 @@
+table,operation,input,dependency,verification_scope
+solana/layer2/sol_usdt_binance_hourly.csv,binance,binance/ archives listed in reproduce/jobs.json,,Recalculate or parse frozen inputs and compare all rows/fields
+solana/layer2/raydium_pool_liquidity_daily.csv,raydium,raydium.json,,Recalculate or parse frozen inputs and compare all rows/fields
+solana/layer2/rpc_transaction_counts_hourly.csv,rpc,curated/solana/layer2/rpc_transaction_count_sample_blocks.csv,,Recalculate or parse frozen inputs and compare all rows/fields
+solana/layer2/rpc_hourly_sample_selection.csv,curated,curated/solana/layer2/rpc_hourly_sample_selection.csv,,Frozen curated-record export; source interpretation is human-reviewed
+solana/layer2/rpc_transaction_count_sample_blocks.csv,curated,curated/solana/layer2/rpc_transaction_count_sample_blocks.csv,,Frozen curated-record export; source interpretation is human-reviewed
+solana/layer3/news_facts.csv,curated,curated/solana/layer3/news_facts.csv,,Frozen curated-record export; source interpretation is human-reviewed
+solana/layer4/mechanism-facts.csv,curated,curated/solana/layer4/mechanism-facts.csv,,Frozen curated-record export; source interpretation is human-reviewed
+solana/layer4/mechanism-facts-window-l2.csv,window,binance/ archives listed in reproduce/jobs.json,solana/layer4/mechanism-facts.csv,Recalculate or parse frozen inputs and compare all rows/fields
+solana/layer4/mechanism-facts-window-l3.csv,window,binance/ archives listed in reproduce/jobs.json,solana/layer4/mechanism-facts.csv,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/binance_spot_daily.csv,binance,binance/ archives listed in reproduce/jobs.json,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/coinmetrics_assets_daily.csv,coinmetrics,coinmetrics.json,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/coinspectrum_global.csv,coinspectrum,coinspectrum_global.json,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/coinspectrum_assets.csv,coinspectrum,coinspectrum_assets.json,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/macro_observations.csv,macro,macro.json,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/treasury_10y.csv,treasury,treasury.xml,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/bls_initial_release.csv,bls_release,curated/bls_release.csv,,Recalculate or parse frozen inputs and compare all rows/fields
+shared/layer5/crypto_global.csv,cmc,cmc.json,,Recalculate or parse frozen inputs and compare all rows/fields
+base/layer2/eth_usdc_binance_hourly.csv,binance,binance/ archives listed in reproduce/jobs.json,,Recalculate or parse frozen inputs and compare all rows/fields
+base/layer2/chain_metrics.csv,growthepie,growthepie.json,,Recalculate or parse frozen inputs and compare all rows/fields
+base/layer3/news_facts.csv,curated,curated/base/layer3/news_facts.csv,,Frozen curated-record export; source interpretation is human-reviewed
+base/layer4/mechanism-facts.csv,curated,curated/base/layer4/mechanism-facts.csv,,Frozen curated-record export; source interpretation is human-reviewed
+base/layer4/version_timeline.csv,curated,curated/base/layer4/version_timeline.csv,,Frozen curated-record export; source interpretation is human-reviewed
+bsc/layer2/bnb_usdc_binance_hourly.csv,binance,binance/ archives listed in reproduce/jobs.json,,Recalculate or parse frozen inputs and compare all rows/fields
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,price_metrics,binance/ archives listed in reproduce/jobs.json,bsc/layer2/bnb_usdc_binance_hourly.csv,Recalculate or parse frozen inputs and compare all rows/fields
+bsc/layer3/news_facts.csv,curated,curated/bsc/layer3/news_facts.csv,,Frozen curated-record export; source interpretation is human-reviewed
+bsc/layer4/four_meme_mechanisms.csv,curated,curated/bsc/layer4/four_meme_mechanisms.csv,,Frozen curated-record export; source interpretation is human-reviewed
+bsc/layer4/four_meme_timeline.csv,curated,curated/bsc/layer4/four_meme_timeline.csv,,Frozen curated-record export; source interpretation is human-reviewed

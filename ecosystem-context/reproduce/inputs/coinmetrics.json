@@ -1,0 +1,1160 @@
+[
+  {
+    "asset": "btc",
+    "url": "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=btc&metrics=CapMrktCurUSD%2CCapMrktEstUSD%2Cvolume_reported_spot_usd_1d&frequency=1d&start_time=2026-09-01&end_time=2026-10-27&page_size=1000",
+    "data": [
+      {
+        "asset": "btc",
+        "time": "2026-09-01T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1554216827150.678775135790419132",
+        "CapMrktEstUSD": "1554181141521.5220845234",
+        "volume_reported_spot_usd_1d": "9256030572.45572"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-02T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1549852709768.418233940462467568",
+        "CapMrktEstUSD": "1549817115462.679480588",
+        "volume_reported_spot_usd_1d": "7423181309.32632"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-03T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1631303497729.189430843292699316",
+        "CapMrktEstUSD": "1631269608451.3742018852",
+        "volume_reported_spot_usd_1d": "12086528374.4843"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-04T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1599981572367.615035597114902134",
+        "CapMrktEstUSD": "1599932647226.5445475528",
+        "volume_reported_spot_usd_1d": "10449020967.1726"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-05T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1602744671894.318340804405078912",
+        "CapMrktEstUSD": "1602708154811.5777033041",
+        "volume_reported_spot_usd_1d": "4162514066.01949"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-06T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1612879367590.62658966079994192",
+        "CapMrktEstUSD": "1612838072447.8851336552",
+        "volume_reported_spot_usd_1d": "4336926419.85566"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-07T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1587874072538.340719004516404508",
+        "CapMrktEstUSD": "1587840347289.0647347152",
+        "volume_reported_spot_usd_1d": "5556600218.92817"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-08T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1575309040880.376951194972046501",
+        "CapMrktEstUSD": "1575276789310.8848397135",
+        "volume_reported_spot_usd_1d": "8615462632.23562"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-09T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1570564994172.225977821040550617",
+        "CapMrktEstUSD": "1570530171722.5428675824",
+        "volume_reported_spot_usd_1d": "7978420843.72395"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-10T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1539837241862.03064335086201464",
+        "CapMrktEstUSD": "1539803810716.2760456032",
+        "volume_reported_spot_usd_1d": "8767244247.00974"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-11T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1549938259884.99533639509787946",
+        "CapMrktEstUSD": "1549900973370.0664705296",
+        "volume_reported_spot_usd_1d": "10379635353.8223"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-12T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1551494286917.614816613685204425",
+        "CapMrktEstUSD": "1551460855508.9295317725",
+        "volume_reported_spot_usd_1d": "3297152583.36039"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-13T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1541626319340.572018268543057019",
+        "CapMrktEstUSD": "1541594262360.9496948952",
+        "volume_reported_spot_usd_1d": "3699176131.0411"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-14T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1572181200102.698955010662694576",
+        "CapMrktEstUSD": "1572148997781.9017760552",
+        "volume_reported_spot_usd_1d": "9925031660.27388"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-15T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1519430673477.394099401763031406",
+        "CapMrktEstUSD": "1519395060685.2695439678",
+        "volume_reported_spot_usd_1d": "12137799263.793"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-16T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1528138641304.683434819172987033",
+        "CapMrktEstUSD": "1528109063950.2180661056",
+        "volume_reported_spot_usd_1d": "8830914772.66766"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-17T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1534289255564.704520800167829696",
+        "CapMrktEstUSD": "1534259034667.7470820224",
+        "volume_reported_spot_usd_1d": "6655504339.41094"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-18T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1625863616660.61927381602884806",
+        "CapMrktEstUSD": "1625830864292.2591990404",
+        "volume_reported_spot_usd_1d": "12350343236.404"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-19T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1632287115291.476715055739714986",
+        "CapMrktEstUSD": "1632258551238.3442399848",
+        "volume_reported_spot_usd_1d": "5432614175.09769"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-20T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1630968303348.060758424196826436",
+        "CapMrktEstUSD": "1630929593418.929343568",
+        "volume_reported_spot_usd_1d": "5835258352.21752"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-21T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1737682294733.7460087072235072",
+        "CapMrktEstUSD": "1737647313811.79563083",
+        "volume_reported_spot_usd_1d": "16735975873.4321"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-22T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1731692944156.58697582855492501",
+        "CapMrktEstUSD": "1731656672960.299421034",
+        "volume_reported_spot_usd_1d": "11248316559.6724"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-23T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1696152049521.83131927596196846",
+        "CapMrktEstUSD": "1696119468130.4245870616",
+        "volume_reported_spot_usd_1d": "11088130210.1907"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-24T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1695229926223.292544884356064115",
+        "CapMrktEstUSD": "1695193101785.6199531865",
+        "volume_reported_spot_usd_1d": "9837902441.18195"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-25T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1688747861588.438290616023518289",
+        "CapMrktEstUSD": "1688717000076.3762639723",
+        "volume_reported_spot_usd_1d": "8837690878.68054"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-26T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1695304232913.60089035532701582",
+        "CapMrktEstUSD": "1695264539425.0563919005",
+        "volume_reported_spot_usd_1d": "4128979263.88586"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-27T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1695462798671.221811825694391564",
+        "CapMrktEstUSD": "1695429663900.2746968009",
+        "volume_reported_spot_usd_1d": "4998900768.85855"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-28T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1677912673041.560846490217328638",
+        "CapMrktEstUSD": "1677875487046.9695846284",
+        "volume_reported_spot_usd_1d": "11021870857.8038"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-29T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1681126454579.74805854264103133",
+        "CapMrktEstUSD": "1681064106346.8205383822",
+        "volume_reported_spot_usd_1d": "7613226040.23903"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-09-30T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1679254955567.01583147477202788",
+        "CapMrktEstUSD": "1679191622930.0114074826",
+        "volume_reported_spot_usd_1d": "9944579946.36099"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-01T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1703352109574.792869770992055908",
+        "CapMrktEstUSD": "1703251839160.5676230179",
+        "volume_reported_spot_usd_1d": "9308951646.82969"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-02T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1698170984511.18570898817412951",
+        "CapMrktEstUSD": "1698139934768.4406543935",
+        "volume_reported_spot_usd_1d": "13220158404.8631"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-03T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1703000994102.151897874470593844",
+        "CapMrktEstUSD": "1702970132162.6084741529",
+        "volume_reported_spot_usd_1d": "3286409760.05742"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-04T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1738496872160.741597426704273905",
+        "CapMrktEstUSD": "1738462955908.7166131646",
+        "volume_reported_spot_usd_1d": "4013086902.69015"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-05T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1724754820477.82986243790963106",
+        "CapMrktEstUSD": "1724713609098.8043133747",
+        "volume_reported_spot_usd_1d": "8687626981.68731"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-06T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1718541064685.364717293620471655",
+        "CapMrktEstUSD": "1718503477160.275503698",
+        "volume_reported_spot_usd_1d": "7346112589.44161"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-07T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1673378558826.974120483252618992",
+        "CapMrktEstUSD": "1673341772621.544860945",
+        "volume_reported_spot_usd_1d": "10918096686.75"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-08T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1642430829482.575849940311512126",
+        "CapMrktEstUSD": "1642395429333.1247523372",
+        "volume_reported_spot_usd_1d": "12807477402.9359"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-09T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1659161206793.66616253241876504",
+        "CapMrktEstUSD": "1659129884611.540318608",
+        "volume_reported_spot_usd_1d": "6918874066.27531"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-10T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1666964471503.17476018654904825",
+        "CapMrktEstUSD": "1666929073139.688081789",
+        "volume_reported_spot_usd_1d": "2972705294.3627"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-11T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1680826403062.319404277897093112",
+        "CapMrktEstUSD": "1680789665759.453207508",
+        "volume_reported_spot_usd_1d": "3243317658.89928"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-12T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1644059066265.128388146827649852",
+        "CapMrktEstUSD": "1644020842888.4706834933",
+        "volume_reported_spot_usd_1d": "7380355812.54603"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-13T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1670956652810.138296609855613457",
+        "CapMrktEstUSD": "1670914947120.2825277454",
+        "volume_reported_spot_usd_1d": "8054997585.80632"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-14T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1637978914272.698421165460801824",
+        "CapMrktEstUSD": "1637938267045.9602647448",
+        "volume_reported_spot_usd_1d": "8834990809.86607"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-15T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1650433477107.354211230945745005",
+        "CapMrktEstUSD": "1650394307842.4116570905",
+        "volume_reported_spot_usd_1d": "10533904936.5842"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-16T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1638855102937.690629549837689473",
+        "CapMrktEstUSD": "1638823354178.5949770926",
+        "volume_reported_spot_usd_1d": "7666688361.53351"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-17T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1633476133897.59240039424000131",
+        "CapMrktEstUSD": "1633411728525.6640021582",
+        "volume_reported_spot_usd_1d": "3070068247.28348"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-18T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1646907492049.808256483357745575",
+        "CapMrktEstUSD": "1646802103231.4898850775",
+        "volume_reported_spot_usd_1d": "4949180946.91243"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-19T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1646605544346.664664334946390064",
+        "CapMrktEstUSD": "1646461010222.6313007888",
+        "volume_reported_spot_usd_1d": "7038700622.44854"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-20T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1666361189274.223062924121850832",
+        "CapMrktEstUSD": "1666172180097.6529344807",
+        "volume_reported_spot_usd_1d": "7852863332.23134"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-21T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1692073450804.501045692178776054",
+        "CapMrktEstUSD": "1691841809152.1567953782",
+        "volume_reported_spot_usd_1d": "9083947443.95399"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-22T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1633428150584.533829163651754528",
+        "CapMrktEstUSD": "1633172039039.4054988064",
+        "volume_reported_spot_usd_1d": "8999913347.98962"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-23T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1626781529395.321587219770071392",
+        "CapMrktEstUSD": "1626741664572.0502144224",
+        "volume_reported_spot_usd_1d": "6439702550.35447"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-24T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1622297877709.603069642301599076",
+        "CapMrktEstUSD": "1622256650951.0064039192",
+        "volume_reported_spot_usd_1d": "5485228233.4057"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-25T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1609060731593.711207205911582527",
+        "CapMrktEstUSD": "1609025805152.6288639198",
+        "volume_reported_spot_usd_1d": "3470735915.00948"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-26T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1607312569753.24706172378359952",
+        "CapMrktEstUSD": "1607266229343.7398000696",
+        "volume_reported_spot_usd_1d": "7830001385.12735"
+      },
+      {
+        "asset": "btc",
+        "time": "2026-10-27T00:00:00.000000000Z",
+        "CapMrktCurUSD": "1624452978878.587474040586825964",
+        "CapMrktEstUSD": "1624409640096.2948020936",
+        "volume_reported_spot_usd_1d": "6031143249.37731"
+      }
+    ]
+  },
+  {
+    "asset": "eth",
+    "url": "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=eth&metrics=CapMrktCurUSD%2CCapMrktEstUSD%2Cvolume_reported_spot_usd_1d&frequency=1d&start_time=2026-09-01&end_time=2026-10-27&page_size=1000",
+    "data": [
+      {
+        "asset": "eth",
+        "time": "2026-09-01T00:00:00.000000000Z",
+        "CapMrktCurUSD": "295054379523.9093167535611293065362687033",
+        "CapMrktEstUSD": "291848985900.881235078728637045",
+        "volume_reported_spot_usd_1d": "3986936691.9419"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-02T00:00:00.000000000Z",
+        "CapMrktCurUSD": "291157913828.75836766395553224545245976161",
+        "CapMrktEstUSD": "287987855958.877782685655191759",
+        "volume_reported_spot_usd_1d": "4305607410.94111"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-03T00:00:00.000000000Z",
+        "CapMrktCurUSD": "305541183092.5838897846774229645726238719",
+        "CapMrktEstUSD": "305540688513.945525945998334382",
+        "volume_reported_spot_usd_1d": "5457239294.98395"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-04T00:00:00.000000000Z",
+        "CapMrktCurUSD": "299481270862.32530608533430256389809056604",
+        "CapMrktEstUSD": "299480801194.178153653081506528",
+        "volume_reported_spot_usd_1d": "5173542323.74567"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-05T00:00:00.000000000Z",
+        "CapMrktCurUSD": "302745238997.1770197430749659630602103667",
+        "CapMrktEstUSD": "302744721059.64384434018291876",
+        "volume_reported_spot_usd_1d": "1868580095.63818"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-06T00:00:00.000000000Z",
+        "CapMrktCurUSD": "307011037642.9537845177159293143145014581",
+        "CapMrktEstUSD": "307010458837.472234174568223608",
+        "volume_reported_spot_usd_1d": "2928663151.73715"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-07T00:00:00.000000000Z",
+        "CapMrktCurUSD": "303643183499.90646110664919174431970790484",
+        "CapMrktEstUSD": "303642617361.809835571399781823",
+        "volume_reported_spot_usd_1d": "3199717365.39295"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-08T00:00:00.000000000Z",
+        "CapMrktCurUSD": "303206177934.4773827668216350404107756784",
+        "CapMrktEstUSD": "303205633818.955169619027073888",
+        "volume_reported_spot_usd_1d": "3826148048.27431"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-09T00:00:00.000000000Z",
+        "CapMrktCurUSD": "300770609102.44365870795483820302678720018",
+        "CapMrktEstUSD": "300770051044.557595267693331592",
+        "volume_reported_spot_usd_1d": "4163773462.64105"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-10T00:00:00.000000000Z",
+        "CapMrktCurUSD": "297801890784.77131199458676453992011375597",
+        "CapMrktEstUSD": "297801346096.881908458467226794",
+        "volume_reported_spot_usd_1d": "5527540243.98517"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-11T00:00:00.000000000Z",
+        "CapMrktCurUSD": "306686997160.21911383822050363321018983148",
+        "CapMrktEstUSD": "306686519566.377754421794975155",
+        "volume_reported_spot_usd_1d": "8910024988.69693"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-12T00:00:00.000000000Z",
+        "CapMrktCurUSD": "308114782233.91800287499329905240358837248",
+        "CapMrktEstUSD": "308114278769.047114226040918684",
+        "volume_reported_spot_usd_1d": "2784407751.58335"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-13T00:00:00.000000000Z",
+        "CapMrktCurUSD": "302112948927.53187240256287669754078512174",
+        "CapMrktEstUSD": "302112344600.450239015870878389",
+        "volume_reported_spot_usd_1d": "3153555778.96375"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-14T00:00:00.000000000Z",
+        "CapMrktCurUSD": "307407359150.7495395301049140426423002364",
+        "CapMrktEstUSD": "307406781541.83229276230728766",
+        "volume_reported_spot_usd_1d": "5659750774.81366"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-15T00:00:00.000000000Z",
+        "CapMrktCurUSD": "292997805954.20692614380977541825853737749",
+        "CapMrktEstUSD": "292997303046.716292977385305639",
+        "volume_reported_spot_usd_1d": "7147315404.92054"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-16T00:00:00.000000000Z",
+        "CapMrktCurUSD": "294594865368.1376319840192635981308601937",
+        "CapMrktEstUSD": "294594336843.61477012516456554",
+        "volume_reported_spot_usd_1d": "5491842738.2949"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-17T00:00:00.000000000Z",
+        "CapMrktCurUSD": "298574638636.26063452802455681150468586982",
+        "CapMrktEstUSD": "298574105073.779861034778363454",
+        "volume_reported_spot_usd_1d": "4186440147.8662"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-18T00:00:00.000000000Z",
+        "CapMrktCurUSD": "318880641071.40679656642826685072574979872",
+        "CapMrktEstUSD": "318880126538.51056347343434381",
+        "volume_reported_spot_usd_1d": "7914772683.26185"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-19T00:00:00.000000000Z",
+        "CapMrktCurUSD": "321371772786.15413604372186622258695005529",
+        "CapMrktEstUSD": "321371290277.282793599510539191",
+        "volume_reported_spot_usd_1d": "3228303078.77488"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-20T00:00:00.000000000Z",
+        "CapMrktCurUSD": "322450463022.90571397097149478547930867398",
+        "CapMrktEstUSD": "322449904942.353900058243528401",
+        "volume_reported_spot_usd_1d": "3555952957.83803"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-21T00:00:00.000000000Z",
+        "CapMrktCurUSD": "338584059356.63800954598432034353437171602",
+        "CapMrktEstUSD": "338583630460.635150789809312226",
+        "volume_reported_spot_usd_1d": "8802360573.32946"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-22T00:00:00.000000000Z",
+        "CapMrktCurUSD": "336290755312.94804696807507289505922376638",
+        "CapMrktEstUSD": "336290350948.522737953565496612",
+        "volume_reported_spot_usd_1d": "5014686578.48202"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-23T00:00:00.000000000Z",
+        "CapMrktCurUSD": "327626867030.51676655953702069693435225364",
+        "CapMrktEstUSD": "327626520734.175292897290685525",
+        "volume_reported_spot_usd_1d": "5426650626.67137"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-24T00:00:00.000000000Z",
+        "CapMrktCurUSD": "328276276611.34497689671678840222940846496",
+        "CapMrktEstUSD": "328276517730.595159292930091142",
+        "volume_reported_spot_usd_1d": "4313138428.40755"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-25T00:00:00.000000000Z",
+        "CapMrktCurUSD": "328626016429.1358714457903129925028111462",
+        "CapMrktEstUSD": "328626220087.198995611430468834",
+        "volume_reported_spot_usd_1d": "4048640864.39085"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-26T00:00:00.000000000Z",
+        "CapMrktCurUSD": "328919409834.0860159802928423093394639334",
+        "CapMrktEstUSD": "328918949678.87279338985332108",
+        "volume_reported_spot_usd_1d": "1410307880.11355"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-27T00:00:00.000000000Z",
+        "CapMrktCurUSD": "327812863343.4434110923909496716768",
+        "CapMrktEstUSD": "327812549642.79652374408",
+        "volume_reported_spot_usd_1d": "2395001131.14697"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-28T00:00:00.000000000Z",
+        "CapMrktCurUSD": "328290112075.40393821630769338585504260392",
+        "CapMrktEstUSD": "328290352114.032169393548804854",
+        "volume_reported_spot_usd_1d": "5300939278.36707"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-29T00:00:00.000000000Z",
+        "CapMrktCurUSD": "327028092514.96420532238794079649941250938",
+        "CapMrktEstUSD": "327028455997.059447807816409749",
+        "volume_reported_spot_usd_1d": "4976367587.52173"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-09-30T00:00:00.000000000Z",
+        "CapMrktCurUSD": "327942138754.35895759912460746864144393435",
+        "CapMrktEstUSD": "327941997099.672228937629534625",
+        "volume_reported_spot_usd_1d": "4282456772.14191"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-01T00:00:00.000000000Z",
+        "CapMrktCurUSD": "330091246500.49194649500263805556630734192",
+        "CapMrktEstUSD": "330090852519.256240528716345174",
+        "volume_reported_spot_usd_1d": "4358273798.04077"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-02T00:00:00.000000000Z",
+        "CapMrktCurUSD": "325753749127.82137077015275316472647186676",
+        "CapMrktEstUSD": "325753300819.746907606165404427",
+        "volume_reported_spot_usd_1d": "6360175602.43148"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-03T00:00:00.000000000Z",
+        "CapMrktCurUSD": "328098726773.24445384855945284054871534348",
+        "CapMrktEstUSD": "328097948136.65285932621424262",
+        "volume_reported_spot_usd_1d": "1353494854.87929"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-04T00:00:00.000000000Z",
+        "CapMrktCurUSD": "333115558070.3775354340936766951259920516",
+        "CapMrktEstUSD": "333114687786.469417997979232464",
+        "volume_reported_spot_usd_1d": "1755173970.02249"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-05T00:00:00.000000000Z",
+        "CapMrktCurUSD": "331271249327.083586666828002355618515014",
+        "CapMrktEstUSD": "331270589477.056711692594813225",
+        "volume_reported_spot_usd_1d": "3789103141.11372"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-06T00:00:00.000000000Z",
+        "CapMrktCurUSD": "329399037881.84705159217171402909599297832",
+        "CapMrktEstUSD": "329398645634.080835374341438466",
+        "volume_reported_spot_usd_1d": "3252433665.96628"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-07T00:00:00.000000000Z",
+        "CapMrktCurUSD": "314206860506.31481494060233178742040554092",
+        "CapMrktEstUSD": "314206618841.62071062391961164",
+        "volume_reported_spot_usd_1d": "6902564596.79306"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-08T00:00:00.000000000Z",
+        "CapMrktCurUSD": "302119878680.40895861809321696940911177968",
+        "CapMrktEstUSD": "302119875092.718973296244010157",
+        "volume_reported_spot_usd_1d": "6614562478.70439"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-09T00:00:00.000000000Z",
+        "CapMrktCurUSD": "303609873932.39758733678782141537730460527",
+        "CapMrktEstUSD": "303609637955.026778074973327898",
+        "volume_reported_spot_usd_1d": "2853982173.44261"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-10T00:00:00.000000000Z",
+        "CapMrktCurUSD": "305895647866.3591285009231714148476149048",
+        "CapMrktEstUSD": "305894940732.680554589982584934",
+        "volume_reported_spot_usd_1d": "1329350627.58761"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-11T00:00:00.000000000Z",
+        "CapMrktCurUSD": "309414534327.31341036873981758141019811325",
+        "CapMrktEstUSD": "309413756910.90525152300194556",
+        "volume_reported_spot_usd_1d": "2201285916.16143"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-12T00:00:00.000000000Z",
+        "CapMrktCurUSD": "299134838239.23374314998956551307552657376",
+        "CapMrktEstUSD": "299134117340.79116889184112004",
+        "volume_reported_spot_usd_1d": "4118975203.01463"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-13T00:00:00.000000000Z",
+        "CapMrktCurUSD": "304995914829.779910154415668787539523749",
+        "CapMrktEstUSD": "304995223257.12504678138098518",
+        "volume_reported_spot_usd_1d": "3525006348.92871"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-14T00:00:00.000000000Z",
+        "CapMrktCurUSD": "295155949134.59022358964687145870286736388",
+        "CapMrktEstUSD": "295155320595.765171947566429734",
+        "volume_reported_spot_usd_1d": "4131408204.12791"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-15T00:00:00.000000000Z",
+        "CapMrktCurUSD": "297916306489.44777682877869061912930707728",
+        "CapMrktEstUSD": "297915710545.82293259124487497",
+        "volume_reported_spot_usd_1d": "5292005777.93827"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-16T00:00:00.000000000Z",
+        "CapMrktCurUSD": "295582011137.11518760481101307251137948144",
+        "CapMrktEstUSD": "295581373161.854929252974185568",
+        "volume_reported_spot_usd_1d": "3371516144.31102"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-17T00:00:00.000000000Z",
+        "CapMrktCurUSD": "292517357661.9066542233360183833305856263",
+        "CapMrktEstUSD": "292516662086.31170902801440005",
+        "volume_reported_spot_usd_1d": "1606895779.61175"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-18T00:00:00.000000000Z",
+        "CapMrktCurUSD": "293533017371.62052709897988378121957917275",
+        "CapMrktEstUSD": "293532295445.250411212006453575",
+        "volume_reported_spot_usd_1d": "2250144834.11893"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-19T00:00:00.000000000Z",
+        "CapMrktCurUSD": "293847118164.53241374871107188135342271316",
+        "CapMrktEstUSD": "293846398654.442819397641589237",
+        "volume_reported_spot_usd_1d": "2559436131.9415"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-20T00:00:00.000000000Z",
+        "CapMrktCurUSD": "298811818843.3286616140729639526093846045",
+        "CapMrktEstUSD": "298811188425.70477346055513344",
+        "volume_reported_spot_usd_1d": "3423282470.15007"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-21T00:00:00.000000000Z",
+        "CapMrktCurUSD": "302151832690.3130104174386134930798968752",
+        "CapMrktEstUSD": "302151227564.61654141443483835",
+        "volume_reported_spot_usd_1d": "3780458383.10842"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-22T00:00:00.000000000Z",
+        "CapMrktCurUSD": "291050837063.21463233183667006696050073372",
+        "CapMrktEstUSD": "291038970508.767934610175949448",
+        "volume_reported_spot_usd_1d": "3588948663.91972"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-23T00:00:00.000000000Z",
+        "CapMrktCurUSD": "290521065472.33980606498547255942647534436",
+        "CapMrktEstUSD": "290510338784.569887240974821336",
+        "volume_reported_spot_usd_1d": "2830072783.30413"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-24T00:00:00.000000000Z",
+        "CapMrktCurUSD": "287319446750.4119245985141958892387333759",
+        "CapMrktEstUSD": "287307604747.41473461483055612",
+        "volume_reported_spot_usd_1d": "2561957835.39927"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-25T00:00:00.000000000Z",
+        "CapMrktCurUSD": "284127151736.14977614696710840998704987542",
+        "CapMrktEstUSD": "284115397213.930915659010550048",
+        "volume_reported_spot_usd_1d": "1747054213.06464"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-26T00:00:00.000000000Z",
+        "CapMrktCurUSD": "283010335328.65102434316854973311313334943",
+        "CapMrktEstUSD": "282998640558.418807808870718858",
+        "volume_reported_spot_usd_1d": "2911959900.24418"
+      },
+      {
+        "asset": "eth",
+        "time": "2026-10-27T00:00:00.000000000Z",
+        "CapMrktCurUSD": "286799814494.5912857728297079940156665108",
+        "CapMrktEstUSD": "286788167495.43493187789645841",
+        "volume_reported_spot_usd_1d": "2524748334.88317"
+      }
+    ]
+  },
+  {
+    "asset": "sol",
+    "url": "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=sol&metrics=CapMrktEstUSD%2Cvolume_reported_spot_usd_1d&frequency=1d&start_time=2026-09-01&end_time=2026-10-27&page_size=1000",
+    "data": [
+      {
+        "asset": "sol",
+        "time": "2026-09-01T00:00:00.000000000Z",
+        "CapMrktEstUSD": "58504064880.89280659312912544684",
+        "volume_reported_spot_usd_1d": "1363399615.0133"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-02T00:00:00.000000000Z",
+        "CapMrktEstUSD": "58547662914.3260908412790888295",
+        "volume_reported_spot_usd_1d": "1229811328.17697"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-03T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60864157141.1370504087871557672",
+        "volume_reported_spot_usd_1d": "1673650656.16938"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-04T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59659659525.690121466548627746",
+        "volume_reported_spot_usd_1d": "1350571918.48811"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-05T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60428940789.400642411498615444",
+        "volume_reported_spot_usd_1d": "835344485.201671"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-06T00:00:00.000000000Z",
+        "CapMrktEstUSD": "62346070746.3552876010122912856",
+        "volume_reported_spot_usd_1d": "1510579056.21393"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-07T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60770266991.9808672701177157804",
+        "volume_reported_spot_usd_1d": "1166540887.60749"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-08T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60591390338.7819339490535819618",
+        "volume_reported_spot_usd_1d": "1173783971.60877"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-09T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59556028561.765247349422631256",
+        "volume_reported_spot_usd_1d": "1239223683.1761"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-10T00:00:00.000000000Z",
+        "CapMrktEstUSD": "58003241792.99688396428966927496",
+        "volume_reported_spot_usd_1d": "1167969942.85399"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-11T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59995872712.5309275219273875328",
+        "volume_reported_spot_usd_1d": "1799934809.25314"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-12T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59695379213.316621582801753158",
+        "volume_reported_spot_usd_1d": "641696205.745523"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-13T00:00:00.000000000Z",
+        "CapMrktEstUSD": "58359189809.4404001691599142116",
+        "volume_reported_spot_usd_1d": "725404035.57035"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-14T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60225093589.9589361945672995832",
+        "volume_reported_spot_usd_1d": "1222684052.07853"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-15T00:00:00.000000000Z",
+        "CapMrktEstUSD": "56970810717.64364288409480207585",
+        "volume_reported_spot_usd_1d": "1480680470.68535"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-16T00:00:00.000000000Z",
+        "CapMrktEstUSD": "57801237258.99470086008819177714",
+        "volume_reported_spot_usd_1d": "1220361804.27665"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-17T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59602656633.5806795748109267414",
+        "volume_reported_spot_usd_1d": "1262050149.08739"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-18T00:00:00.000000000Z",
+        "CapMrktEstUSD": "66288693494.7952317120719848374",
+        "volume_reported_spot_usd_1d": "2565560174.95561"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-19T00:00:00.000000000Z",
+        "CapMrktEstUSD": "65174237534.5571542840682909388",
+        "volume_reported_spot_usd_1d": "1222760499.47104"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-20T00:00:00.000000000Z",
+        "CapMrktEstUSD": "65198685746.20162721200880147",
+        "volume_reported_spot_usd_1d": "1192798396.43535"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-21T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69794986504.1863695115785890745",
+        "volume_reported_spot_usd_1d": "2591815837.34806"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-22T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69637366900.171273171468012271",
+        "volume_reported_spot_usd_1d": "1801003382.27788"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-23T00:00:00.000000000Z",
+        "CapMrktEstUSD": "67507189767.2271103673605828902",
+        "volume_reported_spot_usd_1d": "1813112762.37501"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-24T00:00:00.000000000Z",
+        "CapMrktEstUSD": "68732018382.5781629381640145607",
+        "volume_reported_spot_usd_1d": "1530222630.40256"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-25T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71720745318.370499350895443287",
+        "volume_reported_spot_usd_1d": "2335519810.86176"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-26T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71357550596.3794450122876229248",
+        "volume_reported_spot_usd_1d": "945997857.228591"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-27T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71650795390.069133827881143973",
+        "volume_reported_spot_usd_1d": "1312897643.85392"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-28T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69800285426.3268749750988784988",
+        "volume_reported_spot_usd_1d": "1392590438.94158"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-29T00:00:00.000000000Z",
+        "CapMrktEstUSD": "70047360604.377224017934204976",
+        "volume_reported_spot_usd_1d": "1279475730.40718"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-09-30T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69412259355.4999857797858521009",
+        "volume_reported_spot_usd_1d": "1491391164.0576"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-01T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69582493765.335772554467704288",
+        "volume_reported_spot_usd_1d": "1107952531.92209"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-02T00:00:00.000000000Z",
+        "CapMrktEstUSD": "69734501601.3027585101351092026",
+        "volume_reported_spot_usd_1d": "1705320791.24648"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-03T00:00:00.000000000Z",
+        "CapMrktEstUSD": "70387818345.607238899247563081",
+        "volume_reported_spot_usd_1d": "470425856.568445"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-04T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71534083545.4474912692084950355",
+        "volume_reported_spot_usd_1d": "676195360.101006"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-05T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71039771942.8158229023442398924",
+        "volume_reported_spot_usd_1d": "883099252.10025"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-06T00:00:00.000000000Z",
+        "CapMrktEstUSD": "71027832123.851717235104748648",
+        "volume_reported_spot_usd_1d": "809063056.607907"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-07T00:00:00.000000000Z",
+        "CapMrktEstUSD": "68381295078.7065818491813935774",
+        "volume_reported_spot_usd_1d": "1094560330.62292"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-08T00:00:00.000000000Z",
+        "CapMrktEstUSD": "64758630089.412296012932823832",
+        "volume_reported_spot_usd_1d": "1768125696.60665"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-09T00:00:00.000000000Z",
+        "CapMrktEstUSD": "64246856453.96154200238727254",
+        "volume_reported_spot_usd_1d": "932908081.759481"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-10T00:00:00.000000000Z",
+        "CapMrktEstUSD": "64793611349.6908728130195931682",
+        "volume_reported_spot_usd_1d": "439753767.677309"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-11T00:00:00.000000000Z",
+        "CapMrktEstUSD": "65450441758.1115686043419777021",
+        "volume_reported_spot_usd_1d": "578755237.63397"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-12T00:00:00.000000000Z",
+        "CapMrktEstUSD": "62236784070.8749960508072772285",
+        "volume_reported_spot_usd_1d": "1141749027.15328"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-13T00:00:00.000000000Z",
+        "CapMrktEstUSD": "62870805769.4261237894271831625",
+        "volume_reported_spot_usd_1d": "1178000790.6114"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-14T00:00:00.000000000Z",
+        "CapMrktEstUSD": "61394512648.1371256421370216948",
+        "volume_reported_spot_usd_1d": "1002141190.89869"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-15T00:00:00.000000000Z",
+        "CapMrktEstUSD": "62036996185.130653687757720491",
+        "volume_reported_spot_usd_1d": "1285237957.03621"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-16T00:00:00.000000000Z",
+        "CapMrktEstUSD": "61429675581.0775796805574359216",
+        "volume_reported_spot_usd_1d": "859381139.004506"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-17T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60757040376.7355600570796125832",
+        "volume_reported_spot_usd_1d": "410499339.804403"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-18T00:00:00.000000000Z",
+        "CapMrktEstUSD": "61262129618.41507049775018402",
+        "volume_reported_spot_usd_1d": "634823057.653704"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-19T00:00:00.000000000Z",
+        "CapMrktEstUSD": "61893338419.8102389760429057385",
+        "volume_reported_spot_usd_1d": "746735704.006601"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-20T00:00:00.000000000Z",
+        "CapMrktEstUSD": "62722660583.9421302657753147313",
+        "volume_reported_spot_usd_1d": "860145465.701696"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-21T00:00:00.000000000Z",
+        "CapMrktEstUSD": "63020177203.8043452747466621866",
+        "volume_reported_spot_usd_1d": "813184354.528869"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-22T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60950106807.7278987322193824852",
+        "volume_reported_spot_usd_1d": "777830629.228259"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-23T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60476195257.9002026802934103857",
+        "volume_reported_spot_usd_1d": "670158093.663861"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-24T00:00:00.000000000Z",
+        "CapMrktEstUSD": "60193315738.6512716214289500976",
+        "volume_reported_spot_usd_1d": "729204736.019403"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-25T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59649640018.9274246363847670619",
+        "volume_reported_spot_usd_1d": "443993983.107308"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-26T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59335590969.514664189880449916",
+        "volume_reported_spot_usd_1d": "780442474.393196"
+      },
+      {
+        "asset": "sol",
+        "time": "2026-10-27T00:00:00.000000000Z",
+        "CapMrktEstUSD": "59696434717.395525740617979976",
+        "volume_reported_spot_usd_1d": "608591916.407597"
+      }
+    ]
+  }
+]

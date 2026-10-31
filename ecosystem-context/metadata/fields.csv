@@ -1,0 +1,261 @@
+table,field,description,missing_rows,missing_value
+solana/layer2/sol_usdt_binance_hourly.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,time_utc,Provider timestamp: hour start for market bars; observation time for pool liquidity.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,open_usdt,"Open spot price during the candle, in USDT per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,high_usdt,"High spot price during the candle, in USDT per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,low_usdt,"Low spot price during the candle, in USDT per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,close_usdt,"Close spot price during the candle, in USDT per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,volume_sol,SOL traded quantity during the SOL/USDT candle.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,volume_usdt,USDT quote quantity traded during the SOL/USDT candle.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,trade_count,Number of exchange trades during the candle.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/sol_usdt_binance_hourly.csv,archive_sha256,SHA-256 digest of the original downloaded source bytes.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/raydium_pool_liquidity_daily.csv,time_utc,Provider timestamp: hour start for market bars; observation time for pool liquidity.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/raydium_pool_liquidity_daily.csv,pool_address,Solana address of the Raydium pool.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/raydium_pool_liquidity_daily.csv,liquidity_usd,Raydium-reported liquidity in USD for the identified single pool.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,hour_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,hour_end_utc,Exclusive UTC end of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,population_blocks,Number of produced blocks in the provider-returned hourly sampling frame.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,sampled_blocks,"Number of sampled blocks in the hour, equal to 50.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,sampling_fraction,Sampled blocks divided by hourly frame size; block inclusion probability under uniform sampling.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,transaction_count_estimate,Hourly transaction count estimated total; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,transaction_count_standard_error,Hourly transaction count estimated standard error; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,transaction_count_ci95_low,"Hourly transaction count lower approximate 95% confidence bound, clipped at zero; see the stratified sampling formula in METHODS.md.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,transaction_count_ci95_high,Hourly transaction count upper approximate 95% confidence bound; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,successful_transaction_count_estimate,Hourly successful transaction count estimated total; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,successful_transaction_count_standard_error,Hourly successful transaction count estimated standard error; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,successful_transaction_count_ci95_low,"Hourly successful transaction count lower approximate 95% confidence bound, clipped at zero; see the stratified sampling formula in METHODS.md.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,successful_transaction_count_ci95_high,Hourly successful transaction count upper approximate 95% confidence bound; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,failed_transaction_count_estimate,Hourly failed transaction count estimated total; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,failed_transaction_count_standard_error,Hourly failed transaction count estimated standard error; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,failed_transaction_count_ci95_low,"Hourly failed transaction count lower approximate 95% confidence bound, clipped at zero; see the stratified sampling formula in METHODS.md.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,failed_transaction_count_ci95_high,Hourly failed transaction count upper approximate 95% confidence bound; see the stratified sampling formula in METHODS.md.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,tps_estimate,"Estimated hourly transaction total divided by 3,600 seconds.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,failed_transaction_share_estimate,"Estimated failed count divided by estimated total count, a fraction.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_counts_hourly.csv,sample_transaction_count,Sum of returned transaction counts across sampled blocks in the hour.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_hourly_sample_selection.csv,hour_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_hourly_sample_selection.csv,slot,Solana ledger slot identifying the sampled finalized block.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_hourly_sample_selection.csv,population_blocks,Number of produced blocks in the provider-returned hourly sampling frame.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_hourly_sample_selection.csv,sample_size,"Number of sampled blocks in the hour, equal to 50.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_hourly_sample_selection.csv,inclusion_probability,Sampled blocks divided by hourly frame size; block inclusion probability under uniform sampling.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,hour_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,slot,Solana ledger slot identifying the sampled finalized block.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,block_time_utc,Ledger blockTime converted to UTC.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,population_blocks,Number of produced blocks in the provider-returned hourly sampling frame.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,sample_size,"Number of sampled blocks in the hour, equal to 50.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,transaction_count,"Number of returned transactions in the sampled block, including votes and failures.",0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,successful_transaction_count,Number of sampled-block transactions with successful execution status.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,failed_transaction_count,Number of sampled-block transactions with an execution error.,0,Empty string represents unavailable or inapplicable data.
+solana/layer2/rpc_transaction_count_sample_blocks.csv,vote_program_reference_transaction_count,Number of transactions referencing the Vote program in account keys; a proxy for vote activity.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Fact ID,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Chain,Blockchain ecosystem associated with this record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Organization or protocol,"Organization, protocol or subject described by the publication.",0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Event type,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Fact status,Recorded status or type of the claim and its supporting evidence.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Independently written fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Report date,Publication date of the report or announcement.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Source organization,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Source URL,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Verification status,Recorded status or type of the claim and its supporting evidence.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Scope of fact,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Primary verification source,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+solana/layer3/news_facts.csv,Verification date (UTC),Time/date of collection or source review.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",25,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l2.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+solana/layer4/mechanism-facts-window-l3.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,interval_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,interval_end_utc,Exclusive UTC end of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,open_usdc,"Open spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,high_usdc,"High spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,low_usdc,"Low spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,close_usdc,"Close spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,trade_count,Number of exchange trades during the candle.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,taker_buy_volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,taker_buy_quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/binance_spot_daily.csv,archive_sha256,SHA-256 digest of the original downloaded source bytes.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,asset,"Asset identifier or name, preserving the provider convention.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,observation_time_utc,UTC time assigned to the provider observation.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,market_cap_current_usd,Coin Metrics current-supply capitalization in USD; SOL is blank in this snapshot.,57,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,market_cap_estimated_usd,Coin Metrics estimated-supply capitalization in USD.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,reported_spot_volume_usd_1d,Coin Metrics provider-reported daily per-asset spot volume in USD.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinmetrics_assets_daily.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_global.csv,generated_at_utc,UTC generation timestamp reported by CoinSpectrum.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_global.csv,archive_capture_utc,UTC timestamp of the Internet Archive capture.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_global.csv,total_market_cap_usd,Provider-reported capitalization in USD for the stated asset or global universe.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_global.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_global.csv,archive_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,generated_at_utc,UTC generation timestamp reported by CoinSpectrum.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,archive_capture_utc,UTC timestamp of the Internet Archive capture.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,asset,"Asset identifier or name, preserving the provider convention.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,symbol,Provider-reported asset ticker.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,price_usd,Provider-reported asset price in USD.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,market_cap_usd,Provider-reported capitalization in USD for the stated asset or global universe.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,circulating_supply,Provider-reported circulating amount in asset units.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,rank,Provider-reported market rank at the snapshot time.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/coinspectrum_assets.csv,archive_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,series,Provider series identifier.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,observation_date,Reference date; monthly series use the first day of the reference month.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,value,"Observed metric value, interpreted with unit and series/metric.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,unit,Unit of the observation.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,frequency,Temporal frequency of the series.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,publication_timestamp_utc,Actual historical publication timestamp when known; blank where unavailable.,224,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,revision_indicator,Provider-supplied revision indicator; blank if absent.,224,Empty string represents unavailable or inapplicable data.
+shared/layer5/macro_observations.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/treasury_10y.csv,observation_date,Reference date; monthly series use the first day of the reference month.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/treasury_10y.csv,series,Provider series identifier.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/treasury_10y.csv,value_percent,"Treasury 10-year interpolated par yield, in percent.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/treasury_10y.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,series,Provider series identifier.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,observation_date,Reference date; monthly series use the first day of the reference month.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,initial_value,Value transcribed from the consulted BLS archived release; archive revisions may be present.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,unit,Unit of the observation.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,release_embargo_end_local,Scheduled BLS release embargo end with America/New_York UTC offset.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,release_embargo_end_utc,Scheduled BLS embargo end converted to UTC.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/bls_initial_release.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,observation_time_utc,UTC time assigned to the provider observation.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,market_cap_usd,Provider-reported capitalization in USD for the stated asset or global universe.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,volume_24h_usd,CMC totalVolume24H: rolling 24-hour global trading volume in USD.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,volume_24h_reported_usd,CMC totalVolume24HReported: separately reported 24-hour global volume in USD.,0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,btc_dominance_percent,"CMC BTC or ETH share of global market capitalization, in percent.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,eth_dominance_percent,"CMC BTC or ETH share of global market capitalization, in percent.",0,Empty string represents unavailable or inapplicable data.
+shared/layer5/crypto_global.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,interval_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,interval_end_utc,Exclusive UTC end of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,open_usdc,"Open spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,high_usdc,"High spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,low_usdc,"Low spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,close_usdc,"Close spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,trade_count,Number of exchange trades during the candle.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,taker_buy_volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,taker_buy_quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/eth_usdc_binance_hourly.csv,archive_sha256,SHA-256 digest of the original downloaded source bytes.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,chain,Blockchain ecosystem associated with this record.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,chain_id,Numeric EVM chain identifier; Base is 8453.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,date_utc,UTC calendar date of the provider daily aggregate.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,metric,Research label for the provider-defined network aggregate.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,value,"Observed metric value, interpreted with unit and series/metric.",0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,unit,Unit of the observation.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,source_metric,Provider metric identifier or field used for the aggregate.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,source_updated_at_utc,Provider-reported update timestamp for the downloaded dataset.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,retrieved_at_utc,Time/date of collection or source review.,0,Empty string represents unavailable or inapplicable data.
+base/layer2/chain_metrics.csv,source_sha256,SHA-256 digest of the original downloaded source bytes.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,publication_date,Publication date of the report or announcement.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,publisher,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,subject,"Organization, protocol or subject described by the publication.",0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,event_time_or_period,"Reported event time, scheduled time or statistical period.",0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,primary_source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,report_source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,published_at_utc,Publication timestamp when established by the source; blank where unknown.,9,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,date_basis,How the associated date was established and what it denotes.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,evidence_status,Recorded status or type of the claim and its supporting evidence.,0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,verification_note,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+base/layer3/news_facts.csv,observed_at_utc,Time/date of collection or source review.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/mechanism-facts.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,repository,Source code/documentation repository.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,commit,Pinned Git commit identifier for the cited source version.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,documented_at_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,change_title,Title of the selected source commit or documented change.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,date_kind,How the associated date was established and what it denotes.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,onchain_effective_at_utc,Verified on-chain activation time when available; blank where unknown.,28,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,onchain_effective_status,Recorded evidence status for deployment timing or historical coverage.,0,Empty string represents unavailable or inapplicable data.
+base/layer4/version_timeline.csv,coverage,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,interval_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,interval_end_utc,Exclusive UTC end of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,open_usdc,"Open spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,high_usdc,"High spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,low_usdc,"Low spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,close_usdc,"Close spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,trade_count,Number of exchange trades during the candle.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,taker_buy_volume_base_asset,Base-asset traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,taker_buy_quote_volume_usdc,USDC traded quantity during the candle; taker_buy fields select taker-buy trades.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_binance_hourly.csv,archive_sha256,SHA-256 digest of the original downloaded source bytes.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,interval_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,available_at_utc,Candle-end time when the return and volatility become observable.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,close_usdc,"Close spot price during the candle, in USDC per base-asset unit.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,log_return_1h,Natural log of current close divided by preceding hourly close; dimensionless.,1,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,rolling_24h_return_std,Sample standard deviation of 24 consecutive hourly log returns; unannualized.,24,Empty string represents unavailable or inapplicable data.
+bsc/layer2/bnb_usdc_price_metrics_hourly.csv,return_observations,"Number of returns contributing to volatility: 24 when available, otherwise 0.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,publication_date,Publication date of the report or announcement.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,publisher,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,subject,"Organization, protocol or subject described by the publication.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,event_time_or_period,"Reported event time, scheduled time or statistical period.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,primary_source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,report_source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,published_at_utc,Publication timestamp when established by the source; blank where unknown.,5,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,date_basis,How the associated date was established and what it denotes.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,evidence_status,Recorded status or type of the claim and its supporting evidence.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,verification_note,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,observed_at_utc,Time/date of collection or source review.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer3/news_facts.csv,inclusion_decision,Recorded inclusion decision; released rows use confirmed_inclusion.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,fact_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,topic,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,statement,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,source_id,Identifier of the cited source in the original research collection.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,evidence_type,Recorded status or type of the claim and its supporting evidence.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,target_window_start_utc,Inclusive start of the target research window.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,target_window_end_exclusive_utc,Exclusive end of the target research window.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,target_window_applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,deployment_time_utc,Verified on-chain activation time when available; blank where unknown.,22,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,remaining,"Authored supporting detail, review result or applicable qualification.",5,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,version_scope,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,source_section,Section or line locator within the cited source.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,source_commit,Pinned Git commit identifier for the cited source version.,14,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,inclusion_decision,Recorded inclusion decision; released rows use confirmed_inclusion.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_mechanisms.csv,decision_basis,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,source_id,Identifier of the cited source in the original research collection.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,date,"Source date, interpreted using date_meaning.",0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,date_meaning,How the associated date was established and what it denotes.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,record,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,source_url,Source or archive locator used for the record; preserve the complete URL or cited locator.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,deployment_verified,Recorded evidence status for deployment timing or historical coverage.,0,Empty string represents unavailable or inapplicable data.
+bsc/layer4/four_meme_timeline.csv,complete_history,Recorded evidence status for deployment timing or historical coverage.,0,Empty string represents unavailable or inapplicable data.

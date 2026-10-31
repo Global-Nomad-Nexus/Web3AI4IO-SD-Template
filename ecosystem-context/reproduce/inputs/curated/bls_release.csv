@@ -1,0 +1,19 @@
+series,observation_date,initial_value,unit,release_embargo_end_local,source_url
+CUUR0000SA0,2026-01-01,325.252,index 1982-1984=100,2026-02-13T08:30:00-05:00,https://www.bls.gov/news.release/archives/cpi_02132026.htm
+CUUR0000SA0,2026-02-01,326.785,index 1982-1984=100,2026-03-11T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_03112026.htm
+CUUR0000SA0,2026-03-01,330.213,index 1982-1984=100,2026-04-10T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_04102026.htm
+CUUR0000SA0,2026-04-01,333.020,index 1982-1984=100,2026-05-12T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_05122026.htm
+CUUR0000SA0,2026-05-01,335.123,index 1982-1984=100,2026-06-10T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_06102026.htm
+CUUR0000SA0,2026-06-01,333.952,index 1982-1984=100,2026-07-14T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_07142026.htm
+CUUR0000SA0,2026-07-01,333.918,index 1982-1984=100,2026-08-12T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_08122026.htm
+CUUR0000SA0,2026-08-01,334.980,index 1982-1984=100,2026-09-11T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_09112026.htm
+CUUR0000SA0,2026-09-01,336.940,index 1982-1984=100,2026-10-14T08:30:00-04:00,https://www.bls.gov/news.release/archives/cpi_10142026.htm
+LNS14000000,2026-01-01,4.3,percent,2026-02-11T08:30:00-05:00,https://www.bls.gov/news.release/archives/empsit_02112026.htm
+LNS14000000,2026-02-01,4.4,percent,2026-03-06T08:30:00-05:00,https://www.bls.gov/news.release/archives/empsit_03062026.htm
+LNS14000000,2026-03-01,4.3,percent,2026-04-03T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_04032026.htm
+LNS14000000,2026-04-01,4.3,percent,2026-05-08T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_05082026.htm
+LNS14000000,2026-05-01,4.3,percent,2026-06-05T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_06052026.htm
+LNS14000000,2026-06-01,4.2,percent,2026-07-02T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_07022026.htm
+LNS14000000,2026-07-01,4.1,percent,2026-08-07T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_08072026.htm
+LNS14000000,2026-08-01,4.1,percent,2026-09-04T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_09042026.htm
+LNS14000000,2026-09-01,4.2,percent,2026-10-02T08:30:00-04:00,https://www.bls.gov/news.release/archives/empsit_10022026.htm
