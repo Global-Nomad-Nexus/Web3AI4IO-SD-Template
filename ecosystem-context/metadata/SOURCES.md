@@ -27,3 +27,14 @@ no liability for your use.
 This module's code follows the parent repository's MIT software licence, supplied
 in `reproduce/LICENSE`. Data retain the source-specific conditions above and in the
 inventory.
+
+The second-level Binance candles and calculations retain CC BY-NC-SA 4.0
+and the [Binance Vision terms](https://data.binance.vision/Binance_Vision-Terms_of_Use.pdf).
+Transformations include timestamp conversion, consolidation, returns and
+rolling volatility calculations. Credit Binance Vision and these transformations.
+
+The [AWS dataset registry](https://registry.opendata.aws/aws-public-blockchain/)
+names SonarX as the Base maintainer and BNB Chain as the BNB maintainer. Its
+license link points to an AWS software repository license. The review on
+4 November 2026 did not establish provider-specific data redistribution terms.
+The three affected local tables and their provider projections are not included.

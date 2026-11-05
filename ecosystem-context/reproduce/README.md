@@ -4,7 +4,7 @@ Use Python 3.11 or newer with the standard library and an IANA time-zone databas
 containing `America/New_York`. Linux and macOS normally provide this database;
 on systems without it, install the Python `tzdata` package before running.
 
-From the `ecosystem-context/` directory after extracting both companion archives:
+From the `ecosystem-context/` directory, rebuild the 27 CSV tables:
 
 ```sh
 python3 reproduce/code/reproduce.py --data data --output /tmp/ecosystem-context-rebuilt
@@ -32,5 +32,24 @@ or repeating the original sampling-frame construction is a separate acquisition 
 
 [Acquisition guide](ACQUISITION.md) describes the original source routes and the
 conditions for acquiring another snapshot. [Methods](../metadata/METHODS.md) define
-the calculations used here. The full module occupies under 10 MB and needs only a
-small fraction of a typical desktop's memory.
+the calculations used here. The CSV workflow uses the standard library.
+
+## Second-level market tables
+
+Use Python 3.12 with the pinned packages. From the module directory:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/pip install -r reproduce/requirements-second.txt
+.venv/bin/python reproduce/code/release_second_reproduce.py --data data --output /tmp/ecosystem-second-rebuilt
+```
+
+The command verifies 132 frozen input files (66 ZIPs and their checksums),
+rebuilds all three Parquet tables and requires byte-identical output. It checks
+all 1,584 hourly aggregate controls and NumPy rolling-statistic controls across
+daily boundaries. Expected result: `status=Verified`, `tables=3`,
+`inputs_verified=132`. The JSON receipt is `verification-second.json`.
+Reconstruction makes no network requests; installing packages requires access
+to a package index. Processing is bounded to one day in memory, with a 2 GiB
+process guard and a 1 GiB available-memory floor. Allow about 400 MB of scratch
+disk plus the installed environment.

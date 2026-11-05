@@ -43,3 +43,15 @@ and should be treated as views of the historical master.
 
 [Methods](../metadata/METHODS.md) describe calculations and factual curation.
 [File manifest](../metadata/manifest.json) records row counts, columns and hashes.
+
+## Second-level exchange data
+
+The three `*_market_second.parquet` files contain 2,073,600 SOL/USDT rows and
+1,814,400 rows each for ETH/USDC and BNB/USDC, at one row per second. These are
+exchange-market context series. Prices retain USDT or USDC quote units.
+
+Load a file with `pandas.read_parquet(path)`. Timestamps are UTC. `has_trade`
+identifies seconds with an execution; quiet seconds retain the source close.
+`available_at_utc` labels candle completion. It does not record archive publication.
+The first return and first 86,400 volatility rows are null. Field definitions
+and null counts are included in `metadata/fields.csv`.

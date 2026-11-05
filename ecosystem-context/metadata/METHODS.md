@@ -69,3 +69,14 @@ The BLS archived-release table is manually transcribed; the code converts its st
 08:30 New York embargo ends to UTC using the relevant daylight-saving rule.
 Archived releases may contain later corrections, so the retained values describe
 the consulted archive version. Unknown actual publication timestamps remain empty.
+
+## Second-level market calculations
+
+Binance Vision one-second candles are checked against their provider SHA-256
+files. Simple returns are `close[t]/close[t-1]-1`; log returns are the natural
+logarithm of that ratio. `rolling_24h_return_std` uses the sample standard
+deviation (`ddof=1`) of 86,400 consecutive log returns.
+`realized_volatility_24h` is the square root of their sum of squares. Both
+are dimensionless and unannualized, and include source closes without trades.
+There is no pre-window imputation. Initial missing values and the distinction
+between candle end and archive availability are retained.
