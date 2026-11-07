@@ -1,0 +1,704 @@
+{
+  "pool": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+  "rows": 1814400,
+  "output_bytes": 38381864,
+  "output_sha256": "a73ed21a64ef95db24c31830748a7a173607b9ba4ddd7de773b7b38814a6c9d2",
+  "days": [
+    {
+      "date": "2026-10-01",
+      "sync_events": 2268,
+      "swap_events": 2263,
+      "closing_block": 52054926,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31a4b8e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d6f9a7060fea280f40000000000000000000000000000000000000000000000000000009bb8374339000000000000000000000000000000000000000000000000000000006abef2cd"
+        }
+      },
+      "http_bytes": 2318860148,
+      "raw_reserve0_end": "247849536604738846964",
+      "raw_reserve1_end": "668810560313",
+      "swap_volume_usdc": 34615.7779,
+      "events_sha256": "6ba0f4a43f9f939292205f618a134b8c99767eb084c12caca04932cfedccae6c",
+      "two_token_trade_events": 2259,
+      "other_swap_events": 4
+    },
+    {
+      "date": "2026-10-02",
+      "sync_events": 1923,
+      "swap_events": 1920,
+      "closing_block": 52098126,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31af44e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d82bc2e395a2dcf970000000000000000000000000000000000000000000000000000009ae0682bbf000000000000000000000000000000000000000000000000000000006ac041f1"
+        }
+      },
+      "http_bytes": 1921171810,
+      "raw_reserve0_end": "249228128302637371287",
+      "raw_reserve1_end": "665189886911",
+      "swap_volume_usdc": 64584.960045,
+      "events_sha256": "2d6f6bbdf2e50b444da3efbe720cf76e7c5491def4eaf61d51611e32118ff3d6",
+      "two_token_trade_events": 1920,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-03",
+      "sync_events": 1020,
+      "swap_events": 1020,
+      "closing_block": 52141326,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31b9d0e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d75714a30aeb68ac80000000000000000000000000000000000000000000000000000009b7ae41c20000000000000000000000000000000000000000000000000000000006ac19659"
+        }
+      },
+      "http_bytes": 1606302702,
+      "raw_reserve0_end": "248270299705980127944",
+      "raw_reserve1_end": "667781700640",
+      "swap_volume_usdc": 8481.030521,
+      "events_sha256": "36aff4a2f59484e81605bbbeef59962da2b0734065e77acf818b286afde33abb",
+      "two_token_trade_events": 1020,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-04",
+      "sync_events": 1423,
+      "swap_events": 1417,
+      "closing_block": 52184526,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31c45ce"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d59b0508f4c955be70000000000000000000000000000000000000000000000000000009c94257006000000000000000000000000000000000000000000000000000000006ac2e74f"
+        }
+      },
+      "http_bytes": 1599960132,
+      "raw_reserve0_end": "246270426999896234983",
+      "raw_reserve1_end": "672500379654",
+      "swap_volume_usdc": 21543.039811,
+      "events_sha256": "86c2a3f55b8fb86a8b4562dbd9554150629393dfd19f101d512cb3016ff685ec",
+      "two_token_trade_events": 1417,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-05",
+      "sync_events": 2101,
+      "swap_events": 2101,
+      "closing_block": 52227726,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31cee8e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d64be2f61546e721a0000000000000000000000000000000000000000000000000000009c22c08001000000000000000000000000000000000000000000000000000000006ac439d9"
+        }
+      },
+      "http_bytes": 1717670824,
+      "raw_reserve0_end": "247066964702666846746",
+      "raw_reserve1_end": "670597939201",
+      "swap_volume_usdc": 88306.32678700001,
+      "events_sha256": "58f5c7b30b279f2a0e09e849734765f905b91f672d30b7446261d4fca2922150",
+      "two_token_trade_events": 2101,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-06",
+      "sync_events": 1634,
+      "swap_events": 1633,
+      "closing_block": 52270926,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31d974e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000d6d10c133462576a90000000000000000000000000000000000000000000000000000009bcc2b5635000000000000000000000000000000000000000000000000000000006ac58b49"
+        }
+      },
+      "http_bytes": 1830119994,
+      "raw_reserve0_end": "247666666733950039721",
+      "raw_reserve1_end": "669145323061",
+      "swap_volume_usdc": 57253.658474,
+      "events_sha256": "528b041d4bd0574aa1284f9b3c8277ee24ac02d26832de59d683148248fb9d58",
+      "two_token_trade_events": 1633,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-07",
+      "sync_events": 2700,
+      "swap_events": 2697,
+      "closing_block": 52314126,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31e400e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000dc20f0c0906ec9d3d00000000000000000000000000000000000000000000000000000098165f98f0000000000000000000000000000000000000000000000000000000006ac6dcfd"
+        }
+      },
+      "http_bytes": 1741202187,
+      "raw_reserve0_end": "253791081559143259453",
+      "raw_reserve1_end": "653210392816",
+      "swap_volume_usdc": 119742.175576,
+      "events_sha256": "4e62954e11f8c149405265ce791a8d3b51d56d2cc7fd7438bcb331feb902e6dc",
+      "two_token_trade_events": 2697,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-08",
+      "sync_events": 3226,
+      "swap_events": 3225,
+      "closing_block": 52357326,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31ee8ce"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009b526037d399f798e0000000000000000000000000000000000000000000000000000006752933c73000000000000000000000000000000000000000000000000000000006ac82d35"
+        }
+      },
+      "http_bytes": 1849742157,
+      "raw_reserve0_end": "179073821069738473870",
+      "raw_reserve1_end": "443767012467",
+      "swap_volume_usdc": 127145.72243299999,
+      "events_sha256": "512a04d3cf2e6a68b873c51574ab6022b499a6392116e44c727b366293b95b81",
+      "two_token_trade_events": 3225,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-09",
+      "sync_events": 1974,
+      "swap_events": 1969,
+      "closing_block": 52400526,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x31f918e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009af3bf34074b42ec700000000000000000000000000000000000000000000000000000067911b7ed2000000000000000000000000000000000000000000000000000000006ac97f77"
+        }
+      },
+      "http_bytes": 1611390500,
+      "raw_reserve0_end": "178647650101810704071",
+      "raw_reserve1_end": "444816129746",
+      "swap_volume_usdc": 29808.838185,
+      "events_sha256": "9aba5fc9e634e3770ac5940c77bcdc2ae30b578fe8074cdd7573ded91c1538f0",
+      "two_token_trade_events": 1969,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-10",
+      "sync_events": 1808,
+      "swap_events": 1807,
+      "closing_block": 52443726,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x3203a4e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009a5266a8f4b6ab52f00000000000000000000000000000000000000000000000000000067fb62bc3a000000000000000000000000000000000000000000000000000000006acad145"
+        }
+      },
+      "http_bytes": 1381569328,
+      "raw_reserve0_end": "177921012892437230895",
+      "raw_reserve1_end": "446599183418",
+      "swap_volume_usdc": 20944.125114000002,
+      "events_sha256": "71a668dbd08093e555cc1963cdcd77941e55b9f141f57a51259fe0dcbf719222",
+      "two_token_trade_events": 1807,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-11",
+      "sync_events": 1750,
+      "swap_events": 1749,
+      "closing_block": 52486926,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x320e30e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000997df02a73a63095e00000000000000000000000000000000000000000000000000000068930adeeb000000000000000000000000000000000000000000000000000000006acc218b"
+        }
+      },
+      "http_bytes": 1469651672,
+      "raw_reserve0_end": "176964165200181922142",
+      "raw_reserve1_end": "449143561963",
+      "swap_volume_usdc": 42950.34385,
+      "events_sha256": "de74e98c2dbdcc374c2fae14a75be3bf8057a372e42010318ea0653490d8dcd0",
+      "two_token_trade_events": 1748,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-12",
+      "sync_events": 2085,
+      "swap_events": 2073,
+      "closing_block": 52530126,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x3218bce"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009c43020da829c8a2100000000000000000000000000000000000000000000000000000066be731474000000000000000000000000000000000000000000000000000000006acd7479"
+        }
+      },
+      "http_bytes": 1670584938,
+      "raw_reserve0_end": "180157532016568207905",
+      "raw_reserve1_end": "441281877108",
+      "swap_volume_usdc": 39511.394096,
+      "events_sha256": "057c3cb985ca974a08ff526b4211b8266bf06d59d77927078571183e2bd670a5",
+      "two_token_trade_events": 2072,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-13",
+      "sync_events": 2664,
+      "swap_events": 2657,
+      "closing_block": 52573326,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x322348e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009a979d8e47e2a882e00000000000000000000000000000000000000000000000000000067dcf623df000000000000000000000000000000000000000000000000000000006acec569"
+        }
+      },
+      "http_bytes": 1788889906,
+      "raw_reserve0_end": "178232727003858634798",
+      "raw_reserve1_end": "446088750047",
+      "swap_volume_usdc": 39282.742988,
+      "events_sha256": "108b04410b6f78d71ae5d2906a85e8a7d945ea68e99908644d7d09ac085167b4",
+      "two_token_trade_events": 2655,
+      "other_swap_events": 2
+    },
+    {
+      "date": "2026-10-14",
+      "sync_events": 2315,
+      "swap_events": 2315,
+      "closing_block": 52616526,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x322dd4e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009d7653f068ad1cb270000000000000000000000000000000000000000000000000000006600d9e095000000000000000000000000000000000000000000000000000000006ad015a9"
+        }
+      },
+      "http_bytes": 1771889656,
+      "raw_reserve0_end": "181541577651519605543",
+      "raw_reserve1_end": "438100942997",
+      "swap_volume_usdc": 47918.552734,
+      "events_sha256": "0d6bec560291a054267a31e595b2c5268b21b510096aa9ce34ae584d0b27ac08",
+      "two_token_trade_events": 2313,
+      "other_swap_events": 2
+    },
+    {
+      "date": "2026-10-15",
+      "sync_events": 3057,
+      "swap_events": 3048,
+      "closing_block": 52659726,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x323860e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009ba732f36be32f97d000000000000000000000000000000000000000000000000000000662281eb48000000000000000000000000000000000000000000000000000000006ad16881"
+        }
+      },
+      "http_bytes": 1773287683,
+      "raw_reserve0_end": "179455830688928037245",
+      "raw_reserve1_end": "438665603912",
+      "swap_volume_usdc": 63503.658685,
+      "events_sha256": "c4a93859424d42467ad58782ef03a7638f6728e35f3f5c35ba5b42bac559bd56",
+      "two_token_trade_events": 3047,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-16",
+      "sync_events": 3021,
+      "swap_events": 3018,
+      "closing_block": 52702926,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x3242ece"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009c3d8eb8af1d9b0b100000000000000000000000000000000000000000000000000000065c7ef77c8000000000000000000000000000000000000000000000000000000006ad2ba67"
+        }
+      },
+      "http_bytes": 1671277851,
+      "raw_reserve0_end": "180132985077747003569",
+      "raw_reserve1_end": "437146056648",
+      "swap_volume_usdc": 50862.206559,
+      "events_sha256": "53ea8d3303308b303050fc56286e7428fd6489c3f2eae49b6f760bf1f425e2bb",
+      "two_token_trade_events": 3017,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-17",
+      "sync_events": 2291,
+      "swap_events": 2285,
+      "closing_block": 52746126,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x324d78e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009d6d6e8f2a65f2ea2000000000000000000000000000000000000000000000000000000652a8e9d1b000000000000000000000000000000000000000000000000000000006ad40bbb"
+        }
+      },
+      "http_bytes": 1343416156,
+      "raw_reserve0_end": "181501513561389608610",
+      "raw_reserve1_end": "434505686299",
+      "swap_volume_usdc": 21883.314647,
+      "events_sha256": "6bf93a8a1619702eaaebf6a8059b8ad7d822f07a520bf49681c5a9fd766b8ee8",
+      "two_token_trade_events": 2284,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-18",
+      "sync_events": 2716,
+      "swap_events": 2714,
+      "closing_block": 52789326,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x325804e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009d199b8844b5eb98f0000000000000000000000000000000000000000000000000000006567c8f7af000000000000000000000000000000000000000000000000000000006ad55d67"
+        }
+      },
+      "http_bytes": 1492141689,
+      "raw_reserve0_end": "181124002367089326479",
+      "raw_reserve1_end": "435532920751",
+      "swap_volume_usdc": 40391.537383999996,
+      "events_sha256": "ed31904a92be6f726718c4a628338a0a14ed0f336d41612e98a8de89f37a145b",
+      "two_token_trade_events": 2713,
+      "other_swap_events": 1
+    },
+    {
+      "date": "2026-10-19",
+      "sync_events": 2315,
+      "swap_events": 2311,
+      "closing_block": 52832526,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x326290e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009cf0513f8e9fd6aba000000000000000000000000000000000000000000000000000000657673f7ca000000000000000000000000000000000000000000000000000000006ad6aeef"
+        }
+      },
+      "http_bytes": 1624903406,
+      "raw_reserve0_end": "180938047963919116986",
+      "raw_reserve1_end": "435779008458",
+      "swap_volume_usdc": 34640.618872,
+      "events_sha256": "89108f5265be72eaede743efbc562a6cf66799f01226ea380576d2f56270f650",
+      "two_token_trade_events": 2311,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-20",
+      "sync_events": 2724,
+      "swap_events": 2723,
+      "closing_block": 52875726,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x326d1ce"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000009b864949160845fcd000000000000000000000000000000000000000000000000000000666728ccea000000000000000000000000000000000000000000000000000000006ad7ff1f"
+        }
+      },
+      "http_bytes": 1719699731,
+      "raw_reserve0_end": "179307604816146227149",
+      "raw_reserve1_end": "439817391338",
+      "swap_volume_usdc": 53088.311153,
+      "events_sha256": "bff5750e871d4e610cf1661ab4a6e2a0854cc5480c70806284f2d9a7e9432f0a",
+      "two_token_trade_events": 2723,
+      "other_swap_events": 0
+    },
+    {
+      "date": "2026-10-21",
+      "sync_events": 3398,
+      "swap_events": 3392,
+      "closing_block": 52918926,
+      "closing_reserves_match_rpc": true,
+      "rpc": {
+        "request": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "eth_call",
+          "params": [
+            {
+              "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+              "data": "0x0902f1ac"
+            },
+            "0x3277a8e"
+          ]
+        },
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000001221181bf9985a1ea6000000000000000000000000000000000000000000000000000000c01e09914a000000000000000000000000000000000000000000000000000000006ad951f3"
+        }
+      },
+      "http_bytes": 1904533442,
+      "raw_reserve0_end": "334426080088281456294",
+      "raw_reserve1_end": "825137664330",
+      "swap_volume_usdc": 39095.319573999994,
+      "events_sha256": "103b49e4ae889ca2d2023a4a46dd40cebaed82857f75347923712dffdaa4572d",
+      "two_token_trade_events": 3392,
+      "other_swap_events": 0
+    }
+  ],
+  "opening_evidence": "aws-pool-opening-probe.json",
+  "source_scope": "AWS full target-day log listings plus Base historical getReserves boundary checks",
+  "publication": "local research only; AWS dataset reuse unresolved; Binance derivatives retain CC BY-NC-SA conditions"
+}

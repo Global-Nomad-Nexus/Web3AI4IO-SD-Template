@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-06",
+  "sync_events": 1634,
+  "swap_events": 1633,
+  "closing_block": 52270926,
+  "closing_reserves_match_rpc": true,
+  "rpc": {
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+          "data": "0x0902f1ac"
+        },
+        "0x31d974e"
+      ]
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": "0x00000000000000000000000000000000000000000000000d6d10c133462576a90000000000000000000000000000000000000000000000000000009bcc2b5635000000000000000000000000000000000000000000000000000000006ac58b49"
+    }
+  },
+  "http_bytes": 1830119994,
+  "raw_reserve0_end": "247666666733950039721",
+  "raw_reserve1_end": "669145323061",
+  "swap_volume_usdc": 57253.658474,
+  "events_sha256": "528b041d4bd0574aa1284f9b3c8277ee24ac02d26832de59d683148248fb9d58",
+  "two_token_trade_events": 1633,
+  "other_swap_events": 0
+}

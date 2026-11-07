@@ -310,3 +310,48 @@ bsc/layer2/bnb_usdc_market_second.parquet,log_return_1s,ln(close[t] / close[t-1]
 bsc/layer2/bnb_usdc_market_second.parquet,rolling_24h_return_std,"Sample standard deviation (ddof=1) of 86400 second log returns; dimensionless, unannualized; first 86400 rows null.",86400,Parquet null; no zero imputation for incomplete return/volatility windows.
 bsc/layer2/bnb_usdc_market_second.parquet,realized_volatility_24h,"Square root of the sum of 86400 squared second log returns; dimensionless, unannualized; first 86400 rows null.",86400,Parquet null; no zero imputation for incomplete return/volatility windows.
 bsc/layer2/bnb_usdc_market_second.parquet,return_observations_24h,"86400 for a complete rolling window, otherwise zero.",0,Parquet null; no zero imputation for incomplete return/volatility windows.
+base/layer2/aws_network_second.parquet,interval_start_utc,UTC start of the one-second bin; transactions are assigned to the integer second of their block timestamp.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,block_count,Blocks with a timestamp in this second.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,transaction_count,"Transactions in those blocks, including system and failed transactions.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,gas_used,Sum of block-header gas used.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,gas_limit,Sum of block-header gas limits.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,block_size_bytes,Sum of block sizes in bytes.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,header_blob_gas_used_raw,"Raw header field as supplied. OP Stack repurposes it as a data-availability footprint after Jovian, so it is not called blob gas here.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,gas_utilization,gas_used divided by gas_limit in this second; null when the second has no block.,907200,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,coverage_complete,True when the second lies inside contiguous verified block coverage.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,failed_transaction_count,Transactions whose receipt reports failure.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,successful_transaction_count,transaction_count minus failed_transaction_count.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,positive_effective_gas_price_count,Transactions with effectiveGasPrice above zero.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,l1_fee_missing_receipt_count,Receipts with no reported L1 fee.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,execution_fees_wei,"Sum of receipt gasUsed times effectiveGasPrice in integer wei, including failed transactions.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,l1_fees_reported_wei,Sum of reported receipt L1 fees in integer wei.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,execution_plus_reported_l1_fees_wei,"Subtotal of the two named fee components. Operator fees are not supplied, so this is not an all-component total.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/aws_network_second.parquet,failed_execution_fees_wei,Execution fees paid by failed transactions in integer wei.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,interval_start_utc,UTC start of the one-second interval.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,interval_end_utc,End-exclusive second used for state and price alignment; not a block finality or archive availability time.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,reserve_weth,WETH reserve recorded at second end.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,reserve_usdc,USDC reserve recorded at second end.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,eth_price_usdc,"Binance ETH/USDC one-second close, used as a WETH price proxy. Binance conditions apply.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,liquidity_usdc,"reserve_weth times eth_price_usdc plus reserve_usdc, in USDC units. Binance conditions apply.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_count,All Swap events in this second.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_volume_weth,Gross WETH in and out across all Swap events.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_volume_usdc,Gross USDC in and out across all Swap events.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_input_fee_weth,Calculated 0.3% charge on WETH inputs across all Swap events.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_input_fee_usdc,Calculated 0.3% charge on USDC inputs across all Swap events.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,swap_input_fee_value_usdc,WETH and USDC input charges valued in USDC. Binance conditions apply.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,has_reserve_update,True if a Sync event updated reserves in this second.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,two_token_trade_count,Swap events with exactly one input token and the other as output.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,other_swap_count,"swap_count minus two_token_trade_count, including same-asset patterns.",0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,two_token_trade_volume_weth,WETH amount across two-token trades.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,two_token_trade_volume_usdc,USDC amount across two-token trades.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,reserve0_raw,Token0 (WETH) reserve in raw 18-decimal integer units.,0,Parquet null; no zero imputation for undefined values.
+base/layer2/uniswap_v2_weth_usdc_pool_second.parquet,reserve1_raw,Token1 (USDC) reserve in raw 6-decimal integer units.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,interval_start_utc,UTC start of the one-second bin; transactions are assigned to the integer second of their block timestamp.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,block_count,Blocks with a timestamp in this second.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,transaction_count,"Transactions in those blocks, including system and failed transactions.",0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,gas_used,Sum of block-header gas used.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,gas_limit,Sum of block-header gas limits.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,block_size_bytes,Sum of block sizes in bytes.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,blob_gas_used,Sum of block-header blob gas used.,0,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,gas_utilization,gas_used divided by gas_limit in this second; null when the second has no block.,433,Parquet null; no zero imputation for undefined values.
+bsc/layer2/aws_network_second.parquet,coverage_complete,True when the second lies inside contiguous verified block coverage.,0,Parquet null; no zero imputation for undefined values.

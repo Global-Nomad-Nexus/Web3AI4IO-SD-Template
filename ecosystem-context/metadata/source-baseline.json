@@ -1,7 +1,7 @@
 {
   "upstream_repository": "Global-Nomad-Nexus/Web3AI4IO-SD-Template",
   "upstream_branch": "shilin_v2",
-  "upstream_commit": "379fa57b7a29d1a69693ab3b8d17f3943933acb8",
+  "upstream_commit": "17bd1270aad5dfffe24ed7393e8aa177b57b1ce2",
   "sources": {
     "ecosystem/solana/solana-data-v1.csv": "707bf8431f3ec69ef942978790f3680a4d0953a2e661b0f0998cc484d6e03a27",
     "ecosystem/solana/solana-data-v1.xlsx": "dab9029a1dad79487baa87b26918421acc43f02dd248c63672f851ca8fb424fe",
@@ -533,7 +533,7 @@
     "ecosystem/code/build_release.py": "20803cc37d78c7dae75f30461c7f4bfb180bdeef314c2417a234e54b5b3c7c72",
     "ecosystem/code/release_docs.py": "5580a24ae0899aa14a5a8e419e7390b5fac6b4d4ff2e7dc0371c5e7205e075cf"
   },
-  "baseline_module_checksum_sha256": "66dd7540751ec9defe481bc50c19b41a2ec967fca521e0cbf81f15fbee676a96",
+  "baseline_module_checksum_sha256": "9686ecd8c16acef8c05396e6c303f12a85ece133dfeebd45d26fc636afd84713",
   "second_level_sources": {
     "ecosystem/evidence/layer2-second-level-results.json": "08fefa49303505f9ed0e0a6d3eddfe902c0064aa7cdc92f15482f0504808312d",
     "ecosystem/solana/solana-data-v1.csv": "33790d6e016ae5269f425e782df7a0d2c73553ee52279b4bbf4a7cf5426ac90e",
@@ -684,5 +684,18 @@
     "ecosystem/code/release_second_reproduce.py": "deee1fc776a6310b8dd5e0fc911cfc900be4fa02c472fedcc1e1d1f6ce0544d7",
     "ecosystem/code/second-level-requirements.txt": "930b14fd78e554babd69cf8fb934fd98a57b963f10a9702c657f92c4736a6681",
     "ecosystem/code/extend_release_second.py": "9d3608d555e9846c3d55067b2f04b555d7ff5c3e80f8c188941b45a087f6230d"
+  },
+  "aws_second_level_sources": {
+    "ecosystem/evidence/layer2-second-level-results.json": "08fefa49303505f9ed0e0a6d3eddfe902c0064aa7cdc92f15482f0504808312d",
+    "ecosystem/base/layer2/output/aws_network_second.parquet": "d6d6e2505b6794d464c4ab025bca7e01475c3f61c67ceef0ac91cd2c31a5ba9e",
+    "ecosystem/base/base-data-v1.csv": "d29d21c757ecc189f61b82e993af8f4694b58cdcc9e633965ffbce9766062005",
+    "ecosystem/base/layer2/output/uniswap_v2_weth_usdc_pool_second.parquet": "a73ed21a64ef95db24c31830748a7a173607b9ba4ddd7de773b7b38814a6c9d2",
+    "ecosystem/BSC/layer2/output/aws_network_second.parquet": "fd58acbbad915847836ad3b9478442f5edca4a83e6c66bc07d3e0c3d951e070a",
+    "ecosystem/BSC/bsc-data-v1.csv": "ac76babd775009edd589db326d9829a41f77b2c4a0674d37c9427e3a37fc5e93",
+    "ecosystem/code/build_aws_network_second.py": "41223fc49b80017f39db3766232281cf23ae7ff0e8adecf16bf40f2b30b5e227",
+    "ecosystem/code/build_aws_base_pool.py": "f6f37832452f22afedc359ee3d26f9b26bf4634e64a3adfc674f10925d9c21ca",
+    "ecosystem/code/validate_second_level.py": "04749318f699a4837b700403dca9d64d66d679c6d86c046db7194b57966d52ff",
+    "ecosystem/code/validate_second_pool.py": "ce173cee167788aa1335a7ddb7210ea801ce2dbc65de9981057cd5741cbb00cc",
+    "ecosystem/code/extend_release_aws.py": "c8e7713668048658ebcca24a8f20dd61303fe6833cb9369b046733cc6bae232a"
   }
 }

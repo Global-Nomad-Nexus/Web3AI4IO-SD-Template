@@ -1,0 +1,86 @@
+{
+  "source": {
+    "key": "v1.1/bnb/blocks/date=2026-10-03/blocks.parquet",
+    "size": 240704713,
+    "etag": "\"ee78658397b16b0fcc623e49fb6b5832-4\""
+  },
+  "columns": [
+    "number",
+    "timestamp",
+    "hash",
+    "parent_hash",
+    "transaction_count",
+    "gas_used",
+    "gas_limit",
+    "size",
+    "base_fee_per_gas",
+    "blob_gas_used"
+  ],
+  "source_rows": 191944,
+  "source_schema": "number: int64\nhash: string\nparent_hash: string\nnonce: string\nsha3_uncles: string\nlogs_bloom: string\ntransactions_root: string\nstate_root: string\nreceipts_root: string\nminer: string\ndifficulty: string\ntotal_difficulty: string\nsize: int64\nextra_data: string\ngas_limit: int64\ngas_used: int64\ntimestamp: int64\ntransaction_count: int32\nbase_fee_per_gas: int64\nwithdrawals_root: string\nwithdrawals: string\nblob_gas_used: int64\nexcess_blob_gas: int64",
+  "http_bytes": 29437567,
+  "requested_ranges": [
+    [
+      240639177,
+      65536,
+      "efff0ffef80deb9134ea08daafda1c50b6077225af4cd5951425214f572752f5"
+    ],
+    [
+      4,
+      5384274,
+      "377daa5d5448d1fa71d3d678eb08d916bce0ec8637f7c12f5d7993b2f7dfc359"
+    ],
+    [
+      49960350,
+      5885212,
+      "d6c4bab6cb7bbf8195e97a5b9086665f6dc4725fe70541bcbe585ce3d383fda4"
+    ],
+    [
+      33300878,
+      230387,
+      "ca490eabefd25910031cdc01cf9a2a496f6135463df261cb82f09aabe496be62"
+    ],
+    [
+      100367732,
+      5883282,
+      "d2baea233367d2444c61703559deb70999977af1bdefb87bc2ad1cbb81d97804"
+    ],
+    [
+      83739649,
+      221119,
+      "3ace40097dfd4126546c6eaff43d2ff3805e97e72650b7b3628e47a1acc880e7"
+    ],
+    [
+      150846676,
+      5897645,
+      "bf431e213a2b13e77bbae3d700fffe94675e7e32ec65e3c70bfbe265802407e8"
+    ],
+    [
+      200882901,
+      4854914,
+      "5d2978e78c1cc5b8ce995275cb8dac5b754f7be21199d0e62d56226130486d30"
+    ],
+    [
+      134184762,
+      231421,
+      "f8ab9edbdeb875c8806fb18bb3313dc08c45d78ac20a789f121876292a3458f6"
+    ],
+    [
+      184222472,
+      221939,
+      "790aa003e9b69b9f3b5f26ecd49e0b57cd3428cca827917ea57c87bf514ef3a9"
+    ],
+    [
+      240271388,
+      389752,
+      "ec3d97f7d1904954f20db90c11120a253740fd3ccbd71606dbf0c67b5058d4f6"
+    ],
+    [
+      226795574,
+      172086,
+      "f41adfef282ffc2fb26bf784adebdf1303079f92fe3d3c9d6aeb3dddee0da41c"
+    ]
+  ],
+  "sha256": "ca9d3ca0267472389b9af4a528dba37df0aa6e8edb6bdf67ed74575886318b08",
+  "bytes": 16073678
+}

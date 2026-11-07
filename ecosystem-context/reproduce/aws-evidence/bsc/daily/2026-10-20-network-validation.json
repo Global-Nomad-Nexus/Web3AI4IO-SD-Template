@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-20",
+  "chain": "BSC",
+  "status": "Verified within AWS census; RPC checks separate",
+  "first_height": 128646423,
+  "last_height": 128838304,
+  "first_hash": "0x37451dfb6827cf598eecc1f4049e1bed014b452cd0808cbf4e915151eb6d97ca",
+  "first_parent_hash": "0x9f2965caa7a298e6b52e0b2f31d199122c8f5cd1d113dfb39f7f2710c6d64b96",
+  "last_hash": "0x1bc186e84155bfcc0360700f39855dc8bcfdcfaf5c3a9bcf0f0bcf2dd8e738a6",
+  "first_timestamp": 1792454400,
+  "last_timestamp": 1792540799,
+  "blocks": 191882,
+  "transactions": 16582833,
+  "gas_used": 3033211365386,
+  "seconds_with_blocks": 86374,
+  "rows": 86400,
+  "output_sha256": "89b1b053d9701f1465400787ce94de7a00ff0c346e0bb571b7e1115346379e8e",
+  "output_bytes": 2470675,
+  "http_bytes": 29362352,
+  "selected_bytes": 16044869,
+  "source_files": [
+    {
+      "source": {
+        "key": "v1.1/bnb/blocks/date=2026-10-20/blocks.parquet",
+        "size": 241096899,
+        "etag": "\"e50afdf78f0337c55b3b911e8ad3acb1-4\""
+      },
+      "columns": [
+        "number",
+        "timestamp",
+        "hash",
+        "parent_hash",
+        "transaction_count",
+        "gas_used",
+        "gas_limit",
+        "size",
+        "base_fee_per_gas",
+        "blob_gas_used"
+      ],
+      "source_rows": 191882,
+      "source_schema": "number: int64\nhash: string\nparent_hash: string\nnonce: string\nsha3_uncles: string\nlogs_bloom: string\ntransactions_root: string\nstate_root: string\nreceipts_root: string\nminer: string\ndifficulty: string\ntotal_difficulty: string\nsize: int64\nextra_data: string\ngas_limit: int64\ngas_used: int64\ntimestamp: int64\ntransaction_count: int32\nbase_fee_per_gas: int64\nwithdrawals_root: string\nwithdrawals: string\nblob_gas_used: int64\nexcess_blob_gas: int64",
+      "http_bytes": 29362352,
+      "requested_ranges": [
+        [
+          241031363,
+          65536,
+          "b9360536ec563dcb95e77a42cb33216b2e15b4fd88bc97bf4b0fe9c777454c03"
+        ],
+        [
+          4,
+          5386375,
+          "73d9d86853b099c84a4e4a09deef8f137957993db2c46eb28c20248ef311ea7f"
+        ],
+        [
+          49976976,
+          5882149,
+          "79b723a21f5f125e1bb4bcf862e5adc00408f086629e286f2e1d802337a073d6"
+        ],
+        [
+          33329718,
+          208892,
+          "b133754cd8819d09e74b0cdb19eaa5f1c6ea942883855626dbb624d3b11e80c1"
+        ],
+        [
+          100566202,
+          5880062,
+          "1aaabe40efc12889dc53ab085d1458444b5ad9818f63f54b5f28a3a28585aa3d"
+        ],
+        [
+          83854830,
+          212184,
+          "3fe2a33c116228707ea2b95ebc99de39899eee19cdbab315b9f9bd93ee040adc"
+        ],
+        [
+          151142281,
+          5888676,
+          "372f3662975e110a223c05229617593c75ece2bb2abd26d2771474f97d14541e"
+        ],
+        [
+          201194492,
+          4848980,
+          "cfaabc5cb69443e92e8c35ab73d8c07e58f044b46eb94439dcccf9a3c1fe51b8"
+        ],
+        [
+          134445317,
+          215234,
+          "043119b286d3b9c99c97ee90667c84d70fea0b87dae95f976913e98c6486a45b"
+        ],
+        [
+          184503766,
+          219091,
+          "8fbc955283dd369c3d9c053124091db90f20ccf2e59ee31b6d677451a9a4f3da"
+        ],
+        [
+          240671588,
+          389049,
+          "3496e0c24584d0449f2e97fcb70c2e292edc6fea34973cf50403b4fe4ca41e85"
+        ],
+        [
+          227231045,
+          166124,
+          "14ab4ce6011630d4b5650912733ae9c7d63e65a826f8577c3ee6c78cecca1596"
+        ]
+      ],
+      "sha256": "197fba6bf34045444dfaf218932808409cef4b16204f02d558d3f4b6c1ab21f4",
+      "bytes": 16044869
+    }
+  ],
+  "rss_at_day_completion_bytes": 563904512
+}

@@ -1,0 +1,25 @@
+{
+  "status": "Verified",
+  "date": "2026-11-07",
+  "scope": "Offline recomputation from retained AWS projections in an isolated copy, Python 3.12 with pinned requirements-second packages, followed by the independent pool check. Online RPC checks are the separate saved independent validations.",
+  "results": [
+    {
+      "table": "base/layer2/output/aws_network_second.parquet",
+      "recomputed_sha256": "d6d6e2505b6794d464c4ab025bca7e01475c3f61c67ceef0ac91cd2c31a5ba9e",
+      "released_sha256": "d6d6e2505b6794d464c4ab025bca7e01475c3f61c67ceef0ac91cd2c31a5ba9e",
+      "identical": true
+    },
+    {
+      "table": "BSC/layer2/output/aws_network_second.parquet",
+      "recomputed_sha256": "fd58acbbad915847836ad3b9478442f5edca4a83e6c66bc07d3e0c3d951e070a",
+      "released_sha256": "fd58acbbad915847836ad3b9478442f5edca4a83e6c66bc07d3e0c3d951e070a",
+      "identical": true
+    },
+    {
+      "table": "base/layer2/output/uniswap_v2_weth_usdc_pool_second.parquet",
+      "recomputed_sha256": "a73ed21a64ef95db24c31830748a7a173607b9ba4ddd7de773b7b38814a6c9d2",
+      "released_sha256": "a73ed21a64ef95db24c31830748a7a173607b9ba4ddd7de773b7b38814a6c9d2",
+      "identical": true
+    }
+  ]
+}

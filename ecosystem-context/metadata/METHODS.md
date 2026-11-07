@@ -80,3 +80,17 @@ deviation (`ddof=1`) of 86,400 consecutive log returns.
 are dimensionless and unannualized, and include source closes without trades.
 There is no pre-window imputation. Initial missing values and the distinction
 between candle end and archive availability are retained.
+
+## AWS-derived second-level calculations
+
+Transactions are assigned to the integer second of their block timestamp. Blocks are checked
+for contiguous heights and parent-hash linkage across all 21 dates. Base receipt positions
+are exhaustive, and each block's receipt gas sum equals its header. Base execution fees are
+`gasUsed * effectiveGasPrice`, including failed transactions. Operator fees are not in the
+AWS receipt schema, so only named components and their subtotal appear. BSC transaction `gas`
+is a limit rather than gas consumed, so no BSC fee is derived.
+
+Pool reserves replay Sync events in block and log order from a historical opening state, and
+21 daily closing states are checked. `liquidity_usdc` multiplies the WETH reserve by the
+Binance ETH/USDC close, using ETH as a WETH price proxy, and adds the USDC reserve.
+Input fees apply the canonical 0.3% Uniswap V2 charge to every Swap event input.

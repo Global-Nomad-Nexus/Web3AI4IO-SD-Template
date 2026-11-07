@@ -55,3 +55,16 @@ identifies seconds with an execution; quiet seconds retain the source close.
 `available_at_utc` labels candle completion. It does not record archive publication.
 The first return and first 86,400 volatility rows are null. Field definitions
 and null counts are included in `metadata/fields.csv`.
+
+## Second-level AWS-derived data
+
+`base/layer2/aws_network_second.parquet` and `bsc/layer2/aws_network_second.parquet`
+hold 1,814,400 rows each, one per second from 1 October 2026 up to 22 October 2026 UTC.
+The Base table covers 907,200 blocks and 171,136,289 transactions. The BSC table covers
+4,029,478 blocks and 336,224,798 transactions. Base produces a block about every two
+seconds, so zero seconds are normal; a one-second bin gives no arrival time inside a block.
+
+`base/layer2/uniswap_v2_weth_usdc_pool_second.parquet` holds 1,814,400 rows for pool
+`0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c`. It covers this one pool, so it is not chain
+TVL, DEX volume or application revenue. USDC values are not USD values, and input fees are
+not protocol income. Fee fields are integer wei stored as `decimal128`.

@@ -1,0 +1,4793 @@
+{
+  "date": "2026-10-19",
+  "pool": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+  "source_files": [
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_0_0.snappy.parquet",
+        "size": 95372766,
+        "etag": "\"c6b3bf9c9fd37b845602e4067a813e0f-2\""
+      },
+      "rows_scanned": 466376,
+      "matched_row_groups": 1,
+      "pool_events": 48,
+      "http_bytes": 19588749,
+      "requested_ranges": [
+        [
+          95307230,
+          65536,
+          "bcde2e7236835057537170c093e7efcd038d4d79d2b562578f5aaf14fcdbed37"
+        ],
+        [
+          34921925,
+          1336004,
+          "0081151a31f89f1210114dd5b0943933fa227a292e6dd9819528e80becc348b5"
+        ],
+        [
+          4,
+          1562126,
+          "af48ad6f83090d13b6fa210f5f35bf9c275525d882afc5e2b5b6ba2a71634c09"
+        ],
+        [
+          30972207,
+          1308183,
+          "6aaa7cf5a60749f3efa414550ce71d3b53deb14ad01524c37944372f296a24c8"
+        ],
+        [
+          78300132,
+          723708,
+          "b0b6fc82509b03fb02e4f3ad0bb26c82ec57fd08bf1f82c9ed3933821f941669"
+        ],
+        [
+          36257929,
+          14593192,
+          "ae2bc6135ae444a6c58cf6a474093e950dc61074511723e0512a28acffdc32a6"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_0_1.snappy.parquet",
+        "size": 97397421,
+        "etag": "\"2ca540974b38f6f7582d3b8069497e9e-2\""
+      },
+      "rows_scanned": 480002,
+      "matched_row_groups": 2,
+      "pool_events": 54,
+      "http_bytes": 20406950,
+      "requested_ranges": [
+        [
+          97331885,
+          65536,
+          "d5edf8e79de79f5bc42dec4783878ae5188acf95e506eefd01f0c8cbc47b01b7"
+        ],
+        [
+          30457669,
+          1254679,
+          "5b72ec095c061640134e83e6b627cc43db3b1986765c1ac0f0c9c322819fd744"
+        ],
+        [
+          4,
+          1368205,
+          "ea526cb750ae1d3ac723e32a9cab794b194eb3cc0782c34b7a928116cf17ac73"
+        ],
+        [
+          26908650,
+          1140599,
+          "6f31dc6c68de78ba7b3218cee98f0124b1be687deaa0f63ae3d58cfb2a4b6c6c"
+        ],
+        [
+          68555466,
+          654151,
+          "e181bc4e00327c02f226af3bfe7e35b50f7d0a85e8ba3c10a3f463e086ea7df4"
+        ],
+        [
+          31712348,
+          12680942,
+          "1c1ebff16307b5acdc90e53eb323f1e114d9d0325fac766107ffd94efd33e675"
+        ],
+        [
+          88999909,
+          285973,
+          "e65c6468b597029a41074b53024a83bf870c2cdb9d864de05c8d6f40d2fdc6a3"
+        ],
+        [
+          83702651,
+          194731,
+          "57b4c50d15c8695b8e516099e8f02a0417a405f110b9575b503edcd65ff8d651"
+        ],
+        [
+          88257860,
+          210136,
+          "777dbbc96cb553e573749608ce135e1045a144b40ec38942c6ae85dd06abdd0a"
+        ],
+        [
+          95859697,
+          175453,
+          "ce241d77e928d6955c58858c9bb43a773166c76adc81c2070682ca2199f5964d"
+        ],
+        [
+          89285882,
+          2376545,
+          "9265848f332ea3ac234d038a8a80f48d4c88217ff59581e0e4eb47c5db404ed5"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_2_0.snappy.parquet",
+        "size": 102217288,
+        "etag": "\"0088f91e26d56dfc59e72fc123ee3f56-2\""
+      },
+      "rows_scanned": 509454,
+      "matched_row_groups": 2,
+      "pool_events": 67,
+      "http_bytes": 21717975,
+      "requested_ranges": [
+        [
+          102151752,
+          65536,
+          "bc07efb6e72edd63cee349732dc2ce855b1c4e3a1654c024e5bfb675cabf1c4c"
+        ],
+        [
+          32868304,
+          1266853,
+          "1b6a59dbee605a4adac0f943654b33b56655ca1378d47b0caf261d981a26693a"
+        ],
+        [
+          4,
+          1459728,
+          "78198a19de37b5507df0121bbe5d1b960e8b3efe69556a3091b59bdf0a747e90"
+        ],
+        [
+          29089373,
+          1275138,
+          "79eec930d00fd88dc16267d64a131005571be6a91a4f6ece3bb3faba496a5076"
+        ],
+        [
+          73485505,
+          691738,
+          "c8724ab31a664e7339e02dba37c59563b368a000078fdc0b0e5d139d77f3ff72"
+        ],
+        [
+          34135157,
+          13870882,
+          "7107e3a5a77ff5922e9e714b7c15e89bb250dc7055d31707cc2d2a9f5f1cc707"
+        ],
+        [
+          93893251,
+          265510,
+          "891a7170c12300ddc6d8fd3c7c0a313f57b8121264a9c5109bff74ba740ed0a6"
+        ],
+        [
+          89042550,
+          192457,
+          "acaaf5f913869125b440395ffe402e5f0263555bd35d25749f9efc66478734ed"
+        ],
+        [
+          93180936,
+          213424,
+          "afd464a95216df5b0f0a35d7af94b3fe8242abb58d285a769cf4da17fe78ab91"
+        ],
+        [
+          100522797,
+          162785,
+          "1eeb6514ab45a7b3f94e20516a3be5a6dced06c6d0dcac0f319c48d0b2345c36"
+        ],
+        [
+          94158761,
+          2253924,
+          "cdea2efca8bee4898a7d7113eae6f32b66bf63a74c57b93d7ab03046078b0b6f"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_2_1.snappy.parquet",
+        "size": 105028777,
+        "etag": "\"25c8a3dd4face5b41df6c751f4788282-2\""
+      },
+      "rows_scanned": 523443,
+      "matched_row_groups": 2,
+      "pool_events": 47,
+      "http_bytes": 21640567,
+      "requested_ranges": [
+        [
+          104963241,
+          65536,
+          "09e5e4fa01207b312e97013592e248cee55a68ae0b754487da6fa337f6dafa95"
+        ],
+        [
+          33285199,
+          1307998,
+          "bbe9b8e619c97f08d3f8d71dc6a4707ca98e563a5700daec4a20f41981c95de4"
+        ],
+        [
+          4,
+          1396648,
+          "e6a9db07e5406c514c8eb6a4dfe0c369efd9ba9dd6c7d3e5b3ced4d4f785b9a9"
+        ],
+        [
+          29449039,
+          1270687,
+          "35fa554992eedda776453f106882bd666a5c23697516ede77dc8e996443324e8"
+        ],
+        [
+          75062620,
+          693604,
+          "83e875b4eb3f54898ba2daf94f666762c8137d9364dc0774970005298af62e50"
+        ],
+        [
+          34593197,
+          13919599,
+          "93f6623e68ae4da23b048bec1bb930b193c50508a51d5fe514364b7579874d79"
+        ],
+        [
+          96742153,
+          250381,
+          "fcc07abdaa42de979769fc64f93877db1af81275fdc22e75ffaa2d4f88dfbf51"
+        ],
+        [
+          91781429,
+          204883,
+          "fa45d10252a448462ade0e14186b5f078cf21ade30de3d1a2f0b354a99f4c878"
+        ],
+        [
+          95995736,
+          212302,
+          "1ea46bf655509f8379e2f4b44955f21eb50009b95aa6b8f0d2bb07b46ad201c9"
+        ],
+        [
+          103305596,
+          170836,
+          "af878d1b4700a3f10d6c3045be87d82e4126a80ab826b861027a88f1d2294b07"
+        ],
+        [
+          96992534,
+          2148093,
+          "106ca3fdb122c580eb7de992aefb1ee3ee5db570670cc31735f1eb4fb3c2415d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_4_0.snappy.parquet",
+        "size": 95037882,
+        "etag": "\"a8c3db239b0ab9452d0132ece7af250c-2\""
+      },
+      "rows_scanned": 465500,
+      "matched_row_groups": 1,
+      "pool_events": 57,
+      "http_bytes": 19335911,
+      "requested_ranges": [
+        [
+          94972346,
+          65536,
+          "449effda3f6ef5145d476f79e4c2cd03cf22415ddaf61eedbd8c5e933a4bf2e9"
+        ],
+        [
+          34750028,
+          1337688,
+          "26150a05ae3c54497655ab5127a172df9a7f15bfd0b1518684b3deedae97da94"
+        ],
+        [
+          4,
+          1554306,
+          "eba0c0663502b0858151b6ac9a4588b8440245dc2cc65d745044c807fa255994"
+        ],
+        [
+          30845309,
+          1305238,
+          "6cc73ac55231f57f0aff9fc60d07b6bb895e2e7d8674b57b73ca3daeccb7bc54"
+        ],
+        [
+          77831837,
+          715409,
+          "13584c3b1df6dd389c99bef8258abe8eff60d84c2e381d50379016151f455238"
+        ],
+        [
+          36087716,
+          14357734,
+          "b92b84198bbbfc9058a3035e9fbe3051080f477d41d2d862fd9a668ae437a960"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_4_1.snappy.parquet",
+        "size": 93481387,
+        "etag": "\"29a7417884de5f21e516c2e5e885b3fa-2\""
+      },
+      "rows_scanned": 454784,
+      "matched_row_groups": 1,
+      "pool_events": 54,
+      "http_bytes": 19604147,
+      "requested_ranges": [
+        [
+          93415851,
+          65536,
+          "f4c8b330c6c126762761b3b78181553d5abd859219d509ec44d88cc00bfb6a05"
+        ],
+        [
+          33429313,
+          1319090,
+          "b2a04fcbb53010aae85fc65cc0a1c1b6000faec8f5843de23de7f30bcaa52a6a"
+        ],
+        [
+          4,
+          1523964,
+          "d398e7e37f5e0af884f3b1c1f444d709cf70d92d55a64a9f1d8c20cd318a1e2a"
+        ],
+        [
+          29588915,
+          1272247,
+          "e580ed90c475b8da34a8b3f71873f2bef39dc930291772310e8bc4b06e5810e9"
+        ],
+        [
+          76618477,
+          713239,
+          "f2ca1ba4b34e4d3c8c036eede8e8dee0b9c791b8a9764ccf4bff0346ede10cf5"
+        ],
+        [
+          34748403,
+          14710071,
+          "ed9eee2244993def1b663cd28ece629083c108a11db75ac7cf47e33428b0acc8"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_6_0.snappy.parquet",
+        "size": 103763612,
+        "etag": "\"97f79cdaa7747704bc17c51e6da5f739-2\""
+      },
+      "rows_scanned": 514177,
+      "matched_row_groups": 2,
+      "pool_events": 78,
+      "http_bytes": 22375951,
+      "requested_ranges": [
+        [
+          103698076,
+          65536,
+          "1856ad03959cea9ec0b48e5f61329400b5a0e5185c25a8ee92a801b8b06cc0bc"
+        ],
+        [
+          32685304,
+          1305576,
+          "f4a85ef8c948643d2ea5ff9fa0f9a3080e1d34b475bb979c59ca888b9bc2c7a1"
+        ],
+        [
+          4,
+          1477348,
+          "558cf33ae05a1c0d5f4f61fb1f24d8a1ad140c0dfb9b670a948a6e603439c20b"
+        ],
+        [
+          28931227,
+          1292787,
+          "eec5bb266401d28fbfe812d0f5d6f3f2880385d9f5138c2960710aa906e614b0"
+        ],
+        [
+          74486544,
+          688340,
+          "7fc319798b90f8b0a143590315bd9388ecc66580a4b2f41c501c0961de6145d3"
+        ],
+        [
+          33990880,
+          14350978,
+          "64012fb99efdc2f97cfe6fad17a379489f94a793a95855d3c87e238570354f99"
+        ],
+        [
+          95550377,
+          262395,
+          "8e55268cdb5a01a016f666dfde4ff6cbd1418712857edca19dda560f42adc9dd"
+        ],
+        [
+          90624777,
+          193482,
+          "c8ba13dd1c2d9d639d681cf6b0fdd8322296fb95e1da63fdb7b3fbc317642514"
+        ],
+        [
+          94771873,
+          207732,
+          "218e0c998cc870c808e27b9ea759482d9b3814f9186a1bc9f734c3a0aeec87a7"
+        ],
+        [
+          102261488,
+          166158,
+          "72bff4995a04da699dec86480df0605ac5c443aee7e653844141b5ef99af12df"
+        ],
+        [
+          95812772,
+          2365619,
+          "9c1cc3c47e0999e3c0da9bda9444ffa2586dcab120c39973dc3fa1c69e5c4f09"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_006_6_1.snappy.parquet",
+        "size": 100939915,
+        "etag": "\"5f774e0c0e35f3fb4aa38ccbf260458b-2\""
+      },
+      "rows_scanned": 504516,
+      "matched_row_groups": 2,
+      "pool_events": 44,
+      "http_bytes": 21114243,
+      "requested_ranges": [
+        [
+          100874379,
+          65536,
+          "8e2c81ffbcb219115926bd4d2b0121f94060cb8d45d0ab3315e5786388b156a1"
+        ],
+        [
+          31596763,
+          1239191,
+          "69ae4d7a8472e4530854c8473e0fe01b049e134726f1dde54b32ae4eacba4487"
+        ],
+        [
+          4,
+          1327797,
+          "45b7049daed246c2739c9b860a676bf1ec919a40e662fc4506683c0b3b503fb3"
+        ],
+        [
+          27924181,
+          1204489,
+          "9911701f915bd06fccf090281748a3dde5fbc0bd31bc84a165eb41a3a5120352"
+        ],
+        [
+          71681736,
+          678100,
+          "23e0411e473d92c54dbcc622becc68d2fcc65271605faf7d4fb340f8370f1e58"
+        ],
+        [
+          32835954,
+          13446903,
+          "94b06f7d80b53d4032f726888eb3cae2280480781f2b9b1cee9b278e2b22f3e8"
+        ],
+        [
+          92545107,
+          289370,
+          "7a55ceecbe936f5dfd08b94f3de87c40d6405da371f3e3937098c0f0add5e054"
+        ],
+        [
+          87493487,
+          196012,
+          "1279ceaa091a5e00933de795a0f64e57c2369fc91f300cd427d2f9aad5af55d3"
+        ],
+        [
+          91789454,
+          222539,
+          "0d981cc1d62a19635d2a162754fadf4951fefaf694d71cf9a6347f89a4b29984"
+        ],
+        [
+          99274270,
+          172441,
+          "5d21717f725c84f051052d6f2dde1e93c2321bdb514595225f3f87a29848a007"
+        ],
+        [
+          92834477,
+          2271865,
+          "74bd4e021f3c209c9a8b4b08cb008cd3aeba8983e584f1888aedf02b73603c97"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_007_6_0.snappy.parquet",
+        "size": 103471541,
+        "etag": "\"5a52d691b32fdb9783857fea70d85e90-2\""
+      },
+      "rows_scanned": 518158,
+      "matched_row_groups": 2,
+      "pool_events": 72,
+      "http_bytes": 22139834,
+      "requested_ranges": [
+        [
+          103406005,
+          65536,
+          "fc4fcd3f31139e5cbbb5933b3e8ce4754d392f1def752dc462077332a7195c25"
+        ],
+        [
+          33352140,
+          1311078,
+          "00e8247265b5989e8f697459a40e941cbba484978a08a3798caba01974215d1a"
+        ],
+        [
+          4,
+          1501251,
+          "174a4abb7aa73503f185c33609e4e88b2b7ba643dd1e41649f944a419dc69582"
+        ],
+        [
+          29456414,
+          1247801,
+          "ea0845351e76eb6923c7f2170d18cb440a3df832d4e667a70247ad8f0aa81559"
+        ],
+        [
+          74465986,
+          714085,
+          "dc5174bddf267571b063fb4f5ed14b789b91c48fadb8943a982708f44cb2c9a1"
+        ],
+        [
+          34663218,
+          14009399,
+          "92b849f6554732f1046bef34a5024857fe42330bafc3dbe1bfa8a97e1d88b797"
+        ],
+        [
+          95231039,
+          254013,
+          "43d759574fcced112db4ea0336bace6b8ce4fe8ac345a460c5be5f4b2f643d35"
+        ],
+        [
+          89899395,
+          189281,
+          "4e374b6c5c12233997a068de3dc4e8249c69453569f465ba6204ca55497516d7"
+        ],
+        [
+          94478773,
+          217162,
+          "10c39ad6156309eee3280f3a3cac13285eaf4fcec2210950ecd5dd8163917f84"
+        ],
+        [
+          102087194,
+          176310,
+          "3551e45578ab392d689cbef4e2a17d9557443511ca6a87760750c242cc1619b0"
+        ],
+        [
+          95485052,
+          2453918,
+          "7024b00f398e1d8a6ec8152a2703502b13e065a290271f47a7a024be633a5443"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_007_6_1.snappy.parquet",
+        "size": 103955832,
+        "etag": "\"9a96fdaf238af8bc92a269ec7a936778-2\""
+      },
+      "rows_scanned": 511649,
+      "matched_row_groups": 2,
+      "pool_events": 49,
+      "http_bytes": 21205638,
+      "requested_ranges": [
+        [
+          103890296,
+          65536,
+          "2df6dd7a4f6422662a85907b487ba34608131858775c3341d0b5f2649f2f386e"
+        ],
+        [
+          32779439,
+          1241962,
+          "75cf8755ae7639f8a5f93268815100a418502c8aae06cf2be92f9c3730443b03"
+        ],
+        [
+          4,
+          1480648,
+          "cfca80e68d13011bd31b6434dd826475931500f0bbe8619d5230c9dacef22413"
+        ],
+        [
+          28994779,
+          1232145,
+          "b6f93bda75bed1748bf9b53319541ec3c310b7037e2d3cdc45389fda0dfc929d"
+        ],
+        [
+          73718823,
+          681168,
+          "ff4835e3b9db452266491c83e566bba0f2eda4bfa3d8c10bd207506ec3bd3fd3"
+        ],
+        [
+          34021401,
+          13244912,
+          "9c419cba57089daecc6b418a83d220bc0c9adb1e7cfebedf8fecc2fa469078b7"
+        ],
+        [
+          95305143,
+          291895,
+          "e048a91b8024ecb493c5f6e973df2b84b17956f4f0eb0bfdaabc2b1d82e26a0e"
+        ],
+        [
+          90485380,
+          188189,
+          "8546e039f61b67368b7306053c626f69645030cb8f7bdf4e68c4536ad3404442"
+        ],
+        [
+          94502595,
+          215819,
+          "59a05091042cc07ab0549e7c29814b0f6d9a4eb5d0c76ee976589b9f81d7fca1"
+        ],
+        [
+          102406491,
+          177786,
+          "9d0ab7bd972918c13d2a7d74383c55c660559cd78ec9d8b50dc3e55b8b264000"
+        ],
+        [
+          95597038,
+          2385578,
+          "85d63e6293657ef4acdd84aff50dfceea0f67d13efc1d7cd702cfed864bbb5d3"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_0_0.snappy.parquet",
+        "size": 98740660,
+        "etag": "\"ee1006c5e99365d755e4457e6cfadb76-2\""
+      },
+      "rows_scanned": 492771,
+      "matched_row_groups": 2,
+      "pool_events": 90,
+      "http_bytes": 20704037,
+      "requested_ranges": [
+        [
+          98675124,
+          65536,
+          "dacff5bd6ca0800e5cf61315a5dee4410ffbc71320217732be7f479b3b89e86f"
+        ],
+        [
+          31405155,
+          1211539,
+          "12a874761280c609449788f153a8aee0dc47ae3ba8419814eae4596a526f7d55"
+        ],
+        [
+          4,
+          1407269,
+          "d501c921a8c0f7f87ada013cfbdf622622db2f4ec6a3f515538e4e2fa18c7d69"
+        ],
+        [
+          27811933,
+          1176987,
+          "6ac9389cd503ef2362b23ee3e4604eedf2bb4aca9ef7684574bd8c5e3128cc7f"
+        ],
+        [
+          70130497,
+          667213,
+          "a3c3ff1815fb12a92f0ddaf561644b8d7ded73ee1df31ac11eec8d0cd6e3a38c"
+        ],
+        [
+          32616694,
+          13038187,
+          "4dfccb6dec854ff48ded96afc151a5d8c94bfe55fad0e8c020c814715004f3c0"
+        ],
+        [
+          90268637,
+          259683,
+          "fde609746692b3220a6f0db1f074b0296d083b1dea6e2a55e534faa7014e500e"
+        ],
+        [
+          85313052,
+          193418,
+          "0f6ecc232eadfdd97a845d2d60661fac256ec98a9d9f56cfcc26b8606a1bcbb0"
+        ],
+        [
+          89547004,
+          206843,
+          "a9e2d2e14c93b306b87aae27dd369ba76ff533f3f81c6fa6f16946475fb8df17"
+        ],
+        [
+          97056417,
+          171787,
+          "2a31954eacf848d12c922d8612f2c7f952ed3861d3f11bb3eb8d204c977a7c5a"
+        ],
+        [
+          90528320,
+          2305575,
+          "d146186a550bef69aebf1f7f7dbdf790086dd3b459f301dc88af1776f29219c6"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_0_1.snappy.parquet",
+        "size": 99958744,
+        "etag": "\"aa202fb5a8952564adfa3a6895e9bc81-2\""
+      },
+      "rows_scanned": 495329,
+      "matched_row_groups": 2,
+      "pool_events": 52,
+      "http_bytes": 21100526,
+      "requested_ranges": [
+        [
+          99893208,
+          65536,
+          "944a7057582f7c5e73ee172b86c428ba222c90c2bab08775e42ae11d94f7ebbc"
+        ],
+        [
+          31001122,
+          1260094,
+          "631671497055107119f02be35121dc7826bb1cc7abc7b7d08bb5e72a9131ed04"
+        ],
+        [
+          4,
+          1304079,
+          "79ab410e60868f12407e35ca568e100748ad0dd170d84ae52b3205a3cbbb94ff"
+        ],
+        [
+          27304991,
+          1237194,
+          "1ed54f24aa3263e00f11d6d5c4717cf627518140ac636290cdf35c663f8066b0"
+        ],
+        [
+          70833820,
+          680009,
+          "b7e87f36848eabdf592a39ff26674a1e8c25857787a9700bf9c84a9acc55f9b1"
+        ],
+        [
+          32261216,
+          13462136,
+          "00ca615d44474d0b8aaf414e6769fcd636953a08a0204cf63ce87564288eec63"
+        ],
+        [
+          91557715,
+          255503,
+          "550f7ed71d61ac3f95aa27a64f3462ad7057d5b12803224a4c2aa8ec3f162377"
+        ],
+        [
+          86596297,
+          194880,
+          "e3588b742127215047e33e9d8410dc872c4f3f179f813c2018a50ef019ff1605"
+        ],
+        [
+          90789263,
+          219513,
+          "16e53a203b1444461f03cc47bf6ed27fee97922086beae4a882b457d6c131b9a"
+        ],
+        [
+          98325338,
+          176611,
+          "c40cba54c9cb89bb672cd620a6d26917d5360c75e5c4598b31af8fd71efa8134"
+        ],
+        [
+          91813218,
+          2244971,
+          "39b25e2a8051399895f7589e16bc205b9a3b3a5d04aac725856c5b7e69ca44ac"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_2_0.snappy.parquet",
+        "size": 106413315,
+        "etag": "\"8969eb0977294501d8521f01d4ae4f57-2\""
+      },
+      "rows_scanned": 524030,
+      "matched_row_groups": 2,
+      "pool_events": 91,
+      "http_bytes": 22169952,
+      "requested_ranges": [
+        [
+          106347779,
+          65536,
+          "2a0a5dbea14e290378c6679aca80e0b895a7a6395c56ffc0e5bfeb8222f97f33"
+        ],
+        [
+          33862052,
+          1339228,
+          "c4bf7dc847d06299e4f332a7268c6bb99965877b4c63f40a0efd1b601416d2e8"
+        ],
+        [
+          4,
+          1513814,
+          "39b8c419101868416c2c96fa8e1705249966703783e025ebb1e8b29ba545244b"
+        ],
+        [
+          30005203,
+          1266309,
+          "7c8e6f8f1bbea7fad6ae2a00c152f2bc55822281b9a2eaf649d91764d05ba8f2"
+        ],
+        [
+          75974913,
+          708066,
+          "93a4242da8af5d371195b1579d803e9e66058fafc8ba03682e04c001fbfedb94"
+        ],
+        [
+          35201280,
+          14029993,
+          "7359149522ce730ccc9aa8ecc749b9e98ea546bff5e67ee16ca9a1673db4b355"
+        ],
+        [
+          98249596,
+          259250,
+          "e5204fc22019135b37a9b6334483ffc09f88a39dde57cca4cfb5cc5687d1bdc6"
+        ],
+        [
+          92929490,
+          187434,
+          "cc9c85dcf92ccf21750fa97542abcab36a4281ef6acf7767824fe452a231d40a"
+        ],
+        [
+          97497237,
+          217237,
+          "34a193423482e452cd04e45fe9a967303c02bfab8a0e272df9fc9661365d6cd5"
+        ],
+        [
+          105024254,
+          176443,
+          "92a9baccdce86f4edba85cf43ef0c3311ca459c0373e21d071cdd1586e5f967c"
+        ],
+        [
+          98508846,
+          2406642,
+          "6568afa3d2cbdd99be7bd71ec1662669627fa446f994eddc6bb7bb8c086501cd"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_2_1.snappy.parquet",
+        "size": 103021134,
+        "etag": "\"83badadd5105b35213476bd3a13ad226-2\""
+      },
+      "rows_scanned": 509216,
+      "matched_row_groups": 2,
+      "pool_events": 43,
+      "http_bytes": 21375633,
+      "requested_ranges": [
+        [
+          102955598,
+          65536,
+          "d6398279cf36188fdea05c45419aa22f3e1aa036e9406ed7975e7bdbdeea0c8b"
+        ],
+        [
+          31994060,
+          1236541,
+          "26655f91fef0c92f7f8f2b247cc561e3f01384aefe469c601a2c3ce3f1ecb49b"
+        ],
+        [
+          4,
+          1343739,
+          "fd1d7c26a8819618fb254733ce0ca6b8c1e2f07f024ed21fa1a58333255883fe"
+        ],
+        [
+          28328813,
+          1218065,
+          "f457687e538e44db13b64576a3b6c5a51f424869f0f9d6c338aff04823fec810"
+        ],
+        [
+          72831830,
+          676002,
+          "92530fac3590aea0391472e8b76e08f196f8f6df55f0f2634d0d5dad6eaba196"
+        ],
+        [
+          33230601,
+          13462320,
+          "af707c0981d3fc102b5bd4245a94b25bf61eaf4271e00664d29cd00f874795d9"
+        ],
+        [
+          94562969,
+          298846,
+          "e661b70d4ab53178c288fcec98ab8ce6b10f6af5a09a49731ad36bfe8d0f4be3"
+        ],
+        [
+          89260678,
+          215800,
+          "8a11c35da4268f670591cda8623b8f0847b91421534724181d82bfc95051d367"
+        ],
+        [
+          93815601,
+          211609,
+          "baf68252ba009f47ebd8b7e5c6fe152aa3f17080fcd0e7f1489ce39c77663156"
+        ],
+        [
+          101465324,
+          173792,
+          "ad6a40ce4f53c7478db2679a8b2d7538bcefaf0f3db5c3dab30458a5df53020c"
+        ],
+        [
+          94861815,
+          2473383,
+          "07db9667d758b67a5781dc5453473150e368266e3fe024c340ec4082abbf52fe"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_4_0.snappy.parquet",
+        "size": 96738491,
+        "etag": "\"c7d480a31f36d52053cce35dc2aa92fa-2\""
+      },
+      "rows_scanned": 486190,
+      "matched_row_groups": 2,
+      "pool_events": 50,
+      "http_bytes": 20305540,
+      "requested_ranges": [
+        [
+          96672955,
+          65536,
+          "683e2744ece28fd49ae5a0e77d4f69765fa9413ac3259420e20880c924585e11"
+        ],
+        [
+          30688243,
+          1193087,
+          "3d5e0c098f58fcae964bb3bc0cbce682757606d9dc7bbbd20d784b2a49974655"
+        ],
+        [
+          4,
+          1383678,
+          "6c647d56ddbd42b2a9fb822b707a454be7819a252cfa1659755165dc5a7addd5"
+        ],
+        [
+          27143882,
+          1155288,
+          "769607f0be84b2e65b373ffd708fe5baa5c4084a6b5b58da4cb89ef4ecbd77dd"
+        ],
+        [
+          68575786,
+          649219,
+          "3956ff28a481976fe6da269381970db641fccf92ebda91cc60d63469a6dad61e"
+        ],
+        [
+          31881330,
+          12575057,
+          "2d547d6229a4e99b4b6636218723673f6be88d94a053ad985793abe90f44e5cf"
+        ],
+        [
+          88459582,
+          288841,
+          "dfa9187bfd02b05f36afc9390d5e2881ef795192923fa1ffb00150c59b4f2931"
+        ],
+        [
+          83593984,
+          195731,
+          "bfa7373f0c8b44fbd77ede3eb9857a353d2494f2733aef7e3ace5ba7e990bc92"
+        ],
+        [
+          87713145,
+          210522,
+          "e2bf8ab10a33e5df2cefce33efd64f2b0fd72c22efb6dfe4ee77e504793802f0"
+        ],
+        [
+          95273812,
+          173262,
+          "f1239c1bc573dae15a58a3b47a4dd63e71d71dae8b782b2fef056430700ce151"
+        ],
+        [
+          88748423,
+          2415319,
+          "256f0bb1f90483079920afbc6bc92184b4b1034f0df46bd1a34c97f9592f383e"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_4_1.snappy.parquet",
+        "size": 103823869,
+        "etag": "\"e917446e09f2d4fe05a4d951538b5027-2\""
+      },
+      "rows_scanned": 516672,
+      "matched_row_groups": 2,
+      "pool_events": 49,
+      "http_bytes": 21715674,
+      "requested_ranges": [
+        [
+          103758333,
+          65536,
+          "727aee4bd89b6f417d9c667abc8394be13ca9a16f305b005a529c5066e7864ec"
+        ],
+        [
+          32943230,
+          1280002,
+          "c4194448a727ba48073e5fe6d98a636725326ff107c6de5c2fb3584f563de6e1"
+        ],
+        [
+          4,
+          1485077,
+          "9760af11b5857046a563d2c17d0ee21e2d3e773b625bdb174b19267f9223e4c5"
+        ],
+        [
+          29208627,
+          1234575,
+          "3b2f4db0b15bc34caa6da4140f59b9e031053d353cccc1da4786ea8daa68bb73"
+        ],
+        [
+          73874808,
+          696884,
+          "ec439723a6e1e1a337bfb6df1e7e7211343c220340ebebebe50dfa044cd4a3b6"
+        ],
+        [
+          34223232,
+          13847255,
+          "4b383cfb53f4513bd20c1628408cb13a617cebfe619bf890c6d512616f78bc96"
+        ],
+        [
+          95031570,
+          288187,
+          "1348ed4156fda90bf00fa428d1a4604f86f380d4fa885a3396685fe69df6c705"
+        ],
+        [
+          89657425,
+          217812,
+          "e80a686fc196d80da5d21837f00c916870f1ee27ed31b93c667c6d1b0a8bee79"
+        ],
+        [
+          94297340,
+          217202,
+          "92d33a58a775179581f99e7e1603e6e2772d65a404355f399995738d2fc89f72"
+        ],
+        [
+          101893987,
+          168930,
+          "c2c597b8a788e64ec45af3f3abfe2ec6bab14b532ded7772bd2acae9e4d2ad17"
+        ],
+        [
+          95319757,
+          2214214,
+          "37d45c96318d6b369736484a3d4c4ab2bdccedb454db1e459b8847b90802c4bc"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_6_0.snappy.parquet",
+        "size": 92547514,
+        "etag": "\"6f6e7bc91a91eb47c859fa217282b4bd-2\""
+      },
+      "rows_scanned": 450526,
+      "matched_row_groups": 1,
+      "pool_events": 71,
+      "http_bytes": 19101455,
+      "requested_ranges": [
+        [
+          92481978,
+          65536,
+          "851a8a2a9c1dd3552280468825ecf1ac580c8e5dee7961d9bf86162df70ecf2f"
+        ],
+        [
+          33027628,
+          1274635,
+          "a20f23a9fbbe1b78ab7a412c402de1e1f069585382f11400f42bb20b1c1330bd"
+        ],
+        [
+          4,
+          1390979,
+          "6756b4d9d62cc8f8f03565787bd0ae6909d9b52f6676363203952f934d504d8d"
+        ],
+        [
+          29214608,
+          1263153,
+          "6e6e692a010c30a01159545b884d1dbab9253093e06a30b6a92afd4d6a349ce6"
+        ],
+        [
+          75570789,
+          703870,
+          "2b0852cd21be2dd3e01873affcb51776c4c88e1364964e2f908722d15bde8982"
+        ],
+        [
+          34302263,
+          14403282,
+          "d49a2fd451458c2d1108947db51853278536ac3745a7a7a93b74a45b1c5a209b"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_106_6_1.snappy.parquet",
+        "size": 94213144,
+        "etag": "\"438bae883f3c65b738b2263d63ab149e-2\""
+      },
+      "rows_scanned": 475404,
+      "matched_row_groups": 2,
+      "pool_events": 88,
+      "http_bytes": 19861764,
+      "requested_ranges": [
+        [
+          94147608,
+          65536,
+          "7779482bdbff73f67c55f379d36f527845f0213844a43c7d27193b78b33cc322"
+        ],
+        [
+          29519416,
+          1164492,
+          "e661810fa8382dc1c798dd5979b6f709b0cff80042b1f6f728266d3b785f6374"
+        ],
+        [
+          4,
+          1241493,
+          "09c6e1b07fa8e7b218ff0ad403fb9cd8b6a6b8ca157d0e900897fca4b767ca0c"
+        ],
+        [
+          26105259,
+          1120872,
+          "62b5645c74b10f778248f0ebf9e5d52e92dfa2f607ca90f236f66856a0d5ba85"
+        ],
+        [
+          66461805,
+          654745,
+          "f5d7ae6873ac1b68d7474814419a784f0db1530100a806e2c69159cded515414"
+        ],
+        [
+          30683908,
+          12522420,
+          "7455e5ccda05959b8491614c650d158cd829640cebdbbf689c6b2fa393aeeeb7"
+        ],
+        [
+          85678600,
+          264580,
+          "f558e3e583e905c1810ee7eb9f3a140961417e35b00078473bd67091119ef181"
+        ],
+        [
+          80244399,
+          198475,
+          "720381b6346446ef122140fb75d571f6e3c9a0964d65346745b790ec6eca0935"
+        ],
+        [
+          84928301,
+          215650,
+          "71df30a13e86be05c61d19d9ed7263e1fa1e2237893f6f0d3ba7064df9ed245b"
+        ],
+        [
+          92415095,
+          177434,
+          "c678ce18edb6b652195fad0577cf451d2a1c579de3824615d4fc82c402bc72c4"
+        ],
+        [
+          85943180,
+          2236067,
+          "3dd81f22b9164c622c090ed98bcb93951a75f71819bf75fa3610d4420f326a45"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_107_6_0.snappy.parquet",
+        "size": 104493013,
+        "etag": "\"dd4bcd73fa05de69a39b444b619ef519-2\""
+      },
+      "rows_scanned": 518278,
+      "matched_row_groups": 2,
+      "pool_events": 42,
+      "http_bytes": 21774730,
+      "requested_ranges": [
+        [
+          104427477,
+          65536,
+          "1aad76b4ae87881883219f773b99798d00e660e6a8d3e9ef7f1e4ad0745c5f62"
+        ],
+        [
+          33541858,
+          1296982,
+          "062bf7e40a85a658925cc0bf4932bbbc230f349a08866ffb94dd482d36b57654"
+        ],
+        [
+          4,
+          1502851,
+          "14c74d6f770b5162437a5979770d93751239fd5b4592998114148360adfff825"
+        ],
+        [
+          29757082,
+          1249468,
+          "8fafdf2e954fb877eb7beb00f0d4180a4105a2ff85ec917e6bae7328bfa9431f"
+        ],
+        [
+          74865790,
+          702889,
+          "09ea7d8fb5a35aa232c0579606141784ed6b9eac012a127e45545d083b6c4673"
+        ],
+        [
+          34838840,
+          13826464,
+          "0838d3267b35ac8566a247cdb4acb32afa683bc23b2801bd0563065b7bc85105"
+        ],
+        [
+          95598735,
+          252267,
+          "564a2efbd322460ece5be15446f48169e75ebe7a7c2698fdab992eb0ca76dd2e"
+        ],
+        [
+          90834371,
+          189127,
+          "a9274cfa71f9dc15d4207b0960ddc43a385ba072a4f01d3c5b97c8f0fe27e318"
+        ],
+        [
+          94843819,
+          216144,
+          "25dc6bc11b14c1fc459250d45aaf249f0971c5126b24a1378f29eb55bbf93f44"
+        ],
+        [
+          102554358,
+          169857,
+          "fdf06230419282d690b104da6a108fead85216521f58aafd6bf9a7124f03f1b0"
+        ],
+        [
+          95851002,
+          2303145,
+          "c33a84b452eac55df5e4b47395c701b2f1db2337738f91ced55bdf2955caa5fe"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_0_0.snappy.parquet",
+        "size": 99806653,
+        "etag": "\"567c1907e02f1074b9899628f2551d4d-2\""
+      },
+      "rows_scanned": 498101,
+      "matched_row_groups": 2,
+      "pool_events": 58,
+      "http_bytes": 21196808,
+      "requested_ranges": [
+        [
+          99741117,
+          65536,
+          "04516914cf525dc8163c2a7e72c8309ab6a25887123c2242a08604fd0020c637"
+        ],
+        [
+          31415119,
+          1261830,
+          "fdf52023416131e4702ed7e0e13a12f120c03db312cf23a57618a5f9ac7fae7d"
+        ],
+        [
+          4,
+          1314715,
+          "a3bae6193b88f621bb71928c9fe920f3f13c02a1ad9964a6cf005e78c84b4ab8"
+        ],
+        [
+          27665879,
+          1191764,
+          "3fff12104fa1660da59e21714c5d4510b016cae67f0173b3f687dad097073641"
+        ],
+        [
+          70878099,
+          671664,
+          "b63fb1c0d03bc3174b618e1aa1767923dedf84d3cef130d6c3c072cf61572e68"
+        ],
+        [
+          32676949,
+          13371506,
+          "6a4e8e49ed31d0457e010f24595f033ceff8dd0c2735fb9843dfe5b6a1aad051"
+        ],
+        [
+          91379108,
+          287475,
+          "d66b2f7ed120856ffb3bbde96efb2a9c4608ae87cfc62e0ba901c81cf3871e6f"
+        ],
+        [
+          86037032,
+          215424,
+          "95b90fd650f84e454f1647d7790de3267bfde73c21cefab4e0507741d3abb6ac"
+        ],
+        [
+          90640983,
+          208064,
+          "0a4af05b1556dc4eb06914e344eef646ef08c2ea540f1404d635b6f1432cd81b"
+        ],
+        [
+          98307731,
+          171873,
+          "aab5cca89596be3aef94f75167f9d06e3c7046089739198ac8e50b36e589326d"
+        ],
+        [
+          91666583,
+          2436957,
+          "05326f525a3702037bdbba3e9d7444cd161a26e3435b874607e07a2adb226871"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_0_1.snappy.parquet",
+        "size": 98227061,
+        "etag": "\"48bc0939d1a862cfe59863e5212368c5-2\""
+      },
+      "rows_scanned": 477404,
+      "matched_row_groups": 1,
+      "pool_events": 46,
+      "http_bytes": 20172992,
+      "requested_ranges": [
+        [
+          98161525,
+          65536,
+          "e82ae9e33ad7009a1d610d5af0affde10adac82db5e0b74efecae9543d8e0bfb"
+        ],
+        [
+          35846129,
+          1382006,
+          "8da53ddbc303c53d485dd29f9fadd50720208210bdb8045136d7c9c156734962"
+        ],
+        [
+          4,
+          1598899,
+          "8fa21b425e82f44fafad00fab0fe1ad3d592ed65e3ac73933d86c0a6bad3ccfb"
+        ],
+        [
+          31739548,
+          1336102,
+          "d0402e7e3b8360a3d72ab7d9ead97afa3fa27900f70ed7d3c9e8d9b358525a7c"
+        ],
+        [
+          80471679,
+          746043,
+          "2bb46f3b57a6c5b55ece760deff6edc460edbf3f7cca22f06d5236f0ebd4a596"
+        ],
+        [
+          37228135,
+          15044406,
+          "b1745ef11f9a931e9103d51685b856d6e073ba336bc5fc8753237fc2bc150366"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_2_0.snappy.parquet",
+        "size": 102336452,
+        "etag": "\"2811de1893a26e05446e106d55b42fc4-2\""
+      },
+      "rows_scanned": 509169,
+      "matched_row_groups": 2,
+      "pool_events": 57,
+      "http_bytes": 21578341,
+      "requested_ranges": [
+        [
+          102270916,
+          65536,
+          "9d8dc21f558d3b24a5651124025f16709eae4065771ceb47f132cd675ef7fc62"
+        ],
+        [
+          32194771,
+          1303422,
+          "fb6875db2a096740ae3cdff2552b1b7e0efa9ef196aa4c886db18cb24eea0679"
+        ],
+        [
+          4,
+          1341046,
+          "ede5b60f2e4766b0723258513d22a5abb4a537e0b5bd7e7abbcf7a6db0173c24"
+        ],
+        [
+          28528563,
+          1217976,
+          "dba22a83c4b7b5b980c0cb2d18d3ffa13d15d9d20eb498a5995e2069334c7a0e"
+        ],
+        [
+          72667327,
+          684118,
+          "dba2f2247f28d08f519325e3b353e865cdf81e8206244437f67991bcd5756d74"
+        ],
+        [
+          33498193,
+          13694154,
+          "1782a54335baa9cf59a3bc7fe9a3118d5d8dbdbe5a60f2cb685d28df12f46c96"
+        ],
+        [
+          93668563,
+          290655,
+          "c317135eea47dd94d019384a623dac9f72cbc3e17890d10e8150c75276cd350c"
+        ],
+        [
+          88408020,
+          195361,
+          "e0d91c517b6b12435d578883f7b7fa12eebcdd9571b95a3454c17b7772747a60"
+        ],
+        [
+          92933745,
+          216569,
+          "20e1f379eabec4a3457f3d160b86fa474b396266cedd6d319bdacf8dba4300f6"
+        ],
+        [
+          100608470,
+          166185,
+          "589c7893b2d1d2a942ebfc48e46df74c0517bf17fc5ad9f758adefbe9b0bd412"
+        ],
+        [
+          93959218,
+          2403319,
+          "3134649c94bb3deebf86695779881213f5ae0967361879c7baff52af32deda17"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_2_1.snappy.parquet",
+        "size": 97283574,
+        "etag": "\"d0dcd0f4ca66ba9b68202ec992562d89-2\""
+      },
+      "rows_scanned": 485256,
+      "matched_row_groups": 2,
+      "pool_events": 84,
+      "http_bytes": 20567587,
+      "requested_ranges": [
+        [
+          97218038,
+          65536,
+          "cab74223996792d00e5b908bbd9dbbe5542f6d3cd4b762e52e3ff7701af3fbab"
+        ],
+        [
+          30932669,
+          1227725,
+          "0bfde92a542a70e7f491cffedb9dc4e748509d7c6faec260ae4daa800e89a7eb"
+        ],
+        [
+          4,
+          1381315,
+          "73cfc267654ffcbea8f84ab485f12e34f8853e576ef3c4b621dc18bcb1a4c89e"
+        ],
+        [
+          27420190,
+          1153672,
+          "18801e749f69ed23abf4e4b5b1d23091d9d919e4baaed73acca95c85f83f8ede"
+        ],
+        [
+          69002498,
+          663645,
+          "47c7e6101d1eb9d3894e487ce0b575815d31840d44bb6b23efdd3cf56ebf44d6"
+        ],
+        [
+          32160394,
+          12932556,
+          "e5c7d8255d9921fb4d073bdfc2a9b22e0105d3bfc3b7dd926c185055ecf61f50"
+        ],
+        [
+          88503585,
+          288700,
+          "2434f776839411b942d139a854b31f96b6c885b34c7e50816cb5190dcc9726e2"
+        ],
+        [
+          83333661,
+          214321,
+          "63f77bab33ad339f6c98925d087c4754c42d10a0df6aa7f83c57e5fd8a57ca77"
+        ],
+        [
+          87734901,
+          211949,
+          "18c330a80b46851474fcb9524fdd2e97bf4af69754e261d98ad4fe3d7829d90a"
+        ],
+        [
+          95346524,
+          170782,
+          "82db9b1a846a98f203dccf9d7887d059ed07f34fc527b28003acd322bec4896a"
+        ],
+        [
+          88792285,
+          2257386,
+          "b1945b0b540a99883a00973c1198891787ab8761e852d7184d05d0d0359adef0"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_4_0.snappy.parquet",
+        "size": 105537413,
+        "etag": "\"3f464d863f5e773e5e4afcd09d7fe280-2\""
+      },
+      "rows_scanned": 528310,
+      "matched_row_groups": 2,
+      "pool_events": 61,
+      "http_bytes": 22006640,
+      "requested_ranges": [
+        [
+          105471877,
+          65536,
+          "7a4b40ee54c3a9c6b55271d632bc7e7572e097bc32b0f891374c5bd1bf5430d4"
+        ],
+        [
+          33641176,
+          1306442,
+          "df63e85eeeac712d31806bcd44d88a727d493a45ef9a7d05feed38759ab91313"
+        ],
+        [
+          4,
+          1402993,
+          "f4e85f34098aed6f5095ddcd21ed74fb24ba37bc06ad86666745b021c78ad3ea"
+        ],
+        [
+          29815314,
+          1272327,
+          "62e83694f000687f0009d3be5067767ff0b21cd4e1ba90c7db7e9956fcf9e625"
+        ],
+        [
+          75669657,
+          711902,
+          "c078355c7df9acc229668a4c0a2c11f653da2bc6ec2318b2c1adaa979b1dd88d"
+        ],
+        [
+          34947618,
+          14111775,
+          "9479768004d2de6e8740bae3b821f7b7e3afb7f3e80facd6fafad0bb4f4dcad8"
+        ],
+        [
+          97357835,
+          257605,
+          "cfcab6415088e8abd0c889699c82ae705749122fd4fd223abffa4d5ab45b9e8a"
+        ],
+        [
+          92184794,
+          217950,
+          "7ccfbbffc87483fee20f100c5dec0c3f787f056f2dedef123671a6868c9d1937"
+        ],
+        [
+          96596763,
+          220154,
+          "021897b86921be36afb11afe99f032f1b60ba5b8a3cd91ac020b4054d22765a9"
+        ],
+        [
+          104033871,
+          177407,
+          "1d8e8914da8707f7bb838f90ab2e59008575585a393449feeab2ca2fd04c0f8e"
+        ],
+        [
+          97615440,
+          2262549,
+          "90a2d94aca73d7ee68e1d6ead681a0a3cc5e7506cad32060e72c9be8cccdbc9d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_4_1.snappy.parquet",
+        "size": 103148641,
+        "etag": "\"535ea4318fd4b906c10f32067bc025de-2\""
+      },
+      "rows_scanned": 508632,
+      "matched_row_groups": 2,
+      "pool_events": 71,
+      "http_bytes": 21635668,
+      "requested_ranges": [
+        [
+          103083105,
+          65536,
+          "fc80005e2dbde3291acb934ea18b9e08c8f26447adce0cd19043a264c7248aba"
+        ],
+        [
+          32243904,
+          1284081,
+          "834c1ec6774d1ad1c26a5a35ccadee51e4f9449bfab49334542f6a8a22a5c06f"
+        ],
+        [
+          4,
+          1341536,
+          "9f8f95a21237d6e18f316709528bf5c5d742c34bc1d0c8c242d83eaf4e18859a"
+        ],
+        [
+          28525385,
+          1216269,
+          "701fdb546c6bac63f6ca7a2de0c2b04923ca0215ed1b7dcbeb45bf504230501c"
+        ],
+        [
+          73421475,
+          693440,
+          "5be75614e046a65f2f968b684b50e531607bb8ce171296e4d2f2be042a6a8f27"
+        ],
+        [
+          33527985,
+          13839210,
+          "d5d120fdae74d1e612175ce40e3623f4e3391b61ac6ec03f0a68764bd9b24b12"
+        ],
+        [
+          94872026,
+          265407,
+          "b2c26e5ea4aabf95217b81bc13b5aba64e722abbc412504b427a944dd9dc7b77"
+        ],
+        [
+          89998000,
+          196176,
+          "92bd7c406daf2c3c384c0cb8dfc75fa5af9646df34e25974a680d7029130d773"
+        ],
+        [
+          94142769,
+          209673,
+          "afe9860b84ff7df4f45a7369b98a808467cf14a16ee56a5167360e3d88ce964c"
+        ],
+        [
+          101677577,
+          171976,
+          "1b2b4f39b8797182f2b7135822c92cf7e09a3ae1d4990a1bcc979c3e6fb23c64"
+        ],
+        [
+          95137433,
+          2352364,
+          "7abf3e4ffd59776080e2717cfcfa2355da32663e87e7b1d89d2a27684efc4e08"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_6_0.snappy.parquet",
+        "size": 92995230,
+        "etag": "\"c0a4342f33f367a4274fc31edad221f2-2\""
+      },
+      "rows_scanned": 457125,
+      "matched_row_groups": 1,
+      "pool_events": 68,
+      "http_bytes": 19212220,
+      "requested_ranges": [
+        [
+          92929694,
+          65536,
+          "31ea01f0601813b648d3154dde953c60a03db1c2a28758190367897cc82109a9"
+        ],
+        [
+          33955720,
+          1308964,
+          "8c350927fbd8e9f6ea2c9eb6b88eaad9a48815436673c7336ea0ce6a32e9b427"
+        ],
+        [
+          4,
+          1537212,
+          "153d3b4c8f694101605fcc63f3cc8be03d89715b2a55699977ee3a70876edec7"
+        ],
+        [
+          30007794,
+          1337972,
+          "9e7a6bcbfecd5a74507939d90fe8e75cf62e238991f7201e73ce52eaffc37f78"
+        ],
+        [
+          76237603,
+          721965,
+          "9e931c2d0c3771ffcb6c5cd0f4922cf43d981b43f3858f9acd67d70d0ccd00d6"
+        ],
+        [
+          35264684,
+          14240571,
+          "aaeadd374527d20b0542d3cde47c0169c8851b0a6ca8d62b605e11abaac116c2"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_206_6_1.snappy.parquet",
+        "size": 102388562,
+        "etag": "\"a92bde11ead1844506079404c3d2a67e-2\""
+      },
+      "rows_scanned": 508682,
+      "matched_row_groups": 2,
+      "pool_events": 95,
+      "http_bytes": 21918618,
+      "requested_ranges": [
+        [
+          102323026,
+          65536,
+          "6f2916782151d3bae2159eeb79cf9a06d93860380c3544c363caaf32faf940c6"
+        ],
+        [
+          32679536,
+          1292207,
+          "42d5ddf9ea2a9cae64cf75cd6f6277275e2340c6eb8db4a1106f02c83345e2ed"
+        ],
+        [
+          4,
+          1348439,
+          "1910e414d2a06022069e58752d51240bbb257b0dfd612b8b83b74735633f0780"
+        ],
+        [
+          28913737,
+          1280000,
+          "6d1b4af395e3e82dca5498b716d5c7f95d1ee99ce6fd72061b591ad939ec515a"
+        ],
+        [
+          73735806,
+          696491,
+          "f6ffef281b5fa17d0d8cecdd463728289ab5c2378a7cc759987280fe442f981b"
+        ],
+        [
+          33971743,
+          14155913,
+          "30dc02d8b6cb8dc44781d8cb03e96a0a98197f99cae67c42a4f8a165d8f1f818"
+        ],
+        [
+          94456070,
+          253825,
+          "79ba5f6b8a1bfdb6269fb38f8de915759f1029e9a6a8cd83855640e267c78ee1"
+        ],
+        [
+          89222018,
+          190271,
+          "c06fcb92ebf518b07179dce1a19f43db21b8d08722820b91b068ba045ace719b"
+        ],
+        [
+          93725419,
+          214297,
+          "8e80c3744bf91294d987f13837e4317f47b9da0f0263f14871732f4d99b0f52f"
+        ],
+        [
+          101018930,
+          165582,
+          "eb66f2352d135abeebe830e9545a4e556bfcb3ce62e2f5e052f422aa2895e29b"
+        ],
+        [
+          94709895,
+          2256057,
+          "7c6aa638d188dc9a3bdf7761df1502f9eadcb10be4cf980489147df130ac1e7a"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_207_6_0.snappy.parquet",
+        "size": 105207639,
+        "etag": "\"0a75b9cce7f7f6a55aaa5565292b3b1a-2\""
+      },
+      "rows_scanned": 513752,
+      "matched_row_groups": 2,
+      "pool_events": 52,
+      "http_bytes": 21568693,
+      "requested_ranges": [
+        [
+          105142103,
+          65536,
+          "e3370cccfc429755511e90a55e15bb6144aa388f9b1f1b68fd3fc6af0f89f858"
+        ],
+        [
+          33251802,
+          1307520,
+          "61e228b4378497f8c6ef3e9ab98c3fc99bf4f6ba8b094b84835b80f446ea488d"
+        ],
+        [
+          4,
+          1489742,
+          "adb20a86c7ae8974a7f54c776e5a5213ee65ea34ee309600ccf0830646495015"
+        ],
+        [
+          29425244,
+          1290787,
+          "966266e9e2710080ff05b9193cca8a202cd5d852b8175acbdf5fc83f907fd6f4"
+        ],
+        [
+          74371498,
+          694874,
+          "f78240dcaa2106fe96286e5f1b9851ad1b1e546b9fb3c071e07aa6496ea9b040"
+        ],
+        [
+          34559322,
+          13809421,
+          "35fafe9eadfff3a6baa9dd7e8adcc9f0b9ebd88d61ce08602bfc45d8b133aa79"
+        ],
+        [
+          95394688,
+          245968,
+          "164e3a77280d03cb5a13afa49540323c1bf6095098cf2a6ccfb9574970f6757b"
+        ],
+        [
+          90414197,
+          193198,
+          "a17dd55fea918b10d058d5de05cd6457b11bda4f9a07ec3805f11f5bdaebd53a"
+        ],
+        [
+          94648468,
+          220083,
+          "3aee1204789de59bbe55893457898d39d14c4a9779184411d95f275a85039a3b"
+        ],
+        [
+          102435078,
+          167102,
+          "87a143f3f19dcdb3bf4a50806043296dc791dea6719edc5bd51eec1177b63c76"
+        ],
+        [
+          95640656,
+          2084462,
+          "d23f0d1c0c2279a46e560b3c45e4f3714703ea06ea842c6e7964a3b6e3f6ebc4"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_0_0.snappy.parquet",
+        "size": 104142386,
+        "etag": "\"c80dd7d6ea9a9018d90e529fbae79bb3-2\""
+      },
+      "rows_scanned": 521382,
+      "matched_row_groups": 2,
+      "pool_events": 65,
+      "http_bytes": 21760774,
+      "requested_ranges": [
+        [
+          104076850,
+          65536,
+          "580671dddba51bc380fd31b80be9b2c4e0d8edad1dc244b408090f4b45f9db81"
+        ],
+        [
+          33646863,
+          1284662,
+          "894dbedbe1af09a3a3aca6b229a2d1e258d563d293983313a66fee6e3871c14c"
+        ],
+        [
+          4,
+          1501452,
+          "f86d839e77703cdd7035e36e48c0cde4ff891d28d0552420c72a1b43a68fcbd1"
+        ],
+        [
+          29754128,
+          1307815,
+          "1035a2e4b53586f0bfed74ecee59d396887f0216fdeac5a6c4fb60a9ce6fda47"
+        ],
+        [
+          74770723,
+          699028,
+          "cf35c7a5a54581ecae84a54b910a725ee753cb7fb0da9f38d6d46fa9adb7130f"
+        ],
+        [
+          34931525,
+          13847561,
+          "1b71047b2cf7c95432301e31c4aeb3a1acb7dee15395e18c2a270f6bbe734a6b"
+        ],
+        [
+          95614315,
+          263389,
+          "4e2a7d691b8f5aaf517ecefdcf58fadc85643f13a50b41570e20be2cbc64e4ba"
+        ],
+        [
+          90959317,
+          194838,
+          "1e4c689a589a383ac5e8ae498f3eb10fad5630200cc424320869b7d571703ab6"
+        ],
+        [
+          94915448,
+          211557,
+          "a0540e69212203a8c3582d09a4a4cd3a75e0cfda09720a6ef4877225236af80d"
+        ],
+        [
+          102373160,
+          170247,
+          "7eeb2e5e22f890307c575184b6b87c85b77302dbe37dd7a8e3d1b5cef12ab92a"
+        ],
+        [
+          95877704,
+          2214689,
+          "b860be534ab4135455be6d3c47b753470f7947b2faea6a0b022da0cf4e470ea5"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_0_1.snappy.parquet",
+        "size": 103808369,
+        "etag": "\"59edc2ec8098614ab9d0bf54c163d4cc-2\""
+      },
+      "rows_scanned": 510344,
+      "matched_row_groups": 2,
+      "pool_events": 62,
+      "http_bytes": 21243846,
+      "requested_ranges": [
+        [
+          103742833,
+          65536,
+          "a6983f76519243366ea08278087fe07d040c9f1c083867ae7b528b84a4eb0b96"
+        ],
+        [
+          32467487,
+          1245068,
+          "fb5d1a7599e671cd7bf8027c8000ae2a3cdaf9f328b727288de88ee8067d3cfd"
+        ],
+        [
+          4,
+          1348112,
+          "c15b3480d473395c4a402050620a2e4ab6d9c2706c9dc5f13e8d3e6775747399"
+        ],
+        [
+          28675728,
+          1221518,
+          "ca3c21261812d7f18f90a463e55e8b0ca5d19c92ca95bf10131ad82f4623fd1a"
+        ],
+        [
+          73011566,
+          684939,
+          "caf96a59fd7805f307516fdc65cf11d95098a537870e7a82f68c446e5da98ec1"
+        ],
+        [
+          33712555,
+          13497931,
+          "58feba6e27435b5dc023feb7a0329f29362f8e59aac5cb7c4adcfb4b29400aa4"
+        ],
+        [
+          94962079,
+          298212,
+          "e6ba8f9429a27cbb7fac67222222ae925589d23f680cfa0c9c4f9f82cd8cd05c"
+        ],
+        [
+          89697109,
+          216025,
+          "11cf7756497b0038e0b81b660e1182331f112c102b215d94cc7e1d6840e1dfb1"
+        ],
+        [
+          94222197,
+          224191,
+          "2a1975f1cba7c45c76fa016aa58f2dab5690bae13350f7336378414ffaee76f1"
+        ],
+        [
+          101864060,
+          168591,
+          "ee189d00837e3da70bde8bdc93c4026a9fc561c3ce237cfdaf479308dc7b8cd0"
+        ],
+        [
+          95260291,
+          2273723,
+          "ae919aa38b286ec540f9a358c60a7aaf71b4d0d69d4168a94b431c9bfb081735"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_2_0.snappy.parquet",
+        "size": 105212023,
+        "etag": "\"854fd04d8c51070424c533ad7297fb68-2\""
+      },
+      "rows_scanned": 522730,
+      "matched_row_groups": 2,
+      "pool_events": 47,
+      "http_bytes": 21394807,
+      "requested_ranges": [
+        [
+          105146487,
+          65536,
+          "c9d02302c06368deb70b59fb6d2ed2da90e9c191dbc7ecebd17f0653a0e20962"
+        ],
+        [
+          33294973,
+          1328708,
+          "daf4732e4ac043ac1fc1cca2e98f7e87d2dd51c6926560682b78c4aebef7b94e"
+        ],
+        [
+          4,
+          1504721,
+          "17a0048336cfd85c218e16d7d724aeced268e1c1bbb404506fb35fbe9371c972"
+        ],
+        [
+          29502097,
+          1255526,
+          "79516ae6bc1b5164444146d6fa53fc3b1cbeb21efaa84c65b56d3247352c6cf8"
+        ],
+        [
+          74394541,
+          688334,
+          "c5a817e18459737887db920fcf70e2415906d6d36d33f1dcdba3e1172f7752b6"
+        ],
+        [
+          34623681,
+          13533124,
+          "b2e6324bb619b37bb395e67a50e7bd708ec24a047bc4d8cf656c5b09fc2ef873"
+        ],
+        [
+          96649172,
+          266291,
+          "9dee48da1a93465222415260606eaf08a1c76c1d9024aa0fc545a11ed91d62e1"
+        ],
+        [
+          91581672,
+          216349,
+          "4cb54e3e70e0082a20d055daa17c46c0637172633550ee7de41d3111d25166b4"
+        ],
+        [
+          95897957,
+          226403,
+          "cecfe1d108070ee7d4fba9fa4a050f0cf8a189fb8d3f37f8d24390842fc083bf"
+        ],
+        [
+          103301029,
+          166617,
+          "6a7e3ab02b330b482978e2dee7c31945c8c5d8bbff89224cae03e6bcc96149ef"
+        ],
+        [
+          96915463,
+          2143198,
+          "176fa3304c23cc574ef7c1efabf795c41a235604a33df61c8f060a72bef162c7"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_2_1.snappy.parquet",
+        "size": 98416237,
+        "etag": "\"af404fb20eb507743fe86c594edddd10-2\""
+      },
+      "rows_scanned": 491079,
+      "matched_row_groups": 2,
+      "pool_events": 41,
+      "http_bytes": 20231097,
+      "requested_ranges": [
+        [
+          98350701,
+          65536,
+          "14d4fa2861749b6a7286a177a7c02faec1cef9aa163b9c467685dce4d04390f6"
+        ],
+        [
+          31063910,
+          1226533,
+          "1ab1671b0392fa4ff8e98282fd12dd720a08b8884799419c54be2f1faaaa59e4"
+        ],
+        [
+          4,
+          1403935,
+          "79a8876ae269de1f8400a3b6f09db86cf94d9d30e394c75e23d2bcccd04b7a40"
+        ],
+        [
+          27519513,
+          1176031,
+          "74e5becfd6cd8221643ddb2f231c0fb34ddb516a23a4ffb5ca38bcbdf514de8a"
+        ],
+        [
+          69449062,
+          653747,
+          "1702301fbf6cb6e7dcd5fe47e1cb53224aa166b2f63395abcc0b648968235870"
+        ],
+        [
+          32290443,
+          12567537,
+          "1242cf9920071d5ebbfa1b275fc9894fde937d9a74ce8c5120a87a2148ca5302"
+        ],
+        [
+          90137217,
+          247915,
+          "d06e83eca92a49b6d9ad77b0e3151eb008d57c5080d72657166b4919d9b8b3a5"
+        ],
+        [
+          84980218,
+          188774,
+          "c15483f9ff62baa636309d3f8dac3e92de8364bc44db75a9fb0fabf254601c6e"
+        ],
+        [
+          89382333,
+          218801,
+          "51260b36a6f8f3f173c51e6b0eb10667c7a767ed8efaab26c092765713142969"
+        ],
+        [
+          96838900,
+          171230,
+          "c4e94bf7e40aa0f315ec13cee36783ae6f6264ba5f9a45056dc4535753493046"
+        ],
+        [
+          90385132,
+          2311058,
+          "afa1130b943155523b935100e78ae6379be331f413270d4b3c4b8ee760f418a1"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_4_0.snappy.parquet",
+        "size": 103349563,
+        "etag": "\"c162fba166be02fa6c8b5b7cd29edf3b-2\""
+      },
+      "rows_scanned": 511870,
+      "matched_row_groups": 2,
+      "pool_events": 69,
+      "http_bytes": 21479595,
+      "requested_ranges": [
+        [
+          103284027,
+          65536,
+          "ae7cee50aa220081fb26088f382194a03aff795f852004f80503d5464e8cff96"
+        ],
+        [
+          32649539,
+          1265512,
+          "5946029c6d9c68368d612d93f68a5a9cf0dfde62afeb670eb7300ac8f2cdb129"
+        ],
+        [
+          4,
+          1465482,
+          "5d6369387042276b58a1a349ac276ef27b3dc2b9bbbd474e6fcf6a28c817d228"
+        ],
+        [
+          28938097,
+          1227985,
+          "e957443b86eb4cbd5c3ba8b0538ad704f58e1b8e2d3220a5591aaea2f578eb66"
+        ],
+        [
+          73591063,
+          686398,
+          "90dd6a008b53a6e7d3e75a3e311c0d6058f0cfd48fe5f2a94a45d816618c09b9"
+        ],
+        [
+          33915051,
+          13528499,
+          "991ea7381ee78ff9793519b85f67c06c2b9c17097d87e80a0dc5741963ed9903"
+        ],
+        [
+          95215773,
+          264586,
+          "92b3ab008dc7ef68993b8570a22684307920d833f62d89ced0b775842fc3eade"
+        ],
+        [
+          90118181,
+          196140,
+          "3e768687a437056a58e5141b95b23e70f1461922c4fe94c19a8eef5632cab1ab"
+        ],
+        [
+          94479609,
+          221074,
+          "3fb5f66c423ef9945e6e638fdb4f425cf63b3a7fb1237c88f69c5e12c4d8062e"
+        ],
+        [
+          101938623,
+          176608,
+          "5efaab743aba71ee9c72b10269facf4bc241819b4023197efa31e40198dac333"
+        ],
+        [
+          95480359,
+          2381775,
+          "13dcdfef63a7a2db2f42c178ccd52cddd0dd89f550297626f5fadab0f89e1617"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_4_1.snappy.parquet",
+        "size": 92709240,
+        "etag": "\"bb84b0fdf2559bceca947b3f16d6cce5-2\""
+      },
+      "rows_scanned": 447872,
+      "matched_row_groups": 1,
+      "pool_events": 42,
+      "http_bytes": 19083588,
+      "requested_ranges": [
+        [
+          92643704,
+          65536,
+          "9f914207a63031e5c578da50e30662cb12ae7542bcc0d6f36df80b86bb41214b"
+        ],
+        [
+          33414851,
+          1294530,
+          "f4be1fcd153df51a2748ab7a64fbcba430f2e2c8262a306a849e7b5eb9d91dcd"
+        ],
+        [
+          4,
+          1505972,
+          "6c8737d7b3bdb4e130e16c98848d312f38b04eedd989298f12b76732c293704d"
+        ],
+        [
+          29482781,
+          1253341,
+          "6d723a4bc3139ae9f62f5915d399f63eba845a346937a9e9b9056b782cc8f29f"
+        ],
+        [
+          75966018,
+          705317,
+          "36bc05f9168fedaa9c630eab1195f78b2b9bce11901bafd9a490f17e7ecef219"
+        ],
+        [
+          34709381,
+          14258892,
+          "2a3a1469c265ed3daca775a5afc1ad32ec261d301f0eb732904b8ce207f47956"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_6_0.snappy.parquet",
+        "size": 95821195,
+        "etag": "\"b82662085999600192548f3570fbbbe1-2\""
+      },
+      "rows_scanned": 466637,
+      "matched_row_groups": 1,
+      "pool_events": 55,
+      "http_bytes": 19878767,
+      "requested_ranges": [
+        [
+          95755659,
+          65536,
+          "6065526f4878f8f16f1e9879e0763d514c0405be2fb7156b1aa2894796c036d3"
+        ],
+        [
+          34264223,
+          1331425,
+          "eaa2b99038a0691ef84bf68f1d671b1add719ff9b229e3ad3b63d26754e5267f"
+        ],
+        [
+          4,
+          1562440,
+          "b2780fe09781f922ad8b43f052b987e4fb4a175e5d329c0ae202907456c9511d"
+        ],
+        [
+          30343932,
+          1307272,
+          "a779d931369dbf5954a95495053eeee3f93172eba1b8ff2b00a98ba9e1dfc544"
+        ],
+        [
+          78359857,
+          720591,
+          "61e185136cb23213035f78fd32d4951aa96440d5fc7e858f84e61a75c9fc9914"
+        ],
+        [
+          35595648,
+          14891503,
+          "1d49a565fd39c9e46390a5eaefb62eeb8ce47475ac1fefad0ef55f35e9cf166d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_306_6_1.snappy.parquet",
+        "size": 94253881,
+        "etag": "\"4852859cd3749f3df09e51adf78f6349-2\""
+      },
+      "rows_scanned": 458855,
+      "matched_row_groups": 1,
+      "pool_events": 48,
+      "http_bytes": 19123739,
+      "requested_ranges": [
+        [
+          94188345,
+          65536,
+          "ab998a420f4084cc76145437f6bf4db5b4ff356b711b1df2910ee04536055dd9"
+        ],
+        [
+          33952630,
+          1385337,
+          "36a04d36d3c500d69ca000603e9054cdf59e6bd777cf398cf287a87f39a22344"
+        ],
+        [
+          4,
+          1537293,
+          "e7ae1503629f8f8c3e291d3a2d8ad4d254c858493aa36cf3296ee39ddc06e938"
+        ],
+        [
+          30017008,
+          1284666,
+          "8eaf795e37ab69f0b97640ca67649f29e59a1cce1a38519cf51dc621e8e3d068"
+        ],
+        [
+          76797630,
+          718196,
+          "ef2d2456250550646ee10fa23089ab7362f0c605230bf47bf9b6f4433f59829f"
+        ],
+        [
+          35337967,
+          14132711,
+          "f00c802180c35519bb5d19f98eaa455909ab84d54a6bb4b6868cccea921f1731"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_307_6_0.snappy.parquet",
+        "size": 103900488,
+        "etag": "\"ef1958a2f8ad6572cb206f57af8a3d5b-2\""
+      },
+      "rows_scanned": 516164,
+      "matched_row_groups": 2,
+      "pool_events": 68,
+      "http_bytes": 21964138,
+      "requested_ranges": [
+        [
+          103834952,
+          65536,
+          "eae1e8a631391267ae9bbacba91202eed1d8f54351d40d093751c9e2c182627f"
+        ],
+        [
+          33498652,
+          1323371,
+          "656a59b71811e3ebd0e4030782af7034c33608064fc2dbbb412e226016605525"
+        ],
+        [
+          4,
+          1498617,
+          "8607cc20c352dc4c40986074f83d43d92e4402a76ce125c582e06c011a5aaa4a"
+        ],
+        [
+          29640802,
+          1243609,
+          "fc1bfac59059f1beec5c35f147a2b1a7570a3c6536dffe0b722a5059bbf4dd64"
+        ],
+        [
+          74610324,
+          705890,
+          "eb82bddf30c300d6144a40bc398706fb21c1bec51734ee315c07dc130235b2ed"
+        ],
+        [
+          34822023,
+          13907137,
+          "d1ca877f2a123a76a679d4f0005591c53a18cdd68a08fa8def7ff2db1d70f02c"
+        ],
+        [
+          95563212,
+          251868,
+          "e223ce4d906e59796377173a1a6940f9d07ec53b6fab78675ae1f5bd47baac20"
+        ],
+        [
+          90148690,
+          209680,
+          "6d60561cea7400aef54612be235e50b686be639197ea033ccf2af44f0333255c"
+        ],
+        [
+          94807599,
+          216434,
+          "97fe7177fd909ca304997d28a45cf8ca370f54b8433ad02399ed6a29636cd806"
+        ],
+        [
+          102388499,
+          173657,
+          "d0bf9e76651914985113d80d886e3e2f5389a5db0ffc766389368e370c433cca"
+        ],
+        [
+          95815080,
+          2368339,
+          "080509f13845fe775e805f15644f43d0e6dae32082a490df57898ea4dfc0fc89"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_308_6_0.snappy.parquet",
+        "size": 105172060,
+        "etag": "\"87062221d31432693b26c69515e84056-2\""
+      },
+      "rows_scanned": 518178,
+      "matched_row_groups": 2,
+      "pool_events": 63,
+      "http_bytes": 22137492,
+      "requested_ranges": [
+        [
+          105106524,
+          65536,
+          "f4d4c2978e9bd6311354ace2cda2e2cf08f85ed34cd3f2dcf35e2932f0afae22"
+        ],
+        [
+          33341337,
+          1296013,
+          "93ac685a0ae64c172434eb8ebe7c087cb1aba13b91eea5e43be983d6140f3031"
+        ],
+        [
+          4,
+          1496014,
+          "587eba738731053f6b15c20794b533ad34b67e180879699cce9174b4e17cf280"
+        ],
+        [
+          29578054,
+          1243321,
+          "7810f2b1c66591d95e5b3654139f52afd67332c3b56f86f60fcff7d993bfaa54"
+        ],
+        [
+          75199011,
+          711495,
+          "54434ae0deef6780fed620f0a692b958a13738f1474f54cd77fac448bafe60d4"
+        ],
+        [
+          34637350,
+          14202417,
+          "19f7650a32126f2989e79f3cdb14536394c2fd8dec0b82348d1083575c71fac5"
+        ],
+        [
+          96486372,
+          287345,
+          "b041831545d156abfd98317d2fd3e9fe4edea8badbc48c310068ac33a081cbcb"
+        ],
+        [
+          91258554,
+          195435,
+          "045b902eef0bcc4dd08c83d936058119fa5af998b90fc4d767c4d391b1a8c567"
+        ],
+        [
+          95738005,
+          222920,
+          "975fc9296d1a5f36a1431e9683ead56bf169d130f582bb76a940d1399f9ac0ec"
+        ],
+        [
+          103368385,
+          174980,
+          "24940f2561834e124d8119229347e6d1e4da4f4d7fa1da03eb418c686f393b51"
+        ],
+        [
+          96773717,
+          2242016,
+          "1ddcce254c01b4ec728371e3bd8ecc1b681861554ef252e00333d2ca39fe42c7"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_0_0.snappy.parquet",
+        "size": 93208813,
+        "etag": "\"8a60faa9969a471a9b9176c4c7ff0e14-2\""
+      },
+      "rows_scanned": 457903,
+      "matched_row_groups": 1,
+      "pool_events": 52,
+      "http_bytes": 19010375,
+      "requested_ranges": [
+        [
+          93143277,
+          65536,
+          "0f3a683b357c0b455074e8a33e4077304e6a8fb3493da2bd1e700533e3f5d9d9"
+        ],
+        [
+          33943894,
+          1360321,
+          "f4fe0bb01f80235e0cba9ec63c3077a01eb44d40db2935a69472097e4a5d05be"
+        ],
+        [
+          4,
+          1530579,
+          "a2757e63b977dd46948216dd512e916c38668f12ec41713a4e5c18494300ff73"
+        ],
+        [
+          30122198,
+          1282414,
+          "3f4817509e0aabf9f7030b3a0d413c54dda9cff20e8f5a58866faf497b1803f7"
+        ],
+        [
+          76177218,
+          705598,
+          "51a899fec8c933f5ca45cc2c683eb8201b4b62c14e37d2105731a988070ed2c3"
+        ],
+        [
+          35304215,
+          14065927,
+          "940028cbca6ba02e9bcc6045b0fed213d2b4fd038d06cfdec24719089369ee7d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_0_1.snappy.parquet",
+        "size": 104240086,
+        "etag": "\"c0b2d1198e9954d15d0abc3f3a3953ab-2\""
+      },
+      "rows_scanned": 519669,
+      "matched_row_groups": 2,
+      "pool_events": 56,
+      "http_bytes": 21681752,
+      "requested_ranges": [
+        [
+          104174550,
+          65536,
+          "2cdef422210715bb9d7aa31b90e14ae8e832e5dfe8b292595ac3e68aca6d5d9f"
+        ],
+        [
+          32942708,
+          1289431,
+          "6cb81b5a91fb3b0e0711413d49cf79253b47c4e585b895e72c18235d2274d5ec"
+        ],
+        [
+          4,
+          1374463,
+          "103cef4025e8bce4f4f558bf1418d25b2db4a4472f5c023a9032ca4e1ef56525"
+        ],
+        [
+          29171677,
+          1246329,
+          "4c0798e55bada4489d51f18587270f41298d36f39b9e1b77c198f6e19e1d3c92"
+        ],
+        [
+          74318579,
+          692806,
+          "3a35a8fe269277c49961603fceccc43172c5805468d7f28704d0a409cdfacc13"
+        ],
+        [
+          34232139,
+          13857402,
+          "993b75da3139b35948e611fbe57744517df20a8ecc82aa83c75a3a76ff5cc9cf"
+        ],
+        [
+          95796319,
+          287308,
+          "f3ddde82eae7f576b12192126011cee44b326980f07c1516e44ae57a7296e17c"
+        ],
+        [
+          90723740,
+          198996,
+          "9d54b018850fd25b846bab897efa7a74259d6834765b38767106b4eadee5c924"
+        ],
+        [
+          95046526,
+          224574,
+          "a87493e6d239fa67fa99998524426430beb23cad94cee353dcd5447b9694dcd1"
+        ],
+        [
+          102579374,
+          173465,
+          "192bd493f498197eed33191a8d42ce52a7e180bd02774bd70732d6835b6cb1a1"
+        ],
+        [
+          96083627,
+          2271442,
+          "40ba8d8f0d1dcbeed35624ddf7e074ad3c114ff4b68b4bd08a5a24c828891887"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_2_0.snappy.parquet",
+        "size": 93491563,
+        "etag": "\"3cfb0dc842596ba5b4acef4e113dc7ac-2\""
+      },
+      "rows_scanned": 460073,
+      "matched_row_groups": 1,
+      "pool_events": 54,
+      "http_bytes": 18527043,
+      "requested_ranges": [
+        [
+          93426027,
+          65536,
+          "3fe86bf9cd9dd79d52df79d70f647da7477eb1ef555de8fb943a001b51475b06"
+        ],
+        [
+          33678476,
+          1323974,
+          "c0eb02d6f0f73765a6b3c2ddd78ffdb1c1c43169353cc3cbbd0229ab84cce270"
+        ],
+        [
+          4,
+          1539827,
+          "0d1b35e193e7305a8d4907def01d4f50e20d41ccd034caab2c2b89bb766053c9"
+        ],
+        [
+          29826270,
+          1289418,
+          "056e5eb29885a7a7787c6406aff680d2294fd69bbbc09bf02a1ff3052354b905"
+        ],
+        [
+          76033491,
+          701395,
+          "e0b6f829a974fec86e78c5d6f587a0dc20f37eedeff2fbf2f40886f1e27b241f"
+        ],
+        [
+          35002450,
+          13606893,
+          "a7525a9291b1b918a293c35b145d6fcd18a2c059b30b66828672dfc8a75a5261"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_2_1.snappy.parquet",
+        "size": 101753854,
+        "etag": "\"81e503076859dc0f283e94d145b4a74c-2\""
+      },
+      "rows_scanned": 505450,
+      "matched_row_groups": 2,
+      "pool_events": 48,
+      "http_bytes": 21260056,
+      "requested_ranges": [
+        [
+          101688318,
+          65536,
+          "7f95aa8b60b38679edc78df377f85c2a695470839679d613f00190f9e37b5112"
+        ],
+        [
+          32628118,
+          1271826,
+          "3d17187ec767b4479bfc070229dff3521e27682c78f668835d8355df218b6085"
+        ],
+        [
+          4,
+          1455277,
+          "adfdc075e2b646364866a051739dcb3f9633d7e5effafdbb7d0f51b5837b411c"
+        ],
+        [
+          28966460,
+          1213172,
+          "6018cb896068e560aef2ffd12c6f88a2009390dd6bb894e6b81592deac17c830"
+        ],
+        [
+          72725499,
+          685711,
+          "c7735f3e39a9d95e8488692eb581871e7500cee7c10ad3977685854a673ffd64"
+        ],
+        [
+          33899944,
+          13513230,
+          "985d8081092e10a513e657ad35ad1201eb241ace529a78c8ad0eaa6d3744f1f9"
+        ],
+        [
+          93375139,
+          257266,
+          "07e94478049a5d53ef38aab746a4f4e74d43b8a12d3c4c142a681cae4e6756d7"
+        ],
+        [
+          88410356,
+          191180,
+          "6ebd1f4f8d7e2cf360c6fb3d56b2531ea1d8ede2e64b4fbdc5d443b03cb39881"
+        ],
+        [
+          92657631,
+          211039,
+          "45c112d281bbdcabc54e0de67ea11f3ae54521f32200fd12a837b593d70f07a4"
+        ],
+        [
+          100036784,
+          171612,
+          "a4e580becaf651f9234df10679eccde8e66a445f0b4cdb7a0914ebdf5fdaf1c9"
+        ],
+        [
+          93632405,
+          2224207,
+          "b797ccf91eef019c72c73e8add167716ee438732b30250e4fe6d808e9d205646"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_4_0.snappy.parquet",
+        "size": 103068502,
+        "etag": "\"4ea2d6386a1cf6337c4ad8b49e89d969-2\""
+      },
+      "rows_scanned": 514027,
+      "matched_row_groups": 2,
+      "pool_events": 75,
+      "http_bytes": 21647214,
+      "requested_ranges": [
+        [
+          103002966,
+          65536,
+          "e9c43029c5cf59c99b64af73e8bf7749b92b2a6511d1a0838065af906f736d1c"
+        ],
+        [
+          33342733,
+          1283861,
+          "a203030f9a28fc29ba726c6e38a8841ba23a16799f794d1fea1b04236c0bf689"
+        ],
+        [
+          4,
+          1477188,
+          "e35c14e82f82a744f202fc57c1cb93eb5d38b166cb62ecaa8d7a326cb01a9b35"
+        ],
+        [
+          29558520,
+          1235231,
+          "4e95cf7ce46868b5e6efdc6cee2ee1820b42dafa4640e92998cf4cdfb31b6f86"
+        ],
+        [
+          74096195,
+          693767,
+          "31f89b2696e1079bbd2654ad552d1e0522808e78e17073a3d1ff799626732fb8"
+        ],
+        [
+          34626594,
+          13736837,
+          "4c9d188cb14c43fd595e68f9e9b7adc09080472da1cf0e243e9ec4a92d0f5c05"
+        ],
+        [
+          95008544,
+          263892,
+          "9aea6c578966be91abbace68c9931533ed8c07ed41272ae3a9f2df496266cc22"
+        ],
+        [
+          90004598,
+          191773,
+          "3e829ddcc6f28994cffbbed41f2d4d95a45129b0cfc4dd0b8c323d53c5bb3477"
+        ],
+        [
+          94279743,
+          220248,
+          "677b5dc38386bb21398622967047e1b918dba8085479825c1475602ba8229a05"
+        ],
+        [
+          101651476,
+          179735,
+          "d2eed862ed7495427ddd1bb2b240673c3d24854a093987e621a81df7e03987ce"
+        ],
+        [
+          95272436,
+          2299146,
+          "8964f6e354e4ecedc92ee64bdf0de959e1e2e1c293a55478895815450e230a99"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_4_1.snappy.parquet",
+        "size": 106560192,
+        "etag": "\"fc9b7f1c2b31925a18a6b43d6412e657-2\""
+      },
+      "rows_scanned": 530702,
+      "matched_row_groups": 2,
+      "pool_events": 58,
+      "http_bytes": 22546260,
+      "requested_ranges": [
+        [
+          106494656,
+          65536,
+          "d7b082feba442d7dfcfc5b1b68088343cd0ca9e88d9094dad0c71d17f4356298"
+        ],
+        [
+          34078861,
+          1376379,
+          "f4396f1e5ba106ab4721c55fbe5e2ba05c15780e4485e12af245580c108f73c6"
+        ],
+        [
+          4,
+          1533668,
+          "c7c57d99083dd355300fb2ed087db964e6de73fe670d575b3160996c600f026f"
+        ],
+        [
+          30143614,
+          1340077,
+          "8c8bf6fd92251c21f5a238ab7b5777f130c1253be2f60e03abb286f1c8c9dd29"
+        ],
+        [
+          76536171,
+          717304,
+          "4608331ef5ba80806e271711ae9ad1676eeb1d29e6bd0578189be36d0afd4cb7"
+        ],
+        [
+          35455240,
+          14403100,
+          "0fa5caaa513bd1d6feb04ac5a149a0dcde8ff37b46c68aa7f2b504089167fa87"
+        ],
+        [
+          98364555,
+          251236,
+          "661c5ea95f17776fefe4fa7e395fe22c142ad62c9cd9e98df22b71462830212b"
+        ],
+        [
+          92908510,
+          213549,
+          "bcd3168c803ec373e4dbec3fde8cb5b7c6f149082234e367429044091a79e9d1"
+        ],
+        [
+          97574697,
+          233090,
+          "9632e854cb1cee0ebe7124aaf372b04873263845b4d80198ba978eba5e71dd2d"
+        ],
+        [
+          105008489,
+          171217,
+          "c586b4235560ebe4582067d71ae9b630f335ceba61cd360dc49e09a6b7e1008c"
+        ],
+        [
+          98615791,
+          2241104,
+          "72d923e15858a2c9c7683b7d41cc5fd5bc82912f607e524dc2838533737291e1"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_6_0.snappy.parquet",
+        "size": 95704820,
+        "etag": "\"a304aaa788211b649ef9ac8edd9451db-2\""
+      },
+      "rows_scanned": 471019,
+      "matched_row_groups": 1,
+      "pool_events": 59,
+      "http_bytes": 19730263,
+      "requested_ranges": [
+        [
+          95639284,
+          65536,
+          "6cff543312e3a5b09f74eeba5f0f529d575a48d959c40e52ad7b0eea99c8cc69"
+        ],
+        [
+          34889592,
+          1399069,
+          "aba5c4e2ddab5fabad50ea26bcc6747d8603ea28284dab4962277bc26d2d215b"
+        ],
+        [
+          4,
+          1576885,
+          "1bed1cdc4a03ad20b0f4dd34774f5b0daa29214b8220a4b2ccd25d7f881042c0"
+        ],
+        [
+          30948592,
+          1318726,
+          "e8334fe457bb09a66f506b5975c87d21c4d145f6d931b832439d4b2d3757cf51"
+        ],
+        [
+          78429506,
+          732604,
+          "cbe7d1c30384c54f8921113047ff85588543a22089fbbfa5ac897ea0686387f7"
+        ],
+        [
+          36288661,
+          14637443,
+          "952977d7674c0a0977be9ac06c0e71803e1f7be574e0b1e8b91b10f8ec4e8d3d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_406_6_1.snappy.parquet",
+        "size": 105969458,
+        "etag": "\"80fa7f8684f3ca042899c480bbb92017-2\""
+      },
+      "rows_scanned": 520240,
+      "matched_row_groups": 2,
+      "pool_events": 79,
+      "http_bytes": 22029286,
+      "requested_ranges": [
+        [
+          105903922,
+          65536,
+          "5d45c47193a5f3f73a7481850a6d3b899773ba2999a740fbc6151f3a3b3eb699"
+        ],
+        [
+          33155195,
+          1340469,
+          "b0bdd4d8dba777a62a56c2f06dcc138a343b16d057058e8cfdfbdce6a7b7a6ce"
+        ],
+        [
+          4,
+          1502827,
+          "338c7d8693ae757c6a5c653d272979b35e55e95438b04674d9920971f7eef957"
+        ],
+        [
+          29394784,
+          1258483,
+          "202d615cd55cc30f6a2a4fd3353ac7298d499aa1dc2472836f0fb63af2c05de7"
+        ],
+        [
+          74969128,
+          710513,
+          "c44603491067c925a91fb5d6ccf0638a8b50a25b00ed1015e51c6e51724f5f90"
+        ],
+        [
+          34495664,
+          13906767,
+          "0adca15e3e790070b309e794af5b84c23feafe01a85c53e51d420ce4ba2ff84b"
+        ],
+        [
+          97702911,
+          262123,
+          "580dddebe1fa9e5db0b292080fc30c5bd8d940c6ef44e2cc02c0382eaf1def5b"
+        ],
+        [
+          92419805,
+          205479,
+          "debe2cbff8e873875b89c448be13e96c2ca7f013b9d5f9cc9f0660c37def9bfe"
+        ],
+        [
+          96934589,
+          211685,
+          "8d5938b9497177811a3d824bed5e8f4697e0fe5e7a1a4fffcc25a92c7fe999fd"
+        ],
+        [
+          104489815,
+          176772,
+          "b7dc604fa0583ffe7106538b81d00ba9525d40ba2c3ceb40ce55fc65b2e3d865"
+        ],
+        [
+          97965034,
+          2388632,
+          "d7fe6c68061693693c0afe648cc16ce00fb3e08c4fc1b15f84f702a6ce5a3e45"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_407_6_0.snappy.parquet",
+        "size": 103355404,
+        "etag": "\"88ab44e52f08b92b5ae0e68693b45e26-2\""
+      },
+      "rows_scanned": 519275,
+      "matched_row_groups": 2,
+      "pool_events": 65,
+      "http_bytes": 21771063,
+      "requested_ranges": [
+        [
+          103289868,
+          65536,
+          "db74e0307716e8ec6dfd89e351cbd187f52048d70be0860442d4a12dd4d6ba12"
+        ],
+        [
+          33459690,
+          1300156,
+          "5e14054fba4f8fef7240e4379e7b4d0e23729e5b488bba903c0f6a0e26579d04"
+        ],
+        [
+          4,
+          1507196,
+          "f97529ffd5361cfc88ba91493cff755045a2c0aec6b00c84fb1e913b4cd8743e"
+        ],
+        [
+          29613598,
+          1247608,
+          "30294c51654e2f30674b6895e053264fb4b046775aaae256240915467032e565"
+        ],
+        [
+          74383946,
+          710420,
+          "49f7f0b53b515fb6b3d847c6ee155b6d7bdcfb646cfe58aa93890bc892b63f92"
+        ],
+        [
+          34759846,
+          13901526,
+          "cea181f61e125394a8ffc7a0ed465c2f2dfecb8b171229b129ebd8ba60f49bbc"
+        ],
+        [
+          94869037,
+          242288,
+          "94beb272984694284c88a49d6bacc8704046d5c1cd14a9812fb1a77f26ff864d"
+        ],
+        [
+          89606853,
+          190349,
+          "bff3f674b6d8c873db948f99624d72f00772ca0e076d5b58cd6261d7e909ab24"
+        ],
+        [
+          94120232,
+          221783,
+          "cac34dc28d96d9f2a852704fda5dd72f7403f30607eaf4fe87c961f06f82a0d2"
+        ],
+        [
+          101625989,
+          165042,
+          "22897ae1856399697f8b679e1733a5418eb7c8bb0d1240eb5768dd5c565afc7e"
+        ],
+        [
+          95111325,
+          2219159,
+          "97ccdacd5d06c72cb3fc839b1d929bb1e066c25bff6c1d753171b5af2c0dbe61"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_0_0.snappy.parquet",
+        "size": 99587382,
+        "etag": "\"23aace6ef3adb8d4506616675bd8747d-2\""
+      },
+      "rows_scanned": 496692,
+      "matched_row_groups": 2,
+      "pool_events": 67,
+      "http_bytes": 20853995,
+      "requested_ranges": [
+        [
+          99521846,
+          65536,
+          "3fc39f7e3b42367810627f3ae10e1b8cfa40c566688ffdf7a443908191eae4e8"
+        ],
+        [
+          31394920,
+          1254766,
+          "b97e6afba5b82375ba399b846b7eb003617f06e36e4e62a1ffc0822f0f41759b"
+        ],
+        [
+          4,
+          1420712,
+          "61602c130da012e0a60149b0914a2d718195e49317eae96a134072ab9cbc770b"
+        ],
+        [
+          27768023,
+          1187183,
+          "a143ea242ca2bf22fb133e68427eb449742c1cac1e707f0a01f728191d7a1984"
+        ],
+        [
+          70413559,
+          666536,
+          "a96e5079773619b028e247ec1acd8c13d4807051639ca4804f0669537de2b017"
+        ],
+        [
+          32649686,
+          13079252,
+          "f42476e86e97006bf4c47aa3cdf4feb074c7ca17a3d32a6f901420a1315c1042"
+        ],
+        [
+          91301144,
+          267072,
+          "05e35b34fe523a4e587af71b9f72c45faad618e5ed0bb9da6118e89df1b7607b"
+        ],
+        [
+          86050110,
+          193337,
+          "442a053f97bfbd4bbcc89f1b38d5e1c4d25b202b19e48d694f9168ed989c97a1"
+        ],
+        [
+          90431482,
+          216603,
+          "4416b287e2ff50432cd942ea496a75699b301183883cd8e21dbf3b9bc2318f62"
+        ],
+        [
+          98046415,
+          173680,
+          "b718fc3c1bb924532dbb5c05bdac46dc9fbc8192bbe296ba4bb40cbbed51b7a5"
+        ],
+        [
+          91568216,
+          2329318,
+          "d5122c07b40215bbd95f0db9ae9f67e8ee0f13cb7c47ded73dbfbe30bebb715d"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_0_1.snappy.parquet",
+        "size": 97539400,
+        "etag": "\"e9e25d17f05d9a482198f7c8fffc2dc0-2\""
+      },
+      "rows_scanned": 476649,
+      "matched_row_groups": 1,
+      "pool_events": 42,
+      "http_bytes": 19627452,
+      "requested_ranges": [
+        [
+          97473864,
+          65536,
+          "74cdb914095fa176e81983e3ee8dd7e297f4b2275c29c94cd2a42988721e6919"
+        ],
+        [
+          35707173,
+          1364954,
+          "1978ea3bbe6f202aa97236de38c9b588417bec730f5965be239267b32f05f0f0"
+        ],
+        [
+          4,
+          1597363,
+          "dfa0229de373e796fb9c5287b650a6382a06d0ba974688869b58db0b6a019432"
+        ],
+        [
+          31566498,
+          1333566,
+          "9f1ebc1bce6314d4f8d7c3dbbdbba1cfbcb19663e8e08cc204ecf6c52ba069d0"
+        ],
+        [
+          79921176,
+          734839,
+          "ce2047a95366141ab99783d1726de8dec1dbcf5468eb3ce748e4f46f6b8ed3d6"
+        ],
+        [
+          37072127,
+          14531194,
+          "eaaed08bafbf4812cf048785e17ed80a7bee8f17fed5537243726d663863189e"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_2_0.snappy.parquet",
+        "size": 96522281,
+        "etag": "\"c5ab069e634237b119c118e75b50acda-2\""
+      },
+      "rows_scanned": 470779,
+      "matched_row_groups": 1,
+      "pool_events": 63,
+      "http_bytes": 20566104,
+      "requested_ranges": [
+        [
+          96456745,
+          65536,
+          "56c0da24cee890a381bbd2b74f8ed8b97589b6f8f21b2dca41769645d2d0ab29"
+        ],
+        [
+          34948890,
+          1380724,
+          "36a2387e83f27c0316f358fde7874e95b8e789c5099a31b4d791034a0237bdd7"
+        ],
+        [
+          4,
+          1579279,
+          "9ce9b98b6d8c72a8527e2f819605f2248ea0a5eb9f3fd2f8c962a256c40b8348"
+        ],
+        [
+          31026380,
+          1317933,
+          "86dd217c94fb4a7084b4b774834061d6fafae0e43f479e0a66791462f2d3efdf"
+        ],
+        [
+          79514233,
+          742829,
+          "1cbb1577ddaa342a4f3e8bbb14807d9ff7c17533f6e8f2ad482b44780008e720"
+        ],
+        [
+          36329614,
+          15479803,
+          "a4c10cd487b1c2260e41e313152ccc37ab6d0793cdc1e0c6ec66f7d700b93320"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_2_1.snappy.parquet",
+        "size": 94122032,
+        "etag": "\"eec44f1cee64d6054be5bc32972d84db-2\""
+      },
+      "rows_scanned": 461620,
+      "matched_row_groups": 1,
+      "pool_events": 66,
+      "http_bytes": 18864118,
+      "requested_ranges": [
+        [
+          94056496,
+          65536,
+          "df6305a09a0fdc29a2b17b61cc58becf7744e9b49d78ad4689923746ce0aa3c1"
+        ],
+        [
+          33896690,
+          1308119,
+          "5283060c8ecf025913caeeceb0f75783559e7dc48c85e58a0241079bbe7cc9a2"
+        ],
+        [
+          4,
+          1544336,
+          "209d33777f0e68e87ecf557c27ed2b1539ad8ab866bc1377c2951895559736f1"
+        ],
+        [
+          30061128,
+          1293739,
+          "aed9b749c26ffba28feeb6c5434d00a32b21974277a79935253935f9c2bd6223"
+        ],
+        [
+          76562819,
+          703523,
+          "c8a2bdc5c91f8c662aa1a4eb3a5d8d3cb91208b993a01b232c3c179540b94539"
+        ],
+        [
+          35204809,
+          13948865,
+          "cb3d08d1c84a2fbf945c61c8da7272efcf8f96d00a9a607d7c04c4e833abb564"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_4_0.snappy.parquet",
+        "size": 104578178,
+        "etag": "\"1ddcbd9df43b98923116f77534727994-2\""
+      },
+      "rows_scanned": 522611,
+      "matched_row_groups": 2,
+      "pool_events": 49,
+      "http_bytes": 21830465,
+      "requested_ranges": [
+        [
+          104512642,
+          65536,
+          "5f67a364b5ba481724e92b2435e107b28a9e0990c142e6b52a2f5ac59c020971"
+        ],
+        [
+          33495003,
+          1299470,
+          "05c6e0a7b0d0ad1112bb7e925954f004c7d88808fd44aaf7b36df930e1aa9dd4"
+        ],
+        [
+          4,
+          1502542,
+          "55099124397532709f6c94ada262ba329737abfe1689748a5a9039b079ac5b76"
+        ],
+        [
+          29717182,
+          1253325,
+          "d51374f48d46be75706192ac04f9f5547237a65fce73ee0cb3fc41310804a97d"
+        ],
+        [
+          74722722,
+          703393,
+          "3c0f82997b82118931ddfcc23a48e958bf95834a273e97a94debff4616842ef7"
+        ],
+        [
+          34794473,
+          13898310,
+          "c534fbacdf31ff002dab42ae0141456a60b2b5b9d1efde29034e407b8385dd04"
+        ],
+        [
+          96018979,
+          290352,
+          "e0f9bc70fd77df48b642b8668773d2661943a3dee4ab34ac2c7af61ed7b054a1"
+        ],
+        [
+          91192870,
+          193253,
+          "a71613593c0cf420524abeba2b397b04187d70c5d65be043659a2aa2a383a7f3"
+        ],
+        [
+          95304756,
+          224302,
+          "dbb9e9d0009f57f87667e41382dba927dff09e2b21dc547efe982ece33005be9"
+        ],
+        [
+          102845194,
+          164804,
+          "dca0fe2775555dbcfa5ff0d34fe1ee59d220d1d5c17eb830570d1485de25bb89"
+        ],
+        [
+          96309331,
+          2235178,
+          "554f8c9a5963eab7b2d2f1fa2bb1b98f18eb20499bca2e4ec03704d093df9a17"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_4_1.snappy.parquet",
+        "size": 101835133,
+        "etag": "\"399e4cfe1b90a83920602c1012c52307-2\""
+      },
+      "rows_scanned": 504067,
+      "matched_row_groups": 2,
+      "pool_events": 88,
+      "http_bytes": 21001326,
+      "requested_ranges": [
+        [
+          101769597,
+          65536,
+          "38b556fe714c4e1797b03929873e17b4be10915683979b1505499c51ee0424cb"
+        ],
+        [
+          32442087,
+          1255378,
+          "f98b18cdf6c852a01325ce457526c38c1f788b3edff6dd4d90b55b308c1173ce"
+        ],
+        [
+          4,
+          1450657,
+          "ec9888ab1d8f3b0996f0f4f65a276b357afd900ccb797c0a37c5e9dbc3c0e5cc"
+        ],
+        [
+          28774634,
+          1207593,
+          "0cc75c68eb14e09d63c4bbc9abeaa6570b63c0ad902548133ee0167f2f54e96a"
+        ],
+        [
+          72422460,
+          684348,
+          "b5808471b326aeb25a86a28ac3271b8e83a7a488e84f60fe574f51c5fb042681"
+        ],
+        [
+          33697465,
+          13540966,
+          "015f9b46dc30205419e31f03f4a7e2384d891a89708611054ec11631164b6e3d"
+        ],
+        [
+          92056257,
+          238527,
+          "218871278d1f88a636c08c017db70b1518b48a9141278bfe4d398fee322e470c"
+        ],
+        [
+          87687545,
+          188490,
+          "116bd222d3c19c809ca2b19f86fbf99aea95f7af0e6de1c67c87386daeef71e2"
+        ],
+        [
+          91346149,
+          204562,
+          "b0fd7bcf84999f847935da5f510e3e496f5e5ff6554920c7f60fac3534061e71"
+        ],
+        [
+          99002991,
+          160020,
+          "669cbf848bdc4a819558f1ddb46aa5c8da76c918cab1cec5d5a31ccaad559fa4"
+        ],
+        [
+          92294784,
+          2005249,
+          "ccc44a72aa8e4d705fb01f7308137d1b850b0c44b05fe72ec775d73a2fff792b"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_6_0.snappy.parquet",
+        "size": 100644329,
+        "etag": "\"3de288f4a09e1c3827793a140e828769-2\""
+      },
+      "rows_scanned": 500184,
+      "matched_row_groups": 2,
+      "pool_events": 46,
+      "http_bytes": 21299379,
+      "requested_ranges": [
+        [
+          100578793,
+          65536,
+          "5e8e0fa73db11ad1c91ac516bbb2b4aa4729d153199889ee1f80a92820740fc9"
+        ],
+        [
+          32179728,
+          1290319,
+          "d6961d47e753ac812d7ec5fefcca6fab2b50ffdc976a614a9a644826e2af295f"
+        ],
+        [
+          4,
+          1433012,
+          "cca818da89c0658d0e76f4e8e213a15c166fb2ead0bdf76f829674fcc678451e"
+        ],
+        [
+          28545138,
+          1196505,
+          "2bb86a297a996a5c48215b4a8de6e32650751000e758211effaf3192adff3c4b"
+        ],
+        [
+          71948075,
+          679398,
+          "6be0e91831c97a8361bd8fcefa31f649d78aa62c3d183c76eae3bcc2cd2f36cb"
+        ],
+        [
+          33470047,
+          13645299,
+          "96221a294b5eb0dc462b32a2c73e176ad161192b1881715b948909cd9a201f45"
+        ],
+        [
+          92126075,
+          268470,
+          "0e7e419b583653414240ef6d56d9c8ac8a8a0a52223148947c5fe072aba4e102"
+        ],
+        [
+          86991542,
+          212755,
+          "39609389e231bd00b7d4ba1fca7248692aad20ac479bce7684dc6376e7a9459a"
+        ],
+        [
+          91401490,
+          211247,
+          "d335121ad79e262bb95a76274407e28f48410236fe2e6e04bcf7d5ffbbb36cb0"
+        ],
+        [
+          98692753,
+          165097,
+          "70ea51a5c29e581dfef078d93e108dd6b93913a9aee3b53091df3fbe22e3cb77"
+        ],
+        [
+          92394545,
+          2131741,
+          "0a8b1ad7126044c3a7999bda276c044936e5f4509f96b76089b0d8b12299b266"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_506_6_1.snappy.parquet",
+        "size": 104109496,
+        "etag": "\"d33c245feda3b41e0b2c30fef14d7e90-2\""
+      },
+      "rows_scanned": 522181,
+      "matched_row_groups": 2,
+      "pool_events": 49,
+      "http_bytes": 21601955,
+      "requested_ranges": [
+        [
+          104043960,
+          65536,
+          "329a810228184602cb02c556e637946a8f27a89be4983a5a023008912339145f"
+        ],
+        [
+          33430091,
+          1280619,
+          "91a040cb1f762de07755f35ce4be7d5269077099f1f74337df630d459a2063df"
+        ],
+        [
+          4,
+          1498002,
+          "7aa0e03357694790a5f16038f188ef1d4ed1df3a779ee844cd7a1dd0ccb634ca"
+        ],
+        [
+          29660443,
+          1257182,
+          "4442de02767691186aee5d0729b1c631b079fb0a794ec6bd527df2850a7575d1"
+        ],
+        [
+          74289025,
+          695433,
+          "f2a89f215c835177624484e613d4cab06dae8030833fdbee0768f867997c56be"
+        ],
+        [
+          34710710,
+          13559818,
+          "701788aae0567e38b1c6d1ef8ea08138f001e8e30becb4c977ccd9528de2c14e"
+        ],
+        [
+          95818720,
+          268997,
+          "a2856c72423c1f7b1737a55fecdce279bbace156806ce9c3d42af4d2b7b73c12"
+        ],
+        [
+          90953268,
+          195598,
+          "cd351d6c9953b28b4b7d90003f0e4ce0c24ee9c279197519a49e8e9ec748c896"
+        ],
+        [
+          95065843,
+          209395,
+          "6f5dfbea6d00804db2da30f5a74fff3d5c1e98477070f234d4ae2c6d7ca872fd"
+        ],
+        [
+          102601809,
+          173947,
+          "9cee7a930efca7eb1aaa61c4d64156ba0dade2502405a98ea9b1395e0c7c97b9"
+        ],
+        [
+          96087717,
+          2397428,
+          "0ee04a357d5962813a7ededf8864b59c1c7fc73623fe756f0b0505c1b8e3957a"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_507_6_0.snappy.parquet",
+        "size": 104212823,
+        "etag": "\"cf83761a34ff4e1ea6e607f7ae72e478-2\""
+      },
+      "rows_scanned": 521263,
+      "matched_row_groups": 2,
+      "pool_events": 53,
+      "http_bytes": 21931004,
+      "requested_ranges": [
+        [
+          104147287,
+          65536,
+          "20b3ad19682812c77f875498180f59b4592c61de7528c300961211442cd2febe"
+        ],
+        [
+          33301028,
+          1308996,
+          "2075bba0fbdb40be20b7ac2d2624fe6e68d1449a1dca3f01a581bbc546aa01f5"
+        ],
+        [
+          4,
+          1496082,
+          "351979ce2ccd9da2d76d9196dcc541f342a8e82a8ff4b10e2287c4e06ea6529d"
+        ],
+        [
+          29486214,
+          1307617,
+          "9b40dbe417e4266dfbf7c97847d9b3c069e5e4bc439bc69f7432f51bd60e5f34"
+        ],
+        [
+          74378042,
+          701910,
+          "3d0b57cb0acfe3942afdbd51dce5117ec69defb7d0e5f1a8fc3230c5609c7ed4"
+        ],
+        [
+          34610024,
+          13876392,
+          "c5794575f4678acfc8014b1c0188fbc49686956fc71d7323ec60f22be77a1dbb"
+        ],
+        [
+          95371936,
+          293820,
+          "5f7a786c41b13f479f672def025d586c77134356c8928ae3eaf6f6b2f2c887e7"
+        ],
+        [
+          90505371,
+          198925,
+          "963631dcdea11fb51ed8b3153f6db0f11b28de27188c951b3f2dc3cb0ccabfde"
+        ],
+        [
+          94624442,
+          215852,
+          "b8fe89beac18014f914fc8b3e3dd4b2435d38fd6900df297efea7472e1b45e6e"
+        ],
+        [
+          102308811,
+          174190,
+          "2385e12318ca0e0d2955eb6624e4ee217fc1bd67df8bb6927ab38d0f0bbb1196"
+        ],
+        [
+          95665756,
+          2291684,
+          "a333c7fe035c3be94226331065fb744901b871d0d1513bc7c30b380582daa32f"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_508_6_0.snappy.parquet",
+        "size": 105058418,
+        "etag": "\"e6aeed71bd8d8d18ad0e1ec261df5b57-2\""
+      },
+      "rows_scanned": 519454,
+      "matched_row_groups": 2,
+      "pool_events": 73,
+      "http_bytes": 22205766,
+      "requested_ranges": [
+        [
+          104992882,
+          65536,
+          "c086ff2f5644c6abe5feeb235c7b4810976dd8360ea945b7c6dd1325daf83df3"
+        ],
+        [
+          33607982,
+          1351461,
+          "bfc5b046f2e3f6dcbe359d2e4cc4c9983f6cbef4ff801fa15aceb64e6a24f531"
+        ],
+        [
+          4,
+          1497111,
+          "aaf95b60c55d7d6a2c1ef0ef1a9517ad9cd4820bf31c17c2065d0e9f9efdd967"
+        ],
+        [
+          29716075,
+          1243695,
+          "7f51d1073ce078a143e283b1f60b1393d75c333a2cf646e4f556230bfa91535c"
+        ],
+        [
+          75068551,
+          705480,
+          "ac9840f0cda9faddcc000ba9f36966062352159462123486301bbb6ca326b2f6"
+        ],
+        [
+          34959443,
+          14228914,
+          "d63fc8cf5fdd472385d1c567cd4f149c11f87b68ed35e1173be05155f1e22000"
+        ],
+        [
+          96470949,
+          261378,
+          "15697f8663f745a0fff4e43cacd16bcfb6a894cb4522fc622dd9357bbe18decd"
+        ],
+        [
+          91074233,
+          218402,
+          "da2df4701fe9c59515f7046f55ae77a64763e0f1aede310d4938b21b1e63865a"
+        ],
+        [
+          95705563,
+          227822,
+          "75be3eb2270ba8954cc7534d3f1fd69a85d382c2dfa8482a2ca9fa23e174a0bc"
+        ],
+        [
+          103286798,
+          167794,
+          "5bf51f671ea2d6264dda2d78cb8edfa4e7abec17df26ccd10af8a61a3e53b087"
+        ],
+        [
+          96732327,
+          2238173,
+          "bb314f8c4bceb27c31b3b1a861799e673989bd94db7eafba2d0532b69430f803"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_0_0.snappy.parquet",
+        "size": 93344869,
+        "etag": "\"23eb3410bad03f4eb5610f3c325f906a-2\""
+      },
+      "rows_scanned": 461794,
+      "matched_row_groups": 1,
+      "pool_events": 54,
+      "http_bytes": 18968966,
+      "requested_ranges": [
+        [
+          93279333,
+          65536,
+          "481a15b4708b6e2008469cf55d52c3e052a3ae1db67942eb2beae896a4d907bb"
+        ],
+        [
+          34516907,
+          1351750,
+          "80a4d64db0b42170444d1665f824cc308551f734320a0e493b2d3fc9e0cdab95"
+        ],
+        [
+          4,
+          1547565,
+          "ad541a822537f290ae2c4c0f0b5361a6035c79e8a0346fdbe40e9dfa7353dfc0"
+        ],
+        [
+          30605312,
+          1295059,
+          "23f6f326e8e913ed5caa27c7e166248044c31069584c36e8d550763f2b434bab"
+        ],
+        [
+          76600293,
+          716723,
+          "2e85f35de27f056dd41bb4ca01a89cf90051580159a287dd19dc5bb039abe773"
+        ],
+        [
+          35868657,
+          13992333,
+          "fc24e42e9a4f5041fe27fe0b3574e5ffbf9891ecd1fd3ded143bce614e8794a9"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_0_1.snappy.parquet",
+        "size": 99603337,
+        "etag": "\"8d8b2e4a44227a1666a905a94f883edb-2\""
+      },
+      "rows_scanned": 498913,
+      "matched_row_groups": 2,
+      "pool_events": 37,
+      "http_bytes": 21097494,
+      "requested_ranges": [
+        [
+          99537801,
+          65536,
+          "67c73175b73735c018bd4e68430219321cfafc158eb68be29cc8855654fe51df"
+        ],
+        [
+          31321777,
+          1249400,
+          "a7b6d8058e53f5c2d1c04d66d0a6e6b6b95f0506d1ad1c5aecfa8b43d935ccef"
+        ],
+        [
+          4,
+          1320447,
+          "62adb6b124e0e19842fd6f204a3c36b761688779cf136d95813474cc4db4b1a9"
+        ],
+        [
+          27608328,
+          1195925,
+          "8de0e55b34a80688a20fb700d2e4939f6fefc2eed3796b7a876b282c72e83824"
+        ],
+        [
+          70775755,
+          673586,
+          "e31c3ebb935ad3121290db11d654cef4b2ed773baa11f5f79b3fe31a4c6be052"
+        ],
+        [
+          32571177,
+          13402930,
+          "5f1bae6f2c1254d025e4700e46f5e4944ab2a3e4e5b774b52a1770fcfc77bad3"
+        ],
+        [
+          91119567,
+          291887,
+          "b6139b66dc7dcad9d411813ce3e6d22b21d5d1c04be0eb41423e72a482b8e6f3"
+        ],
+        [
+          85906273,
+          209811,
+          "ff3e698a8e1698ddd1a8f83867875aa371836b60e2d279700a5b43e99b336205"
+        ],
+        [
+          90387885,
+          217882,
+          "e7e2e138a651b7bd1e330ab05fab9468c988434461348149d8fbad6805df3a5c"
+        ],
+        [
+          97931521,
+          172557,
+          "904341fb2519f25da77b1e5da7c1dd859456c434783b90f54f5802a118792ca6"
+        ],
+        [
+          91411454,
+          2297533,
+          "3957dfd359a7c85abb8c37007a0f1bcf5fdeb5831fce360c1fa30c064a521dc4"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_2_0.snappy.parquet",
+        "size": 105889234,
+        "etag": "\"63703db7eb2aed88cc06157f1e662250-2\""
+      },
+      "rows_scanned": 524247,
+      "matched_row_groups": 2,
+      "pool_events": 60,
+      "http_bytes": 21623538,
+      "requested_ranges": [
+        [
+          105823698,
+          65536,
+          "8b6c4272c393b42b7bc6f138cec623f8c790fef2a85d0c06c94d0a77ac8da6f4"
+        ],
+        [
+          33471901,
+          1380708,
+          "c12c9b7cafc9d9417a630caa213945a654c5df76efba98fe4cfaec8f7e3ca3d9"
+        ],
+        [
+          4,
+          1523665,
+          "9017d579355e5d04935dbd144db9a7ec7f0b106e8c5b091e780f52c0f7aede81"
+        ],
+        [
+          29597764,
+          1262691,
+          "24606ff3308c512ea78d53c83e6f988dbc4cbc46486f3465e506c227734692f9"
+        ],
+        [
+          75248300,
+          700981,
+          "fb6a6c60148ea81f07356183603a3a301a46662a3f3a834fdc65b77ed6ef0e65"
+        ],
+        [
+          34852609,
+          13763658,
+          "5fba365b376c4e6cb8dee6f07b8e8812fac6b1eb25790cbbbc91b798e1a1f597"
+        ],
+        [
+          97171187,
+          267080,
+          "669d08ed2cfb4b4328badd84d90b676a1377b470caa13366d7c6976e08621119"
+        ],
+        [
+          92556482,
+          211739,
+          "edebd4676f8c2a40022f25a6e79bea2c7779b013b0d50cf34a3bb015ee212e1d"
+        ],
+        [
+          96466522,
+          210165,
+          "f6fb7aa306c1b2fc2542e6a2504818bb452e5503b41184c45b31d4f1028b559a"
+        ],
+        [
+          103828256,
+          162515,
+          "2ab59fe64c8ed99fd2b5d71539ee4d230a8d4f2ee3e5242fce201ca3569aee6f"
+        ],
+        [
+          97438267,
+          2074800,
+          "1f92451f893027b9901a0db953efc78488ddab7f401ff734da0f3858f643cb14"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_2_1.snappy.parquet",
+        "size": 101868066,
+        "etag": "\"89341944922ccca84564b3f97c65d790-2\""
+      },
+      "rows_scanned": 514094,
+      "matched_row_groups": 2,
+      "pool_events": 49,
+      "http_bytes": 21275974,
+      "requested_ranges": [
+        [
+          101802530,
+          65536,
+          "b43008b80cfa8e318a9134069ebf91a35591c16b9012276f6cba8457dc12fcf0"
+        ],
+        [
+          32017564,
+          1275038,
+          "09bee2fda9d9d87138ad2997d4560525ed3757f4624ad528b68868303fe99936"
+        ],
+        [
+          4,
+          1354042,
+          "8647b0c1b3017b221e228099dc8633af8e20695f86a2f4116cdd1d7a6a25a313"
+        ],
+        [
+          28335592,
+          1225617,
+          "e4063afe6e3b981828932037d30d2967bcf925dd35aba9a65b314634f5d39936"
+        ],
+        [
+          72739240,
+          692962,
+          "78da86c536c22cc434f537da6e61b7fd261e0b19930d8d3895ed118d27e3e68a"
+        ],
+        [
+          33292602,
+          13618357,
+          "6ffc4bc99967ab7faf6a8c5c8f17cbd2b835d516d6038e0a5dbfbf6709143462"
+        ],
+        [
+          93467019,
+          292440,
+          "71a3fc83e5ed0a1dfce1e8b33356d6b5b97d4c11f83683cb1d12af5f0222fc0e"
+        ],
+        [
+          88507064,
+          199383,
+          "2e68752ae1a1a494798d25078f4db86bb9ee968ecdd4ebf5e3540aeddc50e256"
+        ],
+        [
+          92751110,
+          215125,
+          "280c6b57bd391a40a35c5094a07243743f2dfb830a6b09df7d01fbada52e0a4c"
+        ],
+        [
+          100166751,
+          168196,
+          "da593e0aae7e292181c722ef3b0b150dedbd3e9e387b78b9a01875a634b00513"
+        ],
+        [
+          93759459,
+          2169278,
+          "957a3db4c2863927e8db99a9d92b79015ccfc9eb08d5a6e3cbf3b140092f2e11"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_4_0.snappy.parquet",
+        "size": 102125983,
+        "etag": "\"c5e186e285018db73726e620f9e3e5d6-2\""
+      },
+      "rows_scanned": 511327,
+      "matched_row_groups": 2,
+      "pool_events": 78,
+      "http_bytes": 21539316,
+      "requested_ranges": [
+        [
+          102060447,
+          65536,
+          "9a26f4fbac6bf3356afec3d53f3530f997b2e9b124df31e865a09b22e4e33d7e"
+        ],
+        [
+          32787579,
+          1299244,
+          "c26ca19c6c3d5375b1c35776b202af3bdecf390ae32ccf01b35d9449b77bdd45"
+        ],
+        [
+          4,
+          1357681,
+          "b4d1d165d7462bfe4eddfa47361c261190ba28a80fe7956a71c2aeaf563f1146"
+        ],
+        [
+          29090195,
+          1229229,
+          "f1a15a7a915f9acb9fb79cb1c96c0368191db8257d4d6bcd785024435cfa065e"
+        ],
+        [
+          73308160,
+          699382,
+          "062021ebb7f1be9bfd1234dc685555e3f4cc497bb1074f5cce512d51c296d396"
+        ],
+        [
+          34086823,
+          13623950,
+          "d5b8ecb57fa83d59c6f549f588b39f5c2388f942f807d6c11efa4b37087dfb1b"
+        ],
+        [
+          93816368,
+          265192,
+          "daa34a8c4422c026f7b3977cdc604ffa9f63887cae5c495b3375d7c46a0bd835"
+        ],
+        [
+          88815323,
+          212349,
+          "fde75592981290727255f0be3795d78ef04b1ddfdf638dd40df040b5a0deb1f2"
+        ],
+        [
+          93092587,
+          205618,
+          "6e9c00f1ad53ec7c333f6ed7b0d91be24b44e2e5f17d1eb62c31b7391acd2dee"
+        ],
+        [
+          100648959,
+          170380,
+          "4523142874c3f9595a8b782336a0c6e8837fb89be15ded4d58aa1ff6adef945e"
+        ],
+        [
+          94081560,
+          2410755,
+          "5be17c36eb567ad54243cbb154b3b8638dbaf36b245b0793006a501b97535974"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_4_1.snappy.parquet",
+        "size": 94744207,
+        "etag": "\"2228cea25b5e6d9002596ef275ece9a4-2\""
+      },
+      "rows_scanned": 477805,
+      "matched_row_groups": 2,
+      "pool_events": 69,
+      "http_bytes": 20317643,
+      "requested_ranges": [
+        [
+          94678671,
+          65536,
+          "21c7cdd7c2a04f422bbb87b6166920f322574ee22fa309a4e1a93e92be0c65a6"
+        ],
+        [
+          30330439,
+          1207988,
+          "02395ee8eae3781fb4bf5e871e278a69f8dae92efce5aa4e5c591eb202dee15c"
+        ],
+        [
+          4,
+          1356471,
+          "35a63bf39897dc551a7d98ed23ea3137da8637b96fd67b88ae721524cedde1cd"
+        ],
+        [
+          26867291,
+          1128477,
+          "95ed5569d793c02c9e46b025c212c5a17c21c48d71854a4cc5b6e95c691afc31"
+        ],
+        [
+          67705602,
+          652638,
+          "f74bb6b5ba5e5b6ab03a0fa3f3b6c654340bf4dd3ff7729f3ec7f3240409c632"
+        ],
+        [
+          31538427,
+          12722103,
+          "1924088b4846eaf53d40e4a74b92bca2c2730e355082734c4af3af5d029580c7"
+        ],
+        [
+          86579688,
+          250125,
+          "c1f461659f40e590ae43a4f87f498d655e67a29a157fdb15bc5ae73a2a59a149"
+        ],
+        [
+          81917138,
+          194383,
+          "02b0a402466b3ef9cec1f006fe83b3b612d113298cb13b848d832c6da2f86013"
+        ],
+        [
+          85885999,
+          211314,
+          "6e8b8b02663029d8cb1035e441ebaf1d80ca279ac8b9cdd35107a0fb3c64de18"
+        ],
+        [
+          93338278,
+          171380,
+          "9113c66d6ce3782787d6efbcf65bae4f55a677166c6f59ee535f3affac2bfe3b"
+        ],
+        [
+          86829813,
+          2357228,
+          "58f12b1fa53032ee400daa5bfc05ec0767c2fa73178858c2313eadd694c9f666"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_6_0.snappy.parquet",
+        "size": 99011455,
+        "etag": "\"2e09febaa327a6dae866d0d7ec952b2f-2\""
+      },
+      "rows_scanned": 495430,
+      "matched_row_groups": 2,
+      "pool_events": 74,
+      "http_bytes": 20857289,
+      "requested_ranges": [
+        [
+          98945919,
+          65536,
+          "7900c6c7ccb938c90a58208e0ce5625a18e3647322d030631e0006da4a063f2b"
+        ],
+        [
+          31395167,
+          1225704,
+          "3fc72f562d82c2a3eb677f9f8fe516845f8319111ecbf34af054ccdda8a14cee"
+        ],
+        [
+          4,
+          1408710,
+          "6f8069ce161e938246767d86b37d40d0c344bc3f49538ac4ebc4394cc697ce6d"
+        ],
+        [
+          27733723,
+          1179166,
+          "5908a0a512ab1e36dd45d417c7d4e730cfa38a98180688e9582c3de64f864736"
+        ],
+        [
+          70354477,
+          670048,
+          "2890622ed43473bfa998a9823dd17c742d928a2f8aa0817f7ffe6f3ab9104e18"
+        ],
+        [
+          32620871,
+          13212832,
+          "cad63e5a6fdaee598a2d9485255c84057d6c3baa52cb92b7792d17f46c3a379b"
+        ],
+        [
+          90468638,
+          269252,
+          "010dc66a3dc2b38632aadaad3aae23d8e18264f326aa9c0c836a0cac46091e19"
+        ],
+        [
+          85247701,
+          196925,
+          "95739e75d86db4029e9c5105442e3ce6d2de8aad266ddc7865accc424c679705"
+        ],
+        [
+          89740774,
+          224187,
+          "1825eace2b79621995bbf9364da4c9fb79adaeae14d8c0d4f5e572a3b5306221"
+        ],
+        [
+          97224863,
+          169165,
+          "76e515847181063b2a54555e82f50e11fc7b28be477071a119b987629cbe5671"
+        ],
+        [
+          90737890,
+          2235764,
+          "97e7b256fdc5ba8ef343e3231982b2070abb4e1db82c77bc234e78fde48d939a"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_606_6_1.snappy.parquet",
+        "size": 101428236,
+        "etag": "\"0741a3ab99e5ae75dc36454cf00bf8a0-2\""
+      },
+      "rows_scanned": 506737,
+      "matched_row_groups": 2,
+      "pool_events": 61,
+      "http_bytes": 21582245,
+      "requested_ranges": [
+        [
+          101362700,
+          65536,
+          "29c5b7365db95788f0d702b134d04681c95fc914730e8635708c6e19a47a5a16"
+        ],
+        [
+          32385006,
+          1279692,
+          "00c846378fabc54519e061f9c90864940f09ee99d63e5a7935199d891f242666"
+        ],
+        [
+          4,
+          1454057,
+          "f522671613e9bad3d0bbf6db94652f43ba2400fdd83bedcd2757713673b78011"
+        ],
+        [
+          28678773,
+          1215318,
+          "bf61447c37073f7332e942a68c7827c8f91f1ea929cec105fc5692c4fdde7683"
+        ],
+        [
+          72553390,
+          690166,
+          "d677f6debac20325b996e63a35e1e7e1fe2becce6fe5ede79846ffde38ccf29d"
+        ],
+        [
+          33664698,
+          13658971,
+          "fc58f7978744540e65fbffa578cbd000d4134ce02a0fcbede80ebc44f4351412"
+        ],
+        [
+          93155259,
+          297279,
+          "4766c6cba9a3f993d66321608d9f380ee50bc472504b92da400e7632417a1e5b"
+        ],
+        [
+          88003667,
+          211548,
+          "aac06306e2db2f7d9843711e8dd9bd0091e811f8ba8c9ab49c7cf59fa22ead32"
+        ],
+        [
+          92415850,
+          205661,
+          "b5df0cfca12ff4054e0eb40f85fcd2951d41a8255ef332cd5821a23a5076ceb4"
+        ],
+        [
+          99898638,
+          177125,
+          "dc76cd59ae4ede968563461a865a3cc8e734f3d6774eaa06012079516c72a228"
+        ],
+        [
+          93452538,
+          2326892,
+          "49afd856924b158a987c76460ae1e2928a5337a16c7be2d6a999507b9f02fe40"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_607_6_0.snappy.parquet",
+        "size": 103927430,
+        "etag": "\"e068b080ad1062901b640b202243b60b-2\""
+      },
+      "rows_scanned": 519108,
+      "matched_row_groups": 2,
+      "pool_events": 51,
+      "http_bytes": 21632343,
+      "requested_ranges": [
+        [
+          103861894,
+          65536,
+          "21b98ba8168c6261b264785e9e109438103e78a84ff65fdcda175416102889e9"
+        ],
+        [
+          33447467,
+          1308447,
+          "ae5ef9b8c55875fa3840c0d0082192163bc217f5f8086f296171bd2c52297584"
+        ],
+        [
+          4,
+          1508065,
+          "6fa38a33f5938dd568002353062ce09c65b9078e3ea1333725a4c003bc9747c9"
+        ],
+        [
+          29629718,
+          1244954,
+          "c7c7c4c5a94686cc2bdce08695fe47f8a4e9d5ed12e4a5577b2d99e9404865f3"
+        ],
+        [
+          74260297,
+          701143,
+          "9cfba1e93e1f86463c2ece575809ede3c540a74cf04558eec899b1ecb005f9fe"
+        ],
+        [
+          34755914,
+          13592823,
+          "a018266d123726e0d80f98f82fafaf883910f5a21324dae062af9d5ee0d4f15f"
+        ],
+        [
+          95538517,
+          264900,
+          "2417a72dab15e874c5e22d7958734016d95954d79251af57095e23eb4c323534"
+        ],
+        [
+          90481328,
+          216741,
+          "cf305497d97de11b6dd0d092a05d66092737aee076dbf3b025b7c7f94db9b4f2"
+        ],
+        [
+          94813435,
+          213745,
+          "64d6764dd853fc57ab7b06cf9816137262449b474a3fc232f4f9d30318a91378"
+        ],
+        [
+          102331420,
+          169425,
+          "2f31b927914950a1799b405c31dceeb29750dcbb8d37e0147c2267052eec3215"
+        ],
+        [
+          95803417,
+          2346564,
+          "6c973c1a8948771da7cc8f27c720d679b33c6b6a15661243b522dc5ebe2413a0"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_0_0.snappy.parquet",
+        "size": 98929994,
+        "etag": "\"2f680f5361556aea40ac6c7314fe0c50-2\""
+      },
+      "rows_scanned": 496841,
+      "matched_row_groups": 2,
+      "pool_events": 64,
+      "http_bytes": 20596247,
+      "requested_ranges": [
+        [
+          98864458,
+          65536,
+          "b3424d1f35e77f71312f6a3490eaf70bd08eb2a21149a0ce4d966fea362399d6"
+        ],
+        [
+          30904744,
+          1266175,
+          "228da3b0169257632335e84bdfeb09b96f5af590737f026af0f9ab8dfa271e00"
+        ],
+        [
+          4,
+          1428308,
+          "f48d002740ed7fff43177d77361d54cc9e0180b1007261c4a77f14b97133c17d"
+        ],
+        [
+          27258512,
+          1191368,
+          "fe1399030b0188b875c71b1ee9c04d907d02036f34736bf6ec48a140314230a1"
+        ],
+        [
+          70084942,
+          672844,
+          "0dcaf5f9473abb6597ced41a12acb82661c24bd0036691a88002e8aac3719d03"
+        ],
+        [
+          32170919,
+          12980716,
+          "c0f3374796f799416d2973954842093a9223641842554d331fca7e563381fa4d"
+        ],
+        [
+          90686982,
+          235567,
+          "b90941d0c75c5368c0580129e1758704f279ad3bb493481e889eed49f91d4e74"
+        ],
+        [
+          85888308,
+          166125,
+          "a3863c7ba8fb1bec5fe03f193900db5a7bcfcff1237721eff8991b9435f1cf40"
+        ],
+        [
+          90021348,
+          203535,
+          "d7346c8f4afb907876e6f7b4e651bfb00074abeec63496dfd94f66945b8e8b0c"
+        ],
+        [
+          97351002,
+          162817,
+          "0b174610dc732b293d2374ddaf18fef21f6a7d7ebdc324c611ea30f7aed83ee6"
+        ],
+        [
+          90922549,
+          2223256,
+          "ce1e1b1b0cc5b6e5753a2fa9f95b197f4e2ddad276cd7d16391c04d80e8ef5be"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_0_1.snappy.parquet",
+        "size": 94930742,
+        "etag": "\"9b3a8a13f7ae4edd797f69cb95baa339-2\""
+      },
+      "rows_scanned": 471892,
+      "matched_row_groups": 2,
+      "pool_events": 48,
+      "http_bytes": 20432190,
+      "requested_ranges": [
+        [
+          94865206,
+          65536,
+          "d180b808da1276d5bd091770c077c815d79002f82849f353fbc5af3b387ce870"
+        ],
+        [
+          29362750,
+          1176491,
+          "e9c0327b32a979c1b47bf1a7f52239f525c6c6ec6e86b3ccf0280e129f7f217d"
+        ],
+        [
+          4,
+          1335481,
+          "d93af9a38ed593e92f1372d53aa057517ab596aaa8b85340e83de6e141a446d0"
+        ],
+        [
+          25968757,
+          1117460,
+          "bb6e15c6ab48f7c99f0541371d2374d3fc0e889f8d9fb587ee82e679a4d7fd3d"
+        ],
+        [
+          67068029,
+          638224,
+          "59dc664b099f9425d831c306ce9783a011b295a963d5b88e2c3b18226d23acd8"
+        ],
+        [
+          30539241,
+          12915942,
+          "60cbc47887f2221129b9a5856e15c74d23a31c80868a17e396e0ee6ecea5f2de"
+        ],
+        [
+          86648135,
+          295399,
+          "a57a9e4c75c9371a16efb822d165e10683a028c564e55f9c6adfff65bc7d781f"
+        ],
+        [
+          81434903,
+          194636,
+          "a931751592e38fcffa4edc657c11fd63f0259319c224fdffca1701e19c34e1e2"
+        ],
+        [
+          85898864,
+          208662,
+          "7dffcfadc219eba6d42302556cb5c12d15195fc1cbf1410a3e1ac8fd2c9b7a7b"
+        ],
+        [
+          93394113,
+          179253,
+          "e066ef9a05c30cda8cc9667a8752fe9cc964b7787e65439fb891e5677a787845"
+        ],
+        [
+          86943534,
+          2305106,
+          "450fd44f3dc16c9ca7def51dfd36e7caba99febbdd4ddbbbecdc5334242adfad"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_2_0.snappy.parquet",
+        "size": 93079779,
+        "etag": "\"07a973a12047f843af5604b210b4812b-2\""
+      },
+      "rows_scanned": 454191,
+      "matched_row_groups": 1,
+      "pool_events": 46,
+      "http_bytes": 19381878,
+      "requested_ranges": [
+        [
+          93014243,
+          65536,
+          "7c0cfcf014f60934c25ac9a3a28f671d31900e41876a5ccc7f1dc29e744120e6"
+        ],
+        [
+          33356506,
+          1288422,
+          "cf66988fd10d5005963e28524243c155de208a6b36b302c6acee734472a7b450"
+        ],
+        [
+          4,
+          1518655,
+          "df457726f2f466adfdae3e3b991f8375f6e201f06a86dcbda727c1710a7ffc8d"
+        ],
+        [
+          29540101,
+          1272099,
+          "ddf71002646fe9a6301619ac509d005196d878052baf82f1ed135a5b7b6e01dc"
+        ],
+        [
+          76067422,
+          702469,
+          "35de38c9851374dea2b66205b61902491fb3fd1f3fe33b38c8aa9e7d7e957da5"
+        ],
+        [
+          34644928,
+          14534697,
+          "31463d6ca0048bbef46e592b98f925b22619e4b6eeb8b0fefe49615b63d998f4"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_2_1.snappy.parquet",
+        "size": 104643728,
+        "etag": "\"4e9afc74b73a970d479863222c1a5e58-2\""
+      },
+      "rows_scanned": 515288,
+      "matched_row_groups": 2,
+      "pool_events": 70,
+      "http_bytes": 22171986,
+      "requested_ranges": [
+        [
+          104578192,
+          65536,
+          "1e3680c4a72945eda81ebae70a07bc7706815dbdc44c60c13237086b713214e1"
+        ],
+        [
+          33050938,
+          1285395,
+          "8766dcc60bb4b1c68a4ed9b9024a33cebf91ec0281f63277f15e1efd16338a7e"
+        ],
+        [
+          4,
+          1484961,
+          "953fb6d10938a501ae2ab3e80f45e41091b9a5b58dca769a773bee1c45e20296"
+        ],
+        [
+          29192942,
+          1298954,
+          "9344bcd8e60525b0ca30ccb3de409fa14f0bccbff53eb24c7c6ef37acf1a5e60"
+        ],
+        [
+          74895927,
+          699309,
+          "36e911b11fd2e8c0aa2990b36247bf35e3d8717a0d9a6d36c90727863c25717e"
+        ],
+        [
+          34336333,
+          14337607,
+          "aab9790fed1dd5c62bfafbc9a5176b5d1a2b3c788953885ce5a20908f521ab29"
+        ],
+        [
+          96101128,
+          244409,
+          "e35916bd26473e8ad9850a1a4c339f50695b56423506cc8aa2f6d1ef0b7b87eb"
+        ],
+        [
+          90931498,
+          188671,
+          "9a2b33cd5435eaac43b3c5a9ab568b3faf18c269eff1f5fa28d88f2022ce710d"
+        ],
+        [
+          95398128,
+          207818,
+          "07d399e638c4c19639fcdc6660f7c8bb639585309862646fca45e1a19c120620"
+        ],
+        [
+          102844495,
+          169652,
+          "70d2ddb2ffc7cce8cb08c05024432680ee389ce8d972c1b57a9950b1c78ae7db"
+        ],
+        [
+          96345537,
+          2189674,
+          "c74865b82618f244d5e5e813b8eb6365628142d4187004256990e6518011b1c5"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_4_0.snappy.parquet",
+        "size": 96921014,
+        "etag": "\"858dd710e7dcbdab768c34caa28dba3e-2\""
+      },
+      "rows_scanned": 484007,
+      "matched_row_groups": 2,
+      "pool_events": 59,
+      "http_bytes": 20722096,
+      "requested_ranges": [
+        [
+          96855478,
+          65536,
+          "5dc2cf08ae287b2f8e8884a4631ccf7a6de9ef5b3f06e23d9870aa8f6b0b886b"
+        ],
+        [
+          30696112,
+          1178187,
+          "b0543f5f6d2c2a114511babd36e896af92baf8ef2604e5ed6c357000eda95e2a"
+        ],
+        [
+          4,
+          1265118,
+          "89ea80a303ffb7ac5b566c478748211498a2a4521ee8a2521c3f4ea23ac719b4"
+        ],
+        [
+          27034364,
+          1257947,
+          "25e5349ab3ad28448a24be3b7925413cb8247c625d8d85fcef8994c92a4518f1"
+        ],
+        [
+          69002848,
+          658535,
+          "b32d5ed8205337544086864bb449378c7c6af4fd513619c0009e414f79fc560e"
+        ],
+        [
+          31874299,
+          13181750,
+          "9eb7d4e9c9d408fc66c56a2b323c71a474a8809a64a9eba23f999e4ce1255b17"
+        ],
+        [
+          88416300,
+          264208,
+          "e137aa1aaeb0b559ae6ac2a81d054041adc2e7096ed7870c9e13a9fb839676f9"
+        ],
+        [
+          83106218,
+          194413,
+          "118ee657513463fec2f648b765f4f205b5d4477c07bdedf9d3411da4232542d2"
+        ],
+        [
+          87695637,
+          211220,
+          "e29d9c86e7bd510e97edb4a6ab56f832969f110d38be14ccc02e09e9876fcdf8"
+        ],
+        [
+          95136463,
+          166876,
+          "2149ce5d588535a61ee1f646d7f41a6026eb1c51eb49d70c9d6db20109e55d3d"
+        ],
+        [
+          88680508,
+          2278306,
+          "c1dfe95dcaa147c82d72a4099343eaf5f3d4145f9a4496f6232e94d1ba1e56a4"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_4_1.snappy.parquet",
+        "size": 93795541,
+        "etag": "\"8ff777b6335769841d714d3803cfa025-2\""
+      },
+      "rows_scanned": 459724,
+      "matched_row_groups": 1,
+      "pool_events": 52,
+      "http_bytes": 19136421,
+      "requested_ranges": [
+        [
+          93730005,
+          65536,
+          "248f81dc1cc7d8326cf5de744f1722e8ec37c1d9d2e772ae7f2efc4be8ee9755"
+        ],
+        [
+          34376041,
+          1353312,
+          "e5fbfea47b0b0e822690e28054334a8c1ff93566dda73abe8279e9b12ac36cc6"
+        ],
+        [
+          4,
+          1546364,
+          "ee67d96b694dc97a58d669800d1cdd4a95c3a175681de8ecf205e5031e1a3b94"
+        ],
+        [
+          30359573,
+          1286739,
+          "d582c9edcad7fd18b0da8d80a81b6c596f6f572a2939c37e993c96bac68967a5"
+        ],
+        [
+          76999957,
+          712679,
+          "41c6c807ded289a47f6f5ebd77b0cd1dff57691ab128a438daf93cf12b85a4ef"
+        ],
+        [
+          35729353,
+          14171791,
+          "58d24b64a699d5241565efdba7b3cbb9f7053f334b1be641d9f559922b52c9f8"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_6_0.snappy.parquet",
+        "size": 103931975,
+        "etag": "\"a697b4d00601b35f2c24b4df78fcdaa7-2\""
+      },
+      "rows_scanned": 517063,
+      "matched_row_groups": 2,
+      "pool_events": 55,
+      "http_bytes": 21908206,
+      "requested_ranges": [
+        [
+          103866439,
+          65536,
+          "b2e851944eeb9185b11c63921ad21931e10d050fcdc792006310f04ebdde8f82"
+        ],
+        [
+          33203568,
+          1325156,
+          "c699b063e938243a4db37e6240d53f6c24261aa258ef774f991ed4e3b6138888"
+        ],
+        [
+          4,
+          1486673,
+          "be634892205c54ce251b41bf9899e5fad38fa2a269019762ce96de12973883cf"
+        ],
+        [
+          29451581,
+          1240380,
+          "99afc6b395ea7adb171b3f784420231822d91e7245000100a704b724246fb0d0"
+        ],
+        [
+          74405473,
+          692756,
+          "2e6015f7943ed6e421b0c71bb454f3aaafd3371960215ff408d5054416a39906"
+        ],
+        [
+          34528724,
+          13921404,
+          "8b1d9fa93d37620493517213fdae4c033383a0be0bab25ee4d6b7e5b8e11e58d"
+        ],
+        [
+          95437623,
+          267341,
+          "182e20bcad8a7faf293c367fcd714f5c9d9129b6b1efe9549badb563c4faa864"
+        ],
+        [
+          90263836,
+          194616,
+          "b9d06d1f979114c54f39e93c967014a4431b45a2043709cd5f36c4ca1f31f411"
+        ],
+        [
+          94691869,
+          208900,
+          "670753ecd80e94d17250bb2423983b067f7f1cadb75bb1be99e2134044c508e6"
+        ],
+        [
+          102365474,
+          183731,
+          "b5265b1f03b268f3ea77c7d2afebb62ef28b67bee6b2d455799074b20c827fc1"
+        ],
+        [
+          95704964,
+          2321713,
+          "a411736793cac155598c9235be0566642dfac22fbacc6ede05c540a720e0e07b"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_706_6_1.snappy.parquet",
+        "size": 95338294,
+        "etag": "\"bef48872ab8e33d1d74277666f64e6d1-2\""
+      },
+      "rows_scanned": 466140,
+      "matched_row_groups": 1,
+      "pool_events": 58,
+      "http_bytes": 19554036,
+      "requested_ranges": [
+        [
+          95272758,
+          65536,
+          "fdb618287ae153f8b63288ac8ecfbef42bb460c77a4056673ceac06c1bd3db61"
+        ],
+        [
+          34950350,
+          1332358,
+          "edcee5eccc21ec3e5e8fd92c2820cc0d21e2e4d84ef1db353f8c89ec515f103d"
+        ],
+        [
+          4,
+          1558818,
+          "5650f7487012d07d411817224bce076faa35af639945af9f9a1fe3022d9f0246"
+        ],
+        [
+          30989396,
+          1306725,
+          "cdb621b2e7188b8b973a197c05820f59524c1bd5b4729460c65e9dd9f620b97a"
+        ],
+        [
+          78354507,
+          729122,
+          "a2563f657b5fafe891d3a4aec85ca544163233912b9b10f9a97831f311332ead"
+        ],
+        [
+          36282708,
+          14561477,
+          "b80ff7ab8a2d52620a5e6409ab8389c60272ed2373ace3ef113de1b1232419fc"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_707_6_0.snappy.parquet",
+        "size": 103907361,
+        "etag": "\"571cafd8bc3dab0a4bffeb6f543e2535-2\""
+      },
+      "rows_scanned": 512720,
+      "matched_row_groups": 1,
+      "pool_events": 57,
+      "http_bytes": 18945242,
+      "requested_ranges": [
+        [
+          103841825,
+          65536,
+          "df44353d99477c1d9f698258b9d18d0f33d61c60388fd982fd3800aa9f788382"
+        ],
+        [
+          32880057,
+          1278128,
+          "54740127b43f0ae0206adb29ee8b771b24ddb36bd0e1c2e518b844a62988d9b7"
+        ],
+        [
+          4,
+          1476089,
+          "32b0cb6577689f20f12c353f48cd283afef3ea7792bcdab3fa7ef88c8c622f8b"
+        ],
+        [
+          29131539,
+          1225238,
+          "f7288793d4fd0e8c88069571e4f56bb4f342322169e7d0350e496f6542623e17"
+        ],
+        [
+          73901040,
+          699086,
+          "37fbeb1b02afd5a9ba3b5722c8882432c702d48cf800aba6857f8bc50b08a8c9"
+        ],
+        [
+          34158185,
+          13931030,
+          "ba7db263f6f00f08a7eef6c6bf8e260115edc86717113cfd0656de29c3dac8a3"
+        ],
+        [
+          94987594,
+          270135,
+          "c1e5d84dcf167a8e26a95dd22ff290eecb5b3f9e86681753e44688f6c35d7476"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_708_6_0.snappy.parquet",
+        "size": 104575384,
+        "etag": "\"3b4c14577f2d4a39770d5ecb0557383a-2\""
+      },
+      "rows_scanned": 516081,
+      "matched_row_groups": 2,
+      "pool_events": 58,
+      "http_bytes": 21913881,
+      "requested_ranges": [
+        [
+          104509848,
+          65536,
+          "e5ff409346ca9459d1a537b03408c8a48fdde6d4d3da0f79a198474a4c1c6f7a"
+        ],
+        [
+          32890028,
+          1317165,
+          "47fd73c906b3dd149ba37a49743cfc5dde41c75c2cefdae18c64ce48ab4e9a7a"
+        ],
+        [
+          4,
+          1494786,
+          "25d5c904a09aa51525b0e442e695a46b57f4466f5e3a998f2e391cfab5c10770"
+        ],
+        [
+          29109454,
+          1236060,
+          "b6ca4238865b9102f8ad358237048df3fe926bd6a02e576fe007f184ff48ebcc"
+        ],
+        [
+          74543035,
+          693773,
+          "c95dcf61064eb52f4a5ffae7c89112e8278611ee8284d82d51839c868ba78422"
+        ],
+        [
+          34207193,
+          13755658,
+          "5f1f396611d6db4a42f6a5534d7ad5c65a2f7c207f22c8c1b6e655b342c0fc22"
+        ],
+        [
+          96157408,
+          308178,
+          "9feaabb0fb9605ace9f3f7b0d5e51c8707ab4d9a0749a832121318a9f9e06295"
+        ],
+        [
+          91215432,
+          196797,
+          "8067ed1b103195e01ef7d923d375b4c09154e3e82a08704119e771df558319b9"
+        ],
+        [
+          95399764,
+          222693,
+          "e153e5466d98e9f8c7a5e6ec63d0bc56f9487f56274513d24bd35ae7ab476499"
+        ],
+        [
+          103096310,
+          173959,
+          "d0a8744b8b83ee5375da43a05805ca8f74fe568f8d597c1f373a2ec4d959c65d"
+        ],
+        [
+          96465586,
+          2449276,
+          "3745025d08a0ab37302369daf6a403f2825375f24bd782c97dee4022ba9f6852"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_709_6_0.snappy.parquet",
+        "size": 104033987,
+        "etag": "\"a1be725e913c620b59c6e89377e48142-2\""
+      },
+      "rows_scanned": 526158,
+      "matched_row_groups": 2,
+      "pool_events": 54,
+      "http_bytes": 22072643,
+      "requested_ranges": [
+        [
+          103968451,
+          65536,
+          "8d24352d2d90fc7da1532644d7a14e38cc25d84eea0518484e4bbdf5c9510b33"
+        ],
+        [
+          33641337,
+          1320142,
+          "6ad985c8ef602d3acc22fbe09b5812823efc232e6431d54fc96eefe5a09ec1eb"
+        ],
+        [
+          4,
+          1513687,
+          "00a345b001b0cd681551e0f7b255028f627b33ca6fabcda0dfaeea0b52672c0a"
+        ],
+        [
+          29821040,
+          1324121,
+          "f8b53321c1c2adc72aaf2a181e1adf738201314f11d390f92ddc42742c93d269"
+        ],
+        [
+          75020572,
+          704509,
+          "30e638636d0d4acd812eb45c42c733fe4c859ea52f668efe537c3082ed8f1c0f"
+        ],
+        [
+          34961479,
+          14157552,
+          "91bf9057660c69003286abf3e39c16d6008115e2f96a266c4cb7cc6ff3cca7f2"
+        ],
+        [
+          95718397,
+          237466,
+          "b6f0ad427763606282748e261071e2401ed9b1804e569394dddb14f37ba6fd4c"
+        ],
+        [
+          90822621,
+          173024,
+          "61a2bb7ac37d648b643d5819c785a60f93803b85b8762802d1cb1b949ff24f28"
+        ],
+        [
+          95028546,
+          215330,
+          "70a493f4ff73483a496ec3a19005335b79752e03cc4a7640e4eca99488c9fd3d"
+        ],
+        [
+          102441567,
+          163770,
+          "9578caec00687d2f1e8b71f6226bb4671698137cc584a869fc3783549789a956"
+        ],
+        [
+          95955863,
+          2197506,
+          "b6609cd82d04c6e0a43f00e72fbff6dfd287ae3006855f8f2366c5e1753c9068"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "key": "v1.1/sonarx/base/logs/date=2026-10-19/data_01c7fa1e-090e-3e24-45c5-8301f05bcb13_709_6_1.snappy.parquet",
+        "size": 76435053,
+        "etag": "\"2ff122b9d4eb0977008144a3fa48e5d1-2\""
+      },
+      "rows_scanned": 374230,
+      "matched_row_groups": 1,
+      "pool_events": 49,
+      "http_bytes": 15794210,
+      "requested_ranges": [
+        [
+          76369517,
+          65536,
+          "b90440f3a81442199e04fcb1142680d30cadf4f6cb001760847d9ff5f9ce8b28"
+        ],
+        [
+          28113288,
+          1140460,
+          "ab7b579aa3a1e414659024345c266f7a7e07e64e72bfa286ed7bd46d5cd8a5e7"
+        ],
+        [
+          4,
+          1266558,
+          "e8f48d0c264094712d79c625be06bb9b2bd531ec7c33259ac4721a2091731d65"
+        ],
+        [
+          24773696,
+          1052702,
+          "80e5b7dd36eae1da6829b6d11ae80f7f8f924fb6ac64cb0cd5ff535a1e0fd606"
+        ],
+        [
+          62892008,
+          605487,
+          "befecf05b0f56a312eb99847d5b6a0ec05ca7cd31ebe100ba8557e9dd46d8922"
+        ],
+        [
+          29253748,
+          11663467,
+          "6181516f05d828199d9d0254783c8b1e3ad68adfc3e2cd4ff345e3a4eb6e4f39"
+        ]
+      ]
+    }
+  ],
+  "events": 4643,
+  "http_bytes": 1624903406,
+  "events_sha256": "89108f5265be72eaede743efbc562a6cf66799f01226ea380576d2f56270f650"
+}

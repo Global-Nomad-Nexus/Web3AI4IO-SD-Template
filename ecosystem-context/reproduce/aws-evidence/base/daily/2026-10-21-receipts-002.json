@@ -1,0 +1,52 @@
+{
+  "source": {
+    "key": "v1.1/sonarx/base/receipts/date=2026-10-21/data_01c8055e-090e-4843-45c5-8301f1796733_307_0_0.snappy.parquet",
+    "size": 94483642,
+    "etag": "\"a310a0e3aa8cec52234374bebd9c5e83-2\""
+  },
+  "columns": [
+    "BLOCK_NUMBER",
+    "TRANSACTION_INDEX",
+    "GAS_USED",
+    "EFFECTIVE_GAS_PRICE",
+    "L1_FEE",
+    "STATUS"
+  ],
+  "source_rows": 991603,
+  "source_schema": "BLOCK_NUMBER: decimal128(38, 0)\nTIMESTAMP: decimal128(38, 0)\nDATETIME: timestamp[ms, tz=UTC]\nTRANSACTION_HASH: string\nTRANSACTION_INDEX: decimal128(38, 0)\nBLOCK_HASH: string\nCUMULATIVE_GAS_USED: decimal128(38, 0)\nGAS_USED: decimal128(38, 0)\nCONTRACT_ADDRESS: string\nSTATUS: decimal128(38, 0)\nEFFECTIVE_GAS_PRICE: decimal128(38, 0)\nL1_GAS_PRICE: decimal128(38, 0)\nL1_GAS_USED: decimal128(38, 0)\nL1_FEE: decimal128(38, 0)\nL1_FEE_SCALAR: double\nDEPOSIT_NONCE: decimal128(38, 0)\nDEPOSIT_RECEIPT_VERSION: decimal128(38, 0)\nDATE_CREATED: timestamp[ms, tz=UTC]\nDATE_UPDATED: timestamp[ms, tz=UTC]",
+  "http_bytes": 16428487,
+  "requested_ranges": [
+    [
+      94418106,
+      65536,
+      "3b723cd4da909bf584f4434c6eb30ba6678b931ae681e86cf96114dc712b28a6"
+    ],
+    [
+      4,
+      1712474,
+      "9cb763d35d3e4f67a18e9414ca211e91a303037f7a82f4d364d6854051c66599"
+    ],
+    [
+      67678865,
+      1372108,
+      "dbaa0f221672951c5d6c6e3ad3f63def8f9644c15db50bd3722101c77d2570d4"
+    ],
+    [
+      78222639,
+      4151465,
+      "d9f066a7df9aad004953da848f948779663abb41d5cf1b843e64c119ad23b930"
+    ],
+    [
+      82474790,
+      3924643,
+      "219145eee929742890b31a82b292745d520f36b3fd886c5912ba923b859b2e6f"
+    ],
+    [
+      89207902,
+      5202261,
+      "979aa11546400660cc02fbb1866ecc47604e079ae8e99b4e72494c88502a6629"
+    ]
+  ],
+  "sha256": "2aba84125adcce7bba40eca7e6291234a4bbfd84aef0767083f24a5a403a75a2",
+  "bytes": 10671053
+}

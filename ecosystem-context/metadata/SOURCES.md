@@ -35,6 +35,9 @@ rolling volatility calculations. Credit Binance Vision and these transformations
 
 The [AWS dataset registry](https://registry.opendata.aws/aws-public-blockchain/)
 names SonarX as the Base maintainer and BNB Chain as the BNB maintainer. Its
-license link points to an AWS software repository license. The review on
-4 November 2026 did not establish provider-specific data redistribution terms.
-The three affected local tables and their provider projections are not included.
+license link points to an AWS software repository license. The registry
+states no provider-specific data license. The project treats these public data as reusable
+by default and asserts no license over them. Credit the named maintainer and AWS Public
+Blockchain Data. The three derived tables are included; provider projections are not.
+In the Base pool table, `eth_price_usdc`, `liquidity_usdc` and `swap_input_fee_value_usdc`
+use Binance prices and retain CC BY-NC-SA 4.0.

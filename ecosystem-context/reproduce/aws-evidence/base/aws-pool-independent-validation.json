@@ -1,0 +1,154 @@
+{
+  "status": "Verified",
+  "scope": "All 1814400 rows; all reserve states; exact event-count reconciliation; Decimal daily volume/fee controls; all market price joins; 21 historical closing-state checks",
+  "output_sha256": "a73ed21a64ef95db24c31830748a7a173607b9ba4ddd7de773b7b38814a6c9d2",
+  "daily": [
+    {
+      "date": "2026-10-01",
+      "rows": 86400,
+      "swap_events": 2263,
+      "volume_usdc": "34615.777900",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-02",
+      "rows": 86400,
+      "swap_events": 1920,
+      "volume_usdc": "64584.960045",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-03",
+      "rows": 86400,
+      "swap_events": 1020,
+      "volume_usdc": "8481.030521",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-04",
+      "rows": 86400,
+      "swap_events": 1417,
+      "volume_usdc": "21543.039811",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-05",
+      "rows": 86400,
+      "swap_events": 2101,
+      "volume_usdc": "88306.326787",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-06",
+      "rows": 86400,
+      "swap_events": 1633,
+      "volume_usdc": "57253.658474",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-07",
+      "rows": 86400,
+      "swap_events": 2697,
+      "volume_usdc": "119742.175576",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-08",
+      "rows": 86400,
+      "swap_events": 3225,
+      "volume_usdc": "127145.722433",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-09",
+      "rows": 86400,
+      "swap_events": 1969,
+      "volume_usdc": "29808.838185",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-10",
+      "rows": 86400,
+      "swap_events": 1807,
+      "volume_usdc": "20944.125114",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-11",
+      "rows": 86400,
+      "swap_events": 1749,
+      "volume_usdc": "42950.343850",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-12",
+      "rows": 86400,
+      "swap_events": 2073,
+      "volume_usdc": "39511.394096",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-13",
+      "rows": 86400,
+      "swap_events": 2657,
+      "volume_usdc": "39282.742988",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-14",
+      "rows": 86400,
+      "swap_events": 2315,
+      "volume_usdc": "47918.552734",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-15",
+      "rows": 86400,
+      "swap_events": 3048,
+      "volume_usdc": "63503.658685",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-16",
+      "rows": 86400,
+      "swap_events": 3018,
+      "volume_usdc": "50862.206559",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-17",
+      "rows": 86400,
+      "swap_events": 2285,
+      "volume_usdc": "21883.314647",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-18",
+      "rows": 86400,
+      "swap_events": 2714,
+      "volume_usdc": "40391.537384",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-19",
+      "rows": 86400,
+      "swap_events": 2311,
+      "volume_usdc": "34640.618872",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-20",
+      "rows": 86400,
+      "swap_events": 2723,
+      "volume_usdc": "53088.311153",
+      "closing_reserves_rpc_match": true
+    },
+    {
+      "date": "2026-10-21",
+      "rows": 86400,
+      "swap_events": 3392,
+      "volume_usdc": "39095.319574",
+      "closing_reserves_rpc_match": true
+    }
+  ]
+}

@@ -53,3 +53,12 @@ Reconstruction makes no network requests; installing packages requires access
 to a package index. Processing is bounded to one day in memory, with a 2 GiB
 process guard and a 1 GiB available-memory floor. Allow about 400 MB of scratch
 disk plus the installed environment.
+
+## AWS-derived second-level tables
+
+The 2.49 GB of selected AWS projections are not bundled, so the two offline commands above
+do not rebuild these three tables. `aws-evidence/` records S3 keys, ETags, column
+projections, daily validations and independent checks. `aws-evidence/recompute.json`
+records the offline recomputation that gave identical output hashes. `code/build_aws_*.py`
+acquire and rebuild the tables from the public AWS bucket; they expect the project layout
+`<chain>/layer2/` and are supplied for inspection and re-acquisition.

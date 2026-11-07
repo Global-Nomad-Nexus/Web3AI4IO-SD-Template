@@ -1,0 +1,46 @@
+{
+  "source": {
+    "key": "v1.1/sonarx/base/blocks/date=2026-10-12/data_01c7d2bf-090e-1eff-45c5-8301ec72401b_610_4_0.snappy.parquet",
+    "size": 36909331,
+    "etag": "\"5b88bb3f6f904a034d642ca48b004573\""
+  },
+  "columns": [
+    "BLOCK_NUMBER",
+    "TIMESTAMP",
+    "BLOCK_HASH",
+    "BLOCK_PARENT_HASH",
+    "TRANSACTION_COUNT",
+    "GAS_USED",
+    "GAS_LIMIT",
+    "SIZE",
+    "BASE_FEE_PER_GAS",
+    "BLOB_GAS_USED"
+  ],
+  "source_rows": 43200,
+  "source_schema": "BLOCK_NUMBER: decimal128(38, 0)\nTIMESTAMP: decimal128(38, 0)\nDATETIME: timestamp[ms, tz=UTC]\nBLOCK_HASH: string\nBLOCK_PARENT_HASH: string\nNONCE: decimal128(38, 0)\nSHA3_UNCLES: string\nLOGS_BLOOM: string\nTRANSACTIONS_ROOT: string\nSTATE_ROOT: string\nRECEIPTS_ROOT: string\nMINER: string\nMIX_HASH: string\nEXTRA_DATA: string\nDIFFICULTY: decimal128(38, 0)\nTOTAL_DIFFICULTY: decimal128(38, 0)\nSIZE: decimal128(38, 0)\nGAS_LIMIT: decimal128(38, 0)\nGAS_USED: decimal128(38, 0)\nTRANSACTION_COUNT: decimal128(38, 0)\nBASE_FEE_PER_GAS: decimal128(38, 0)\nBLOB_GAS_USED: decimal128(38, 0)\nEXCESS_BLOB_GAS: decimal128(38, 0)\nPARENT_BEACON_BLOCK_ROOT: string\nWITHDRAWALS_ROOT: string\nWITHDRAWAL_COUNT: decimal128(38, 0)\nDATE_CREATED: timestamp[ms, tz=UTC]\nDATE_UPDATED: timestamp[ms, tz=UTC]",
+  "http_bytes": 7168374,
+  "requested_ranges": [
+    [
+      36843795,
+      65536,
+      "3c58ead912967da6be190329e7c50c52e02f1cd14b6e784705b51f19058e2e32"
+    ],
+    [
+      4,
+      578990,
+      "9aa988a120b9aba1da323c8298fe9009962ff7c90940421cd10f7bd3e806efed"
+    ],
+    [
+      880681,
+      5502356,
+      "5df92403c20ade9bf14523d223550444d42002ce11e42fe22dd88414bac052c9"
+    ],
+    [
+      35321687,
+      1021492,
+      "dfbdb7155f9b3ca13784998fce901bb68b0fdb78f42fbdac12909f478aa40422"
+    ]
+  ],
+  "sha256": "f9abdb4841a16dd3310ace1251feac2fc272abbd7d6727515d4fbd2140221a8d",
+  "bytes": 3942637
+}
