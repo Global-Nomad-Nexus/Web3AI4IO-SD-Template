@@ -68,22 +68,6 @@ solana/layer4/mechanism-facts.csv,applicability,Conditions and evidence scope go
 solana/layer4/mechanism-facts.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
 solana/layer4/mechanism-facts.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
 solana/layer4/mechanism-facts.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",25,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l2.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,record_id,Stable identifier for this authored record.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,category,Authored thematic classification of the mechanism or event.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,rule_name,Name linking documentary versions of the same mechanism rule.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,fact,Independently authored factual statement or source-history description.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,applicability,Conditions and evidence scope governing use of the record.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,document_date_utc,Date/time associated with the cited document or Git commit; documentary chronology.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,source,Attributed provider or publication; mechanism source fields also carry fixed-version citations.,0,Empty string represents unavailable or inapplicable data.
-solana/layer4/mechanism-facts-window-l3.csv,supplementary_information,"Authored supporting detail, review result or applicable qualification.",0,Empty string represents unavailable or inapplicable data.
 shared/layer5/binance_spot_daily.csv,pair,Exchange spot pair; the suffix identifies the quote asset.,0,Empty string represents unavailable or inapplicable data.
 shared/layer5/binance_spot_daily.csv,interval_start_utc,Inclusive UTC start of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.
 shared/layer5/binance_spot_daily.csv,interval_end_utc,Exclusive UTC end of the candle or sampling stratum.,0,Empty string represents unavailable or inapplicable data.

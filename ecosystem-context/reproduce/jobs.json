@@ -253,44 +253,6 @@
     "spec": {}
   },
   {
-    "output": "solana/layer4/mechanism-facts-window-l2.csv",
-    "fields": [
-      "record_id",
-      "category",
-      "rule_name",
-      "fact",
-      "applicability",
-      "document_date_utc",
-      "source",
-      "supplementary_information"
-    ],
-    "kind": "window",
-    "spec": {
-      "dependency": "solana/layer4/mechanism-facts.csv",
-      "start": "2026-10-01",
-      "end": "2026-10-25"
-    }
-  },
-  {
-    "output": "solana/layer4/mechanism-facts-window-l3.csv",
-    "fields": [
-      "record_id",
-      "category",
-      "rule_name",
-      "fact",
-      "applicability",
-      "document_date_utc",
-      "source",
-      "supplementary_information"
-    ],
-    "kind": "window",
-    "spec": {
-      "dependency": "solana/layer4/mechanism-facts.csv",
-      "start": "2026-10-05",
-      "end": "2026-10-18"
-    }
-  },
-  {
     "output": "shared/layer5/binance_spot_daily.csv",
     "fields": [
       "pair",

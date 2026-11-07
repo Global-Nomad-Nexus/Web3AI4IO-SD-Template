@@ -4,19 +4,19 @@ Use Python 3.11 or newer with the standard library and an IANA time-zone databas
 containing `America/New_York`. Linux and macOS normally provide this database;
 on systems without it, install the Python `tzdata` package before running.
 
-From the `ecosystem-context/` directory, rebuild the 27 CSV tables:
+From the `ecosystem-context/` directory, rebuild the 25 CSV tables:
 
 ```sh
 python3 reproduce/code/reproduce.py --data data --output /tmp/ecosystem-context-rebuilt
 ```
 
 Choose an output directory that does not already exist. The command verifies the
-frozen-input hashes and reference-data hashes, rebuilds 27 tables, and compares
+frozen-input hashes and reference-data hashes, rebuilds 25 tables, and compares
 all rows and fields. It writes `verification.json` alongside the rebuilt tables.
 The reference data and inputs remain unchanged. No network requests are made.
 
-Expected result: `status=Verified`, `tables=27`, `inputs_verified=493`.
-Twenty-six CSVs reproduce byte-for-byte. RPC estimates match at a relative tolerance
+Expected result: `status=Verified`, `tables=25`, `inputs_verified=493`.
+Twenty-four CSVs reproduce byte-for-byte. RPC estimates match at a relative tolerance
 of `1e-12` and absolute tolerance of `1e-9`, accommodating floating-point formatting.
 The comparison also requires exact row counts, columns, identifiers and timestamps.
 
@@ -56,9 +56,29 @@ disk plus the installed environment.
 
 ## AWS-derived second-level tables
 
-The 2.49 GB of selected AWS projections are not bundled, so the two offline commands above
-do not rebuild these three tables. `aws-evidence/` records S3 keys, ETags, column
-projections, daily validations and independent checks. `aws-evidence/recompute.json`
-records the offline recomputation that gave identical output hashes. `code/build_aws_*.py`
-acquire and rebuild the tables from the public AWS bucket; they expect the project layout
-`<chain>/layer2/` and are supplied for inspection and re-acquisition.
+The inputs are 242 column-selected files from AWS Public Blockchain Data, frozen as two
+release assets of 2.31 GB in total. They live outside the Git tree so that a clone stays
+small. `aws-input-checksums.json` lists both archives and the SHA-256 of every file inside.
+
+Use the same Python 3.12 environment as above. From the module directory:
+
+```sh
+.venv/bin/python reproduce/code/release_aws_reproduce.py --data data --download --archives /tmp/ecosystem-aws-archives --output /tmp/ecosystem-aws-rebuilt
+```
+
+The command downloads any missing archive from the
+[`ecosystem-context-aws-inputs-20261107`](https://github.com/Global-Nomad-Nexus/Web3AI4IO-SD-Template/releases/tag/ecosystem-context-aws-inputs-20261107)
+release, then works offline. Without `--download` it reads archives already in `--archives`.
+It verifies every archive and file hash, rebuilds all three tables, requires byte-identical
+output and runs the independent pool check. Expected result: `status=Verified`, `tables=3`,
+`inputs_verified=242`. The JSON receipt is `verification-aws.json`.
+
+A test on an Apple laptop took about 5 minutes after the archives were available and peaked at about 0.8 GiB of process memory. The builders stop above 2 GiB per process (4 GiB for the pool step) or below 1 GiB of available memory. Allow 5 GB of scratch disk.
+
+The rebuild starts from frozen projections. It repeats no AWS request. Daily pool closing
+states are compared with RPC responses saved in `aws-evidence/`, so the rebuild confirms the
+calculation and agreement with those saved responses, not a fresh chain query.
+`code/build_aws_network_second.py` and `code/build_aws_base_pool.py` can run without `--offline`
+to acquire a new snapshot from the public AWS bucket; they expect the layout `<chain>/layer2/`.
+`aws-evidence/` records S3 keys, ETags, column projections, daily validations and independent
+checks. `aws-evidence/recompute.json` is the first offline recomputation, from 7 November 2026.

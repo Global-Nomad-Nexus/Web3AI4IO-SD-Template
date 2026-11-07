@@ -139,42 +139,6 @@
     "selection": "all retained rows"
   },
   {
-    "path": "solana/layer4/mechanism-facts-window-l2.csv",
-    "rows": 56,
-    "columns": [
-      "record_id",
-      "category",
-      "rule_name",
-      "fact",
-      "applicability",
-      "document_date_utc",
-      "source",
-      "supplementary_information"
-    ],
-    "sha256": "29716cc9ece24f0b911a1368c02285bb37356d7f15df58c357b83f62b211ed63",
-    "source_sha256": "29716cc9ece24f0b911a1368c02285bb37356d7f15df58c357b83f62b211ed63",
-    "source_path": "solana/layer4/output/mechanism-facts-window-l2.csv",
-    "selection": "all retained rows"
-  },
-  {
-    "path": "solana/layer4/mechanism-facts-window-l3.csv",
-    "rows": 56,
-    "columns": [
-      "record_id",
-      "category",
-      "rule_name",
-      "fact",
-      "applicability",
-      "document_date_utc",
-      "source",
-      "supplementary_information"
-    ],
-    "sha256": "5a8c8ca857f01c0c1511298208b376bea97fca7c6e0b634de6e1c9e3652f1221",
-    "source_sha256": "5a8c8ca857f01c0c1511298208b376bea97fca7c6e0b634de6e1c9e3652f1221",
-    "source_path": "solana/layer4/output/mechanism-facts-window-l3.csv",
-    "selection": "all retained rows"
-  },
-  {
     "path": "shared/layer5/binance_spot_daily.csv",
     "rows": 171,
     "columns": [

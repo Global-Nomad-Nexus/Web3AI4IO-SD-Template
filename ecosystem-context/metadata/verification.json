@@ -1,7 +1,7 @@
 {
   "status": "Verified",
   "inputs_verified": 493,
-  "tables": 27,
+  "tables": 25,
   "results": [
     {
       "file": "solana/layer2/sol_usdt_binance_hourly.csv",
@@ -49,20 +49,6 @@
       "file": "solana/layer4/mechanism-facts.csv",
       "rows": 70,
       "kind": "curated",
-      "comparison": "exact field values",
-      "byte_identical": true
-    },
-    {
-      "file": "solana/layer4/mechanism-facts-window-l2.csv",
-      "rows": 56,
-      "kind": "window",
-      "comparison": "exact field values",
-      "byte_identical": true
-    },
-    {
-      "file": "solana/layer4/mechanism-facts-window-l3.csv",
-      "rows": 56,
-      "kind": "window",
       "comparison": "exact field values",
       "byte_identical": true
     },

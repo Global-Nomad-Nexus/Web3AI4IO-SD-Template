@@ -50,7 +50,8 @@ News coverage is a selected collection. The reproduction program checks the froz
 export; source interpretation is a human review step.
 
 Mechanism records identify the relevant version, source section and applicability.
-Solana documentary views select the latest pre-window document for each rule plus
+Research-window subsets of the Solana master table are not stored as separate tables.
+They can be derived by selecting the latest pre-window document for each rule plus
 all selected in-window versions. Historical-role records stay in the master.
 BSC includes the 22 records approved by the inclusion decision and omits F13.
 Source-history tables retain selected document or commit dates.

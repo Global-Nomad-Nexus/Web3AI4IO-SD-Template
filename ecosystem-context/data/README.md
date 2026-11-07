@@ -7,7 +7,7 @@ Dates use ISO 8601; timestamps carry a UTC indicator or explicit offset.
 |---|---|
 | `solana/layer2/` | 576 SOL/USDT hourly bars, 24 daily Raydium single-pool values, 240 sampled hourly transaction-count estimates and 12,000 sampled-block records |
 | `solana/layer3/` | 16 news and announcement facts |
-| `solana/layer4/` | 70 mechanism records and two 56-record documentary window views |
+| `solana/layer4/` | 70 mechanism records |
 | `base/layer2/` | 504 ETH/USDC hourly bars and 42 daily metric rows, covering two series over 21 days |
 | `base/layer3/` | 14 news and announcement facts |
 | `base/layer4/` | 29 mechanism records and 28 source-history records |
@@ -38,8 +38,7 @@ have insufficient preceding data. Preserve these blanks when loading the tables.
 News facts preserve reported dates, plans and attributed statistical claims.
 Mechanism tables preserve document versions and applicability. Selected source
 dates describe the documentation chronology; deployed rule activation requires
-separate on-chain evidence. The two Solana window views contain overlapping records
-and should be treated as views of the historical master.
+separate on-chain evidence.
 
 [Methods](../metadata/METHODS.md) describe calculations and factual curation.
 [File manifest](../metadata/manifest.json) records row counts, columns and hashes.

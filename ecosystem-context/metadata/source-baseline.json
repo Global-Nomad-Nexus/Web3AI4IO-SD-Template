@@ -1,7 +1,7 @@
 {
   "upstream_repository": "Global-Nomad-Nexus/Web3AI4IO-SD-Template",
   "upstream_branch": "shilin_v2",
-  "upstream_commit": "17bd1270aad5dfffe24ed7393e8aa177b57b1ce2",
+  "upstream_commit": "08b0a8ccbc510f389b2c663e168025130adaf979",
   "sources": {
     "ecosystem/solana/solana-data-v1.csv": "707bf8431f3ec69ef942978790f3680a4d0953a2e661b0f0998cc484d6e03a27",
     "ecosystem/solana/solana-data-v1.xlsx": "dab9029a1dad79487baa87b26918421acc43f02dd248c63672f851ca8fb424fe",
@@ -13,8 +13,6 @@
     "ecosystem/solana/layer2/output/rpc_transaction_count_methods.md": "23c389d637182da792cede69b56c034fbfe7b477d5a9e4bc24174f7b62fc6e3c",
     "ecosystem/solana/layer3/output/news_facts.csv": "017e801fa738ed0bba945dc8a2ff5d816648cccbe17002487f5dc487bcb63a66",
     "ecosystem/solana/layer4/output/mechanism-facts.csv": "4bc284ec5f6034cc1bbc95ff07e69a2f1dfadda8276cd502edc67ff1b44af31e",
-    "ecosystem/solana/layer4/output/mechanism-facts-window-l2.csv": "29716cc9ece24f0b911a1368c02285bb37356d7f15df58c357b83f62b211ed63",
-    "ecosystem/solana/layer4/output/mechanism-facts-window-l3.csv": "5a8c8ca857f01c0c1511298208b376bea97fca7c6e0b634de6e1c9e3652f1221",
     "ecosystem/solana/layer5/output/binance_spot_daily.csv": "a5f96c93f41c3a6dcc0bd306a248947b5983e70f91f373d214e34e6b1f88e1af",
     "ecosystem/solana/layer5/output/coinmetrics_assets_daily.csv": "4794bf762fc5f7aa741f3ce54c96f41254b72faf21ea95efd9ce6fb2c155b989",
     "ecosystem/solana/layer5/output/coinspectrum_global.csv": "fd3c5f33d7d669a1284cef9f72350b2822f27f3e4d57a546ef0c2215fedb633c",
@@ -533,7 +531,7 @@
     "ecosystem/code/build_release.py": "20803cc37d78c7dae75f30461c7f4bfb180bdeef314c2417a234e54b5b3c7c72",
     "ecosystem/code/release_docs.py": "5580a24ae0899aa14a5a8e419e7390b5fac6b4d4ff2e7dc0371c5e7205e075cf"
   },
-  "baseline_module_checksum_sha256": "9686ecd8c16acef8c05396e6c303f12a85ece133dfeebd45d26fc636afd84713",
+  "baseline_module_checksum_sha256": "f1cbbcb695f746e473d2f68cc83001c610ff90665e165622c2e094eaa59459d7",
   "second_level_sources": {
     "ecosystem/evidence/layer2-second-level-results.json": "08fefa49303505f9ed0e0a6d3eddfe902c0064aa7cdc92f15482f0504808312d",
     "ecosystem/solana/solana-data-v1.csv": "33790d6e016ae5269f425e782df7a0d2c73553ee52279b4bbf4a7cf5426ac90e",
@@ -697,5 +695,10 @@
     "ecosystem/code/validate_second_level.py": "04749318f699a4837b700403dca9d64d66d679c6d86c046db7194b57966d52ff",
     "ecosystem/code/validate_second_pool.py": "ce173cee167788aa1335a7ddb7210ea801ce2dbc65de9981057cd5741cbb00cc",
     "ecosystem/code/extend_release_aws.py": "c8e7713668048658ebcca24a8f20dd61303fe6833cb9369b046733cc6bae232a"
+  },
+  "aws_input_tag": "ecosystem-context-aws-inputs-20261107",
+  "aws_input_archives": {
+    "aws-inputs-base.tar": "f46f1aa6c4bf159201aeac1fdffafdb947d171a19cefce06c9140fb6f53b2471",
+    "aws-inputs-bsc.tar": "658bd07f4ea1f98c6d38c6a3fa16a47cb68313c54fc51a3fda937210e7742921"
   }
 }

@@ -38,6 +38,7 @@ names SonarX as the Base maintainer and BNB Chain as the BNB maintainer. Its
 license link points to an AWS software repository license. The registry
 states no provider-specific data license. The project treats these public data as reusable
 by default and asserts no license over them. Credit the named maintainer and AWS Public
-Blockchain Data. The three derived tables are included; provider projections are not.
+Blockchain Data. The three derived tables are included. The column projections needed to rebuild them
+are published as release assets listed in `reproduce/aws-input-checksums.json`.
 In the Base pool table, `eth_price_usdc`, `liquidity_usdc` and `swap_input_fee_value_usdc`
 use Binance prices and retain CC BY-NC-SA 4.0.
